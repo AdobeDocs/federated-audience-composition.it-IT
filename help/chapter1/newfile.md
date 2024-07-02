@@ -2,10 +2,10 @@
 title: Nuovo file
 description: Descrizione
 keywords: nuovo file, aggiungi file, file
-source-git-commit: 8f4242b02f2cd135bf4adc3a69db08fe1f812e4e
+source-git-commit: 194ae763f5040f11eba0fe30aa302064f5d0606a
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 64%
+source-wordcount: '81'
+ht-degree: 39%
 
 ---
 
@@ -16,11 +16,6 @@ ht-degree: 64%
 
 <!-- Workflow + Workflow activities-->
 
-
->[!CONTEXTUALHELP]
->id="dc_workflow_creation_properties"
->title="Proprietà del flusso di lavoro"
->abstract="In questa schermata, scegli il modello da utilizzare per creare il flusso di lavoro e specifica un’etichetta. Espandi la sezione OPZIONI AGGIUNTIVE per configurare altre impostazioni quali il nome interno del flusso di lavoro, la relativa cartella, il fuso orario e il gruppo di supervisori. Si consiglia vivamente di selezionare un gruppo di supervisori in modo che gli operatori vengano avvisati in caso di errore."
 
 
 >[!CONTEXTUALHELP]
