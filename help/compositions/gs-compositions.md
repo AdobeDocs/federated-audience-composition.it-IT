@@ -2,7 +2,7 @@
 audience: end-user
 title: Introduzione alle composizioni
 description: Scopri come iniziare con le composizioni
-source-git-commit: 8690147d401693f0e3f4e20700307fe309b03d9d
+source-git-commit: 4ccf3be01abb8d6cb2834f49d83b677edaa61ef7
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 1%
@@ -20,7 +20,7 @@ Adobe Data Composition consente di creare composizioni, in cui è possibile sfru
 ## Accedere alle composizioni {#access}
 
 >[!CONTEXTUALHELP]
->id="dc_workflow_list"
+>id="dc_composition_list"
 >title="Composizioni"
 >abstract="In questa schermata puoi accedere all’elenco completo delle composizioni, verificarne lo stato corrente, le date dell’ultima/successiva esecuzione e creare una nuova composizione."
 
