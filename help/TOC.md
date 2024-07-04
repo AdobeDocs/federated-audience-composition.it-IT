@@ -2,10 +2,10 @@
 user-guide-title: Composizione di pubblico federato
 title: Documentazione di Adobe di Federated Audience Composition
 breadcrumb-title: Composizione di pubblico federato
-source-git-commit: 4a73702c99762a5e9ab73485fa46916b9c28fcc3
+source-git-commit: ff942b86019345f39eeaadab60054f2e4fd9c037
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 37%
+source-wordcount: '117'
+ht-degree: 36%
 
 ---
 
@@ -37,9 +37,9 @@ ht-degree: 37%
       + [Deduplica](compositions/activities/deduplication.md)
       + [Arricchimento](compositions/activities/enrichment.md)
       + [Fork](compositions/activities/fork.md)
-      + [Query incrementale](compositions/activities/incremental-query.md)
       + [Riconciliazione](compositions/activities/reconciliation.md)
       + [Salvare il pubblico](compositions/activities/save-audience.md)
+      + [Modulo di pianificazione](compositions/activities/scheduler.md)
       + [Divisione](compositions/activities/split.md)
       + [Attendere](compositions/activities/wait.md)
 + Eseguire una query sul database {#query-database}
