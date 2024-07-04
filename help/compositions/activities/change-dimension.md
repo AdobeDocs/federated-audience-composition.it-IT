@@ -2,10 +2,10 @@
 audience: end-user
 title: Utilizzare l’attività Modifica dimensione
 description: Scopri come utilizzare l’attività Modifica dimensione
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: 44be467650e2329a1fce6c5adb6d266d94efd1e2
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 52%
+source-wordcount: '185'
+ht-degree: 40%
 
 ---
 
@@ -20,10 +20,9 @@ ht-degree: 52%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_change_dimension"
 >title="Attività Cambia dimensione"
->abstract="Questa attività ti consente di modificare la dimensione targeting durante la creazione di un pubblico. Sposta l’asse in base al modello di dati e alla dimensione di input. Ad esempio, puoi passare dalla dimensione “contratti” alla dimensione “clienti”."
+>abstract="Questa attività ti consente di modificare la dimensione di targeting, ovvero lo schema, durante la creazione di un pubblico. Sposta l’asse in base al modello di dati e alla dimensione di input. Ad esempio, puoi passare dalla dimensione “contratti” alla dimensione “clienti”."
 
-Il **Cambia dimensione** attività ti consente di modificare la dimensione di targeting durante la creazione del pubblico. Sposta l’asse in base al modello di dati e alla dimensione di input. <!--[Learn more on targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)-->
-
+Il **Cambia dimensione** attività ti consente di modificare la dimensione di targeting, ovvero lo schema, durante la creazione del pubblico. Sposta l’asse in base al modello di dati e alla dimensione di input. <!--[Learn more on targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)-->
 
 ## Configurare l’attività Cambia dimensione {#configure}
 
@@ -31,7 +30,9 @@ Per configurare l’attività **Cambia dimensione** segui questi passaggi:
 
 1. Aggiungi un **Cambia dimensione** alla tua composizione.
 
-1. Definisci la **Nuova dimensione target**. Durante la modifica della dimensione vengono conservati tutti i record.
+   ![](../assets/change-dimension.png)
+
+1. Definisci il **Nuovo scheman**. Durante la modifica dello schema, vengono conservati tutti i record.
 
 1. Eseguite la composizione per visualizzare il risultato. Confrontare i dati nelle tabelle prima e dopo l&#39;attività di modifica della dimensione e confrontare la struttura delle tabelle di composizione.
 
@@ -42,3 +43,7 @@ In this example, we want to send an SMS delivery to all the profiles who have ma
 
 We then use a **[!UICONTROL Change dimension]** activity to switch the workflow targeting dimension to "Recipients". This allows us to be able to target the recipients who match the query.
 -->
+
+
+
+<!-- on parle de dimension, mais dans UI "schema", va rester comme ça ?-->

@@ -2,10 +2,10 @@
 audience: end-user
 title: Utilizzare l’attività Combina
 description: Scopri come utilizzare l’attività Combina
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: 44be467650e2329a1fce6c5adb6d266d94efd1e2
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 79%
+source-wordcount: '757'
+ht-degree: 71%
 
 ---
 
@@ -17,11 +17,7 @@ ht-degree: 79%
 >title="Attività Combina"
 >abstract="L’attività **Combina** consente di eseguire la segmentazione sulla popolazione in entrata. Puoi quindi combinare più popolazioni, escluderne una parte o mantenere i dati comuni a più target."
 
-L’attività **Combina** consente di eseguire la segmentazione sulla popolazione in entrata. Puoi quindi combinare più popolazioni, escluderne parte o mantenere i dati comuni a più target. Di seguito sono riportati i tipi di segmentazione disponibili:
-
-* L’attività **Unione** consente di raggruppare il risultato di più attività in un unico target.
-* L’attività **Intersezione** consente di mantenere solo gli elementi comuni alle diverse popolazioni in entrata all’interno dell’attività.
-* L’attività **Esclusione** consente di escludere elementi da una popolazione in base a determinati criteri.
+L’attività **Combina** consente di eseguire la segmentazione sulla popolazione in entrata. Puoi quindi combinare più popolazioni, escluderne parte o mantenere i dati comuni a più destinazioni.
 
 Il **Combina** L’attività può essere inserita dopo qualsiasi altra attività, ma non all’inizio della composizione. Qualsiasi attività può essere inserita dopo il **Combina**.
 
@@ -46,9 +42,12 @@ Per iniziare a configurare l’attività **Combina**, segui questi passaggi comu
 
 1. Aggiungi più attività per creare almeno due rami di esecuzione diversi.
 1. Aggiungi un’attività **Combina** ad uno dei rami precedenti.
-1. Seleziona il tipo di segmentazione: [Unione](#union), [Intersezione](#intersection) o [Esclusione](#exclusion).
+1. Seleziona il tipo di segmentazione: [Union](#union), [Intersezione](#intersection) o [Esclusione](#exclusion).
+
+   ![](../assets/combine.png)
+
 1. Fai clic su **Continua**.
-1. In **Set da unire** , seleziona tutte le attività precedenti a cui desideri partecipare.
+1. In **Set da unire** , controlla tutte le attività precedenti a cui desideri partecipare.
 
 ## Unione {#combine-union}
 
@@ -67,12 +66,16 @@ Nell’attività **Combina**, puoi configurare un’**Unione**. Per l’attivit�
 * **Solo chiavi**: è la modalità predefinita. L’attività mantiene un solo elemento quando gli elementi delle diverse transizioni in entrata hanno la stessa chiave. È possibile utilizzare questa opzione solo se le popolazioni in entrata sono omogenee.
 * **Una seleziona di colonne**: seleziona questa opzione per definire l’elenco di colonne alle quali viene applicata la riconciliazione dei dati. Innanzitutto è necessario selezionare il set primario (quello contenente i dati di origine), quindi le colonne da utilizzare per l’unione.
 
+![](../assets/combine-union.png)
+
 ## Intersezione  {#combine-intersection}
 
 Nell’attività **Combina**, puoi configurare un’**Intersezione**. A questo scopo, segui i passaggi aggiuntivi seguenti:
 
 1. Seleziona il **Tipo di riconciliazione** per definire la modalità di gestione dei duplicati. Consulta la sezione [Unione](#union).
-1. Puoi selezionare l’opzione **Genera complemento** se desideri elaborare la popolazione rimanente. Il complemento conterrà l’unione dei risultati di tutte le attività in entrata senza l’intersezione. Verrà quindi aggiunta all’attività un’ulteriore transizione in uscita.
+1. Puoi controllare la **Genera complemento** se desideri elaborare la popolazione rimanente. Il complemento conterrà l’unione dei risultati di tutte le attività in entrata senza l’intersezione. Verrà quindi aggiunta all’attività un’ulteriore transizione in uscita.
+
+![](../assets/combine-intersection.png)
 
 ## Esclusione {#combine-exclusion}
 
@@ -99,8 +102,10 @@ Nell’attività **Combina**, puoi configurare un’**Intersezione**. A questo s
 Nell’attività **Combina**, puoi configurare un’**Esclusione**. A questo scopo, segui i passaggi aggiuntivi riportati di seguito:
 
 1. Nella sezione **Set da unire**, dalle transizioni in entrata, seleziona **Set primario**. Questo è il set da cui gli elementi sono esclusi. Gli altri set confrontano gli elementi prima che vengano esclusi dal set primario.
-1. Se necessario, è possibile elaborare le tabelle in entrata. In effetti, per escludere un target da un’altra dimensione, tale target deve essere restituito nella stessa dimensione targeting del target principale. A questo scopo, nella sezione **Regole di esclusione**, fai clic su **Aggiungi una regola** e specifica le condizioni per la modifica delle dimensioni. La riconciliazione dei dati viene eseguita tramite un attributo o un’unione.
+1. Se necessario, è possibile elaborare le tabelle in entrata. In effetti, per escludere un target da un’altra dimensione, tale target deve essere restituito nella stessa dimensione targeting del target principale. A questo scopo, nella sezione **Regole di esclusione**, fai clic su **Aggiungi una regola** e specifica le condizioni per la modifica delle dimensioni. La riconciliazione dei dati viene eseguita tramite un attributo o un join. <!-- pas compris-->
 1. Puoi selezionare l’opzione **Genera complemento** se desideri elaborare la popolazione rimanente. Consulta la sezione [Intersezione](#intersection).
+
+![](../assets/combine-exclusion.png)
 
 <!--
 ## Examples{#combine-examples}

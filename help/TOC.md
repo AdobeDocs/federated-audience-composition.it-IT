@@ -2,7 +2,7 @@
 user-guide-title: Composizione di pubblico federato
 title: Documentazione di Adobe di Federated Audience Composition
 breadcrumb-title: Composizione di pubblico federato
-source-git-commit: ff942b86019345f39eeaadab60054f2e4fd9c037
+source-git-commit: 44be467650e2329a1fce6c5adb6d266d94efd1e2
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 36%
@@ -30,7 +30,7 @@ ht-degree: 36%
       + [Avviare e monitorare la composizione](compositions/start-monitor-composition.md)
    + Utilizzare le attività {#activities}
       + [Elenco delle attività](compositions/activities/about-activities.md)
-      + [And-Join](compositions/activities/and-join.md)
+      + [AND-Join](compositions/activities/and-join.md)
       + [Creazione del pubblico](compositions/activities/build-audience.md)
       + [Cambiare dimensione](compositions/activities/change-dimension.md)
       + [Combina](compositions/activities/combine.md)
