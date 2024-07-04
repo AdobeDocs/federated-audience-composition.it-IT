@@ -2,12 +2,13 @@
 audience: end-user
 title: Utilizzare l’attività Combina
 description: Scopri come utilizzare l’attività Combina
-source-git-commit: 92d4a7cf1414ae74b2684619d295eca065a92ce2
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 79%
 
 ---
+
 
 # Combina {#combine}
 
@@ -22,9 +23,7 @@ L’attività **Combina** consente di eseguire la segmentazione sulla popolazion
 * L’attività **Intersezione** consente di mantenere solo gli elementi comuni alle diverse popolazioni in entrata all’interno dell’attività.
 * L’attività **Esclusione** consente di escludere elementi da una popolazione in base a determinati criteri.
 
-
 Il **Combina** L’attività può essere inserita dopo qualsiasi altra attività, ma non all’inizio della composizione. Qualsiasi attività può essere inserita dopo il **Combina**.
-
 
 ## Configurare l’attività Combina {#combine-configuration}
 

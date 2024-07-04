@@ -2,7 +2,7 @@
 audience: end-user
 title: Utilizzare l’attività Attendi
 description: Scopri come utilizzare l’attività Attendi
-source-git-commit: e2e708a21aa0e2d1724f5ba79caf10ef803ae818
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 60%
@@ -27,4 +27,5 @@ Per configurare l’attività **Attendi**, segui questi passaggi:
 1. Specifica la **Durata** dell’attesa tra le transizioni in entrata e in uscita.
 
 1. Selezionare l&#39;unità di tempo in **Periodi** campo: secondi, minuti, ore, giorni.
+
 

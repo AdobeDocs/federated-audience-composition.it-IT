@@ -2,12 +2,13 @@
 audience: end-user
 title: Utilizzare l’attività Genera pubblico
 description: Scopri come utilizzare l’attività Genera pubblico
-source-git-commit: 33a1eb9d4c0c7b847e04ac3f0f9f1881317a2f83
+source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
 workflow-type: tm+mt
 source-wordcount: '251'
 ht-degree: 37%
 
 ---
+
 
 # Creazione del pubblico {#build-audience}
 
@@ -24,10 +25,7 @@ Per definire la popolazione del pubblico, puoi eseguire le seguenti operazioni:
 * Seleziona un pubblico di Adobe Experience Platform.
 * Crea un nuovo pubblico con il generatore di modellatori di query definendo e combinando criteri di filtro.
 
-
-
 Il **Creare un pubblico** L’attività può essere posizionata all’inizio della composizione o dopo qualsiasi altra attività. Qualsiasi attività può essere inserita dopo il **Creare un pubblico**.
-
 
 ## Configurare l’attività Creazione del pubblico {#build-audience-configuration}
 
