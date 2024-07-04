@@ -2,7 +2,7 @@
 audience: end-user
 title: Creare composizioni
 description: Scopri come creare le composizioni
-source-git-commit: 4a73702c99762a5e9ab73485fa46916b9c28fcc3
+source-git-commit: 0d6930b15be5013b57b8859dd3d21a5d3367ecae
 workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 41%
@@ -28,9 +28,7 @@ Il diagramma di composizione è una rappresentazione di ciò che dovrebbe accade
 Ogni composizione contiene:
 
 * **Attività**: un’attività è un’attività da eseguire. Le varie attività disponibili sono rappresentate nel diagramma tramite icone. Ogni attività presenta proprietà specifiche e altre proprietà comuni a tutte le attività.
-
 * **Transizioni**: le transizioni collegano un’attività di origine a un’attività di destinazione e ne definiscono la sequenza.
-
 * **Tabelle di lavoro**: la tabella di lavoro contiene tutte le informazioni riportate dalla transizione. Ogni composizione utilizza diverse tabelle di lavoro. I dati trasmessi in queste tabelle possono essere utilizzati in tutto il ciclo di vita della composizione.
 
 ## Passaggi chiave per creare una composizione {#gs-composition-steps}
