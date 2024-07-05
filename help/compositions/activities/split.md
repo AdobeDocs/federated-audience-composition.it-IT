@@ -2,10 +2,10 @@
 audience: end-user
 title: Utilizzare l’attività di suddivisione
 description: Scopri come utilizzare l’attività di suddivisione
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: c4c9eba1dcb3adff3028175a389ff6e4eaf12bc0
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 73%
+source-wordcount: '919'
+ht-degree: 59%
 
 ---
 
@@ -59,7 +59,7 @@ L’attività **Dividi** consente di segmentare le popolazioni in ingresso in pi
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_enable_overlapping"
 >title="Abilita la sovrapposizione delle popolazioni di output"
->abstract="Abilita la sovrapposizione delle popolazioni di output"
+>abstract="Il **[!UICONTROL Abilita la sovrapposizione delle popolazioni di output]** consente di gestire le popolazioni appartenenti a diversi sottoinsiemi. Quando la casella non è selezionata, l’attività di suddivisione si assicura che un destinatario non possa essere presente in diverse transizioni di output, anche se soddisfa i criteri di diversi sottoinsiemi. Saranno nel target della prima scheda con criteri corrispondenti. Quando la casella è selezionata, i destinatari possono essere trovati in diversi sottoinsiemi se soddisfano i propri criteri di filtro. Adobe Campaign consiglia di utilizzare criteri esclusivi."
 
 Per configurare l’attività **Dividi** segui questi passaggi:
 
@@ -75,9 +75,13 @@ Per configurare l’attività **Dividi** segui questi passaggi:
 
 1. Una volta aggiunti i sottoinsiemi, l’attività mostra tante transizioni di output quanti sono i sottoinsiemi. Si consiglia vivamente di modificare l’etichetta di ciascun sottoinsieme per identificarlo facilmente nell’area di lavoro della composizione.
 
+   ![](../assets/split.png)
+
 1. Configura in che modo ogni sottoinsieme deve filtrare la popolazione in ingresso. Per farlo, segui questi passaggi:
 
-   1. Apri il sottoinsieme per visualizzarne le proprietà.
+   1. Espandere il sottoinsieme per visualizzarne le proprietà.
+
+      ![](../assets/split-subset.png)
 
    1. Per applicare una condizione di filtro al sottoinsieme, fai clic su **[!UICONTROL Crea filtro]** e configura la regola di filtro desiderata utiizzando il query modeler. Ad esempio, includi i profili della popolazione in ingresso il cui indirizzo e-mail esiste nel database. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
 
@@ -94,6 +98,11 @@ Per configurare l’attività **Dividi** segui questi passaggi:
    >[!NOTE]
    >
    >Il **[!UICONTROL Genera tutti i sottoinsiemi nella stessa tabella]** consente di raggruppare tutti i sottoinsiemi in una singola transizione di output.
+
+1. Il **[!UICONTROL Abilita la sovrapposizione delle popolazioni di output]** consente di gestire le popolazioni appartenenti a diversi sottoinsiemi:
+
+   * Quando la casella non è selezionata, l’attività di suddivisione si assicura che un destinatario non possa essere presente in diverse transizioni di output, anche se soddisfa i criteri di diversi sottoinsiemi. Saranno nel target della prima scheda con criteri corrispondenti.
+   * Quando la casella è selezionata, i destinatari possono essere trovati in diversi sottoinsiemi se soddisfano i propri criteri di filtro. Adobe Campaign consiglia di utilizzare criteri esclusivi.
 
 L’attività adesso è configurata. Al momento dell’esecuzione, la popolazione verrà segmentata in diversi sottoinsiemi, nell’ordine in cui sono stati aggiunti all’attività.
 
