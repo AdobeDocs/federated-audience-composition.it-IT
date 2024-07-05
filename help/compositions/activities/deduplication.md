@@ -2,10 +2,10 @@
 audience: end-user
 title: Utilizzare l’attività Deduplication
 description: Scopri come utilizzare l’attività Deduplication
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: 56d9cc6489557c12761cd3fe8f3b7a61a71ece21
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 89%
+source-wordcount: '563'
+ht-degree: 73%
 
 ---
 
@@ -40,7 +40,11 @@ Per configurare l’attività **Deduplica** segui questi passaggi:
 
 1. Aggiungi un **Deduplicazione** alla tua composizione.
 
+1. Se l’attività dispone di diverse transizioni in entrata, seleziona la transizione da utilizzare per eseguire la deduplicazione dal file **[!UICONTROL Set primario]** elenco a discesa
+
 1. Nella sezione **Campi per identificare i duplicati** , fai clic sul pulsante **Aggiungi attributo** per specificare i campi per i quali i valori identici consentono l’identificazione dei duplicati, ad esempio: indirizzo e-mail, nome, cognome e così via. L’ordine dei campi consente di specificare quali elaborare per primi.
+
+   ![](../assets/deduplication.png)
 
 1. In **Impostazioni di deduplicazione** , selezionare il numero di **Duplicati da mantenere**. Il valore predefinito per questo campo è 1. Il valore 0 ti consente di conservare tutti i duplicati.
 
@@ -52,9 +56,10 @@ Per configurare l’attività **Deduplica** segui questi passaggi:
 
 1. Seleziona il **Metodo di deduplica** da utilizzare:
 
-   * **Selezione casuale**: seleziona in modo casuale il record da escludere dai duplicati.
-   * **Utilizzo di un’espressione**: questo consente di conservare i record in cui il valore dell’espressione immessa corrisponde al valore minore o maggiore.
-   * **In base a un elenco di valori**: consente di definire un valore di priorità per uno o più campi. Per definire i valori, fai clic su **Attributo** per selezionare un campo o creare un’espressione, quindi aggiungi i valori nella tabella appropriata. Per definire un nuovo campo, fai clic sul pulsante Aggiungi situato sopra l’elenco dei valori.
+   * **Selezione casuale**: seleziona casualmente il record da escludere dai duplicati.
+   * **Utilizzo di un’espressione**: conserva i record in cui il valore dell’espressione immessa è il minore o il maggiore.
+   * **Valori non vuoti**: conserva i record per i quali l’espressione non è vuota.
+   * **Seguendo un elenco di valori**: definisci una priorità di valore per uno o più campi. Per definire i valori, fai clic su **Attributo** per selezionare un campo o creare un’espressione, quindi aggiungi i valori nella tabella appropriata. Per definire un nuovo campo, fare clic su **Pulsante Aggiungi** si trova sopra l’elenco dei valori.
 
 1. Se desideri sfruttare il gruppo rimanente, seleziona l’opzione **Genera complemento**. Il complemento è costituito da tutti i duplicati. Verrà quindi aggiunta all’attività un’ulteriore transizione.
 
