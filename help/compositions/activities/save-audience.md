@@ -2,7 +2,7 @@
 audience: end-user
 title: Utilizzare l’attività Save audience
 description: Scopri come utilizzare l’attività Save audience
-source-git-commit: c151cc316eb9b5df6fa1d09f01455313195dfd07
+source-git-commit: 6b7a0ae164bdb09b1f5fc067a13e304eec9c5201
 workflow-type: tm+mt
 source-wordcount: '358'
 ht-degree: 26%
@@ -60,7 +60,7 @@ Per configurare l’attività **Salva pubblico**, segui questi passaggi:
    * **Campo di identità primaria**: seleziona il campo da utilizzare per identificare i profili. Ad esempio, l’indirizzo e-mail o il numero di telefono.
    * **Spazio dei nomi dell’identità**: seleziona lo spazio dei nomi da utilizzare per identificare i profili, ovvero il tipo di dati da utilizzare come chiave di identificazione. Ad esempio, se l’indirizzo e-mail è stato selezionato come campo di identità principale, lo spazio dei nomi dell’identità **E-mail** deve essere selezionato. Se l’identificatore univoco è il numero di telefono, allora lo spazio dei nomi dell’identità **Telefono** deve essere selezionato.
 
-Dopo l’esecuzione della composizione, il pubblico risultante viene salvato in Adobe Experience Platform e reso accessibile nel **Tipi di pubblico** menu.
+Dopo aver eseguito la composizione, il pubblico risultante viene salvato in Adobe Experience Platform <!-- to check-->, e resi accessibili nel **Tipi di pubblico** menu.
 
 <!--
 
