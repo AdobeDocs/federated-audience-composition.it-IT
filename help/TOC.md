@@ -2,10 +2,10 @@
 user-guide-title: Composizione di pubblico federato
 title: Documentazione di Adobe di Federated Audience Composition
 breadcrumb-title: Composizione di pubblico federato
-source-git-commit: 44be467650e2329a1fce6c5adb6d266d94efd1e2
+source-git-commit: 467f93490c33d9e7994315a658a8c5d230696870
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 36%
+source-wordcount: '121'
+ht-degree: 35%
 
 ---
 
@@ -17,6 +17,7 @@ ht-degree: 36%
 + Passaggi di configurazione {#config}
    + [Connettere AEP con Federated Audience Composition](connections/destinations.md)
    + [Configurare i database federati](connections/federated-db.md)
+   + [Creare e gestire le connessioni](connections/connections.md)
    + Modelli di dati e schemi{#datamodel}
       + [Configurare i modelli dati](data-management/gs-models.md)
       + [Creare e configurare gli schemi](customer/schemas.md)
