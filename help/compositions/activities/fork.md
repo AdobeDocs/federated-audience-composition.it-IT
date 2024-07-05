@@ -2,7 +2,7 @@
 audience: end-user
 title: Utilizzare l’attività Fork
 description: Scopri come utilizzare l’attività Fork
-source-git-commit: b21306cefe6e9e66263012110a7f89f2d92b38a5
+source-git-commit: 984ea7f59f3099f9f08af24d9468e4dc559da0a5
 workflow-type: tm+mt
 source-wordcount: '118'
 ht-degree: 84%
@@ -16,7 +16,6 @@ ht-degree: 84%
 >id="dc_orchestration_fork"
 >title="Attività Fork"
 >abstract="L’attività **Fork** consente di creare transizioni in uscita per avviare più attività contemporaneamente."
-
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_fork_transitions"
@@ -33,4 +32,4 @@ Per configurare l’attività **Fork** segui questi passaggi:
 1. Fai clic su **Aggiungi transizione** per aggiungere una nuova transizione in uscita. Per impostazione predefinita sono definite due transizioni.
 1. Aggiungi un’etichetta a ciascuna delle transizioni.
 
-
+   ![](../assets/fork.png)
