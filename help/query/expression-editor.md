@@ -2,9 +2,9 @@
 audience: end-user
 title: Creare la prima query utilizzando il query modeler
 description: Scopri come creare la prima query nel modellatore di query.
-source-git-commit: 96b578cab1ce328b7db5043539e3b58fa238ebfd
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '2096'
+source-wordcount: '2100'
 ht-degree: 78%
 
 ---
@@ -28,7 +28,7 @@ L’editor di espressioni è disponibile dal modellatore di query **[!UICONTROL 
 L’editor di espressioni mostra:
 
 * Un **campo di input (1)** in cui è definita l&#39;espressione.
-* L’elenco delle **campi (2)** che può essere utilizzato nell’espressione e corrispondente alla dimensione di targeting della query.
+* L’elenco delle **campi (2)** che può essere utilizzato nell’espressione e corrispondente allo schema della query, noto anche come dimensione di targeting.
 * **Funzioni helper (3)**, ordinato per categoria.
 
 Modifica l’espressione immettendo un’espressione direttamente nel campo di input. Per aggiungere un campo o una funzione di supporto, posizionare il cursore nell&#39;espressione nel punto in cui si desidera aggiungerla e fare clic sul pulsante +.

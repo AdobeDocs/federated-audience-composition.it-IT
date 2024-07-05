@@ -2,10 +2,10 @@
 audience: end-user
 title: Utilizzare l’attività Modifica dimensione
 description: Scopri come utilizzare l’attività Modifica dimensione
-source-git-commit: 44be467650e2329a1fce6c5adb6d266d94efd1e2
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 40%
+source-wordcount: '187'
+ht-degree: 25%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 40%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_change_dimension"
 >title="Attività Cambia dimensione"
->abstract="Questa attività ti consente di modificare la dimensione di targeting, ovvero lo schema, durante la creazione di un pubblico. Sposta l’asse in base al modello di dati e alla dimensione di input. Ad esempio, puoi passare dalla dimensione “contratti” alla dimensione “clienti”."
+>abstract="Questa attività ti consente di modificare lo schema, noto anche come dimensione di targeting, durante la creazione di un pubblico. Sposta l’asse a seconda del modello di dati e dello schema di input. Ad esempio, puoi passare dallo schema &quot;contratti&quot; allo schema &quot;client&quot;."
 
-Il **Cambia dimensione** attività ti consente di modificare la dimensione di targeting, ovvero lo schema, durante la creazione del pubblico. Sposta l’asse in base al modello di dati e alla dimensione di input. <!--[Learn more on targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)-->
+Il **Cambia dimensione** L’attività ti consente di modificare lo schema, noto anche come dimensione di targeting, durante la creazione del pubblico. Sposta l’asse a seconda del modello di dati e dello schema di input.
 
 ## Configurare l’attività Cambia dimensione {#configure}
 
@@ -32,9 +32,9 @@ Per configurare l’attività **Cambia dimensione** segui questi passaggi:
 
    ![](../assets/change-dimension.png)
 
-1. Definisci il **Nuovo scheman**. Durante la modifica dello schema, vengono conservati tutti i record.
+1. Definisci il **Nuovo schema**. Durante la modifica dello schema, vengono conservati tutti i record.
 
-1. Eseguite la composizione per visualizzare il risultato. Confrontare i dati nelle tabelle prima e dopo l&#39;attività di modifica della dimensione e confrontare la struttura delle tabelle di composizione.
+1. Eseguite la composizione per visualizzare il risultato. Confrontare i dati nelle tabelle prima e dopo il **Cambia dimensione** e confrontano la struttura delle tabelle di composizione.
 
 <!--
 ## Example {#example}

@@ -2,10 +2,10 @@
 audience: end-user
 title: Utilizzare l’attività Enrichment
 description: Scopri come utilizzare l’attività Enrichment
-source-git-commit: 5180a92c24b08aa24506bd09a992c9e1573b33bc
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 39%
+source-wordcount: '395'
+ht-degree: 27%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="dc_targetdata_personalization_enrichmentdata"
 >title="Dati di arricchimento"
->abstract="Selezionate i dati da utilizzare per arricchire la composizione. Puoi selezionare due tipi di dati di arricchimento: un attributo di arricchimento singolo dalla dimensione target oppure un collegamento raccolta, che è un collegamento con cardinalità 1-N tra le tabelle."
+>abstract="Selezionate i dati da utilizzare per arricchire la composizione. Puoi selezionare due tipi di dati di arricchimento: un singolo attributo di arricchimento dallo schema, noto anche come dimensione di targeting, o un collegamento di raccolta, che è un collegamento con cardinalità 1-N tra le tabelle."
 
 Il **Arricchimento** attività ti consente di migliorare i dati di destinazione con informazioni aggiuntive dal database federato. Viene comunemente utilizzato nelle composizioni dopo le attività di segmentazione.
 
@@ -84,7 +84,7 @@ Per configurare l’attività **Arricchimento** segui questi passaggi:
 In questo caso, viene semplicemente aggiunto un attributo di arricchimento singolo, ad esempio, la data di nascita. Segui questi passaggi:
 
 1. Fai clic all’interno del campo **Attributo**.
-1. Seleziona un campo semplice dalla dimensione di targeting, nel nostro esempio la data di nascita.
+1. Seleziona un campo semplice dallo schema, noto anche come dimensione di targeting, ossia la data di nascita nel nostro esempio.
 1. Fai clic su **Conferma**.
 
 <!--### Collection link {#collection-link}

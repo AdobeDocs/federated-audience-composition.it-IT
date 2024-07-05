@@ -2,9 +2,9 @@
 audience: end-user
 title: Utilizzo del query modeler
 description: Scopri come utilizzare Query Modeler.
-source-git-commit: f6730819712ffcbe815517a4406dac7e8fb9779c
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '380'
 ht-degree: 21%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_querymessage"
 >title="Query modeler"
->abstract="Definisci i criteri di filtro per i destinatari o qualsiasi altra dimensione di targeting dal database."
+>abstract="Definisci i criteri di filtro per i destinatari o qualsiasi altro schema, noto anche come dimensione di targeting, dal database."
 
 Query Modeler semplifica il processo di filtraggio del database in base a vari criteri. Inoltre, Query Modeler è in grado di gestire in modo efficiente query molto complesse e lunghe, offrendo maggiore flessibilità e precisione. Inoltre, supporta filtri predefiniti all’interno di condizioni, consentendoti di perfezionare le query con facilità e allo stesso tempo di utilizzare espressioni avanzate e operatori per strategie complete di targeting del pubblico e segmentazione.
 

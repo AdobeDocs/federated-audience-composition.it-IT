@@ -2,10 +2,10 @@
 audience: end-user
 title: Utilizzare l’attività Reconciliation
 description: Scopri come utilizzare l’attività Reconciliation
-source-git-commit: bdfd74a148a0c6df77baec4775d205db660f2573
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 26%
+source-wordcount: '518'
+ht-degree: 23%
 
 ---
 
@@ -43,7 +43,7 @@ Il **Reconciliation** L’attività ti consente di collegare dati non identifica
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting"
 >title="Schema"
->abstract="Seleziona il nuovo schema da applicare ai dati. Uno schema, noto anche come &quot;dimensione di targeting&quot;, consente di definire la popolazione target: destinatari, abbonati all’app, operatori, abbonati, ecc. Per impostazione predefinita, è selezionata la dimensione di targeting corrente della composizione."
+>abstract="Seleziona il nuovo schema da applicare ai dati. Uno schema, noto anche come dimensione di targeting, consente di definire la popolazione target: destinatari, abbonati all’app, operatori, abbonati, ecc. Per impostazione predefinita, viene selezionato lo schema corrente della composizione."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_rules"
@@ -53,7 +53,7 @@ Il **Reconciliation** L’attività ti consente di collegare dati non identifica
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting_selection"
 >title="Selezionare una dimensione di targeting"
->abstract="Seleziona la dimensione targeting per i dati in entrata per cui eseguire la riconciliazione."
+>abstract="Seleziona lo schema, noto anche come dimensione di targeting, con cui riconciliare i dati in entrata."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_keep_unreconciled_data"
@@ -69,7 +69,7 @@ Per configurare il **Reconciliation** attività:
 
 1. Aggiungi un **Reconciliation** attività nella composizione.
 
-1. Seleziona la **Nuovo schema**. Uno schema, noto anche come &quot;dimensione di targeting&quot;, consente di definire la popolazione target: destinatari, abbonati all’app, operatori, abbonati, ecc.
+1. Seleziona la **Nuovo schema**. Uno schema, noto anche come dimensione di targeting, consente di definire la popolazione target: destinatari, abbonati all’app, operatori, abbonati, ecc.
 
 1. Seleziona i campi da utilizzare per la riconciliazione. Puoi utilizzare uno o più criteri di riconciliazione.
 

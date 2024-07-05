@@ -2,10 +2,10 @@
 audience: end-user
 title: Utilizzare l’attività Combina
 description: Scopri come utilizzare l’attività Combina
-source-git-commit: 7873cf38e8411480618bdeaebdcb30474731b7b5
+source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 67%
+source-wordcount: '765'
+ht-degree: 52%
 
 ---
 
@@ -87,7 +87,7 @@ A questo scopo, segui i passaggi aggiuntivi seguenti:
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_options"
 >title="Regole di esclusione"
->abstract="Se necessario, è possibile elaborare le tabelle in entrata. In effetti, per escludere un target da un’altra dimensione, tale target deve essere restituito nella stessa dimensione targeting del target principale. A questo scopo, fai clic su **Aggiungi una regola** nella E **regole di esclusione** e specificare le condizioni per la modifica delle quote. La riconciliazione dei dati viene eseguita tramite un attributo o un’unione."
+>abstract="Se necessario, è possibile elaborare le tabelle in entrata. Infatti, per escludere un target da un altro schema, noto anche come dimensione di targeting, questo target deve essere restituito allo stesso schema del target principale. A questo scopo, fai clic su **Aggiungi una regola** nella E **regole di esclusione** e specificare le condizioni per la modifica dello schema. La riconciliazione dei dati viene eseguita tramite un attributo o un’unione."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_sets"
@@ -97,7 +97,7 @@ A questo scopo, segui i passaggi aggiuntivi seguenti:
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_exclusion"
 >title="Regole di esclusione"
->abstract="Se necessario, è possibile elaborare le tabelle in entrata. In effetti, per escludere un target da un’altra dimensione, tale target deve essere restituito nella stessa dimensione targeting del target principale. A questo scopo, nella sezione **Regole di esclusione**, fai clic su **Aggiungi una regola** e specifica le condizioni per la modifica delle dimensioni. La riconciliazione dei dati viene eseguita tramite un attributo o un’unione."
+>abstract="Se necessario, è possibile elaborare le tabelle in entrata. Infatti, per escludere un target da un altro schema, noto anche come dimensione di targeting, questo target deve essere restituito allo stesso schema del target principale. A questo scopo, fai clic su **Aggiungi una regola** nel **Regole di esclusione** e specificare le condizioni per la modifica dello schema. La riconciliazione dei dati viene eseguita tramite un attributo o un’unione."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_complement"
@@ -112,7 +112,7 @@ A questo scopo, segui i passaggi aggiuntivi riportati di seguito:
 
 1. Nella sezione **Set da unire**, dalle transizioni in entrata, seleziona **Set primario**. Questo è il set da cui gli elementi sono esclusi. Gli altri set confrontano gli elementi prima che vengano esclusi dal set primario.
 
-1. Se necessario, è possibile elaborare le tabelle in entrata. In effetti, per escludere un target da un’altra dimensione, tale target deve essere restituito nella stessa dimensione targeting del target principale. A questo scopo, nella sezione **Regole di esclusione**, fai clic su **Aggiungi una regola** e specifica le condizioni per la modifica delle dimensioni. La riconciliazione dei dati viene eseguita tramite un attributo o un join. <!-- pas compris-->
+1. Se necessario, è possibile elaborare le tabelle in entrata. Infatti, per escludere un target da un altro schema, questo target deve essere restituito allo stesso schema del target principale. A questo scopo, fai clic su **Aggiungi una regola** nel **Regole di esclusione** e specificare le condizioni per la modifica dello schema. La riconciliazione dei dati viene eseguita tramite un attributo o un join. <!-- pas compris-->
 1. Puoi selezionare l’opzione **Genera complemento** se desideri elaborare la popolazione rimanente. Consulta la sezione [Intersezione](#intersection).
 
 <!--
