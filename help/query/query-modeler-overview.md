@@ -2,10 +2,10 @@
 audience: end-user
 title: Utilizzo del query modeler
 description: Scopri come utilizzare Query Modeler.
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+source-git-commit: 5d4bdbbb9c903e839b21d22455d870396ac1df7d
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 21%
+source-wordcount: '336'
+ht-degree: 11%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 21%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_querymessage"
 >title="Query modeler"
->abstract="Definisci i criteri di filtro per i destinatari o qualsiasi altro schema, noto anche come dimensione di targeting, dal database."
+>abstract="Definire criteri di filtraggio per i destinatari o qualsiasi altro schema, noto anche come dimensione targeting, dal database."
 
-Query Modeler semplifica il processo di filtraggio del database in base a vari criteri. Inoltre, Query Modeler è in grado di gestire in modo efficiente query molto complesse e lunghe, offrendo maggiore flessibilità e precisione. Inoltre, supporta filtri predefiniti all’interno di condizioni, consentendoti di perfezionare le query con facilità e allo stesso tempo di utilizzare espressioni avanzate e operatori per strategie complete di targeting del pubblico e segmentazione.
+Il modello di query semplifica il processo di filtraggio del database in base a vari criteri. Inoltre, il modellatore di query può gestire query molto complesse e lunghe in modo efficiente, offrendo maggiore flessibilità e precisione. Inoltre, supporta filtri predefiniti all&#39;interno delle condizioni, consentendo di perfezionare le query con facilità, utilizzando espressioni e operatori avanzati per targeting completo del pubblico e strategie di Segmentazione.
 
 ## Accedere al query modeler
 
@@ -24,29 +24,27 @@ Il query modeler è disponibile in ogni contesto in cui è necessario definire r
 
 | Utilizzo | Esempio |
 |  ---  |  ---  |
-| **Definire i tipi di pubblico**: specifica la popolazione di cui desideri eseguire il targeting nelle composizioni e crea facilmente nuovi tipi di pubblico su misura per le tue esigenze. | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **Personalizzare le attività del flusso di lavoro**: applica regole nelle attività del flusso di lavoro, ad esempio **Dividi** e **Reconciliation**, per allinearlo ai requisiti specifici. [Ulteriori informazioni sulle attività del flusso di lavoro](../compositions/activities/about-activities.md) | ![](assets/access-workflow.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **Filtri preimpostati**: crea filtri preimpostati che fungono da scelte rapide durante varie operazioni di filtraggio, sia nell’utilizzo di elenchi di dati che nella formazione del tipo di pubblico per una consegna. | ![](assets/access-predefined-filter.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **Personalizzare gli elenchi**: crea regole personalizzate per filtrare i dati visualizzati in elenchi come destinatari, elenchi di consegne, ecc. | ![](assets/access-lists.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **Definisci i tipi di** pubblico: specifica la popolazione che desideri destinazione nelle tue composizioni e crea facilmente nuovi segmenti di pubblico su misura per le tue esigenze. | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **Personalizza workflow attività**: applica regole all&#39;interno delle attività di composizione, ad esempio **Suddivisione** e **Riconciliazione**, per allinearti ai tuoi requisiti specifici. [Scopri maggiori informazioni sulle attività di composizione](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 ## Interfaccia del query modeler {#interface}
 
-Il modellatore di query fornisce un’area di lavoro centrale in cui creare la query e un riquadro a destra che fornisce informazioni sulla query.
+Il modellatore di query fornisce un&#39;area di lavoro centrale in cui versione la query e un riquadro destro che fornisce informazioni sulla query.
 
 ![](assets/query-interface.png){zoomable="yes"}
 
-### Area di lavoro centrale {#canvas}
+### La tela centrale {#canvas}
 
-L’area di lavoro centrale di Query Modeler è il luogo in cui puoi aggiungere e combinare i diversi componenti che creano la query. [Scopri come creare una query](build-query.md)
+L&#39;area di lavoro centrale del modellatore di query consente di aggiungere e combinare i diversi componenti che creano la query. [Scopri come versione una query](build-query.md)
 
-La barra degli strumenti situata nell’angolo superiore destro dell’area di lavoro offre opzioni per manipolare facilmente i componenti della query e navigare nell’area di lavoro:
+La barra degli strumenti situata nell&#39;angolo superiore destro dell&#39;area di lavoro offre opzioni per modificare facilmente i componenti della query e spostarsi nell&#39;area di lavoro:
 
-* **Modalità di selezione multipla**: seleziona più componenti filtro per copiarli e incollarli nella posizione desiderata.
-* **Ruota**: cambia l’area di lavoro verticalmente.
-* **Adatta allo schermo**: adatta il livello di zoom dell’area di lavoro allo schermo.
-* **Zoom indietro** / **Zoom in**: zoom indietro o nell’area di lavoro.
-* **Visualizza mappa**: apre un’istantanea dell’area di lavoro che mostra la tua posizione.
+* **Più modalità di selezione**: seleziona più componenti di filtro per copiarli e incollarli nella posizione desiderata.
+* **Ruota**: sposta l&#39;area di lavoro in verticale.
+* **Adatta allo schermo**: adatta il livello di zoom dell&#39;area di lavoro allo schermo.
+* **Zoom out** / **Zoom in**: Zoom out o nella tela.
+* **Visualizza mappa**: apre un&#39;istantanea dell&#39;area di lavoro che mostra la tua posizione.
 
 ### Riquadro delle proprietà della regola {#rule-properties}
 
-Sul lato destro, il **[!UICONTROL Proprietà delle regole]** fornisce informazioni sulla query. Consente di eseguire varie operazioni per verificare la query e assicurarsi che sia adatta alle tue esigenze. [Scopri come controllare e convalidare la query](build-query.md#check-and-validate-your-query)
+Sul lato destro, il riquadro delle proprietà&#x200B;]**della**[!UICONTROL  regola fornisce informazioni sulla query. Ti consente di eseguire varie operazioni per controllare la query e assicurarti che sia adatta alle tue esigenze. [Scopri come controllare e convalidare la query](build-query.md#check-and-validate-your-query)
