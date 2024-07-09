@@ -2,9 +2,9 @@
 audience: end-user
 title: Utilizzare l’attività Reconciliation
 description: Scopri come utilizzare l’attività Reconciliation
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '526'
 ht-degree: 23%
 
 ---
@@ -82,7 +82,7 @@ Per configurare il **Reconciliation** attività:
 
       ![](../assets/reconciliation-rules.png)
 
-   1. Per utilizzare altri attributi per riconciliare i dati, selezionare **Condizioni di riconciliazione avanzate** quindi fare clic sul pulsante **Creare condizioni** pulsante. Puoi quindi creare una condizione di riconciliazione personalizzata utilizzando Query Modeler.
+   1. Per utilizzare altri attributi per riconciliare i dati, selezionare **Condizioni di riconciliazione avanzate** quindi fare clic sul pulsante **Creare condizioni** pulsante. Puoi quindi creare una condizione di riconciliazione personalizzata utilizzando Query Modeler. [Scopri come utilizzare Query Modeler](../../query/query-modeler-overview.md)
 
       ![](../assets/reconciliation-advanced.png)
 

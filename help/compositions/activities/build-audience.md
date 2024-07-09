@@ -2,10 +2,10 @@
 audience: end-user
 title: Utilizzare l’attività Genera pubblico
 description: Scopri come utilizzare l’attività Genera pubblico
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 37%
+source-wordcount: '237'
+ht-degree: 24%
 
 ---
 
@@ -38,19 +38,19 @@ Per configurare l’attività **Crea pubblico**, segui questi passaggi:
 
 1. Aggiungi un’attività **Crea pubblico**.
 1. Definisci un’etichetta.
-1. Definisci il tipo di pubblico: **Crea una query personalizzata** o **Leggi pubblico**.
+1. Specifica se desideri creare un pubblico o selezionarne uno esistente.
 1. Configura il pubblico seguendo i passaggi descritti nelle schede seguenti.
 
 >[!BEGINTABS]
 
->[!TAB Crea il tuo (query)]
+>[!TAB Creare un pubblico]
 
-Per creare una query personalizzata, effettua le seguenti operazioni:
+Per creare un pubblico personalizzato, segui questi passaggi:
 
-1. Seleziona **Crea una query personalizzata**.
-1. Scegli la **Dimensione targeting**. La dimensione targeting consente di definire la popolazione target dell’operazione: destinatari, beneficiari del contratto, operatore, iscritti, ecc. Per impostazione predefinita, il target viene selezionato dai destinatari.<!-- [Learn more about targeting dimensions](../../audience/about-recipients.md#targeting-dimensions)-->
+1. Seleziona **Creare un pubblico**.
+1. Scegli la **Schema**, nota anche come dimensione di targeting. Lo schema ti consente di definire la popolazione target dell’operazione: destinatari, beneficiari del contratto, operatore, abbonati, ecc. Per impostazione predefinita, lo schema viene selezionato dai destinatari.
 1. Fai clic su **Continua**.
-1. Utilizza il modellatore di query per definire la query, nello stesso modo in cui crei un pubblico durante la progettazione di una nuova e-mail. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
+1. Utilizza il modellatore di query per definire la query. [Scopri come utilizzare Query Modeler](../../query/query-modeler-overview.md)
 
 >[!TAB Read audience]
 
@@ -58,7 +58,7 @@ Per selezionare un pubblico esistente, segui questi passaggi:
 
 1. Seleziona **Leggi pubblico**.
 1. Fai clic su **Continua**.
-1. Seleziona il pubblico nello stesso modo in cui utilizzi un pubblico durante la progettazione di una nuova consegna. <!--Refer to this [section](../../audience/add-audience.md).-->
+1. Seleziona il pubblico.
 
 >[!ENDTABS]
 

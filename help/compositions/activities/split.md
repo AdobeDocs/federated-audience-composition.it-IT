@@ -2,9 +2,9 @@
 audience: end-user
 title: Utilizzare l’attività di suddivisione
 description: Scopri come utilizzare l’attività di suddivisione
-source-git-commit: c4c9eba1dcb3adff3028175a389ff6e4eaf12bc0
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '927'
 ht-degree: 59%
 
 ---
@@ -83,7 +83,7 @@ Per configurare l’attività **Dividi** segui questi passaggi:
 
       ![](../assets/split-subset.png)
 
-   1. Per applicare una condizione di filtro al sottoinsieme, fai clic su **[!UICONTROL Crea filtro]** e configura la regola di filtro desiderata utiizzando il query modeler. Ad esempio, includi i profili della popolazione in ingresso il cui indirizzo e-mail esiste nel database. <!--[Learn how to work with the query modeler](../../query/query-modeler-overview.md)-->
+   1. Per applicare una condizione di filtro al sottoinsieme, fai clic su **[!UICONTROL Crea filtro]** e configura la regola di filtro desiderata utiizzando il query modeler. Ad esempio, includi i profili della popolazione in ingresso il cui indirizzo e-mail esiste nel database. [Scopri come utilizzare Query Modeler](../../query/query-modeler-overview.md)
 
    1. Per limitare il numero di profili selezionati dal sottoinsieme, attiva l’opzione **[!UICONTROL Abilita limite]** e specifica il numero o le percentuali della popolazione da includere.
 

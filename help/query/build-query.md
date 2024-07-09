@@ -2,10 +2,10 @@
 audience: end-user
 title: Creare la prima query utilizzando il query modeler
 description: Scopri come creare la prima query nel modello di query
-source-git-commit: 96b578cab1ce328b7db5043539e3b58fa238ebfd
+source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
-source-wordcount: '2082'
-ht-degree: 58%
+source-wordcount: '2066'
+ht-degree: 57%
 
 ---
 
@@ -15,7 +15,7 @@ Per iniziare a creare una query, accedi al query modeler dalla posizione desider
 
 Puoi aggiungere due tipi di elementi:
 
-* **Componenti per il filtro** (Condizione personalizzata, Seleziona pubblico, Filtro predefinito) ti consente di creare regole personalizzate, selezionare un pubblico o un filtro predefinito per perfezionare la query. Vengono aggiunte all’inizio della query e nelle transizioni punteggiate. [Scopri come utilizzare i componenti per il filtro](#filtering)
+* **Filtraggio dei componenti** (Condizione personalizzata, Seleziona pubblico) ti consente di creare regole personalizzate o di selezionare un pubblico per perfezionare la query. Vengono aggiunte all’inizio della query e nelle transizioni punteggiate. [Scopri come utilizzare i componenti per il filtro](#filtering)
 
   Esempio: *Destinatari che si sono iscritti alla newsletter &quot;Sport&quot;*. *Destinatari che vivono a New York*, *Destinatari che vivono a San Francisco*
 
@@ -33,7 +33,6 @@ I componenti per il filtro consentono di perfezionare la query utilizzando:
 
 * **[Condizioni personalizzate](#custom-condition)**: per filtrare la query creando la tua condizione personalizzata con gli attributi dal database e le espressioni avanzate.
 * **[Tipi di pubblico](#audiences)**: per filtrare la query utilizzando un pubblico esistente.
-* **[Filtro predefinito](#predefined-filters)**: per filtrare la query utilizzando filtri preimpostati esistenti.
 
 ### Configurare una condizione personalizzata {#custom-condition}
 
@@ -52,7 +51,7 @@ Per filtrare la query utilizzando una condizione personalizzata, effettua le seg
 
    >[!NOTE]
    >
-   >Il **Modifica espressione** Questo pulsante consente di sfruttare l’editor di espressioni web per definire manualmente un’espressione utilizzando i campi delle funzioni di database e helper. [Scopri come modificare le espressioni](expression-editor.md)
+   >Il **Modifica espressione** consente di sfruttare l’editor espressioni per definire manualmente un’espressione utilizzando i campi delle funzioni di database e helper. [Scopri come modificare le espressioni](expression-editor.md)
 
 1. Seleziona l’operatore da applicare dall’elenco a discesa. Sono disponibili diversi operatori da utilizzare. Gli operatori disponibili nell’elenco a discesa dipendono dal tipo di dati dell’attributo.
 
@@ -79,15 +78,11 @@ Per filtrare la query utilizzando una condizione personalizzata, effettua le seg
 
 +++
 
-1. Nel campo **Valore**, definisci il valore previsto. È inoltre possibile sfruttare l’editor di espressioni web per definire manualmente un’espressione utilizzando i campi delle funzioni di supporto e di database. A questo scopo, fai clic su **Modifica espressione** pulsante. [Scopri come modificare le espressioni](expression-editor.md)
+1. Nel campo **Valore**, definisci il valore previsto. Puoi anche sfruttare l’editor espressioni per definire manualmente un’espressione utilizzando i campi delle funzioni di database e helper. A questo scopo, fai clic su **Modifica espressione** pulsante. [Scopri come modificare le espressioni](expression-editor.md)
 
    *Esempio di query che restituisce tutti i profili di età pari o superiore a 21 anni:*
 
    ![](assets/query-custom-condition.png){zoomable="yes"}
-
-   Per gli attributi di tipo data, i valori predefiniti sono disponibili utilizzando **[!UICONTROL Predefiniti]** opzione.
-
-   ![](assets/date-presets.png){zoomable="yes"}
 
 #### Condizioni personalizzate sulle tabelle collegate (collegamenti 1-1 e 1-N){#links}
 
@@ -243,12 +238,12 @@ Nell’esempio seguente, abbiamo creato un gruppo intermedio per includere i ris
 >title="Proprietà delle regole"
 >abstract="Dopo aver creato la query nell’area di lavoro, puoi verificarla utilizzando il riquadro **Proprietà delle regole** sul lato destro.<br/>Questo riquadro consente di visualizzare i dati risultanti, recuperare una versione del codice SQL della query e verificare il numero di record mirati.<br/>Utilizza il pulsante **Seleziona o salva filtro** per salvare la query come filtro predefinito o sostituisci il contenuto dell’area di lavoro con un filtro esistente."
 
-Dopo aver creato la query nell’area di lavoro, puoi controllarla utilizzando il pannello **Proprietà delle regole** sul lato destro. Le operazioni disponibili sono:
+Dopo aver creato la query nell’area di lavoro, puoi controllarla utilizzando il pannello **Proprietà delle regole** sul lato destro. Questo riquadro viene visualizzato quando si crea una query per creare un pubblico. Le operazioni disponibili sono:
 
 * **Visualizza risultati:** visualizza i dati risultanti dalla query.
 * **Vista codice**: visualizza una versione della query basata su codice in SQL.
 * **Calcola**: aggiorna e visualizza il numero di record interessati dalla query.
-* **Seleziona o salva il filtro**: scegli un filtro predefinito esistente da utilizzare nell’area di lavoro oppure salva la query come filtro predefinito da riutilizzare in futuro. <!--[Learn how to work with predefined filters](../get-started/predefined-filters.md)-->
+* **Seleziona o salva il filtro**: scegli un filtro predefinito esistente da utilizzare nell’area di lavoro oppure salva la query come filtro predefinito da riutilizzare in futuro.
 
   >[!IMPORTANT]
   >
