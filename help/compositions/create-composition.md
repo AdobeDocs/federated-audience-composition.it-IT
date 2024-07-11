@@ -5,7 +5,7 @@ description: Scopri come creare le composizioni
 source-git-commit: be24c32977cdccab0a5fc7e77a033f4d2b746b9f
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 1%
+ht-degree: 20%
 
 ---
 
@@ -33,18 +33,18 @@ Il primo passaggio per creare una composizione consiste nel definirne l’etiche
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_settings_properties"
->title="Proprietà di composizione"
->abstract="Questa sezione fornisce proprietà di composizione generiche accessibili anche durante la creazione della composizione."
+>title="Proprietà della composizione"
+>abstract="In questa sezione sono illustrate le proprietà generiche della composizione accessibili anche durante la relativa creazione."
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_settings_segmentation"
 >title="Segmentazione della composizione"
->abstract="Per impostazione predefinita, vengono mantenute solo le tabelle di lavoro dell&#39;ultima esecuzione della composizione. È possibile abilitare questa opzione per mantenere tabelle di lavoro a scopo di test. Deve essere utilizzato **solo** in ambienti di sviluppo o di staging. Non deve mai essere controllato in un ambiente di produzione."
+>abstract="Per impostazione predefinita, vengono mantenute solo le tabelle di lavoro dell’ultima esecuzione della composizione. È possibile abilitare questa opzione per mantenere tabelle di lavoro a scopo di test. Deve essere utilizzata **solo** in ambienti di sviluppo o di staging. Questa opzione non deve mai essere selezionata in un’ambiente di produzione."
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_settings_error"
 >title="Impostazioni di gestione degli errori"
->abstract="In questa sezione puoi definire come gestire gli errori durante l’esecuzione. Potete scegliere di sospendere il processo, ignorare un certo numero di errori o interrompere l&#39;esecuzione della composizione."
+>abstract="In questa sezione puoi definire la gestione degli errori durante l’esecuzione. Puoi scegliere di sospendere il processo, ignorare un certo numero di errori o interrompere l’esecuzione della composizione."
 
 Quando accedete a una composizione, potete accedere a impostazioni avanzate che consentono, ad esempio, di definire il comportamento della composizione in caso di errore.
 

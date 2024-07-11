@@ -5,7 +5,7 @@ description: Scopri come utilizzare l’attività Combina
 source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 52%
+ht-degree: 62%
 
 ---
 
@@ -26,12 +26,12 @@ Il **Combina** L’attività può essere inserita dopo qualsiasi altra attività
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_intersection_merging_options"
 >title="Opzioni di unione per Intersezione"
->abstract="Il **intersezione** consente di mantenere solo gli elementi comuni alle diverse popolazioni in entrata nell’attività. In **Set da unire** , seleziona tutte le attività precedenti a cui desideri partecipare."
+>abstract="L’attività **Intersezione** consente di mantenere solo gli elementi comuni alle diverse popolazioni in entrata all’interno dell’attività. Nella sezione **Set da unire**, seleziona tutte le attività precedenti che desideri unire."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_merging_options"
 >title="Opzioni di unione per Esclusione"
->abstract="Il **esclusione** consente di escludere elementi da una popolazione in base a determinati criteri. In **Set da unire** , seleziona tutte le attività precedenti a cui desideri partecipare."
+>abstract="L’attività **Esclusione** consente di escludere elementi da una popolazione in base a determinati criteri. Nella sezione **Set da unire**, seleziona tutte le attività precedenti che desideri unire."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_options"
@@ -102,7 +102,7 @@ A questo scopo, segui i passaggi aggiuntivi seguenti:
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_complement"
 >title="Complemento generato da combinazione"
->abstract="Attiva **Genera complemento** per elaborare la popolazione rimanente in una transizione aggiuntiva."
+>abstract="Attiva l’opzione **Genera complemento** per elaborare la popolazione rimanente in una transizione aggiuntiva."
 
 In **Combina** attività, puoi configurare un’ **Esclusione**.
 

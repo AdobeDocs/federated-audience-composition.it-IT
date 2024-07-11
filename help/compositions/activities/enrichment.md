@@ -5,7 +5,7 @@ description: Scopri come utilizzare l’attività Enrichment
 source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 27%
+ht-degree: 45%
 
 ---
 
@@ -15,27 +15,27 @@ ht-degree: 27%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment"
 >title="Attività Arricchimento"
->abstract="L’attività di **Arricchimento** consente di migliorare i dati mirati con informazioni aggiuntive provenienti dal database. Viene comunemente utilizzato in una composizione dopo attività di segmentazione."
+>abstract="L’attività di **Arricchimento** consente di migliorare i dati mirati con informazioni aggiuntive provenienti dal database. Viene comunemente utilizzata in una composizione dopo le attività di segmentazione."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_data"
->title="Attività di Arricchimento"
->abstract="Una volta aggiunti i dati di arricchimento alla composizione, questi possono essere utilizzati nelle attività aggiunte dopo **Arricchimento** attività per segmentare i profili in gruppi distinti in base a comportamenti, preferenze e scelte."
+>title="Attività Arricchimento"
+>abstract="Una volta aggiunti i dati di arricchimento alla composizione, questi possono essere utilizzati nelle attività aggiunte dopo quella **Arricchimento** per segmentare i profili in gruppi distinti in base a comportamenti, preferenze e scelte."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_simplejoin"
 >title="Definizione dei collegamenti"
->abstract="Crea un collegamento tra i dati della tabella di lavoro e il database federato."
+>abstract="Creare un collegamento tra i dati della tabella di lavoro e il database federato."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_reconciliation"
 >title="Riconciliazione dell’arricchimento"
->abstract="Imposta i parametri di riconciliazione."
+>abstract="Impostare i parametri di riconciliazione."
 
 >[!CONTEXTUALHELP]
 >id="dc_targetdata_personalization_enrichmentdata"
 >title="Dati di arricchimento"
->abstract="Selezionate i dati da utilizzare per arricchire la composizione. Puoi selezionare due tipi di dati di arricchimento: un singolo attributo di arricchimento dallo schema, noto anche come dimensione di targeting, o un collegamento di raccolta, che è un collegamento con cardinalità 1-N tra le tabelle."
+>abstract="Seleziona i dati da utilizzare per arricchire la composizione. Puoi selezionare due tipi di dati di arricchimento: un singolo attributo di arricchimento dallo schema, noto anche come dimensione di targeting, o un collegamento di raccolta, che è un collegamento con cardinalità 1-N tra le tabelle."
 
 Il **Arricchimento** attività ti consente di migliorare i dati di destinazione con informazioni aggiuntive dal database federato. Viene comunemente utilizzato nelle composizioni dopo le attività di segmentazione.
 

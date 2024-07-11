@@ -5,7 +5,7 @@ keywords: nuovo file, aggiungi file, file
 source-git-commit: 194ae763f5040f11eba0fe30aa302064f5d0606a
 workflow-type: tm+mt
 source-wordcount: '81'
-ht-degree: 39%
+ht-degree: 88%
 
 ---
 
@@ -29,11 +29,11 @@ ht-degree: 39%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_query_enrichment_noneditable"
 >title="Attività non modificabile"
->abstract="Quando un **Query** o un **Arricchimento** L’attività è configurata con dati aggiuntivi nella console. I dati di arricchimento vengono presi in considerazione e passati nella transizione in uscita, ma non possono essere modificati."
+>abstract="Quando un’attività **Query** o **Arricchimento** è configurata con dati aggiuntivi nella console; i dati di arricchimento vengono presi in considerazione e trasmessi nella transizione in uscita, ma non possono essere modificati."
 
 <!-- Create a link -->
 
 >[!CONTEXTUALHELP]
 >id="dc_federated_database_create_link"
 >title="Creare un collegamento"
->abstract="Definisci le impostazioni del collegamento."
+>abstract="Definire le impostazioni del collegamento."

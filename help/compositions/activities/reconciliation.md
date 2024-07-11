@@ -5,7 +5,7 @@ description: Scopri come utilizzare l’attività Reconciliation
 source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 23%
+ht-degree: 29%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 23%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation"
 >title="Attività di riconciliazione"
->abstract="Il **Reconciliation** attività ti consente di definire il collegamento tra i dati nel database e i dati in una tabella di lavoro."
+>abstract="L’attività **Riconciliazione** consente di definire il collegamento tra i dati nel database e quelli in una tabella di lavoro."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_field"
@@ -63,7 +63,7 @@ Il **Reconciliation** L’attività ti consente di collegare dati non identifica
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_attribute"
 >title="Attributo di riconciliazione"
->abstract="Selezionare l&#39;attributo da utilizzare per riconciliare i dati e confermare."
+>abstract="Seleziona l’attributo da utilizzare per riconciliare i dati e conferma."
 
 Per configurare il **Reconciliation** attività:
 

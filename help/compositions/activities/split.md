@@ -5,7 +5,7 @@ description: Scopri come utilizzare l’attività di suddivisione
 source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
 source-wordcount: '927'
-ht-degree: 59%
+ht-degree: 61%
 
 ---
 
@@ -24,7 +24,7 @@ L’attività **Dividi** consente di segmentare le popolazioni in ingresso in pi
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_segments"
 >title="Segmenti per attività Dividi"
->abstract="Aggiungi tutti i sottoinsiemi desiderati per segmentare la popolazione in ingresso.<br/></br>Quando viene eseguita l’attività **Dividi**, la popolazione viene segmentata tra i diversi sottoinsiemi nell’ordine in cui vengono aggiunti all’attività. Prima di iniziare la composizione, assicuratevi di aver ordinato i sottoinsiemi nell&#39;ordine più adatto alle vostre esigenze utilizzando i pulsanti freccia."
+>abstract="Aggiungi tutti i sottoinsiemi desiderati per segmentare la popolazione in ingresso.<br/></br>Quando viene eseguita l’attività **Dividi**, la popolazione viene segmentata tra i diversi sottoinsiemi nell’ordine in cui vengono aggiunti all’attività. Prima di avviare la composizione, assicurati di aver ordinato i sottoinsiemi nell’ordine più adatto alle tue esigenze utilizzando i pulsanti freccia."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_filter"

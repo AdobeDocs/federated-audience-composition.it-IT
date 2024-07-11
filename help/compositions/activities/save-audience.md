@@ -5,7 +5,7 @@ description: Scopri come utilizzare l’attività Save audience
 source-git-commit: 6b7a0ae164bdb09b1f5fc067a13e304eec9c5201
 workflow-type: tm+mt
 source-wordcount: '358'
-ht-degree: 26%
+ht-degree: 39%
 
 ---
 
@@ -24,15 +24,15 @@ ht-degree: 26%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience_primary_identity"
->title="Campo identità primaria"
->abstract="Seleziona l’identità principale da utilizzare per i profili."
->additional-url="https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="Ulteriori informazioni sono disponibili nella documentazione di Experience Platform"
+>title="Campo dell’identità primaria"
+>abstract="Seleziona l’identità primaria da utilizzare per i profili."
+>additional-url="https://experienceleague.adobe.com/it/docs/experience-platform/xdm/ui/fields/identity#define-a-identity-field" text="Ulteriori informazioni nella documentazione di Experience Platform"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_namespace"
 >title="Spazio dei nomi identità"
->abstract="Seleziona lo spazio dei nomi da utilizzare per i profili."
->additional-url="https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/namespaces" text="Ulteriori informazioni sono disponibili nella documentazione di Experience Platform"
+>abstract="Selezionare lo spazio dei nomi da utilizzare per i profili."
+>additional-url="https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/namespaces" text="Ulteriori informazioni nella documentazione di Experience Platform"
 
 Il **Salva pubblico** attività ti consente di aggiornare un pubblico esistente o crearne uno nuovo dalla popolazione calcolata a monte in una composizione. I tipi di pubblico creati vengono aggiunti all’elenco dei tipi di pubblico delle applicazioni e sono disponibili tramite il menu **Tipi di pubblico**.
 

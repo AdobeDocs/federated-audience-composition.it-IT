@@ -5,7 +5,7 @@ description: Scopri come utilizzare l’attività Genera pubblico
 source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
 source-wordcount: '237'
-ht-degree: 24%
+ht-degree: 39%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 24%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience"
 >title="Attività Creazione del pubblico"
->abstract="Il **Creare un pubblico** attività ti consente di definire il pubblico che entrerà nella composizione."
+>abstract="L’attività **Creazione del pubblico** consente di definire il pubblico che sarà inserito nella composizione."
 
-Il **Creare un pubblico** attività ti consente di definire il pubblico che entrerà nella composizione.
+L’attività **Creazione del pubblico** consente di definire il pubblico che sarà inserito nella composizione.
 
 Per definire la popolazione del pubblico, puoi eseguire le seguenti operazioni:
 
@@ -32,7 +32,7 @@ Il **Creare un pubblico** L’attività può essere posizionata all’inizio del
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_audienceselector"
 >title="Pubblico"
->abstract="Seleziona il pubblico."
+>abstract="Selezionare il pubblico."
 
 Per configurare l’attività **Crea pubblico**, segui questi passaggi:
 
@@ -58,7 +58,7 @@ Per selezionare un pubblico esistente, segui questi passaggi:
 
 1. Seleziona **Leggi pubblico**.
 1. Fai clic su **Continua**.
-1. Seleziona il pubblico.
+1. Selezionare il pubblico.
 
 >[!ENDTABS]
 

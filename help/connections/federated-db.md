@@ -1,33 +1,33 @@
 ---
 audience: end-user
-title: Introduzione ai database federati
+title: Introduzione ai Database federati
 description: Scopri come creare e gestire i Federated Database
 source-git-commit: 847da9a5eeb28199010f8491f7eebba4a60a83f1
 workflow-type: tm+mt
 source-wordcount: '890'
-ht-degree: 2%
+ht-degree: 10%
 
 ---
 
-# Introduzione ai database federati {#federated-db}
+# Introduzione ai Database federati {#federated-db}
 
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
 >title="Database federati"
->abstract="In questa schermata sono elencate le connessioni esistenti ai database federati. Per creare una nuova connessione, fare clic su **Aggiungi database federato** pulsante."
+>abstract="In questa schermata sono elencate le connessioni esistenti ai database federati. Per creare una nuova connessione, fai clic sul pulsante **Aggiungi database federato**."
 
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
->title="Proprietà Federated Database"
->abstract="Immettere il nome del nuovo Federated Database e selezionarne il tipo."
+>title="Proprietà del Database federato"
+>abstract="Immetti il nome del nuovo Database federato e selezionane il tipo."
 
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"
 >title="Dettagli del database federato"
->abstract="Immettere le impostazioni per la connessione al nuovo Federated Database. Utilizza il **Verifica connessione** per convalidare la configurazione."
+>abstract="Immetti le impostazioni per la connessione al nuovo Database federato. Utilizza il pulsante **Verifica connessione** per convalidare la configurazione."
 
 Creare, configurare, verificare e salvare la connessione a un database esterno.
 

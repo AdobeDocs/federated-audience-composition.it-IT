@@ -5,7 +5,7 @@ description: Scopri come iniziare con i modelli di dati
 source-git-commit: 11abbb900e44d8588bff9d197fbe31a92621cf6c
 workflow-type: tm+mt
 source-wordcount: '163'
-ht-degree: 1%
+ht-degree: 37%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 1%
 >[!CONTEXTUALHELP]
 >id="dc_model_menu"
 >title="Utilizzare i modelli"
->abstract="Gli schemi e i modelli di dati sono elencati in questa schermata. Puoi creare schemi e modelli di dati dalla sezione **Crea** pulsante."
+>abstract="In questa schermata sono elencati gli schemi e i modelli di dati. Puoi creare schemi e modelli di dati dal pulsante **Crea**."
 
 >[!CONTEXTUALHELP]
 >id="dc_datamodel_add_schema"
->title="Seleziona schemi"
+>title="Selezionare gli schemi"
 >abstract="Seleziona gli schemi per il modello dati."
 
 
