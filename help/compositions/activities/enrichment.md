@@ -5,7 +5,7 @@ description: Scopri come utilizzare l’attività Enrichment
 source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 45%
+ht-degree: 53%
 
 ---
 
@@ -14,12 +14,12 @@ ht-degree: 45%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment"
->title="Attività Arricchimento"
+>title="Attività di arricchimento"
 >abstract="L’attività di **Arricchimento** consente di migliorare i dati mirati con informazioni aggiuntive provenienti dal database. Viene comunemente utilizzata in una composizione dopo le attività di segmentazione."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_data"
->title="Attività Arricchimento"
+>title="Attività di arricchimento"
 >abstract="Una volta aggiunti i dati di arricchimento alla composizione, questi possono essere utilizzati nelle attività aggiunte dopo quella **Arricchimento** per segmentare i profili in gruppi distinti in base a comportamenti, preferenze e scelte."
 
 >[!CONTEXTUALHELP]
@@ -35,21 +35,21 @@ ht-degree: 45%
 >[!CONTEXTUALHELP]
 >id="dc_targetdata_personalization_enrichmentdata"
 >title="Dati di arricchimento"
->abstract="Seleziona i dati da utilizzare per arricchire la composizione. Puoi selezionare due tipi di dati di arricchimento: un singolo attributo di arricchimento dallo schema, noto anche come dimensione di targeting, o un collegamento di raccolta, che è un collegamento con cardinalità 1-N tra le tabelle."
+>abstract="Seleziona i dati da utilizzare per arricchire la composizione. Puoi selezionare due tipi di dati di arricchimento: un attributo di arricchimento singolo dallo schema, noto anche come dimensione targeting, oppure un collegamento della raccolta, che è un collegamento con cardinalità 1-N tra le tabelle."
 
-Il **Arricchimento** attività ti consente di migliorare i dati di destinazione con informazioni aggiuntive dal database federato. Viene comunemente utilizzato nelle composizioni dopo le attività di segmentazione.
+L&#39;attività **Enrichment** consente di migliorare i dati di destinazione con informazioni aggiuntive dal database federato. Viene comunemente utilizzato nelle composizioni dopo le attività di segmentazione.
 
 I dati di arricchimento possono provenire:
 
-* **Dalla stessa tabella di lavoro** come quello di destinazione nella composizione:
+* **Dalla stessa tabella di lavoro** di quella di destinazione nella composizione:
 
-  *Eseguire il targeting di un gruppo di clienti e aggiungere il campo &quot;Data di nascita&quot; alla tabella di lavoro corrente*.
+  *Eseguire il targeting di un gruppo di clienti e aggiungere il campo Data di nascita alla tabella di lavoro corrente*.
 
 * **Da un’altra tabella di lavoro**:
 
   *Esegui il targeting di un gruppo di clienti e aggiungere i campi “Importo” e “Tipo di prodotto” provenienti dalla tabella “Acquisto”*.
 
-Una volta aggiunti i dati di arricchimento alla composizione, questi possono essere utilizzati nelle attività aggiunte dopo **Arricchimento** attività per segmentare i clienti in gruppi distinti in base a comportamenti, preferenze e scelte.
+Una volta aggiunti i dati di arricchimento alla composizione, è possibile utilizzarli nelle attività aggiunte dopo l&#39;attività **Arricchimento** per segmentare i clienti in gruppi distinti in base a comportamenti, preferenze e scelte.
 
 <!--For instance, you can add to the working table information related to customers' purchases and use this data to personalize emails with their latest purchase or the amount spent on these purchases.-->
 
@@ -62,15 +62,15 @@ Per configurare l’attività **Arricchimento** segui questi passaggi:
 
    ![](../assets/enrichment.png)
 
-1. Se nella composizione sono state configurate più transizioni, puoi utilizzare **[!UICONTROL Set primario]** per definire quale transizione deve essere utilizzata come set principale da arricchire con i dati.
+1. Se nella composizione sono state configurate più transizioni, è possibile utilizzare il campo **[!UICONTROL Set principale]** per definire quale transizione deve essere utilizzata come set principale da arricchire con i dati.
 
-1. Clic **Aggiungere dati di arricchimento** e seleziona l’attributo da utilizzare per arricchire i dati.
+1. Fare clic su **Aggiungi dati di arricchimento** e selezionare l&#39;attributo da utilizzare per arricchire i dati.
 
    ![](../assets/enrichment-add.png)
 
    >[!NOTE]
    >
-   >Il **Pulsante espressione Modifica** nella schermata di selezione degli attributi consente di creare espressioni avanzate per selezionare l’attributo.
+   >Il pulsante **Modifica espressione** nella schermata di selezione degli attributi consente di creare espressioni avanzate per selezionare l&#39;attributo.
 
 <!--PAS VU SUR INSTANCE: You can select two types of enrichment data: a single enrichment attribute from the target dimension, or a collection link. Each of these types is detailed in the examples below:
 

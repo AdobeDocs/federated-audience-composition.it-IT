@@ -5,7 +5,7 @@ description: Scopri come utilizzare l’attività Modifica dimensione
 source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 25%
+ht-degree: 49%
 
 ---
 
@@ -20,21 +20,21 @@ ht-degree: 25%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_change_dimension"
 >title="Attività Cambia dimensione"
->abstract="Questa attività ti consente di modificare lo schema, noto anche come dimensione di targeting, durante la creazione di un pubblico. Sposta l’asse a seconda del modello di dati e dello schema di input. Ad esempio, puoi passare dallo schema &quot;contratti&quot; allo schema &quot;client&quot;."
+>abstract="Questa attività consente di modificare lo schema, noto anche come dimensione targeting durante la creazione di un pubblico. Sposta l’asse in base al modello di dati e alla schema di input. Ad esempio, puoi passare dallo schema “contratti” allo schema “clienti”."
 
-Il **Cambia dimensione** L’attività ti consente di modificare lo schema, noto anche come dimensione di targeting, durante la creazione del pubblico. Sposta l’asse a seconda del modello di dati e dello schema di input.
+L&#39;attività **Modifica dimensione** consente di modificare lo schema, noto anche come dimensione di targeting, durante la creazione del pubblico. Sposta l’asse a seconda del modello di dati e dello schema di input.
 
 ## Configurare l’attività Cambia dimensione {#configure}
 
 Per configurare l’attività **Cambia dimensione** segui questi passaggi:
 
-1. Aggiungi un **Cambia dimensione** alla tua composizione.
+1. Aggiungi un&#39;attività **Modifica dimensione** alla composizione.
 
    ![](../assets/change-dimension.png)
 
-1. Definisci il **Nuovo schema**. Durante la modifica dello schema, vengono conservati tutti i record.
+1. Definisci il **nuovo schema**. Durante la modifica dello schema, vengono conservati tutti i record.
 
-1. Eseguite la composizione per visualizzare il risultato. Confrontare i dati nelle tabelle prima e dopo il **Cambia dimensione** e confrontano la struttura delle tabelle di composizione.
+1. Eseguite la composizione per visualizzare il risultato. Confrontare i dati nelle tabelle prima e dopo l&#39;attività **Modifica dimensione** e confrontare la struttura delle tabelle di composizione.
 
 <!--
 ## Example {#example}

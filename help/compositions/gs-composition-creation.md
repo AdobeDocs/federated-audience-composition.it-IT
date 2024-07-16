@@ -5,7 +5,7 @@ description: Scopri come creare le composizioni
 source-git-commit: 0d6930b15be5013b57b8859dd3d21a5d3367ecae
 workflow-type: tm+mt
 source-wordcount: '229'
-ht-degree: 41%
+ht-degree: 59%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 41%
 >[!CONTEXTUALHELP]
 >id="dc_composition_creation_properties"
 >title="Proprietà della composizione"
->abstract="In questa schermata, scegliete il modello da utilizzare per creare la composizione e specificate un&#39;etichetta. Espandere la sezione OPTIONS AGGIUNTIVI per configurare altre impostazioni quali il nome interno della composizione, la relativa cartella, il fuso orario e il gruppo di supervisori. Si consiglia vivamente di selezionare un gruppo di supervisori in modo che gli operatori vengano avvisati in caso di errore."
+>abstract="In questa schermata, scegli il modello da utilizzare per creare la composizione e specifica un’etichetta. Espandi la sezione OPZIONI AGGIUNTIVE per configurare altre impostazioni quali il nome interno della composizione, la relativa cartella, il fuso orario e il gruppo di supervisori. Si consiglia vivamente di selezionare un gruppo di supervisori in modo che gli operatori vengano avvisati in caso di errore."
 
 ## Cosa c&#39;è all&#39;interno di una composizione? {#gs-composition-inside}
 

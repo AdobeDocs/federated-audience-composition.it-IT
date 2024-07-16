@@ -5,7 +5,7 @@ description: Scopri come utilizzare l’attività Combina
 source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 62%
+ht-degree: 77%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 62%
 
 L’attività **Combina** consente di eseguire la segmentazione sulla popolazione in entrata. Puoi quindi combinare più popolazioni, escluderne parte o mantenere i dati comuni a più destinazioni.
 
-Il **Combina** L’attività può essere inserita dopo qualsiasi altra attività, ma non all’inizio della composizione. Qualsiasi attività può essere inserita dopo il **Combina**.
+L&#39;attività **Combine** può essere inserita dopo qualsiasi altra attività, ma non all&#39;inizio della composizione. Qualsiasi attività può essere inserita dopo **Combina**.
 
 ## Configurare l’attività Combina {#combine-configuration}
 
@@ -44,11 +44,11 @@ Per iniziare a configurare l’attività **Combina**, segui questi passaggi comu
 
 1. Aggiungi un’attività **Combina** ad uno dei rami precedenti.
 
-1. Seleziona il tipo di segmentazione: [Union](#union), [Intersezione](#intersection) o [Esclusione](#exclusion)e fai clic su **Continua**.
+1. Seleziona il tipo di segmentazione: [Unione](#union), [Intersezione](#intersection) o [Esclusione](#exclusion), quindi fai clic su **Continua**.
 
    ![](../assets/combine.png)
 
-1. In **Set da unire** , controlla tutte le attività precedenti a cui desideri partecipare.
+1. Nella sezione **Imposta per partecipare**, controlla tutte le attività precedenti a cui vuoi partecipare.
 
 ## Unione {#combine-union}
 
@@ -62,7 +62,7 @@ Per iniziare a configurare l’attività **Combina**, segui questi passaggi comu
 >title="Opzioni di riconciliazione"
 >abstract="Seleziona il **Tipo di riconciliazione** per definire la modalità di gestione dei duplicati."
 
-In **Combina** attività, puoi configurare un **Union**.
+Nell&#39;attività **Combina** è possibile configurare una **Unione**.
 
 ![](../assets/combine-union.png)
 
@@ -73,21 +73,21 @@ Per l’attività Unione, è necessario selezionare il **Tipo di riconciliazione
 
 ## Intersezione  {#combine-intersection}
 
-In **Combina** attività, puoi configurare un’ **Intersezione**.
+Nell&#39;attività **Combina** è possibile configurare un&#39;intersezione ****.
 
 ![](../assets/combine-intersection.png)
 
 A questo scopo, segui i passaggi aggiuntivi seguenti:
 
 1. Seleziona il **Tipo di riconciliazione** per definire la modalità di gestione dei duplicati. Consulta la sezione [Unione](#union).
-1. Puoi controllare la **Genera complemento** se desideri elaborare la popolazione rimanente. Il complemento conterrà l’unione dei risultati di tutte le attività in entrata senza l’intersezione. Verrà quindi aggiunta all’attività un’ulteriore transizione in uscita.
+1. È possibile selezionare l&#39;opzione **Genera complemento** se si desidera elaborare la popolazione rimanente. Il complemento conterrà l’unione dei risultati di tutte le attività in entrata senza l’intersezione. Verrà quindi aggiunta all’attività un’ulteriore transizione in uscita.
 
 ## Esclusione {#combine-exclusion}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_options"
 >title="Regole di esclusione"
->abstract="Se necessario, è possibile elaborare le tabelle in entrata. Infatti, per escludere un target da un altro schema, noto anche come dimensione di targeting, questo target deve essere restituito allo stesso schema del target principale. A questo scopo, fai clic su **Aggiungi una regola** nella E **regole di esclusione** e specificare le condizioni per la modifica dello schema. La riconciliazione dei dati viene eseguita tramite un attributo o un’unione."
+>abstract="Se necessario, è possibile elaborare le tabelle in entrata. In effetti per escludere un target da un altro schema, noto anche come dimensione targeting, tale target deve essere restituito nello stesso schema del target principale. A questo scopo, nella sezione **Regole di esclusione**, fai clic su **Aggiungi una regola** e specifica le condizioni per la modifica dello schema. La riconciliazione dei dati viene eseguita tramite un attributo o un’unione."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_sets"
@@ -97,14 +97,14 @@ A questo scopo, segui i passaggi aggiuntivi seguenti:
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_exclusion"
 >title="Regole di esclusione"
->abstract="Se necessario, è possibile elaborare le tabelle in entrata. Infatti, per escludere un target da un altro schema, noto anche come dimensione di targeting, questo target deve essere restituito allo stesso schema del target principale. A questo scopo, fai clic su **Aggiungi una regola** nel **Regole di esclusione** e specificare le condizioni per la modifica dello schema. La riconciliazione dei dati viene eseguita tramite un attributo o un’unione."
+>abstract="Se necessario, è possibile elaborare le tabelle in entrata. In effetti per escludere un target da un altro schema, noto anche come dimensione targeting, tale target deve essere restituito nello stesso schema del target principale. A questo scopo, nella sezione **Regole di esclusione**, fai clic su **Aggiungi una regola** e specifica le condizioni per la modifica dello schema. La riconciliazione dei dati viene eseguita tramite un attributo o un’unione."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_complement"
 >title="Complemento generato da combinazione"
 >abstract="Attiva l’opzione **Genera complemento** per elaborare la popolazione rimanente in una transizione aggiuntiva."
 
-In **Combina** attività, puoi configurare un’ **Esclusione**.
+Nell&#39;attività **Combina**, puoi configurare un&#39;esclusione ****.
 
 ![](../assets/combine-exclusion.png)
 
@@ -112,7 +112,7 @@ A questo scopo, segui i passaggi aggiuntivi riportati di seguito:
 
 1. Nella sezione **Set da unire**, dalle transizioni in entrata, seleziona **Set primario**. Questo è il set da cui gli elementi sono esclusi. Gli altri set confrontano gli elementi prima che vengano esclusi dal set primario.
 
-1. Se necessario, è possibile elaborare le tabelle in entrata. Infatti, per escludere un target da un altro schema, questo target deve essere restituito allo stesso schema del target principale. A questo scopo, fai clic su **Aggiungi una regola** nel **Regole di esclusione** e specificare le condizioni per la modifica dello schema. La riconciliazione dei dati viene eseguita tramite un attributo o un join. <!-- pas compris-->
+1. Se necessario, è possibile elaborare le tabelle in entrata. Infatti, per escludere un target da un altro schema, questo target deve essere restituito allo stesso schema del target principale. A questo scopo, nella sezione **Regole di esclusione**, fai clic su **Aggiungi una regola** e specifica le condizioni per la modifica dello schema. La riconciliazione dei dati viene eseguita tramite un attributo o un join. <!-- pas compris-->
 1. Puoi selezionare l’opzione **Genera complemento** se desideri elaborare la popolazione rimanente. Consulta la sezione [Intersezione](#intersection).
 
 <!--

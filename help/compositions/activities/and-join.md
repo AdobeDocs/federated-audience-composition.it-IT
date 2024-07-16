@@ -14,9 +14,9 @@ ht-degree: 57%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_and-join"
 >title="Attività AND-join"
->abstract="L’attività **AND-join** consente di sincronizzare più rami di esecuzione di una composizione. Viene attivata al termine di tutte le attività precedenti. Questo consente di verificare che alcune attività siano state completate prima di continuare a eseguire la composizione."
+>abstract="L’attività **AND-join** consente di sincronizzare più rami di esecuzione di una composizione. Viene attivata al termie di tutte le attività precedenti. Questo consente di verificare che alcune attività siano state completate prima di continuare a eseguire la composizione."
 
-Il **Unione AND** attività consente di sincronizzare più rami di esecuzione di una composizione.
+L&#39;attività **AND-join** consente di sincronizzare più rami di esecuzione di una composizione.
 
 Questa attività attiva la relativa transizione in uscita solo dopo che tutte le transizioni in entrata sono state attivate, in altre parole, dopo che tutte le attività precedenti sono state completate. Questo ti consente di verificare che alcune attività siano state completate prima di continuare a eseguire la composizione.
 
@@ -34,5 +34,5 @@ Per configurare l’attività **Unione AND**, segui questi passaggi:
 
    ![](../assets/and-join.png)
 
-1. In **Opzioni di unione** , controlla tutte le attività precedenti che desideri sincronizzare.
+1. Nella sezione **Opzioni di unione**, seleziona tutte le attività precedenti che desideri sincronizzare.
 1. Nel menu a discesa **Set primario**, scegli la popolazione di transizione in entrata da mantenere. La transizione in uscita può contenere solo una delle popolazioni di transizione in entrata. Se l’attività non è configurata, la transizione in uscita selezionerà in modo casuale una delle popolazioni in entrata.

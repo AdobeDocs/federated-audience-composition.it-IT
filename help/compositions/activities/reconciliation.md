@@ -5,7 +5,7 @@ description: Scopri come utilizzare l’attività Reconciliation
 source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 29%
+ht-degree: 39%
 
 ---
 
@@ -32,18 +32,18 @@ ht-degree: 29%
 >title="Complemento generato da riconciliazione"
 >abstract="Complemento generato da riconciliazione"
 
-Il **Reconciliation** activity (attività) consente di definire il collegamento tra i dati nel database e i dati in una tabella di lavoro, ad esempio i dati caricati da un sistema esterno.
+L&#39;attività **Reconciliation** ti consente di definire il collegamento tra i dati nel database e i dati in una tabella di lavoro, ad esempio i dati caricati da un sistema esterno.
 
 <!--For example, the **Reconciliation** activity can be placed after a **Load file** activity to import non-standard data into the database. In this case, the **Reconciliation** activity lets you define the link between the data in the Adobe Campaign database and the data in the work table.-->
 
-Il **Reconciliation** L’attività ti consente di collegare dati non identificati a risorse esistenti. L&#39;operazione Reconciliation implica che i dati che si stanno unendo sono già presenti nel database. Ad esempio, se desideri riconciliare le informazioni sugli acquisti che mostrano quale prodotto è stato acquistato in un determinato momento da un determinato cliente, ecc., il prodotto e il cliente devono già esistere nel database.
+L&#39;attività **Reconciliation** consente di collegare dati non identificati a risorse esistenti. L&#39;operazione Reconciliation implica che i dati che si stanno unendo sono già presenti nel database. Ad esempio, se desideri riconciliare le informazioni sugli acquisti che mostrano quale prodotto è stato acquistato in un determinato momento da un determinato cliente, ecc., il prodotto e il cliente devono già esistere nel database.
 
 ## Configurare l’attività di riconciliazione {#reconciliation-configuration}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting"
 >title="Schema"
->abstract="Seleziona il nuovo schema da applicare ai dati. Uno schema, noto anche come dimensione di targeting, consente di definire la popolazione target: destinatari, abbonati all’app, operatori, abbonati, ecc. Per impostazione predefinita, viene selezionato lo schema corrente della composizione."
+>abstract="Seleziona il nuovo schema da applicare ai dati. Uno schema, noto anche come dimensione targeting, consente di definire la popolazione di destinazione: destinatari, abbonati all’app, operatori, iscritti, ecc. Per impostazione predefinita, è selezionato lo schema corrente della composizione."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_rules"
@@ -53,7 +53,7 @@ Il **Reconciliation** L’attività ti consente di collegare dati non identifica
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting_selection"
 >title="Selezionare una dimensione di targeting"
->abstract="Seleziona lo schema, noto anche come dimensione di targeting, con cui riconciliare i dati in entrata."
+>abstract="Seleziona lo schema, noto anche come dimensione targeting, per i dati in entrata da riconciliare."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_keep_unreconciled_data"
@@ -65,28 +65,28 @@ Il **Reconciliation** L’attività ti consente di collegare dati non identifica
 >title="Attributo di riconciliazione"
 >abstract="Seleziona l’attributo da utilizzare per riconciliare i dati e conferma."
 
-Per configurare il **Reconciliation** attività:
+Per configurare l&#39;attività **Reconciliation**, eseguire la procedura seguente:
 
-1. Aggiungi un **Reconciliation** attività nella composizione.
+1. Aggiungi un&#39;attività **Reconciliation** nella composizione.
 
-1. Seleziona la **Nuovo schema**. Uno schema, noto anche come dimensione di targeting, consente di definire la popolazione target: destinatari, abbonati all’app, operatori, abbonati, ecc.
+1. Seleziona il **nuovo schema**. Uno schema, noto anche come dimensione di targeting, consente di definire la popolazione target: destinatari, abbonati all’app, operatori, abbonati, ecc.
 
 1. Seleziona i campi da utilizzare per la riconciliazione. Puoi utilizzare uno o più criteri di riconciliazione.
 
-   1. Per utilizzare gli attributi per riconciliare i dati, selezionare **Attributi semplici** quindi fare clic sul pulsante **Aggiungi regola** pulsante.
-   1. Seleziona la **Source** e **Destinazione** campi per la riconciliazione. Il **Source** campo. Il **Destinazione** corrisponde ai campi dello schema selezionato.
+   1. Per utilizzare gli attributi per riconciliare i dati, seleziona l&#39;opzione **Attributi semplici**, quindi fai clic sul pulsante **Aggiungi regola**.
+   1. Selezionare i campi **Source** e **Destination** per la riconciliazione. Il campo **Source**. Il campo **Destinazione** corrisponde ai campi dello schema selezionato.
 
-      I dati vengono riconciliati quando l’origine e la destinazione sono uguali. Ad esempio, seleziona la **E-mail** per deduplicare i profili in base al loro indirizzo e-mail.
+      I dati vengono riconciliati quando l’origine e la destinazione sono uguali. Ad esempio, seleziona i campi **E-mail** per deduplicare i profili in base al loro indirizzo e-mail.
 
-      Per aggiungere un altro criterio di riconciliazione, fai clic su **Aggiungi regola** pulsante. Se sono specificate più condizioni di unione, è necessario verificarle TUTTE in modo che i dati possano essere collegati tra loro.
+      Per aggiungere un altro criterio di riconciliazione, fare clic sul pulsante **Aggiungi regola**. Se sono specificate più condizioni di unione, è necessario verificarle TUTTE in modo che i dati possano essere collegati tra loro.
 
       ![](../assets/reconciliation-rules.png)
 
-   1. Per utilizzare altri attributi per riconciliare i dati, selezionare **Condizioni di riconciliazione avanzate** quindi fare clic sul pulsante **Creare condizioni** pulsante. Puoi quindi creare una condizione di riconciliazione personalizzata utilizzando Query Modeler. [Scopri come utilizzare Query Modeler](../../query/query-modeler-overview.md)
+   1. Per utilizzare altri attributi per riconciliare i dati, selezionare l&#39;opzione **Condizioni di riconciliazione avanzate**, quindi fare clic sul pulsante **Crea condizioni**. Puoi quindi creare una condizione di riconciliazione personalizzata utilizzando Query Modeler. [Scopri come utilizzare Query Modeler](../../query/query-modeler-overview.md)
 
       ![](../assets/reconciliation-advanced.png)
 
-1. È possibile filtrare i dati da riconciliare utilizzando **Crea filtro** pulsante. Questo consente di creare una condizione personalizzata utilizzando il modellatore di query.
+1. Puoi filtrare i dati da riconciliare utilizzando il pulsante **Crea filtro**. Questo consente di creare una condizione personalizzata utilizzando il modellatore di query.
 
 Per impostazione predefinita, i dati non riconciliati vengono conservati nella transizione in uscita e sono disponibili nella tabella di lavoro per utilizzi futuri. Per rimuovere i dati non riconciliati, disattiva l’opzione **Mantieni i dati non riconciliati**.
 

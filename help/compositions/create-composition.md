@@ -5,7 +5,7 @@ description: Scopri come creare le composizioni
 source-git-commit: be24c32977cdccab0a5fc7e77a033f4d2b746b9f
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 20%
+ht-degree: 21%
 
 ---
 
@@ -16,13 +16,13 @@ Il primo passaggio per creare una composizione consiste nel definirne l’etiche
 
 ## Creare la composizione {#create-the-composition}
 
-1. Accedere a **[!UICONTROL Tipi di pubblico]** e selezionare il **[!UICONTROL Composizioni federate]** scheda.
+1. Accedi al menu **[!UICONTROL Tipi di pubblico]** e seleziona la scheda **[!UICONTROL Composizioni federate]**.
 
-1. Fai clic su **[!UICONTROL Crea composizione]** pulsante.
+1. Fare clic sul pulsante **[!UICONTROL Crea composizione]**.
 
    ![](assets/composition-create.png)
 
-1. In **[!UICONTROL Proprietà]** , specificare un&#39;etichetta per la composizione e fare clic su **[!UICONTROL Crea]**.
+1. Nella sezione **[!UICONTROL Proprietà]**, specifica un&#39;etichetta per la composizione e fai clic su **[!UICONTROL Crea]**.
 
 1. Viene visualizzata l’area di lavoro della composizione. Ora puoi configurare la composizione aggiungendo tutte le attività necessarie per soddisfare le tue esigenze prima di eseguirla:
 
@@ -43,27 +43,27 @@ Il primo passaggio per creare una composizione consiste nel definirne l’etiche
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_settings_error"
->title="Impostazioni di gestione degli errori"
+>title="Errore di impostazioni di gestione"
 >abstract="In questa sezione puoi definire la gestione degli errori durante l’esecuzione. Puoi scegliere di sospendere il processo, ignorare un certo numero di errori o interrompere l’esecuzione della composizione."
 
 Quando accedete a una composizione, potete accedere a impostazioni avanzate che consentono, ad esempio, di definire il comportamento della composizione in caso di errore.
 
-Per accedere ad altre opzioni per la composizione, fate clic su **Impostazioni** nella sezione superiore della schermata di creazione della composizione.
+Per accedere alle opzioni aggiuntive per la composizione, fai clic sul pulsante **Impostazioni** nella sezione superiore della schermata di creazione della composizione.
 
 ![](assets/composition-create-settings.png)
 
 Le impostazioni disponibili sono le seguenti:
 
-* **[!UICONTROL Etichetta]**: modifica l’etichetta della composizione.
+* **[!UICONTROL Etichetta]**: modifica l&#39;etichetta della composizione.
 
-* **[!UICONTROL Mantieni il risultato delle popolazioni provvisorie tra due esecuzioni]**: per impostazione predefinita, vengono mantenute solo le tabelle di lavoro dell’ultima esecuzione della composizione. Le tabelle di lavoro delle esecuzioni precedenti sono eliminate da una composizione tecnica, che viene eseguita su base giornaliera.
+* **[!UICONTROL Mantieni il risultato delle popolazioni provvisorie tra due esecuzioni]**: per impostazione predefinita, vengono mantenute solo le tabelle di lavoro dell&#39;ultima esecuzione della composizione. Le tabelle di lavoro delle esecuzioni precedenti sono eliminate da una composizione tecnica, che viene eseguita su base giornaliera.
 
   Se questa opzione è attivata, le tabelle di lavoro verranno mantenute anche dopo l&#39;esecuzione della composizione. Puoi utilizzarlo a scopo di test e quindi deve essere utilizzato **solo** in ambienti di sviluppo o di staging. Non deve mai essere controllato in una composizione di produzione.
 
-* **[!UICONTROL Gestione degli errori]**: questa opzione ti consente di definire le azioni da intraprendere in caso di errori in un’attività di composizione. Sono disponibili tre opzioni:
+* **[!UICONTROL Gestione degli errori]**: questa opzione consente di definire le azioni da eseguire in caso di errori in un&#39;attività di composizione. Sono disponibili tre opzioni:
 
-   * **[!UICONTROL Sospendi il processo]**: la composizione viene automaticamente messa in pausa e il suo stato cambia in **[!UICONTROL Non riuscito]**. Una volta risolto il problema, riprendere la composizione utilizzando **[!UICONTROL Riprendi]** pulsanti.
-   * **[!UICONTROL Ignora]**: lo stato dell’attività che ha attivato l’errore cambia in **[!UICONTROL Non riuscito]**, ma la composizione mantiene il **[!UICONTROL Avviato]** stato.
-   * **[!UICONTROL Interrompi il processo]**: la composizione viene arrestata automaticamente e il suo stato cambia in **[!UICONTROL Non riuscito]**. Una volta risolto il problema, riavvia la composizione utilizzando **[!UICONTROL Inizio]** pulsante.
+   * **[!UICONTROL Sospendi il processo]**: la composizione viene automaticamente sospesa e il suo stato cambia in **[!UICONTROL Non riuscito]**. Una volta risolto il problema, riprendere la composizione utilizzando i pulsanti **[!UICONTROL Riprendi]**.
+   * **[!UICONTROL Ignora]**: lo stato dell&#39;attività che ha attivato l&#39;errore diventa **[!UICONTROL Non riuscito]**, ma la composizione mantiene lo stato **[!UICONTROL Avviato]**.
+   * **[!UICONTROL Interrompi il processo]**: la composizione viene arrestata automaticamente e il suo stato cambia in **[!UICONTROL Non riuscito]**. Una volta risolto il problema, riavviare la composizione utilizzando il pulsante **[!UICONTROL Avvia]**.
 
-* **[!UICONTROL Errori consecutivi]**: specifica il numero di errori che possono essere ignorati prima dell’interruzione del processo. Una volta raggiunto questo numero, lo stato della composizione cambia in **[!UICONTROL Non riuscito]**. Se il valore di questo campo è 0, la composizione non verrà mai interrotta indipendentemente dal numero di errori.
+* **[!UICONTROL Errori consecutivi]**: specificare il numero di errori che possono essere ignorati prima dell&#39;interruzione del processo. Una volta raggiunto questo numero, lo stato della composizione diventa **[!UICONTROL Non riuscito]**. Se il valore di questo campo è 0, la composizione non verrà mai interrotta indipendentemente dal numero di errori.
