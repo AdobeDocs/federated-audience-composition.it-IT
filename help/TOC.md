@@ -2,10 +2,10 @@
 user-guide-title: Composizione di pubblico federato
 title: Documentazione di Adobe di Federated Audience Composition
 breadcrumb-title: Composizione di pubblico federato
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+source-git-commit: e79fb97ae9ce7236831f2ef4112c4cf68b889283
 workflow-type: tm+mt
 source-wordcount: '119'
-ht-degree: 34%
+ht-degree: 37%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 34%
 # Documentazione di Federated Audience Composition {#using}
 
 + [Documentazione di Federated Audience Composition](home.md)
-+ [Introduzione](chapter1/newfile.md)
++ [Introduzione](start/get-started.md)
 + Passaggi di configurazione {#config}
    + [Connettere AEP con Federated Audience Composition](connections/destinations.md)
    + [Configurare i database federati](connections/federated-db.md)
@@ -24,7 +24,7 @@ ht-degree: 34%
    + [Utilizzare i tipi di pubblico](customer/audiences.md)
 + Composizioni {#compositions}
    + [Introduzione alle composizioni](compositions/gs-compositions.md)
-   + Creare ed eseguire la prima composizione {#create-composition}
+   + Crea ed esegui la prima composizione {#create-composition}
       + [Principi chiave per la creazione della composizione](compositions/gs-composition-creation.md)
       + [Creare e configurare la composizione](compositions/create-composition.md)
       + [Orchestrare le attività](compositions/orchestrate-activities.md)
