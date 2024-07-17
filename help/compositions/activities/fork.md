@@ -28,7 +28,7 @@ L’attività **Fork** consente di creare transizioni in uscita per avviare più
 
 Per configurare l’attività **Fork** segui questi passaggi:
 
-1. Aggiungi un **Fork** alla tua composizione.
+1. Aggiungi un&#39;attività **Fork** alla composizione.
 1. Fai clic su **Aggiungi transizione** per aggiungere una nuova transizione in uscita. Per impostazione predefinita sono definite due transizioni.
 1. Aggiungi un’etichetta a ciascuna delle transizioni.
 

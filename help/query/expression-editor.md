@@ -19,25 +19,25 @@ La modifica di un’espressione comporta l’immissione manuale di condizioni pe
 
 ## Utilizzare l’editor di espressioni {#edit}
 
-L’editor di espressioni è disponibile dal modellatore di query **[!UICONTROL Modifica espressione]** disponibile per **[!UICONTROL Attributo]** e **[!UICONTROL Valore]** durante la configurazione di una condizione personalizzata.
+L&#39;editor espressioni è disponibile dal pulsante **[!UICONTROL Modifica espressione]** del modellatore di query, disponibile per i campi **[!UICONTROL Attributo]** e **[!UICONTROL Valore]** durante la configurazione di una condizione personalizzata.
 
-| Accesso da **Attributo** campo | Accesso da **Valore** campo |
+| Accesso dal campo **Attributo** | Accedi dal campo **Valore** |
 |  ---  |  ---  |
 | ![](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 L’editor di espressioni mostra:
 
-* Un **campo di input (1)** in cui è definita l&#39;espressione.
-* L’elenco delle **campi (2)** che può essere utilizzato nell’espressione e corrispondente allo schema della query, noto anche come dimensione di targeting.
-* **Funzioni helper (3)**, ordinato per categoria.
+* Un campo di input **(1)** in cui è definita l&#39;espressione.
+* Elenco dei **campi (2)** disponibili che possono essere utilizzati nell&#39;espressione e corrispondenti allo schema della query, noto anche come dimensione di targeting.
+* **Funzioni helper (3)**, ordinate per categoria.
 
 Modifica l’espressione immettendo un’espressione direttamente nel campo di input. Per aggiungere un campo o una funzione di supporto, posizionare il cursore nell&#39;espressione nel punto in cui si desidera aggiungerla e fare clic sul pulsante +.
 
 ![](assets/expression-editor.png){zoomable="yes"}
 
-Quando l’espressione è pronta, fai clic su **[!UICONTROL Conferma]** pulsante. L’espressione viene visualizzata nel campo selezionato. Per modificarlo, apri l’editor di espressioni e apporta le modifiche desiderate.
+Quando l&#39;espressione è pronta, fare clic sul pulsante **[!UICONTROL Conferma]**. L’espressione viene visualizzata nel campo selezionato. Per modificarlo, apri l’editor di espressioni e apporta le modifiche desiderate.
 
-L’esempio seguente mostra un’espressione configurata per **[!UICONTROL Valore]** campo. Per modificarlo, devi aprire l’editor di espressioni utilizzando **[!UICONTROL Modifica espressione]** pulsante.
+L&#39;esempio seguente mostra un&#39;espressione configurata per il campo **[!UICONTROL Value]**. Per modificarlo, è necessario aprire l&#39;editor espressioni utilizzando il pulsante **[!UICONTROL Modifica espressione]**.
 
 ![](assets/edit-expression-value.png){zoomable="yes"}
 
@@ -92,9 +92,9 @@ Le funzioni di aggregazione vengono utilizzate per eseguire calcoli su un insiem
    <td> StdDev(&lt;valore&gt;)<br /></td> 
   </tr>
   <tr> 
-   <td> <strong>StringaAgg</strong><br /> </td> 
+   <td> <strong>AggStringa</strong><br /> </td> 
    <td> Restituisce la concatenazione dei valori di una colonna di tipo stringa, separati dal carattere nel secondo argomento<br /> </td> 
-   <td> StringAgg(&lt;value&gt;, &lt;string&gt;)<br /></td> 
+   <td> StringAgg(&lt;Valore&gt;, &lt;Stringa&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Somma</strong><br /> </td> 
@@ -156,9 +156,9 @@ Le funzioni di data vengono utilizzate per manipolare i valori di data o ora.
    <td> ConvertNTZ (&lt;date+time&gt;)<br /> </td>  
   </tr>-->
   <tr> 
-   <td> <strong>DateCmp</strong><br /> </td> 
-   <td> Confrontare due date<br/> </td> 
-   <td> DateCmp(&lt;date&gt;,&lt;date&gt;)<br /> </td>  
+   <td> <strong>CmpData</strong><br /> </td> 
+   <td> Confronta due date<br/> </td> 
+   <td> DateCmp(&lt;data&gt;,&lt;data&gt;)<br /> </td>  
   </tr>
   <tr> 
    <td> <strong>DateOnly</strong><br /> </td> 
@@ -296,14 +296,14 @@ Le funzioni di data vengono utilizzate per manipolare i valori di data o ora.
    <td> ToDateTime(&lt;stringa&gt;)<br /> </td>  
   </tr> 
   <tr> 
-   <td> <strong>ToTimestamp</strong><br /> </td> 
+   <td> <strong>ATimestamp</strong><br /> </td> 
    <td> Converte una stringa in una marca temporale<br /> </td> 
-   <td> ToTimestamp(&lt;string&gt;)<br /> </td>  
+   <td> ToTimestamp(&lt;stringa&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToTimeZone</strong><br /> </td> 
    <td> Convertire una data + ora in fuso orario<br /> </td> 
-   <td> ToTimeZone(&lt;date&gt;,&lt;time zone=""&gt;)<br /> </td>  
+   <td> ToTimeZone(&lt;data&gt;,&lt;fuso orario&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>TruncDate</strong><br /> </td> 
@@ -353,7 +353,7 @@ Le funzioni di data vengono utilizzate per manipolare i valori di data o ora.
   <tr> 
    <td> <strong>YearsAgo</strong><br /> </td> 
    <td> Restituisce il numero di anni tra una data specificata e la data corrente<br /> </td> 
-   <td> Anni fa(&lt;date&gt;)<br /> </td>  
+   <td> YearsAgo(&lt;data&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>YearsDiff</strong><br /> </td> 
@@ -488,8 +488,8 @@ Questa tabella contiene le altre funzioni disponibili.
   </tr> 
   <tr> 
    <td> <strong>AESEncrypt</strong><br /> </td> 
-   <td> Stringa di crittografia fornita nell’argomento<br /> </td> 
-   <td> AESEncrypt(&lt;value&gt;)<br /> </td> 
+   <td> Stringa di crittografia fornita nell'argomento<br /> </td> 
+   <td> AESEncrypt(&lt;valore&gt;)<br /> </td> 
   </tr>
   <tr> 
    <td> <strong>Case</strong><br /> </td> 
@@ -547,7 +547,7 @@ Questa tabella contiene le altre funzioni disponibili.
    <td> IsEmptyString(&lt;valore 1&gt;, &lt;valore 2&gt;, &lt;valore 3&gt;)<br /> </td>  
   </tr> 
   <tr> 
-   <td> <strong>NewUUID</strong><br /> </td> 
+   <td> <strong>NuovoUUID</strong><br /> </td> 
    <td> Restituisce un ID univoco<br /> </td> 
    <td> NewUUID()<br /> </td>  
   </tr> 
@@ -618,7 +618,7 @@ Le funzioni di stringa vengono utilizzate per manipolare un insieme di stringhe.
   <tr> 
    <td> <strong>dataLength</strong><br /> </td> 
    <td> Restituisce la dimensione in byte della stringa<br /> </td> 
-   <td> dataLength(&lt;string&gt;)<br /></td> 
+   <td> dataLength(&lt;stringa&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>GetLine</strong><br /> </td> 
@@ -656,9 +656,9 @@ Le funzioni di stringa vengono utilizzate per manipolare un insieme di stringhe.
    <td> Length(&lt;stringa&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>Linea</strong><br /> </td> 
-   <td> Estrai riga n da stringa<br /> </td> 
-   <td> Line(&lt;string&gt;,&lt;number&gt;)<br /></td> 
+   <td> <strong>Riga</strong><br /> </td> 
+   <td> Estrai riga n dalla stringa<br /> </td> 
+   <td> Line(&lt;stringa&gt;,&lt;numero&gt;)<br /></td> 
   </tr>
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
@@ -668,7 +668,7 @@ Le funzioni di stringa vengono utilizzate per manipolare un insieme di stringhe.
   <tr> 
    <td> <strong>LPad</strong><br /> </td> 
    <td> Restituisce la stringa completata a sinistra<br /> </td> 
-   <td> LPad (&lt;string&gt;, &lt;number&gt;, &lt;char&gt;)<br /></td> 
+   <td> LPad (&lt;Stringa&gt;, &lt;Numero&gt;, &lt;Carattere&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
@@ -686,14 +686,14 @@ Le funzioni di stringa vengono utilizzate per manipolare un insieme di stringhe.
    <td> MemoContains(&lt;promemoria&gt;, &lt;stringa&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>NodeValue</strong><br /> </td> 
+   <td> <strong>ValoreNodo</strong><br /> </td> 
    <td> Estrae il valore di un campo XML dal relativo XPath e dai dati del campo<br /> </td> 
-   <td> ValoreNodo (&lt;string&gt;, &lt;string&gt;)<br /></td> 
+   <td> NodeValue (&lt;Stringa&gt;, &lt;Stringa&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Replace</strong><br /> </td> 
-   <td> Sostituisce tutte le occorrenze di un valore stringa specificato con un altro valore stringa.<br /> </td> 
-   <td> Replace(&lt;string&gt;,&lt;string&gt;,&lt;string&gt;)<br /></td> 
+   <td> Sostituisce tutte le occorrenze di un valore di stringa specificato con un altro valore di stringa.<br /> </td> 
+   <td> Replace(&lt;Stringa&gt;,&lt;Stringa&gt;,&lt;Stringa&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
@@ -713,12 +713,12 @@ Le funzioni di stringa vengono utilizzate per manipolare un insieme di stringhe.
   <tr> 
    <td> <strong>Sha256Digest</strong><br /> </td> 
    <td> Rappresentazione esadecimale della chiave SHA256 di una stringa.<br /> </td> 
-   <td> Sha256Digest (&lt;string&gt;)<br /> </td> 
+   <td> Sha256Digest (&lt;Stringa&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha512Digest</strong><br /> </td> 
    <td> Rappresentazione esadecimale della chiave SHA512 di una stringa.<br /> </td> 
-   <td> Sha512Digest (&lt;string&gt;)<br /> </td> 
+   <td> Sha512Digest (&lt;Stringa&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Smart</strong><br /> </td> 
@@ -763,9 +763,9 @@ Le funzioni di stringa vengono utilizzate per manipolare un insieme di stringhe.
    <td> <strong>Sintassi</strong><br /> </td> 
   </tr> 
   <tr> 
-   <td> <strong>_Finito__</strong><br /> </td> 
-   <td> Esegui la chiamata della funzione SQL immessa come primo parametro, su Partizione o Ordina per i campi immessi come secondo parametro<br /> </td> 
-   <td> _Over_ (&lt;value&gt;, &lt;value&gt;)<br /> </td>  
+   <td> <strong>_Over__</strong><br /> </td> 
+   <td> Esegui la chiamata alla funzione SQL immessa come primo parametro, su Partition o Order By nei campi immessi come secondo parametro<br /> </td> 
+   <td> _Over_ (&lt;Valore&gt;, &lt;Valore&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 

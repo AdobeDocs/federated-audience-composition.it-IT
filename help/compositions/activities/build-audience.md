@@ -25,7 +25,7 @@ Per definire la popolazione del pubblico, puoi eseguire le seguenti operazioni:
 * Seleziona un pubblico di Adobe Experience Platform.
 * Crea un nuovo pubblico con il generatore di modellatori di query definendo e combinando criteri di filtro.
 
-Il **Creare un pubblico** L’attività può essere posizionata all’inizio della composizione o dopo qualsiasi altra attività. Qualsiasi attività può essere inserita dopo il **Creare un pubblico**.
+L&#39;attività **Genera pubblico** può essere posizionata all&#39;inizio della composizione o dopo qualsiasi altra attività. Qualsiasi attività può essere inserita dopo il **Genera pubblico**.
 
 ## Configurare l’attività Creazione del pubblico {#build-audience-configuration}
 
@@ -43,12 +43,12 @@ Per configurare l’attività **Crea pubblico**, segui questi passaggi:
 
 >[!BEGINTABS]
 
->[!TAB Creare un pubblico]
+>[!TAB Crea pubblico]
 
 Per creare un pubblico personalizzato, segui questi passaggi:
 
-1. Seleziona **Creare un pubblico**.
-1. Scegli la **Schema**, nota anche come dimensione di targeting. Lo schema ti consente di definire la popolazione target dell’operazione: destinatari, beneficiari del contratto, operatore, abbonati, ecc. Per impostazione predefinita, lo schema viene selezionato dai destinatari.
+1. Seleziona **Crea pubblico**.
+1. Scegli lo **schema**, noto anche come dimensione di targeting. Lo schema ti consente di definire la popolazione target dell’operazione: destinatari, beneficiari del contratto, operatore, abbonati, ecc. Per impostazione predefinita, lo schema viene selezionato dai destinatari.
 1. Fai clic su **Continua**.
 1. Utilizza il modellatore di query per definire la query. [Scopri come utilizzare Query Modeler](../../query/query-modeler-overview.md)
 

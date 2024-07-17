@@ -43,15 +43,16 @@ Database esterni supportati:
 
 * **[!UICONTROL Server]**:
 
-* **[!UICONTROL Utente]**: nome dell’utente.
+* **[!UICONTROL Utente]**: nome dell&#39;utente.
 
-* **[!UICONTROL Password]**: password dell’account utente.
+* **[!UICONTROL Password]**: password dell&#39;account utente.
 
 * **[!UICONTROL Database]**:
 
 * **[!UICONTROL Schema di lavoro]**:
 
-* **[!UICONTROL Chiave privata]**: sono accettati solo i file .pem
+* **[!UICONTROL Chiave privata]**:
+Sono accettati solo i file con estensione pem
 
 * **[!UICONTROL Opzioni]**: il connettore supporta le opzioni descritte nella tabella seguente.
 
@@ -63,40 +64,40 @@ Database esterni supportati:
 | WeekStart | Parametro di sessione WEEK_START. Per impostazione predefinita, è impostato su 0. <br>Per ulteriori informazioni, consulta [questa pagina](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start). |
 | UseCachedResult | Parametro di sessione USE_CACHED_RESULTS. Per impostazione predefinita, è impostato su TRUE. Questa opzione può essere utilizzata per disabilitare i risultati del Snowflake memorizzati nella cache. <br>Per ulteriori informazioni, consulta [questa pagina](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
 | bulkThreads | Numero di thread da utilizzare per il caricatore di massa di Snowflake; un numero maggiore di thread indica prestazioni migliori per caricamenti di massa di maggiori dimensioni. Per impostazione predefinita, è impostato su 1. Il numero può essere regolato, a seconda del numero di thread della macchina. |
-| chunkSize | Determina la dimensione del file del blocco di caricamento bulk. Per impostazione predefinita, è impostato su 128 MB. Può essere modificata per ottenere prestazioni migliori se utilizzata con bulkThreads. Un numero maggiore di thread attivi contemporaneamente garantisce prestazioni migliori. <br>Per ulteriori informazioni, consulta [Documentazione del Snowflake](https://docs.snowflake.net/manuals/sql-reference/sql/put.html). |
+| chunkSize | Determina la dimensione del file del blocco di caricamento bulk. Per impostazione predefinita, è impostato su 128 MB. Può essere modificata per ottenere prestazioni migliori se utilizzata con bulkThreads. Un numero maggiore di thread attivi contemporaneamente garantisce prestazioni migliori. <br>Per ulteriori informazioni, consulta la [documentazione del Snowflake](https://docs.snowflake.net/manuals/sql-reference/sql/put.html). |
 | NomeFase | Nome della fase interna di preprovisioning. Verrà utilizzato in modalità bulk load anziché creare una nuova fase temporanea. |
 
 ## Google BigQuery {#google-big-query}
 
-* **[!UICONTROL Account del servizio]**: e-mail del **[!UICONTROL Account del servizio]**. Per ulteriori informazioni, consulta [Documentazione di Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts).
+* **[!UICONTROL Account di servizio]**: indirizzo e-mail dell&#39;**[!UICONTROL Account di servizio]**. Per ulteriori informazioni, consulta [Documentazione di Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts).
 
 * **[!UICONTROL Progetto]**: nome del **[!UICONTROL Progetto]**. Per ulteriori informazioni, consulta [Documentazione di Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects).
 
 * **[!UICONTROL Set di dati]**: nome del **[!UICONTROL Set di dati]**. Per ulteriori informazioni, consulta [Documentazione di Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro).
 
-* **[!UICONTROL Percorso file chiave]**: carica il file della chiave sul server. Sono accettati solo i file .json.
+* **[!UICONTROL Percorso file chiave]**: carica il file chiave nel server. Sono accettati solo i file .json.
 
 * **[!UICONTROL Opzioni]**: il connettore supporta le opzioni descritte nella tabella seguente.
 
 | Opzione | Descrizione |
 |:-:|:-:|
-| ProxyType | Tipo di proxy utilizzato per connettersi a BigQuery tramite connettori ODBC e SDK. </br>Attualmente sono supportati HTTP (impostazione predefinita), http_no_tunnel, socks4 e socks5. |
+| ProxyType | Tipo di proxy utilizzato per connettersi a BigQuery tramite connettori ODBC e SDK. Sono attualmente supportati </br>HTTP (impostazione predefinita), http_no_tunnel, socks4 e socks5. |
 | ProxyHost | Nome host o indirizzo IP in cui è possibile raggiungere il proxy. |
 | ProxyPort | Numero di porta su cui è in esecuzione il proxy, ad esempio 8080 |
 | ProxyUid | Nome utente utilizzato per il proxy autenticato |
 | ProxyPwd | Password ProxyUid |
-| bqpath | Tieni presente che questo è applicabile solo per lo strumento di caricamento in blocco (SDK per cloud). </br> Per evitare di utilizzare la variabile PATH o se la directory google-cloud-sdk deve essere spostata in un’altra posizione, con questa opzione puoi specificare il percorso esatto della directory bin dell’SDK cloud sul server. |
-| GCloudConfigName | Tieni presente che questo è applicabile a partire dalla versione 7.3.4 e solo per lo strumento di caricamento in massa (Cloud SDK).</br> L’SDK di Google Cloud utilizza le configurazioni per caricare i dati nelle tabelle BigQuery. La configurazione denominata `accfda` memorizza i parametri per il caricamento dei dati. Tuttavia, questa opzione consente agli utenti di specificare un nome diverso per la configurazione. |
-| GCloudDefaultConfigName | Tieni presente che questo è applicabile a partire dalla versione 7.3.4 e solo per lo strumento di caricamento in massa (Cloud SDK).</br> La configurazione SDK di Google Cloud attiva non può essere eliminata senza prima trasferire il tag attivo in una nuova configurazione. Questa configurazione temporanea è necessaria per ricreare la configurazione principale per il caricamento dei dati. Il nome predefinito per la configurazione temporanea è `default`, questo valore può essere modificato se necessario. |
-| GCloudRecreateConfig | Tieni presente che questo è applicabile a partire dalla versione 7.3.4 e solo per lo strumento di caricamento in massa (Cloud SDK).</br> Se impostato su `false`, il meccanismo di caricamento in blocco evita di tentare di ricreare, eliminare o modificare le configurazioni dell’SDK di Google Cloud. Procede invece con il caricamento dei dati utilizzando la configurazione esistente sul computer. Questa funzione è utile quando altre operazioni dipendono dalle configurazioni dell’SDK di Google Cloud. </br> Se l’utente abilita questa opzione del motore senza una configurazione corretta, il meccanismo di caricamento in blocco emetterà un messaggio di avviso: `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option`. Per evitare ulteriori errori, verrà utilizzato il meccanismo di caricamento bulk predefinito per Inserisci array ODBC. |
+| bqpath | Tieni presente che questo è applicabile solo per lo strumento di caricamento in blocco (SDK per cloud). </br> Per evitare di utilizzare la variabile PATH o se la directory google-cloud-sdk deve essere spostata in un&#39;altra posizione, è possibile specificare con questa opzione il percorso esatto della directory bin dell&#39;SDK cloud sul server. |
+| GCloudConfigName | Tieni presente che questo è applicabile a partire dalla versione 7.3.4 e solo per lo strumento di caricamento in massa (Cloud SDK).</br> L&#39;SDK di Google Cloud utilizza le configurazioni per caricare i dati nelle tabelle BigQuery. La configurazione denominata `accfda` memorizza i parametri per il caricamento dei dati. Tuttavia, questa opzione consente agli utenti di specificare un nome diverso per la configurazione. |
+| GCloudDefaultConfigName | Tieni presente che questo è applicabile a partire dalla versione 7.3.4 e solo per lo strumento di caricamento in massa (Cloud SDK).</br> Impossibile eliminare la configurazione SDK di Google Cloud attiva senza prima trasferire il tag attivo in una nuova configurazione. Questa configurazione temporanea è necessaria per ricreare la configurazione principale per il caricamento dei dati. Il nome predefinito per la configurazione temporanea è `default`, che può essere modificato se necessario. |
+| GCloudRecreateConfig | Tieni presente che questo è applicabile a partire dalla versione 7.3.4 e solo per lo strumento di caricamento in massa (Cloud SDK).</br> Se è impostato su `false`, il meccanismo di caricamento in blocco non tenta di ricreare, eliminare o modificare le configurazioni dell&#39;SDK di Google Cloud. Procede invece con il caricamento dei dati utilizzando la configurazione esistente sul computer. Questa funzione è utile quando altre operazioni dipendono dalle configurazioni dell’SDK di Google Cloud. </br> Se l&#39;utente abilita questa opzione del motore senza una configurazione corretta, il meccanismo di caricamento in massa invierà un messaggio di avviso: `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option`. Per evitare ulteriori errori, verrà utilizzato il meccanismo di caricamento bulk predefinito per Inserisci array ODBC. |
 
 ## Azure synapse Redshift {#azure-synapse-redshift}
 
 * **[!UICONTROL Server]**: URL del server di Azure synapse
 
-* **[!UICONTROL Account]**: nome dell’utente
+* **[!UICONTROL Account]**: nome dell&#39;utente
 
-* **[!UICONTROL Password]**: password dell’account utente
+* **[!UICONTROL Password]**: password dell&#39;account utente
 
 * **[!UICONTROL Database]**: nome del database
 
@@ -104,11 +105,11 @@ Database esterni supportati:
 
 ## Vertica Analytics {#vertica-analytics}
 
-* **[!UICONTROL Server]**: URL del [!DNL Vertica Analytics] server
+* **[!UICONTROL Server]**: URL del server [!DNL Vertica Analytics]
 
-* **[!UICONTROL Account]**: nome dell’utente
+* **[!UICONTROL Account]**: nome dell&#39;utente
 
-* **[!UICONTROL Password]**: password dell’account utente
+* **[!UICONTROL Password]**: password dell&#39;account utente
 
 * **[!UICONTROL Database]**: nome del database
 
@@ -127,11 +128,11 @@ Il connettore supporta le seguenti opzioni:
 
 * **[!UICONTROL Server]**: nome del DNS
 
-* **[!UICONTROL Account]**: nome dell’utente
+* **[!UICONTROL Account]**: nome dell&#39;utente
 
-* **[!UICONTROL Password]**: password dell’account utente
+* **[!UICONTROL Password]**: password dell&#39;account utente
 
-* **[!UICONTROL Database]**: nome del database, se non specificato nel DSN. Può essere lasciato vuoto se specificato nel DSN
+* **[!UICONTROL Database]**: nome del database se non specificato nel DSN. Può essere lasciato vuoto se specificato nel DSN
 
 * **[!UICONTROL Schema di lavoro]**: nome dello schema di lavoro. [Ulteriori informazioni](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
 

@@ -32,21 +32,21 @@ ht-degree: 73%
 >title="Impostazioni di deduplica"
 >abstract="Per eliminare i duplicati nei dati in arrivo, definisci il metodo di deduplica nei campi seguenti. Per impostazione predefinita, viene mantenuto un solo record. Devi anche selezionare la modalità di deduplica in base a un’espressione o a un attributo. Per impostazione predefinita, il record da escludere dai duplicati viene selezionato in modo casuale."
 
-Il **Deduplicazione** attività ti consente di eliminare i duplicati nei risultati delle attività in entrata, ad esempio i profili duplicati nell’elenco dei destinatari. L’attività **Deduplica** viene generalmente utilizzata dopo le attività di targeting e prima delle attività che consentono l’utilizzo di dati mirati.
+L&#39;attività **Deduplication** ti consente di eliminare i duplicati nei risultati delle attività in entrata, ad esempio i profili duplicati nell&#39;elenco dei destinatari. L’attività **Deduplica** viene generalmente utilizzata dopo le attività di targeting e prima delle attività che consentono l’utilizzo di dati mirati.
 
 ## Configurare l’attività Deduplica{#deduplication-configuration}
 
 Per configurare l’attività **Deduplica** segui questi passaggi:
 
-1. Aggiungi un **Deduplicazione** alla tua composizione.
+1. Aggiungi un&#39;attività **Deduplicazione** alla composizione.
 
-1. Se l’attività dispone di diverse transizioni in entrata, seleziona la transizione da utilizzare per eseguire la deduplicazione dal file **[!UICONTROL Set primario]** elenco a discesa
+1. Se l&#39;attività dispone di diverse transizioni in entrata, selezionare la transizione da utilizzare per eseguire la deduplicazione dall&#39;elenco a discesa **[!UICONTROL Set principale]**
 
 1. Nella sezione **Campi per identificare i duplicati** , fai clic sul pulsante **Aggiungi attributo** per specificare i campi per i quali i valori identici consentono l’identificazione dei duplicati, ad esempio: indirizzo e-mail, nome, cognome e così via. L’ordine dei campi consente di specificare quali elaborare per primi.
 
    ![](../assets/deduplication.png)
 
-1. In **Impostazioni di deduplicazione** , selezionare il numero di **Duplicati da mantenere**. Il valore predefinito per questo campo è 1. Il valore 0 ti consente di conservare tutti i duplicati.
+1. Nella sezione **Impostazioni deduplicazione** selezionare il numero di **duplicati univoci da mantenere**. Il valore predefinito per questo campo è 1. Il valore 0 ti consente di conservare tutti i duplicati.
 
    Ad esempio, se i record A e B sono considerati duplicati del record Y e il record C è considerato un duplicato del record Z:
 
@@ -57,9 +57,9 @@ Per configurare l’attività **Deduplica** segui questi passaggi:
 1. Seleziona il **Metodo di deduplica** da utilizzare:
 
    * **Selezione casuale**: seleziona casualmente il record da escludere dai duplicati.
-   * **Utilizzo di un’espressione**: conserva i record in cui il valore dell’espressione immessa è il minore o il maggiore.
-   * **Valori non vuoti**: conserva i record per i quali l’espressione non è vuota.
-   * **Seguendo un elenco di valori**: definisci una priorità di valore per uno o più campi. Per definire i valori, fai clic su **Attributo** per selezionare un campo o creare un’espressione, quindi aggiungi i valori nella tabella appropriata. Per definire un nuovo campo, fare clic su **Pulsante Aggiungi** si trova sopra l’elenco dei valori.
+   * **Utilizzo di un&#39;espressione**: conservare i record in cui il valore dell&#39;espressione immessa è il minore o il maggiore.
+   * **Valori non vuoti**: conservare i record per i quali l&#39;espressione non è vuota.
+   * **Elenco di valori**: definire una priorità di valore per uno o più campi. Per definire i valori, fai clic su **Attributo** per selezionare un campo o creare un’espressione, quindi aggiungi i valori nella tabella appropriata. Per definire un nuovo campo, fare clic sul pulsante **Aggiungi** situato sopra l&#39;elenco dei valori.
 
 1. Se desideri sfruttare il gruppo rimanente, seleziona l’opzione **Genera complemento**. Il complemento è costituito da tutti i duplicati. Verrà quindi aggiunta all’attività un’ulteriore transizione.
 

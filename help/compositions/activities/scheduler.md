@@ -39,31 +39,31 @@ Per configurare l’attività del **Modulo di pianificazione**, segui questi pas
 
    * **Una volta**: la composizione viene eseguita una sola volta.
 
-   * **Giornaliero**: la composizione viene eseguita una volta al giorno a un’ora specifica.
+   * **Giornaliero**: la composizione viene eseguita a un&#39;ora specifica, una volta al giorno.
 
-   * **Più volte al giorno:** la composizione viene eseguita regolarmente diverse volte al giorno. Puoi impostare esecuzioni in orari specifici o periodicamente.
+   * **Più volte al giorno:** la composizione viene eseguita regolarmente più volte al giorno. Puoi impostare esecuzioni in orari specifici o periodicamente.
 
      >[!NOTE]
      >
      >Non pianificare l&#39;esecuzione di una composizione per più di 15 minuti, poiché questa operazione potrebbe ostacolare le prestazioni complessive del sistema e creare blocchi nel database.
 
-   * **Ogni settimana**: la composizione viene eseguita in un determinato momento, una o più volte alla settimana.
+   * **Settimanale**: la composizione viene eseguita in un determinato momento, una o più volte alla settimana.
 
    * **Mensile**: la composizione viene eseguita in un determinato momento, una o più volte al mese. Potete selezionare i mesi, quando dovete eseguire la composizione. Puoi anche impostare le esecuzioni in un giorno feriale specifico del mese, ad esempio il secondo martedì del mese.
 
 1. Definisci i dettagli di esecuzione in base alla frequenza selezionata. I campi dettagliati possono variare a seconda della frequenza utilizzata (tempo, frequenza di ripetizione, giorni specificati, ecc.).
 
-1. Clic **Anteprima orari di avvio** per controllare la pianificazione delle dieci esecuzioni successive della composizione.
+1. Fai clic su **Anteprima ora di lancio** per controllare la pianificazione delle prossime dieci esecuzioni della composizione.
 
 1. Definisci il periodo di validità del modulo di pianificazione:
 
-   * **Permanente (non scade mai)**: la composizione viene eseguita, in base alla frequenza specificata, senza alcun limite all’intervallo di tempo o al numero di iterazioni.
+   * **Permanente (non scade mai)**: la composizione viene eseguita, in base alla frequenza specificata, senza alcun limite all&#39;intervallo di tempo o al numero di iterazioni.
 
    * **Periodo di validità**: la composizione viene eseguita in base alla frequenza specificata, fino a una data specifica. È necessario specificare le date di inizio e di fine.
 
 >[!NOTE]
 >
->Se desiderate iniziare subito la composizione, potete fare clic sul pulsante **Esegui attività in sospeso** nella barra delle azioni superiore dell&#39;utilità di pianificazione. Questo pulsante è disponibile solo dopo aver avviato la composizione.
+>Se si desidera avviare subito la composizione, è possibile fare clic sull&#39;**Attività in sospeso** nella barra delle azioni superiore della pianificazione. Questo pulsante è disponibile solo dopo aver avviato la composizione.
 
 <!--## Example{#scheduler-example}
 

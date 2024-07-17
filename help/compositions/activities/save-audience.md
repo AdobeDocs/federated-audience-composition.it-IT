@@ -34,7 +34,7 @@ ht-degree: 39%
 >abstract="Selezionare lo spazio dei nomi da utilizzare per i profili."
 >additional-url="https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/namespaces" text="Ulteriori informazioni nella documentazione di Experience Platform"
 
-Il **Salva pubblico** attività ti consente di aggiornare un pubblico esistente o crearne uno nuovo dalla popolazione calcolata a monte in una composizione. I tipi di pubblico creati vengono aggiunti all’elenco dei tipi di pubblico delle applicazioni e sono disponibili tramite il menu **Tipi di pubblico**.
+L&#39;attività **Save audience** ti consente di aggiornare un pubblico esistente o crearne uno nuovo dalla popolazione calcolata a monte in una composizione. I tipi di pubblico creati vengono aggiunti all’elenco dei tipi di pubblico delle applicazioni e sono disponibili tramite il menu **Tipi di pubblico**.
 
 Questa attività è essenzialmente utilizzata per mantenere i gruppi di popolazione calcolati nella stessa composizione, convertendoli in tipi di pubblico riutilizzabili. Connettila ad altre attività di targeting, come a un’attività **Crea pubblico** o **Combina**.
 
@@ -42,25 +42,25 @@ Questa attività è essenzialmente utilizzata per mantenere i gruppi di popolazi
 
 Per configurare l’attività **Salva pubblico**, segui questi passaggi:
 
-1. Aggiungi un **Salva pubblico** alla tua composizione.
+1. Aggiungi un&#39;attività **Save audience** alla composizione.
 
    ![](../assets/save-audience.png)
 
 1. Specifica l’etichetta del pubblico da creare.
 
-1. Clic **Aggiungi mappatura pubblico** quindi scegli i campi pubblico di origine e di destinazione:
+1. Fai clic su **Aggiungi mappatura pubblico**, quindi scegli i campi del pubblico di origine e di destinazione:
 
-   * **Campo pubblico Source**:
-   * **Campo pubblico di destinazione**:
+   * **Campo Pubblico Source**:
+   * **Campo Pubblico Di Destinazione**:
 
    Ripeti l’operazione per aggiungere tutte le mappature del pubblico necessarie.
 
 1. Seleziona l’identità principale e lo spazio dei nomi da utilizzare per identificare i profili target nel database:
 
-   * **Campo di identità primaria**: seleziona il campo da utilizzare per identificare i profili. Ad esempio, l’indirizzo e-mail o il numero di telefono.
-   * **Spazio dei nomi dell’identità**: seleziona lo spazio dei nomi da utilizzare per identificare i profili, ovvero il tipo di dati da utilizzare come chiave di identificazione. Ad esempio, se l’indirizzo e-mail è stato selezionato come campo di identità principale, lo spazio dei nomi dell’identità **E-mail** deve essere selezionato. Se l’identificatore univoco è il numero di telefono, allora lo spazio dei nomi dell’identità **Telefono** deve essere selezionato.
+   * **Campo identità primaria**: selezionare il campo da utilizzare per identificare i profili. Ad esempio, l’indirizzo e-mail o il numero di telefono.
+   * **Spazio dei nomi identità**: selezionare lo spazio dei nomi da utilizzare per identificare i profili, ovvero il tipo di dati da utilizzare come chiave di identificazione. Ad esempio, se l&#39;indirizzo e-mail è stato selezionato come campo di identità principale, deve essere selezionato lo spazio dei nomi dell&#39;identità **E-mail**. Se l&#39;identificatore univoco è il numero di telefono, deve essere selezionato lo spazio dei nomi dell&#39;identità **Telefono**.
 
-Dopo aver eseguito la composizione, il pubblico risultante viene salvato in Adobe Experience Platform <!-- to check-->, e resi accessibili nel **Tipi di pubblico** menu.
+Dopo l&#39;esecuzione della composizione, il pubblico risultante viene salvato in Adobe Experience Platform <!-- to check--> e reso accessibile nel menu **Tipi di pubblico**.
 
 <!--
 
