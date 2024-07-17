@@ -2,9 +2,9 @@
 title: Novità di Federated Audience Composition
 description: Ultimi aggiornamenti e note sulla versione
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 082bdccd7bc53d6c7520a778b65b2127a62e28a4
+source-git-commit: 529676bc2b882ffb6bdd8208319db523e982adac
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '253'
 ht-degree: 4%
 
 ---
@@ -25,7 +25,7 @@ Invece di acquisire set di dati e/o tipi di pubblico in Adobe Experience Platfor
 >
 >Federated Audience Composition è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata). Per potervi accedere, contatta il tuo rappresentante Adobe.
 >
->Per il momento, la funzionalità non è disponibile per i clienti che hanno acquistato il componente aggiuntivo Adobe **Healthcare Shield** e **Privacy and Security Shield**.
+>Per il momento, la funzione non è disponibile per i clienti che hanno acquistato il componente aggiuntivo Adobe **Healthcare Shield**.
 
 
 ## Prerequisiti e guardrail {#rn-guardrails}
