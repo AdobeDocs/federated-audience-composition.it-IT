@@ -1,11 +1,12 @@
 ---
 audience: end-user
 title: Utilizzo del query modeler
-description: Scopri come utilizzare Query Modeler.
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+description: Scopri come utilizzare Query Modeler
+badge: label="Disponibilità limitata" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 15%
+source-wordcount: '348'
+ht-degree: 16%
 
 ---
 
@@ -25,7 +26,7 @@ Il query modeler è disponibile in ogni contesto in cui è necessario definire r
 | Utilizzo | Esempio |
 |  ---  |  ---  |
 | **Definisci i tipi di pubblico**: specifica la popolazione di cui vuoi eseguire il targeting nelle tue composizioni e crea facilmente nuovi tipi di pubblico su misura per le tue esigenze. | ![](assets/access-audience.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
-| **Personalizza le attività del flusso di lavoro**: applica le regole nelle attività di composizione, ad esempio **Dividi** e **Riconciliazione**, per allinearle ai requisiti specifici. [Ulteriori informazioni sulle attività di composizione](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
+| **Personalizza attività**: applica le regole nelle attività di composizione, ad esempio **Dividi** e **Riconciliazione**, per allinearle ai requisiti specifici. [Ulteriori informazioni sulle attività di composizione](../compositions/activities/about-activities.md) | ![](assets/access-composition.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
 ## Interfaccia del query modeler {#interface}
 
@@ -39,11 +40,11 @@ L’area di lavoro centrale di Query Modeler è il luogo in cui puoi aggiungere 
 
 La barra degli strumenti situata nell’angolo superiore destro dell’area di lavoro offre opzioni per manipolare facilmente i componenti della query e navigare nell’area di lavoro:
 
-* **Modalità di selezione multipla**: selezionare più componenti filtro per copiarli e incollarli nel percorso desiderato.
-* **Ruota**: cambia l&#39;area di lavoro verticalmente.
-* **Adatta allo schermo**: adatta il livello di zoom dell&#39;area di lavoro allo schermo.
-* **Zoom indietro** / **Zoom avanti**: Zoom indietro o nell&#39;area di lavoro.
-* **Mappa di visualizzazione**: apre uno snapshot dell&#39;area di lavoro che mostra che ci si trova.
+* **[!UICONTROL Modalità di selezione multipla]**: selezionare più componenti filtro per copiarli e incollarli nel percorso desiderato.
+* **[!UICONTROL Ruota]**: cambia l&#39;area di lavoro verticalmente.
+* **[!UICONTROL Adatta allo schermo]**: adatta il livello di zoom dell&#39;area di lavoro allo schermo.
+* **[!UICONTROL Zoom indietro]** / **[!UICONTROL Zoom avanti]**: Zoom indietro o nell&#39;area di lavoro.
+* **[!UICONTROL Mappa di visualizzazione]**: apre uno snapshot dell&#39;area di lavoro che mostra che ci si trova.
 
 ### Riquadro delle proprietà della regola {#rule-properties}
 

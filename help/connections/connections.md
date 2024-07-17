@@ -2,10 +2,11 @@
 audience: end-user
 title: Creare e gestire connessioni con i Federated Database
 description: Scopri come creare e gestire le connessioni con i Federated Database
-source-git-commit: afcc9203b55eeb72a71cb8a82ea9e0dda5dfc683
+badge: label="Disponibilità limitata" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 1%
+source-wordcount: '107'
+ht-degree: 3%
 
 ---
 

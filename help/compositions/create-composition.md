@@ -2,9 +2,10 @@
 audience: end-user
 title: Creare composizioni
 description: Scopri come creare le composizioni
-source-git-commit: be24c32977cdccab0a5fc7e77a033f4d2b746b9f
+badge: label="Disponibilità limitata" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '484'
 ht-degree: 21%
 
 ---
@@ -48,7 +49,7 @@ Il primo passaggio per creare una composizione consiste nel definirne l’etiche
 
 Quando accedete a una composizione, potete accedere a impostazioni avanzate che consentono, ad esempio, di definire il comportamento della composizione in caso di errore.
 
-Per accedere alle opzioni aggiuntive per la composizione, fai clic sul pulsante **Impostazioni** nella sezione superiore della schermata di creazione della composizione.
+Per accedere alle opzioni aggiuntive per la composizione, fai clic sul pulsante **[!UICONTROL Impostazioni]** nella sezione superiore della schermata di creazione della composizione.
 
 ![](assets/composition-create-settings.png)
 

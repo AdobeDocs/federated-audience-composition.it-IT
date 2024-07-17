@@ -2,10 +2,11 @@
 audience: end-user
 title: Utilizzare l’attività Modifica dimensione
 description: Scopri come utilizzare l’attività Modifica dimensione
-source-git-commit: 4ba457f1dcd8b7997931a70d93a95f6a54c51cb5
+badge: label="Disponibilità limitata" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 49%
+source-wordcount: '189'
+ht-degree: 50%
 
 ---
 
@@ -15,7 +16,7 @@ ht-degree: 49%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_dimension_complement"
 >title="Generare un complemento"
->abstract="Puoi generare una transizione in uscita aggiuntiva con la popolazione rimanente, che è stata esclusa come duplicato. A tale scopo, attiva l’opzione **Genera complemento**"
+>abstract="Puoi generare una transizione in uscita aggiuntiva con la popolazione rimanente, che è stata esclusa come duplicato. A tale scopo, attiva l’opzione **[!UICONTROL Genera complemento]**"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_change_dimension"

@@ -2,9 +2,10 @@
 audience: end-user
 title: Introduzione ai Database federati
 description: Scopri come creare e gestire i Federated Database
-source-git-commit: 847da9a5eeb28199010f8491f7eebba4a60a83f1
+badge: label="Disponibilità limitata" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '892'
 ht-degree: 10%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
 >title="Database federati"
->abstract="In questa schermata sono elencate le connessioni esistenti ai database federati. Per creare una nuova connessione, fai clic sul pulsante **Aggiungi database federato**."
+>abstract="In questa schermata sono elencate le connessioni esistenti ai database federati. Per creare una nuova connessione, fai clic sul pulsante **[!UICONTROL Aggiungi database federato]**."
 
 
 >[!CONTEXTUALHELP]
@@ -27,7 +28,7 @@ ht-degree: 10%
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"
 >title="Dettagli del database federato"
->abstract="Immetti le impostazioni per la connessione al nuovo Database federato. Utilizza il pulsante **Verifica connessione** per convalidare la configurazione."
+>abstract="Immetti le impostazioni per la connessione al nuovo Database federato. Utilizza il pulsante **[!UICONTROL Verifica connessione]** per convalidare la configurazione."
 
 Creare, configurare, verificare e salvare la connessione a un database esterno.
 

@@ -2,10 +2,10 @@
 audience: end-user
 title: Utilizzare l’attività Scheduler
 description: Scopri come utilizzare l’attività Scheduler
-source-git-commit: 4dca96ae81d1f70c8f20509fdbd9ec31e05c01dc
+source-git-commit: 7f73f5f81561fabe6f4ef2ff77f13d386a7927b3
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 47%
+source-wordcount: '418'
+ht-degree: 39%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 47%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_scheduler"
 >title="Attività del Modulo di pianificazione"
->abstract="L’attività del **Modulo di pianificazione** consente di pianificare quando viene avviato il flusso di lavoro. Dovresti considerare questa attività come un avvio pianificato. Può essere utilizzata solo come prima attività del flusso di lavoro."
+>abstract="L&#39;attività **Scheduler** consente di pianificare l&#39;avvio della composizione del pubblico. Dovresti considerare questa attività come un avvio pianificato. Può essere utilizzata solo come prima attività di una composizione."
 
 L’attività del **Modulo di pianificazione** è un’attività di **Controllo del flusso**. Consente di pianificare l&#39;inizio della composizione. Dovresti considerare questa attività come un avvio pianificato. Può essere utilizzata solo come prima attività della composizione.
 
@@ -33,7 +33,7 @@ L’attività del **Modulo di pianificazione** è un’attività di **Controllo 
 
 Per configurare l’attività del **Modulo di pianificazione**, segui questi passaggi:
 
-1. Aggiungi un’attività del **Modulo di pianificazione** al flusso di lavoro.
+1. Aggiungi un&#39;attività **Scheduler** alla composizione.
 
 1. Configura la **Frequenza di esecuzione**:
 

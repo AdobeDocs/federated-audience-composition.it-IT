@@ -2,9 +2,10 @@
 audience: end-user
 title: Creare composizioni
 description: Scopri come creare le composizioni
-source-git-commit: 4a73702c99762a5e9ab73485fa46916b9c28fcc3
+badge: label="Disponibilità limitata" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '614'
 ht-degree: 29%
 
 ---
@@ -70,12 +71,12 @@ La barra delle azioni nell&#39;angolo superiore destro fornisce i comandi che co
 
 Le azioni disponibili sono:
 
-* **Inizio**: avvia l&#39;esecuzione della composizione, che assume lo stato **In corso**. La composizione viene avviata e le attività iniziali vengono attivate.
+* **[!UICONTROL Inizio]**: avvia l&#39;esecuzione della composizione, che assume lo stato **[!UICONTROL In corso]**. La composizione viene avviata e le attività iniziali vengono attivate.
 
-* **[!UICONTROL Riprendi]**: riprende l&#39;esecuzione della composizione messa in pausa. La composizione assume lo stato **In corso**.
+* **[!UICONTROL Riprendi]**: riprende l&#39;esecuzione della composizione messa in pausa. La composizione assume lo stato **[!UICONTROL In corso]**.
 
-* **[!UICONTROL Sospendi]** l&#39;esecuzione della composizione, che assume quindi lo stato **In pausa**. Non verranno attivate nuove attività finché non viene ripresa, ma le operazioni in corso non vengono sospese.
+* **[!UICONTROL Sospendi]** l&#39;esecuzione della composizione, che assume quindi lo stato **[!UICONTROL In pausa]**. Non verranno attivate nuove attività finché non viene ripresa, ma le operazioni in corso non vengono sospese.
 
-* **[!UICONTROL Interrompi]** una composizione in esecuzione, che assumerà lo stato **Completato**. Se possibile, le operazioni in corso vengono interrotte. Non è possibile riprendere la composizione dalla stessa posizione in cui è stata interrotta.
+* **[!UICONTROL Interrompi]** una composizione in esecuzione, che assumerà lo stato **[!UICONTROL Completato]**. Se possibile, le operazioni in corso vengono interrotte. Non è possibile riprendere la composizione dalla stessa posizione in cui è stata interrotta.
 
-* **Riavvia**: interrompe e riavvia una composizione. Nella maggior parte dei casi, questo consente di riavviare più rapidamente, poiché l&#39;arresto richiede un certo periodo di tempo e il pulsante **Avvia** è disponibile solo quando l&#39;interruzione è effettiva.
+* **[!UICONTROL Riavvia]**: interrompe e riavvia una composizione. Nella maggior parte dei casi, questo consente di riavviare più rapidamente, poiché l&#39;arresto richiede un certo periodo di tempo e il pulsante **[!UICONTROL Avvia]** è disponibile solo quando l&#39;interruzione è effettiva.

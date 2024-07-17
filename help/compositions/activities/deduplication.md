@@ -2,9 +2,10 @@
 audience: end-user
 title: Utilizzare l’attività Deduplication
 description: Scopri come utilizzare l’attività Deduplication
-source-git-commit: 56d9cc6489557c12761cd3fe8f3b7a61a71ece21
+badge: label="Disponibilità limitata" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '565'
 ht-degree: 73%
 
 ---
@@ -15,7 +16,7 @@ ht-degree: 73%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_fields"
 >title="Campi per identificare i duplicati"
->abstract="Nella sezione **Campi per identificare i duplicati** , fai clic sul pulsante **Aggiungi attributo** per specificare i campi per i quali i valori identici consentono l’identificazione dei duplicati, ad esempio: indirizzo e-mail, nome, cognome e così via. L’ordine dei campi consente di specificare quali elaborare per primi."
+>abstract="Nella sezione **[!UICONTROL Campi per identificare i duplicati]** , fai clic sul pulsante **[!UICONTROL Aggiungi attributo]** per specificare i campi per i quali i valori identici consentono l’identificazione dei duplicati, ad esempio: indirizzo e-mail, nome, cognome e così via. L’ordine dei campi consente di specificare quali elaborare per primi."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication"
@@ -25,7 +26,7 @@ ht-degree: 73%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_complement"
 >title="Generare un complemento"
->abstract="Puoi generare una transizione in uscita aggiuntiva con la popolazione rimanente, che è stata esclusa come duplicato. A tale scopo, attiva l’opzione **Genera complemento**."
+>abstract="Puoi generare una transizione in uscita aggiuntiva con la popolazione rimanente, che è stata esclusa come duplicato. A tale scopo, attiva l’opzione **[!UICONTROL Genera complemento]**."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_settings"
@@ -42,11 +43,11 @@ Per configurare l’attività **Deduplica** segui questi passaggi:
 
 1. Se l&#39;attività dispone di diverse transizioni in entrata, selezionare la transizione da utilizzare per eseguire la deduplicazione dall&#39;elenco a discesa **[!UICONTROL Set principale]**
 
-1. Nella sezione **Campi per identificare i duplicati** , fai clic sul pulsante **Aggiungi attributo** per specificare i campi per i quali i valori identici consentono l’identificazione dei duplicati, ad esempio: indirizzo e-mail, nome, cognome e così via. L’ordine dei campi consente di specificare quali elaborare per primi.
+1. Nella sezione **[!UICONTROL Campi per identificare i duplicati]** , fai clic sul pulsante **[!UICONTROL Aggiungi attributo]** per specificare i campi per i quali i valori identici consentono l’identificazione dei duplicati, ad esempio: indirizzo e-mail, nome, cognome e così via. L’ordine dei campi consente di specificare quali elaborare per primi.
 
    ![](../assets/deduplication.png)
 
-1. Nella sezione **Impostazioni deduplicazione** selezionare il numero di **duplicati univoci da mantenere**. Il valore predefinito per questo campo è 1. Il valore 0 ti consente di conservare tutti i duplicati.
+1. Nella sezione **[!UICONTROL Impostazioni deduplicazione]** selezionare il numero di **[!UICONTROL duplicati univoci da mantenere]**. Il valore predefinito per questo campo è 1. Il valore 0 ti consente di conservare tutti i duplicati.
 
    Ad esempio, se i record A e B sono considerati duplicati del record Y e il record C è considerato un duplicato del record Z:
 
@@ -54,14 +55,14 @@ Per configurare l’attività **Deduplica** segui questi passaggi:
    * Se il valore del campo è 0: vengono conservati tutti i record.
    * Se il valore del campo è 2: vengono conservati i record C e Z e due record tra A, B e Y, per caso o a seconda del metodo di deduplicazione selezionato successivamente.
 
-1. Seleziona il **Metodo di deduplica** da utilizzare:
+1. Seleziona il **[!UICONTROL Metodo di deduplica]** da utilizzare:
 
-   * **Selezione casuale**: seleziona casualmente il record da escludere dai duplicati.
-   * **Utilizzo di un&#39;espressione**: conservare i record in cui il valore dell&#39;espressione immessa è il minore o il maggiore.
-   * **Valori non vuoti**: conservare i record per i quali l&#39;espressione non è vuota.
-   * **Elenco di valori**: definire una priorità di valore per uno o più campi. Per definire i valori, fai clic su **Attributo** per selezionare un campo o creare un’espressione, quindi aggiungi i valori nella tabella appropriata. Per definire un nuovo campo, fare clic sul pulsante **Aggiungi** situato sopra l&#39;elenco dei valori.
+   * **[!UICONTROL Selezione casuale]**: seleziona casualmente il record da escludere dai duplicati.
+   * **[!UICONTROL Utilizzo di un&#39;espressione]**: conservare i record in cui il valore dell&#39;espressione immessa è il minore o il maggiore.
+   * **[!UICONTROL Valori non vuoti]**: conservare i record per i quali l&#39;espressione non è vuota.
+   * **[!UICONTROL Elenco di valori]**: definire una priorità di valore per uno o più campi. Per definire i valori, fai clic su **[!UICONTROL Attributo]** per selezionare un campo o creare un’espressione, quindi aggiungi i valori nella tabella appropriata. Per definire un nuovo campo, fare clic sul pulsante **[!UICONTROL Aggiungi]** situato sopra l&#39;elenco dei valori.
 
-1. Se desideri sfruttare il gruppo rimanente, seleziona l’opzione **Genera complemento**. Il complemento è costituito da tutti i duplicati. Verrà quindi aggiunta all’attività un’ulteriore transizione.
+1. Se desideri sfruttare il gruppo rimanente, seleziona l’opzione **[!UICONTROL Genera complemento]**. Il complemento è costituito da tutti i duplicati. Verrà quindi aggiunta all’attività un’ulteriore transizione.
 
 <!--
 ## Example{#deduplication-example}

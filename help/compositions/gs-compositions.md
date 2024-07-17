@@ -2,9 +2,10 @@
 audience: end-user
 title: Introduzione alle composizioni
 description: Scopri come iniziare con le composizioni
-source-git-commit: 0d6930b15be5013b57b8859dd3d21a5d3367ecae
+badge: label="Disponibilità limitata" type="Informative"
+source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '278'
 ht-degree: 13%
 
 ---
@@ -24,7 +25,7 @@ Adobe Data Composition consente di creare composizioni, in cui è possibile sfru
 >title="Composizioni"
 >abstract="In questa schermata, puoi accedere all’elenco completo delle composizioni, controllarne lo stato, le date dell’ultima/successiva esecuzione e creare una nuova composizione."
 
-Le composizioni sono accessibili dal menu **[!UICONTROL Tipi di pubblico]** di Adobe Experience Platform, nella scheda **Composizioni federate**.
+Le composizioni sono accessibili dal menu **[!UICONTROL Tipi di pubblico]** di Adobe Experience Platform, nella scheda **[!UICONTROL Composizioni federate]**.
 
 Da questa schermata, puoi creare nuove composizioni e accedere a quelle esistenti. Potete anche duplicare o eliminare una composizione esistente facendo clic sul pulsante con i puntini di sospensione accanto al relativo nome.
 
@@ -32,7 +33,7 @@ Da questa schermata, puoi creare nuove composizioni e accedere a quelle esistent
 
 Per perfezionare l’elenco e trovare facilmente la composizione che stai cercando, puoi cercare l’elenco e filtrare le composizioni in base ai loro stati o alle ultime date di elaborazione.
 
-È inoltre possibile personalizzare l&#39;elenco aggiungendo o rimuovendo colonne. A tale scopo, fare clic sul pulsante **Configura colonna** s e aggiungere o rimuovere le colonne di output desiderate.
+È inoltre possibile personalizzare l&#39;elenco aggiungendo o rimuovendo colonne. A tale scopo, fare clic sul pulsante **[!UICONTROL Configura colonna]**s e aggiungere o rimuovere le colonne di output desiderate.
 
 ![](assets/compositions-columns.png)
 
