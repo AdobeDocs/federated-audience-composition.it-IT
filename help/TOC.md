@@ -2,10 +2,10 @@
 user-guide-title: Composizione di pubblico federato
 title: Documentazione di Adobe di Federated Audience Composition
 breadcrumb-title: Composizione di pubblico federato
-source-git-commit: e79fb97ae9ce7236831f2ef4112c4cf68b889283
+source-git-commit: bea3c176701dd256255f222713d3c10284f97210
 workflow-type: tm+mt
-source-wordcount: '119'
-ht-degree: 42%
+source-wordcount: '134'
+ht-degree: 38%
 
 ---
 
@@ -13,7 +13,9 @@ ht-degree: 42%
 # Documentazione di Federated Audience Composition {#using}
 
 + [Documentazione di Federated Audience Composition](home.md)
-+ [Introduzione](start/get-started.md)
++ Introduzione a Federated Audience Composition {#start}
+   + [Introduzione](start/get-started.md)
+   + [Note sulla versione](start/release-notes.md)
 + Passaggi di configurazione {#config}
    + [Connettere AEP con Federated Audience Composition](connections/destinations.md)
    + [Configurare i database federati](connections/federated-db.md)
@@ -49,3 +51,4 @@ ht-degree: 42%
    + [Modifica espressioni](query/expression-editor.md)
 + Audit Trail {#audit-trail}
    + [Monitorare i database](admin/audit-trail.md)
++ [&lt; Torna alla documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/home)
