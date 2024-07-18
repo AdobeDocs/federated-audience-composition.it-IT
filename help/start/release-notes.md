@@ -2,7 +2,7 @@
 title: Novità di Federated Audience Composition
 description: Ultimi aggiornamenti e note sulla versione
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 11141b9ebcd3362ae42de586715e6462a8184492
+source-git-commit: 5d399539705559a7c7f583376815a55e665fc813
 workflow-type: tm+mt
 source-wordcount: '326'
 ht-degree: 3%
@@ -12,7 +12,7 @@ ht-degree: 3%
 
 # Note sulla versione {#rn-new}
 
-## Federated Audience Composition (LA) {#rn-la}
+## Federated Audience Composition (LA) {#fac-la}
 
 Federated Audience Composition è un componente aggiuntivo che offre un accesso flessibile e una portata più ampia nei data warehouse aziendali per potenziare i casi d’uso di personalizzazione.
 
@@ -28,7 +28,7 @@ Ulteriori informazioni sulle funzionalità di Federated Audience Composition in 
 >
 >Per il momento, la funzione non è disponibile per i clienti che hanno acquistato il componente aggiuntivo Adobe **Healthcare Shield**.
 
-## Accesso a Federated Audience Composition {#rn-guardrails}
+## Accesso a Federated Audience Composition {#fac-access}
 
 Non esistono autorizzazioni specifiche per Federated Audience Composition. L’unico prerequisito per accedere a questa funzionalità è aver acquistato il componente aggiuntivo Federated Audience Composition.
 
@@ -37,7 +37,7 @@ Non esistono autorizzazioni specifiche per Federated Audience Composition. L’u
 >Dopo aver ricevuto la notifica e-mail di benvenuto da Adobe, potrebbero essere necessarie alcune ore prima che l’interfaccia venga aggiornata e le funzioni disponibili.
 >
 
-## Prerequisiti e guardrail {#rn-guardrails}
+## Prerequisiti e guardrail {#fac-guardrails}
 
 * Per abilitare l’accesso al data warehouse e utilizzare la Federated Audience Composition, è necessario aggiungere i tuoi indirizzi IP all’elenco consentiti. Per aggiungere i tuoi indirizzi IP all’elenco consentiti, contatta il rappresentante del tuo Adobe.
 
