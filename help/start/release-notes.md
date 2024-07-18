@@ -2,10 +2,10 @@
 title: Novità di Federated Audience Composition
 description: Ultimi aggiornamenti e note sulla versione
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 529676bc2b882ffb6bdd8208319db523e982adac
+source-git-commit: 11141b9ebcd3362ae42de586715e6462a8184492
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 4%
+source-wordcount: '326'
+ht-degree: 3%
 
 ---
 
@@ -20,6 +20,7 @@ La Federated Audience Composition consente alle aziende di comporre dati per un 
 
 Invece di acquisire set di dati e/o tipi di pubblico in Adobe Experience Platform, ora puoi utilizzare Federated Audience Composition per ridurre il volume di dati copiati dal data warehouse in Adobe Experience Platform estraendo dal warehouse tipi di pubblico e attributi specifici necessari per alcuni casi di utilizzo di segmentazione o attivazione e assicurandoti che i dati sensibili non vengano mantenuti al di fuori del warehouse.
 
+Ulteriori informazioni sulle funzionalità di Federated Audience Composition in [questa pagina](get-started.md) e nelle [domande frequenti](get-started.md#faq).
 
 >[!AVAILABILITY]
 >
@@ -27,6 +28,14 @@ Invece di acquisire set di dati e/o tipi di pubblico in Adobe Experience Platfor
 >
 >Per il momento, la funzione non è disponibile per i clienti che hanno acquistato il componente aggiuntivo Adobe **Healthcare Shield**.
 
+## Accesso a Federated Audience Composition {#rn-guardrails}
+
+Non esistono autorizzazioni specifiche per Federated Audience Composition. L’unico prerequisito per accedere a questa funzionalità è aver acquistato il componente aggiuntivo Federated Audience Composition.
+
+>[!AVAILABILITY]
+>
+>Dopo aver ricevuto la notifica e-mail di benvenuto da Adobe, potrebbero essere necessarie alcune ore prima che l’interfaccia venga aggiornata e le funzioni disponibili.
+>
 
 ## Prerequisiti e guardrail {#rn-guardrails}
 
