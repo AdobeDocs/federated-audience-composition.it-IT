@@ -237,7 +237,7 @@ Nell’esempio seguente, abbiamo creato un gruppo intermedio per includere i ris
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_ruleproperties"
 >title="Proprietà delle regole"
->abstract="Dopo aver creato la query nell’area di lavoro, puoi verificarla utilizzando il riquadro **[!UICONTROL Proprietà delle regole]** sul lato destro.<br/>Questo riquadro consente di visualizzare i dati risultanti, recuperare una versione del codice SQL della query e verificare il numero di record mirati.<br/>Utilizza il pulsante **[!UICONTROL Seleziona o salva filtro]** per salvare la query come filtro predefinito o sostituisci il contenuto dell’area di lavoro con un filtro esistente."
+>abstract="Dopo aver creato la query nell’area di lavoro, puoi verificarla utilizzando il riquadro **[!UICONTROL Proprietà delle regole]** sul lato destro.<br/>Questo riquadro consente di visualizzare i dati risultanti, recuperare una versione del codice SQL della query e verificare il numero di record target.<br/>Utilizza il pulsante **[!UICONTROL Seleziona o salva il filtro]** per salvare la query come filtro preimpostato o sostituisci il contenuto dell’area di lavoro con un filtro esistente."
 
 Dopo aver creato la query nell’area di lavoro, puoi controllarla utilizzando il pannello **[!UICONTROL Proprietà delle regole]** sul lato destro. Questo riquadro viene visualizzato quando si crea una query per creare un pubblico. Le operazioni disponibili sono:
 
