@@ -3,9 +3,9 @@ audience: end-user
 title: Inviare tipi di pubblico ad Adobe Federated Audience Composition
 description: Scopri come inviare tipi di pubblico di Adobe Experience Platform a Federated Audience Composition
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 553db3ad6d318e7bddcede352178427255d41781
+source-git-commit: 1e400d98040cdbcc6f13f84faa00e8efa6cfbd4a
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '472'
 ht-degree: 5%
 
 ---
@@ -33,7 +33,7 @@ I passaggi principali per inviare il pubblico di Adobe Experience Platform ad Ad
 
    ![](assets/destination-configure.png)
 
-   La sezione **[!UICONTROL Avvisi]** consente di abilitare gli avvisi per ricevere notifiche sullo stato del flusso di dati verso la destinazione. Per ulteriori informazioni sugli avvisi, consulta la guida su [abbonamento a destinazioni avvisi tramite l&#39;interfaccia utente](../../ui/alerts.md).
+   La sezione **[!UICONTROL Avvisi]** consente di abilitare gli avvisi per ricevere notifiche sullo stato del flusso di dati verso la destinazione. Per ulteriori informazioni sugli avvisi, consulta la guida su [abbonamento a destinazioni avvisi tramite l&#39;interfaccia utente](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts).
 
 1. Nel passaggio **[!UICONTROL Criteri di governance e azioni di applicazione]**, puoi definire i criteri di governance dei dati e garantire che i dati utilizzati siano conformi quando i tipi di pubblico vengono inviati e sono attivi.
 
