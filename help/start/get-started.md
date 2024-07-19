@@ -2,19 +2,19 @@
 title: Guida introduttiva alla composizione federata del pubblico
 description: Scopri cos’è Adobe Federated Audience Composition e come utilizzarlo in Adobe Experience Platform
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: f72d0dffc73e2412523c3a392520e6f606b1b28b
+source-git-commit: 2608a9864c605ea127183dd1658932cfc8a18cf8
 workflow-type: tm+mt
-source-wordcount: '1284'
-ht-degree: 7%
+source-wordcount: '1320'
+ht-degree: 6%
 
 ---
 
 
 # Guida introduttiva alla composizione federata del pubblico {#gs-fac}
 
-Federated Audience Composition di Adobe Experience Platform offre una soluzione semplice e potente per collegare il data warehouse aziendale direttamente all’interno di Adobe Real-time Customer Data Platform e/o Adobe Journey Optimizer ed eseguire query sulle tabelle del data warehouse.
+Federated Audience Composition è un componente aggiuntivo di Adobe Real-time Customer Data Platform e Adobe Journey Optimizer che consente al cliente di creare e arricchire i tipi di pubblico dai data warehouse di terze parti e di importare i tipi di pubblico in Adobe Experience Platform.
 
-Adobe Federated Audience Composition consente agli utenti delle app Adobe Experience Platform di accedere ai dati dei propri clienti memorizzati nei data warehouse e nelle piattaforme di archiviazione cloud (come Amazon Redshift, Azure synapse Analytics, Google BigQuery, Snowflake). I dati dei clienti possono risiedere in più data warehouse e sono ora accessibili immediatamente, senza replica.
+Federated Audience Composition di Adobe Experience Platform offre una soluzione semplice e potente per collegare il data warehouse aziendale direttamente all’interno di Adobe Real-time Customer Data Platform e/o Adobe Journey Optimizer ed eseguire query sulle tabelle del data warehouse. Adobe Federated Audience Composition consente agli utenti delle app Adobe Experience Platform di accedere ai dati dei propri clienti memorizzati nei data warehouse e nelle piattaforme di archiviazione cloud (come Amazon Redshift, Azure synapse Analytics, Google BigQuery, Snowflake). I dati dei clienti possono risiedere in più data warehouse e sono ora accessibili immediatamente, senza replica.
 
 
 ## Casi d’uso {#rn-uc}

@@ -3,7 +3,7 @@ audience: end-user
 title: Introduzione ai Database federati
 description: Scopri come creare e gestire i Federated Database
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: f72d0dffc73e2412523c3a392520e6f606b1b28b
+source-git-commit: 2608a9864c605ea127183dd1658932cfc8a18cf8
 workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 6%
@@ -28,6 +28,8 @@ ht-degree: 6%
 >abstract="Immetti le impostazioni per la connessione al nuovo Database federato. Utilizza il pulsante **[!UICONTROL Verifica connessione]** per convalidare la configurazione."
 
 Creare, configurare, verificare e salvare la connessione a un database esterno.
+
+
 
 Database esterni supportati:
 
