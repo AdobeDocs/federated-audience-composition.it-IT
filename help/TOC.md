@@ -2,10 +2,10 @@
 user-guide-title: Composizione di pubblico federato
 title: Documentazione di Adobe di Federated Audience Composition
 breadcrumb-title: Composizione di pubblico federato
-source-git-commit: 2608a9864c605ea127183dd1658932cfc8a18cf8
+source-git-commit: 553db3ad6d318e7bddcede352178427255d41781
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 39%
+source-wordcount: '135'
+ht-degree: 38%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 39%
       + [Configurare i modelli dati](data-management/gs-models.md)
       + [Creare e configurare gli schemi](customer/schemas.md)
    + [Utilizzare i tipi di pubblico](customer/audiences.md)
-   + [Importare i tipi di pubblico in AEP](connections/destinations.md)
+   + [Inviare tipi di pubblico ad Adobe Federated Audience Composition](connections/destinations.md)
 + Composizioni {#compositions}
    + [Introduzione alle composizioni](compositions/gs-compositions.md)
    + Crea ed esegui la prima composizione {#create-composition}
