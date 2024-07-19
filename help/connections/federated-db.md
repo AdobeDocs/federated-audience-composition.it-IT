@@ -3,9 +3,9 @@ audience: end-user
 title: Introduzione ai Database federati
 description: Scopri come creare e gestire i Federated Database
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 2608a9864c605ea127183dd1658932cfc8a18cf8
+source-git-commit: 856b687afe5fdb22da982bc89b907d2f8dcd6bde
 workflow-type: tm+mt
-source-wordcount: '1419'
+source-wordcount: '1458'
 ht-degree: 6%
 
 ---
@@ -27,11 +27,13 @@ ht-degree: 6%
 >title="Dettagli del database federato"
 >abstract="Immetti le impostazioni per la connessione al nuovo Database federato. Utilizza il pulsante **[!UICONTROL Verifica connessione]** per convalidare la configurazione."
 
-Creare, configurare, verificare e salvare la connessione a un database esterno.
+La Federated Audience Composition consente al cliente di creare e arricchire i tipi di pubblico dai data warehouse di terze parti e di importarli in Adobe Experience Platform.
 
+Scopri come creare, configurare, testare e salvare la connessione al database esterno in questa pagina.
 
+## Database supportati {#supported-db}
 
-Database esterni supportati:
+Federated Audience Composition consente di connettersi ai seguenti database:
 
 *  Amazon Redshift
 * Azure synapse
