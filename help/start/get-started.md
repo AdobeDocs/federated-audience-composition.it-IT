@@ -2,10 +2,10 @@
 title: Guida introduttiva alla composizione federata del pubblico
 description: Scopri cos’è Adobe Federated Audience Composition e come utilizzarlo in Adobe Experience Platform
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 33fbb9a2b2d3fa631619fa213d2dffafa153fa05
+source-git-commit: 431fe95afe2297a8fd6c3821c7fbbeaf38807aaf
 workflow-type: tm+mt
-source-wordcount: '1328'
-ht-degree: 6%
+source-wordcount: '1381'
+ht-degree: 5%
 
 ---
 
@@ -35,22 +35,14 @@ Adobe Federated Audience Composition consente di creare e aggiornare i tipi di p
 
 Passaggi chiave:
 
-* **Configurazione**
+1. **Integrazione dei dati**: riunisci i dati provenienti da varie origini e uniscili in un set di dati unificato. Scopri come connettere le app Adobe Experience Platform al tuo data warehouse aziendale, i database supportati e come configurarli: vedi [questa sezione](../connections/federated-db.md).
 
-   1. Connettere Adobe Experience Platform e il data warehouse aziendale.
-Sono supportati i seguenti database: Snowflake, Google Big Query, Azure synapse, Redshift.
-Per ulteriori informazioni, consulta [questa pagina](../connections/federated-db.md).
-   1. Crea schemi per selezionare i dati da rendere accessibili dall’interfaccia utente.
-Per ulteriori informazioni, consulta [questa pagina](../customer/schemas.md).
-   1. Crea collegamenti per il modello dati.
-Per ulteriori informazioni, consulta [questa pagina](../data-management/gs-models.md).
+2. **Modellazione dati**: progetta e crea modelli di dati e schemi che definiscono la struttura, le relazioni e i vincoli dei dati. Ulteriori informazioni sugli schemi in [questa pagina](../customer/schemas.md). Scopri come creare collegamenti per il modello dati in [questa pagina](../data-management/gs-models.md).
 
-* **Componi pubblico**
+3. **Trasformazione dei dati**: applicare tecniche di manipolazione dei dati per modificare il formato, la struttura o i valori degli elementi dati in modo da renderli compatibili o idonei per applicazioni o analisi specifiche.
 
-   1. Progetta ed esegui composizioni per creare tipi di pubblico.
-Per ulteriori informazioni, consulta [questa pagina](../compositions/gs-compositions.md).
-   1. Aggiorna o riutilizza i tipi di pubblico esistenti tramite il portale del pubblico e le destinazioni di Adobe Experience Platform.
-Per ulteriori informazioni, consulta [questa pagina](../connections/destinations.md).
+4. **Utilizzo dati**: crea, orchestra e crea tipi di pubblico. Scopri come comporre il pubblico in [questa pagina](../compositions/gs-compositions.md). Puoi anche aggiornare o riutilizzare i tipi di pubblico esistenti tramite il portale del pubblico di Adobe Experience Platform e Destinazioni. Per ulteriori informazioni, consulta [questa pagina](../connections/destinations.md).
+
 
 ## Domande frequenti {#faq}
 
