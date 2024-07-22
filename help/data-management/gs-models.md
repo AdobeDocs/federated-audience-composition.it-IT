@@ -3,10 +3,10 @@ audience: end-user
 title: Introduzione ai modelli di dati
 description: Scopri come iniziare con i modelli di dati
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 883ba223f6c78783fae9f6c9617daa1a7e6635de
+source-git-commit: 434210591ca434d5dddda9b28572bf516d22b462
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 39%
+source-wordcount: '220'
+ht-degree: 29%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 39%
 
 Un modello dati è un set di schemi, tipi di pubblico e i collegamenti tra di essi.
 
-Ulteriori informazioni su [schemi](../customer/schemas.md).
+Ulteriori informazioni su [schemi](../customer/schemas.md#schema-start).
 
 Ulteriori informazioni su [tipi di pubblico](../customer/audiences.md).
 
@@ -61,3 +61,16 @@ Accedi alla finestra in cui puoi aggiungere gli schemi, i tipi di pubblico e i c
 
 ### Crea collegamenti {#data-model-links}
 
+La creazione di collegamenti tra tabelle del modello dati può essere eseguita in 2 modi:
+- Fai clic direttamente sul menu **[!UICONTROL Crea collegamento]** di una delle tabelle
+- Fai clic sul pulsante **[!UICONTROL Crea collegamenti]** e scegli le 2 tabelle
+
+![](assets/datamodel_createlinks.png){zoomable="yes"}
+
+Compila il modulo fornito per definire il collegamento :
+
+![](assets/datamodel_link.png){zoomable="yes"}
+
+Di seguito sono elencati tutti i collegamenti definiti per il modello dati:
+
+![](assets/datamodel_alllinks.png){zoomable="yes"}
