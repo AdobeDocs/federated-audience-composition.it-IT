@@ -1,25 +1,27 @@
 ---
 audience: end-user
-title: Inviare tipi di pubblico ad Adobe Federated Audience Composition
-description: Scopri come inviare tipi di pubblico di Adobe Experience Platform a Federated Audience Composition
+title: Arricchire il pubblico di Adobe Experience Platform con dati esterni
+description: Scopri come perfezionare e arricchire i tipi di pubblico di Adobe Experience Platform con i dati dei database federati utilizzando la destinazione Federated Audiences Composition.
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 1e400d98040cdbcc6f13f84faa00e8efa6cfbd4a
+source-git-commit: 03e1ec555ae64705e8e7ef49610cba27efd5f58b
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 5%
+source-wordcount: '557'
+ht-degree: 4%
 
 ---
 
-# Inviare Adobe Experience Platform ad Adobe Federated Audience Composition {#connect-aep-fac}
+# Arricchire il pubblico di Adobe Experience Platform con dati esterni {#connect-aep-fac}
 
 >[!CONTEXTUALHELP]
 >id="dc_new_destination"
 >title="Creare una destinazione"
 >abstract="Immetti le impostazioni per la connessione al nuovo Database federato. Utilizza il pulsante **[!UICONTROL Connetti alla destinazione]** per convalidare la configurazione."
 
-Adobe Experience Platform ti consente di inviare i tipi di pubblico dal portale del pubblico ad Adobe Federated Audience Composition. In questo modo, puoi sfruttare i tipi di pubblico esistenti nelle composizioni e combinarli con i dati dei tuoi database esterni per creare nuovi tipi di pubblico o aggiornare quelli esistenti.
+Adobe Experience Platform consente l’integrazione diretta dei tipi di pubblico da Audience Portal ai database esterni tramite la destinazione Adobe Federated Audience Composition. In questo modo puoi sfruttare i tipi di pubblico esistenti nelle composizioni e arricchirli o perfezionarli utilizzando i dati dei database esterni per creare nuovi tipi di pubblico o aggiornare quelli esistenti.
 
-A tal fine, devi impostare una nuova connessione in Adobe Experience Platform alla destinazione Federated Audience Composition di Adobe. Puoi utilizzare una pianificazione per inviare un determinato pubblico a frequenze regolari, scegliere quali campi inviare con il pubblico, ad esempio gli ID per riconciliare i dati. Se hai applicato la governance e le policy sulla privacy al pubblico, queste verranno mantenute e rimandate al portale del pubblico una volta aggiornato.
+A tal fine, devi impostare una nuova connessione in Adobe Experience Platform alla destinazione Federated Audience Composition di Adobe. Puoi utilizzare una pianificazione per inviare un determinato pubblico a frequenze regolari, selezionare attributi specifici da includere, ad esempio gli ID per la riconciliazione dei dati. Se hai applicato la governance e le policy sulla privacy al pubblico, queste verranno mantenute e rimandate al portale del pubblico una volta aggiornato.
+
+Ad esempio, se archivi i punteggi di credito dei clienti nel tuo data warehouse e disponi di un pubblico Adobe Experience Platform che include i clienti interessati a un prodotto specifico negli ultimi due mesi, puoi perfezionare questo pubblico in base ai punteggi di credito utilizzando la destinazione Federated Audience Composition. Questo processo ti consente di filtrare il pubblico in modo da includere solo profili con punteggi di credito elevati senza trasferire dati sensibili del punteggio di credito dal data warehouse.
 
 I passaggi principali per inviare il pubblico di Adobe Experience Platform ad Adobe Federated Audience Composition sono i seguenti:
 

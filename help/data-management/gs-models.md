@@ -3,7 +3,7 @@ audience: end-user
 title: Introduzione ai modelli di dati
 description: Scopri come iniziare con i modelli di dati
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 434210591ca434d5dddda9b28572bf516d22b462
+source-git-commit: 03e1ec555ae64705e8e7ef49610cba27efd5f58b
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 29%
@@ -41,7 +41,7 @@ Un modello dati è un set di schemi, tipi di pubblico e i collegamenti tra di es
 
 Ulteriori informazioni su [schemi](../customer/schemas.md#schema-start).
 
-Ulteriori informazioni su [tipi di pubblico](../customer/audiences.md).
+Ulteriori informazioni su [tipi di pubblico](../start/audiences.md).
 
 ## Creare un modello dati {#data-model-create}
 
