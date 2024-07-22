@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Save audience
 description: Scopri come utilizzare l’attività Save audience
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 6e04c42bf4b83448673851b97227faf953638d1e
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 40%
+source-wordcount: '380'
+ht-degree: 38%
 
 ---
 
@@ -48,6 +48,10 @@ Per configurare l’attività **Salva pubblico**, segui questi passaggi:
    ![](../assets/save-audience.png)
 
 1. Specifica l’etichetta del pubblico da creare.
+
+   >[!IMPORTANT]
+   >
+   >L’etichetta del pubblico deve essere univoca nella sandbox corrente. Non può essere la stessa etichetta di un pubblico esistente.
 
 1. Fai clic su **Aggiungi mappatura pubblico**, quindi scegli i campi del pubblico di origine e di destinazione:
 
