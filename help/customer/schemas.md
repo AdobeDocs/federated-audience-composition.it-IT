@@ -3,10 +3,10 @@ audience: end-user
 title: Introduzione agli schemi
 description: Scopri come iniziare con gli schemi
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 96508e648b2f97dd9410df617ed3a5fd8b354b52
+source-git-commit: 883ba223f6c78783fae9f6c9617daa1a7e6635de
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 31%
+source-wordcount: '281'
+ht-degree: 34%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 31%
 Uno schema è un oggetto all’interno dell’applicazione che definisce il modo in cui i dati sono legati alle tabelle del database.
 Uno schema fa riferimento a una tabella.
 
-## Creare uno schema {#schema-create}
+## Crea uno schema {#schema-create}
 
 Nella sezione **[!UICONTROL FEDERATED DATA]**, vai al collegamento **[!UICONTROL Models]**. Troverai la scheda **[!UICONTROL Schema]**.
 Fai clic sul pulsante **[!UICONTROL Crea schema]**.
@@ -62,14 +62,14 @@ Aggiungendo le tabelle, potrai accedere ai relativi campi e gestire per mantener
 
 ![](assets/schema_fields.png){zoomable="yes"}
 
-## Come si modifica uno schema? {#schema-edit}
+## Modificare uno schema {#schema-edit}
 
 Per modificare uno schema, fai clic sul nome dello schema nella cartella degli schemi. Accedi alla pagina seguente.
 Fai clic sul pulsante **[!UICONTROL Modifica]**.
 
 ![](assets/schema_edit.png){zoomable="yes"}
 
-## Come visualizzare in anteprima i dati in uno schema? {#schema-preview}
+## Visualizzare l’anteprima dei dati in uno schema {#schema-preview}
 
 Per visualizzare in anteprima i dati nella tabella rappresentata dallo schema, passa alla scheda **[!UICONTROL Dati]** come indicato di seguito.
 
@@ -79,7 +79,7 @@ Per visualizzare in anteprima i dati nella tabella rappresentata dallo schema, p
 
 ![](assets/schema_columns.png){zoomable="yes"}
 
-## Eliminare uno schema? {#schema-delete}
+## Eliminare uno schema {#schema-delete}
 
 Per eliminare uno schema, fai clic sul pulsante **[!UICONTROL Altro]**, quindi su **[!UICONTROL Elimina]**.
 
