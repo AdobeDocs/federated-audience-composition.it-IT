@@ -2,10 +2,10 @@
 user-guide-title: Composizione di pubblico federato
 title: Documentazione di Adobe di Federated Audience Composition
 breadcrumb-title: Composizione di pubblico federato
-source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
+source-git-commit: 6cfd3bd85d7811e00e716042502c7d7b23fa4ad9
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 39%
+source-wordcount: '136'
+ht-degree: 40%
 
 ---
 
@@ -17,6 +17,7 @@ ht-degree: 39%
 + Introduzione a Federated Audience Composition {#start}
    + [Cos’è la Federated Audience Composition](start/get-started.md)
    + [Utilizzare i tipi di pubblico](start/audiences.md)
+   + [Domande frequenti](start/faq.md)
 + Passaggi di configurazione {#config}
    + [Creare e gestire le connessioni](connections/connections.md)
    + [Configurare i database federati](connections/federated-db.md)
