@@ -3,10 +3,10 @@ audience: end-user
 title: Introduzione all’Audit trail
 description: Scopri come monitorare i database con l’audit trail
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: bdef7049ee78c512857adcf7d587066eaf80046e
+source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 12%
+source-wordcount: '367'
+ht-degree: 11%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 12%
 
 La funzionalità Audit trail fornisce una registrazione dettagliata e cronologica di tutte le azioni e di tutti gli eventi eseguiti nell’ambiente in tempo reale
 
-La funzionalità **[!UICONTROL Audit trail]** registra costantemente in tempo reale un registro dettagliato delle azioni e degli eventi che si verificano all&#39;interno dell&#39;istanza Adobe Data Composition. Offre un metodo comodo per accedere a un record cronologico di dati, che affronta query quali: lo stato dei flussi di lavoro, gli utenti più recenti per modificarli o le attività eseguite dagli utenti all’interno dell’istanza.
+La funzionalità **[!UICONTROL Audit trail]** registra costantemente in tempo reale un registro dettagliato delle azioni e degli eventi che si verificano all&#39;interno dell&#39;istanza Adobe Federated Composition. Offre un metodo comodo per accedere a un record cronologico di dati, che affronta query quali: lo stato dei flussi di lavoro, gli utenti più recenti per modificarli o le attività eseguite dagli utenti all’interno dell’istanza.
 
 +++ Ulteriori informazioni sulle entità disponibili in Audit Trail
 
-* **Audit trail dello schema Source** consente di monitorare le attività e le modifiche recenti apportate agli schemi nell&#39;istanza di Composizione dati Adobe.
+* **Audit trail dello schema di Source** consente di monitorare le attività e le modifiche recenti apportate agli schemi nell&#39;istanza di Federated Audience Composition di Adobe.
 
   Per informazioni dettagliate sugli schemi, consulta questa [pagina](../customer/schemas.md).
 
@@ -40,7 +40,7 @@ La funzionalità **[!UICONTROL Audit trail]** registra costantemente in tempo re
 
   Per ulteriori informazioni sui flussi di lavoro, consulta questa [pagina](../compositions/gs-compositions.md).
 
-* **Account esterno** consente di controllare le modifiche apportate agli account esterni nell&#39;istanza Adobe Data Composition.
+* **Account esterno** consente di controllare le modifiche apportate agli account esterni nell&#39;istanza di Adobe Audience Composition.
 
   Per ulteriori informazioni sull&#39;account esterno, fare riferimento a questa [pagina](../connections/federated-db.md).
 

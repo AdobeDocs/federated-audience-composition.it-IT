@@ -3,18 +3,18 @@ audience: end-user
 title: Introduzione alle composizioni
 description: Scopri come iniziare con le composizioni
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 03b2fc39c6e0c724363c21418ea50691093d4a10
 workflow-type: tm+mt
-source-wordcount: '278'
+source-wordcount: '287'
 ht-degree: 13%
 
 ---
 
 # Introduzione alle composizioni {#compositions}
 
-## Che cos&#39;è una composizione? {#what}
+## Cos’è una composizione {#what}
 
-Adobe Data Composition consente di creare composizioni, in cui è possibile sfruttare varie attività (suddivisione, esclusione...) in un’area di lavoro visiva per creare tipi di pubblico. Al termine, i tipi di pubblico risultanti vengono salvati in Adobe Experience Platform insieme ai tipi di pubblico esistenti e possono essere utilizzati in destinazioni come Journey Optimizer per eseguire il targeting dei clienti.
+Adobe di Composizione del pubblico consente di creare composizioni, in cui puoi sfruttare varie attività (suddividere, escludere...) in un’area di lavoro visiva per creare tipi di pubblico. Al termine, i tipi di pubblico risultanti vengono salvati in Adobe Experience Platform insieme ai tipi di pubblico esistenti e possono essere utilizzati in destinazioni come Journey Optimizer per eseguire il targeting dei clienti. [Scopri come utilizzare i tipi di pubblico](../start/audiences.md)
 
 ![](assets/composition-example.png)
 
@@ -43,7 +43,7 @@ Le composizioni possono avere più stati:
 
 * **[!UICONTROL Bozza]**: composizione creata e salvata.
 * **[!UICONTROL In corso]**: la composizione è stata eseguita ed è attualmente in esecuzione.
-* **[!UICONTROL Arrestato]**: l&#39;esecuzione della composizione è stata interrotta.
+* **[!UICONTROL Arrestato]**: l&#39;esecuzione della composizione è stata completata ed è stata interrotta.
 * **[!UICONTROL Sospeso]**: l&#39;esecuzione della composizione è stata sospesa.
 * **[!UICONTROL Errore]**: l&#39;esecuzione della composizione ha rilevato un errore. Apri la composizione e accedi ai registri e alle attività per identificare l’errore e risolverlo.
 

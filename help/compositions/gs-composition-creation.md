@@ -3,7 +3,7 @@ audience: end-user
 title: Creare composizioni
 description: Scopri come creare le composizioni
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 59%
@@ -20,7 +20,7 @@ ht-degree: 59%
 
 ## Cosa c&#39;è all&#39;interno di una composizione? {#gs-composition-inside}
 
-Federated Data Composition fornisce un’area di lavoro visiva che consente di creare tipi di pubblico sfruttando varie attività (suddivisione, arricchimento, ecc.).
+Federated Audience Composition fornisce un’area di lavoro visiva che consente di creare tipi di pubblico sfruttando varie attività (suddivisione, arricchimento, ecc.).
 
 Il diagramma di composizione è una rappresentazione di ciò che dovrebbe accadere. Descrive le varie attività da eseguire e il modo in cui vengono collegate tra loro.
 
