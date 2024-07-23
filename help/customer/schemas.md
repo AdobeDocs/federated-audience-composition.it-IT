@@ -3,9 +3,9 @@ audience: end-user
 title: Introduzione agli schemi
 description: Scopri come iniziare con gli schemi
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 75d539eef7b36b721c0df52b2fe9115728cf14d3
+source-git-commit: d168a67fb14644dab5d33e0e9d17c850d2a66262
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '470'
 ht-degree: 20%
 
 ---
@@ -44,7 +44,8 @@ ht-degree: 20%
 
 Uno schema è una rappresentazione di una tabella del database. Si tratta di un oggetto all&#39;interno dell&#39;applicazione che definisce il modo in cui i dati vengono legati alle tabelle del database.
 
-Creando uno schema, potrai manipolare la tabella in FAC:
+Creando uno schema, potrai manipolare una rappresentazione della tabella in FAC:
+
 - Assegna un nome descrittivo e una descrizione per semplificare la comprensione da parte dell’utente
 - Decidere la visibilità di ciascun campo in base al suo uso reale
 - Selezionare la chiave primaria per collegare gli schemi, in base alle esigenze nel [modello dati](../data-management/gs-models.md#data-model-start)
@@ -70,6 +71,7 @@ Aggiungendo le tabelle, per le quali desideri creare lo schema, potrai accedere 
 ![](assets/schema_fields.png){zoomable="yes"}
 
 Per ogni tabella è possibile:
+
 - rinomina l’etichetta dello schema specificata
 - aggiungi una descrizione
 - rinomina tutti i campi e decidi la loro visibilità.
@@ -91,6 +93,7 @@ Fai clic sul pulsante **[!UICONTROL Modifica]**.
 ![](assets/schema_edit.png){zoomable="yes"}
 
 Avrai accesso alla stessa possibilità di quando crei lo schema:
+
 - rinomina l’etichetta dello schema specificata
 - aggiungi una descrizione
 - rinomina tutti i campi e decidi la loro visibilità.
