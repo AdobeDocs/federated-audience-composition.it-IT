@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Genera pubblico
 description: Scopri come utilizzare l’attività Genera pubblico
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
+source-git-commit: 71936c3fb6946ce9d4928499c96da39aaef49231
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 35%
+source-wordcount: '246'
+ht-degree: 30%
 
 ---
 
@@ -45,8 +45,11 @@ Per creare un pubblico personalizzato, segui questi passaggi:
 
 1. Seleziona **Crea pubblico**.
 1. Scegli lo **schema**, noto anche come dimensione di targeting. Lo schema ti consente di definire la popolazione target dell’operazione: destinatari, beneficiari del contratto, operatore, abbonati, ecc. Per impostazione predefinita, lo schema viene selezionato dai destinatari.
+
+   ![](../assets/build-audience-create.png)
+
 1. Fai clic su **Continua**.
-1. Utilizza il modellatore di query per definire la query. [Scopri come utilizzare Query Modeler](../../query/query-modeler-overview.md)
+1. Utilizza il modellatore di query per definire la query, quindi conferma. [Scopri come utilizzare Query Modeler](../../query/query-modeler-overview.md)
 
 >[!TAB Read audience]
 
@@ -54,9 +57,16 @@ Per selezionare un pubblico esistente, segui questi passaggi:
 
 1. Seleziona **Leggi pubblico**.
 1. Fai clic su **Continua**.
+
+   ![](../assets/build-audience-read.png)
+
 1. Selezionare il pubblico.
 
 >[!ENDTABS]
+
+>[!NOTE]
+>
+>L&#39;opzione **Genera una transizione in uscita** consente di aggiungere una transizione in uscita che verrà attivata alla fine dell&#39;esecuzione dell&#39;attività se la popolazione del pubblico è vuota.
 
 <!--
 ## Examples{#build-audience-examples}
