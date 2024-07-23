@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Save audience
 description: Scopri come utilizzare l’attività Save audience
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 6e04c42bf4b83448673851b97227faf953638d1e
+source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 38%
+source-wordcount: '420'
+ht-degree: 25%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 38%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
 >title="Salva un pubblico"
->abstract="Utilizza questa attività per aggiornare un pubblico esistente o crearne uno nuovo dalla popolazione calcolata a monte nella composizione. I tipi di pubblico creati vengono aggiunti all’elenco dei tipi di pubblico e sono disponibili tramite il menu **Tipi di pubblico**."
+>abstract="Utilizza questa attività per creare un nuovo pubblico dalla popolazione calcolata a monte nella composizione. I tipi di pubblico creati vengono aggiunti all’elenco dei tipi di pubblico e sono disponibili tramite il menu **Tipi di pubblico**."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_outbound"
@@ -35,7 +35,7 @@ ht-degree: 38%
 >abstract="Selezionare lo spazio dei nomi da utilizzare per i profili."
 >additional-url="https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/namespaces" text="Ulteriori informazioni nella documentazione di Experience Platform"
 
-L&#39;attività **Save audience** ti consente di aggiornare un pubblico esistente o crearne uno nuovo dalla popolazione calcolata a monte in una composizione. I tipi di pubblico creati vengono aggiunti all’elenco dei tipi di pubblico delle applicazioni e sono disponibili tramite il menu **Tipi di pubblico**.
+L&#39;attività **Save audience** ti consente di creare un nuovo pubblico dalla popolazione calcolata a monte in una composizione. I tipi di pubblico creati vengono aggiunti all&#39;elenco dei tipi di pubblico di Adobe Experience Platform e sono disponibili tramite il menu **Tipi di pubblico**. [Scopri come utilizzare i tipi di pubblico](../../start/audiences.md)
 
 Questa attività è essenzialmente utilizzata per mantenere i gruppi di popolazione calcolati nella stessa composizione, convertendoli in tipi di pubblico riutilizzabili. Connettila ad altre attività di targeting, come a un’attività **Crea pubblico** o **Combina**.
 
@@ -53,10 +53,7 @@ Per configurare l’attività **Salva pubblico**, segui questi passaggi:
    >
    >L’etichetta del pubblico deve essere univoca nella sandbox corrente. Non può essere la stessa etichetta di un pubblico esistente.
 
-1. Fai clic su **Aggiungi mappatura pubblico**, quindi scegli i campi del pubblico di origine e di destinazione:
-
-   * **Campo Pubblico Source**:
-   * **Campo Pubblico Di Destinazione**:
+1. Utilizza la sezione Mappature pubblico per selezionare i campi che desideri trasferire con il pubblico appena creato. A questo scopo, fai clic su **Aggiungi mappatura pubblico**, quindi scegli i campi del pubblico di origine e di destinazione.
 
    Ripeti l’operazione per aggiungere tutte le mappature del pubblico necessarie.
 
@@ -65,7 +62,7 @@ Per configurare l’attività **Salva pubblico**, segui questi passaggi:
    * **Campo identità primaria**: selezionare il campo da utilizzare per identificare i profili. Ad esempio, l’indirizzo e-mail o il numero di telefono.
    * **Spazio dei nomi identità**: selezionare lo spazio dei nomi da utilizzare per identificare i profili, ovvero il tipo di dati da utilizzare come chiave di identificazione. Ad esempio, se l&#39;indirizzo e-mail è stato selezionato come campo di identità principale, deve essere selezionato lo spazio dei nomi dell&#39;identità **E-mail**. Se l&#39;identificatore univoco è il numero di telefono, deve essere selezionato lo spazio dei nomi dell&#39;identità **Telefono**.
 
-Dopo l&#39;esecuzione della composizione, il pubblico risultante viene salvato in Adobe Experience Platform <!-- to check--> e reso accessibile nel menu **Tipi di pubblico**.
+Dopo aver eseguito la composizione, il pubblico risultante viene salvato in Adobe Experience Platform e reso accessibile nel menu **Tipi di pubblico**. Il pubblico creato include tutti i campi selezionati nella sezione Mappature pubblico. Puoi attivare il pubblico in qualsiasi destinazione supportata da Adobe Experience Platform.
 
 <!--
 

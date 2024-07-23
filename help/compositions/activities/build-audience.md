@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Genera pubblico
 description: Scopri come utilizzare l’attività Genera pubblico
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+source-git-commit: 8cc7a4cb8cf5e98496ddf366b9212c25acfdbbd0
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 40%
+source-wordcount: '212'
+ht-degree: 35%
 
 ---
 
@@ -18,15 +18,10 @@ ht-degree: 40%
 >title="Attività Creazione del pubblico"
 >abstract="L’attività **Creazione del pubblico** consente di definire il pubblico che sarà inserito nella composizione."
 
-L’attività **Creazione del pubblico** consente di definire il pubblico che sarà inserito nella composizione.
+L&#39;attività **Genera pubblico** ti consente di definire il pubblico che entrerà nella composizione. Per definire la popolazione del pubblico, puoi eseguire le seguenti operazioni:
 
-Per definire la popolazione del pubblico, puoi eseguire le seguenti operazioni:
-
-<!--* Select an existing audience, created as a list in the client console.-->
-* Seleziona un pubblico di Adobe Experience Platform.
-* Crea un nuovo pubblico con il generatore di modellatori di query definendo e combinando criteri di filtro.
-
-L&#39;attività **Genera pubblico** può essere posizionata all&#39;inizio della composizione o dopo qualsiasi altra attività. Qualsiasi attività può essere inserita dopo il **Genera pubblico**.
+* Seleziona un pubblico Adobe Experience Platform esistente.
+* Crea un nuovo pubblico con Query Modeler definendo e combinando criteri di filtro.
 
 ## Configurare l’attività Creazione del pubblico {#build-audience-configuration}
 
