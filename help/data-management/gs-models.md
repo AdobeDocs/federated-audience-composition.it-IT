@@ -3,7 +3,7 @@ audience: end-user
 title: Introduzione ai modelli di dati
 description: Scopri come iniziare con i modelli di dati
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 03e1ec555ae64705e8e7ef49610cba27efd5f58b
+source-git-commit: c1c035d3783af6c3bc94f2ba0aff7ba515fb68e2
 workflow-type: tm+mt
 source-wordcount: '220'
 ht-degree: 29%
@@ -62,6 +62,7 @@ Accedi alla finestra in cui puoi aggiungere gli schemi, i tipi di pubblico e i c
 ### Crea collegamenti {#data-model-links}
 
 La creazione di collegamenti tra tabelle del modello dati può essere eseguita in 2 modi:
+
 - Fai clic direttamente sul menu **[!UICONTROL Crea collegamento]** di una delle tabelle
 - Fai clic sul pulsante **[!UICONTROL Crea collegamenti]** e scegli le 2 tabelle
 
