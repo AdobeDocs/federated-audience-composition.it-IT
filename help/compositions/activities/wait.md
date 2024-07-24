@@ -3,10 +3,11 @@ audience: end-user
 title: Utilizzare l’attività Attendi
 description: Scopri come utilizzare l’attività Attendi
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 59857bd2-2a0b-4c97-ba4e-048dfd9af8f2
+source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 61%
+source-wordcount: '86'
+ht-degree: 46%
 
 ---
 
@@ -17,7 +18,7 @@ ht-degree: 61%
 >title="Attività Attendi"
 >abstract="L’attività **Attendi** viene utilizzata per ritardare la transizione da un’attività a un’altra."
 
-L&#39;attività **Wait** consente di trascorrere un certo periodo di tempo tra due attività in esecuzione. Ad esempio, per attendere diversi giorni dopo un’attività di consegna e-mail, quindi analizzare le aperture e i clic generati durante questo periodo prima di eseguire eventuali operazioni di follow-up (e-mail di promemoria, creazione di un pubblico, ecc.).
+L&#39;attività **Wait** consente di trascorrere un certo periodo di tempo tra due attività in esecuzione.
 
 ## Configurazione{#wait-configuration}
 
@@ -29,4 +30,4 @@ Per configurare l’attività **Attendi**, segui questi passaggi:
 
 1. Selezionare l&#39;unità di tempo nel campo **Periodi**: secondi, minuti, ore, giorni.
 
-
+   ![](../assets/wait.png)
