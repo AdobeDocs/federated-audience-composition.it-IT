@@ -4,10 +4,10 @@ title: Utilizzare l’attività Save audience
 description: Scopri come utilizzare l’attività Save audience
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
+source-git-commit: ca5939e02b55419574599a09863bcdd546b8f511
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 25%
+source-wordcount: '451'
+ht-degree: 24%
 
 ---
 
@@ -62,7 +62,13 @@ Per configurare l’attività **Salva pubblico**, segui questi passaggi:
    * **Campo identità primaria**: selezionare il campo da utilizzare per identificare i profili. Ad esempio, l’indirizzo e-mail o il numero di telefono.
    * **Spazio dei nomi identità**: selezionare lo spazio dei nomi da utilizzare per identificare i profili, ovvero il tipo di dati da utilizzare come chiave di identificazione. Ad esempio, se l&#39;indirizzo e-mail è stato selezionato come campo di identità principale, deve essere selezionato lo spazio dei nomi dell&#39;identità **E-mail**. Se l&#39;identificatore univoco è il numero di telefono, deve essere selezionato lo spazio dei nomi dell&#39;identità **Telefono**.
 
-Dopo aver eseguito la composizione, il pubblico risultante viene salvato in Adobe Experience Platform e reso accessibile nel menu **Tipi di pubblico**. Il pubblico creato include tutti i campi selezionati nella sezione Mappature pubblico. Puoi attivare il pubblico in qualsiasi destinazione supportata da Adobe Experience Platform.
+## Accedere al pubblico in Adobe Experience Platform {#access-audience}
+
+Dopo aver eseguito la composizione, il pubblico risultante viene salvato in Adobe Experience Platform come pubblico esterno e disponibile in Adobe Real-Time Customer Data Platform e/o Adobe Journey Optimizer. È reso accessibile nel menu **Tipi di pubblico**. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+
+Il pubblico creato include tutti i campi selezionati nella sezione Mappature pubblico. Puoi attivare il pubblico in qualsiasi destinazione supportata da Adobe Experience Platform.
+
+[Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 <!--
 
