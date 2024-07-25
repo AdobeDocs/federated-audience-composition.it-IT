@@ -2,13 +2,13 @@
 title: Domande frequenti
 description: Domande frequenti
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 6cfd3bd85d7811e00e716042502c7d7b23fa4ad9
+exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
+source-git-commit: b8cd36152433272277e7e694c8147211deae88bf
 workflow-type: tm+mt
 source-wordcount: '916'
 ht-degree: 2%
 
 ---
-
 
 # Domande frequenti {#faq}
 
@@ -71,7 +71,7 @@ Federated Audience Composition non mantiene una copia fisica dei dati. La freque
 
 Ad esempio:
 
-* Nel caso della segmentazione del pubblico, il pubblico viene creato nel tuo data warehouse e puoi utilizzare la Composizione federata del pubblico per ulteriori attività di composizione e manipolazione dei dati prima di pubblicare il pubblico risultante e gli attributi associati tramite Adobe Experience Platform Audience Portal. La definizione del pubblico e gli attributi associati vengono trasmessi a Adobe Experience Platform.
+* In caso di creazione di un pubblico, il pubblico viene creato nel tuo data warehouse e puoi utilizzare la Composizione federata del pubblico per ulteriori attività di composizione e manipolazione dei dati prima di pubblicare il pubblico risultante e gli attributi associati tramite Adobe Experience Platform Audience Portal. La definizione del pubblico e gli attributi associati vengono trasmessi a Adobe Experience Platform.
 Tieni presente che la scadenza corrente dei dati per i tipi di pubblico generati esternamente è di 30 giorni. Questa scadenza riduce la quantità di dati in eccesso archiviati all’interno di un’organizzazione. Al termine del periodo di scadenza dei dati, il set di dati associato rimane visibile all’interno dell’inventario dei set di dati, ma non è possibile attivare il pubblico e il conteggio dei profili viene visualizzato come zero. Ulteriori informazioni nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}.
 
 * Nel caso di un pubblico di tipo Arricchimento pubblico, il punto di partenza è un pubblico Adobe Experience Platform esistente. Si possono esaminare due scenari:
@@ -79,7 +79,7 @@ Tieni presente che la scadenza corrente dei dati per i tipi di pubblico generati
    1. Perfeziona il pubblico Adobe Experience Platform esistente in base agli attributi aggiuntivi presenti nel data warehouse. Ad esempio, un pubblico di clienti ha mostrato interesse per un particolare prodotto sul sito web negli ultimi due mesi. Ora vuoi prendere questo pubblico e segmentarlo ulteriormente utilizzando Federated Audience Composition per includere solo i clienti che hanno un punteggio di credito elevato. Il punteggio di credito è considerato sensibile e i singoli punti dati del punteggio di credito non vengono copiati dal data warehouse.
 +++
 
-+++Se i dati dei pattern di casi di utilizzo di segmentazione del pubblico e arricchimento del pubblico non vengono mantenuti, come vengono memorizzati temporaneamente?
++++Se i modelli dei casi di utilizzo per Creazione e arricchimento del pubblico non vengono mantenuti, come vengono memorizzati temporaneamente?
 
 I dati del pubblico risultanti non persistono a tempo indefinito in Adobe Experience Platform o nella Federated Audience Composition. Non verrà conservato più a lungo di quanto richiesto dal tuo caso d’uso. Gli attributi del pubblico portati come parte del payload del pubblico persisteranno solo come parte della definizione del pubblico. La durata della persistenza si basa sul TTL per qualsiasi pubblico; il valore predefinito è 30 giorni.
 
