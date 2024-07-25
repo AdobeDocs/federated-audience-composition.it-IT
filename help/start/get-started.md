@@ -1,26 +1,42 @@
 ---
-title: Guida introduttiva alla composizione federata del pubblico
+title: Guida introduttiva di Experience Platform Federated Audience Composition
 description: Scopri cos’è Adobe Federated Audience Composition e come utilizzarlo in Adobe Experience Platform
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 3b4f5284cd65cd5cd30c4223fe2df3ffff7c0905
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 11%
+source-wordcount: '708'
+ht-degree: 8%
 
 ---
 
 # Guida introduttiva alla composizione federata del pubblico {#gs-fac}
 
-Federated Audience Composition è un componente aggiuntivo per Adobe Real-time Customer Data Platform e Adobe Journey Optimizer che consente di creare e arricchire i tipi di pubblico dai data warehouse di terze parti e di importarli in Adobe Experience Platform. Federated Audience Composition offre una soluzione semplice e potente per collegare il data warehouse aziendale direttamente all’interno di Adobe Real-time Customer Data Platform e/o Adobe Journey Optimizer ed eseguire query sulle tabelle del data warehouse.
+Federated Audience Composition è una funzionalità aggiuntiva per [Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/home){target="_blank"} e [Adobe Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"} che consente di creare e arricchire i tipi di pubblico dai data warehouse di terze parti e di importare i tipi di pubblico in Adobe Experience Platform. Federated Audience Composition offre una soluzione semplice e potente per collegare il data warehouse aziendale direttamente all’interno di Adobe Real-time Customer Data Platform e/o Adobe Journey Optimizer ed eseguire query sulle tabelle del data warehouse.
 
 Adobe Federated Audience Composition consente agli utenti delle app Adobe Experience Platform di accedere ai dati dei propri clienti archiviati nei data warehouse e nelle piattaforme di archiviazione cloud, come Amazon Redshift, Azure synapse Analytics e altro ancora. I dati dei clienti possono risiedere in più data warehouse e sono ora accessibili immediatamente, senza replica. Le piattaforme supportate sono elencate in [questa pagina](../connections/federated-db.md#supported-db).
+
+## Funzionalità {#rn-capabilities}
+
+La Federated Audience Composition estende il valore di Real-Time CDP e Journey Optimizer con un approccio completo alla cura e all’attivazione del pubblico:
+
+* Espandi l’accesso ai set di dati critici basati su data warehouse per creare tipi di pubblico di alto valore: utilizza i data warehouse esistenti come sistema principale di record, sfruttando al contempo le applicazioni migliori per fornire ai clienti esperienze ottimali.
+
+* Supporto completo per casi di utilizzo di coinvolgimento: Federated Audience Composition, in combinazione con Real-Time CDP o Journey Optimizer supporta esperienze personalizzate avviate dal marchio con tipi di pubblico federati e offre esperienze istantanee attivate da eventi in tempo reale, combinate con attributi di persona per soddisfare i requisiti dei casi di utilizzo tra i team.
+
+* Minimizzare lo spostamento e la duplicazione dei dati: crea tipi di pubblico da set di dati che risiedono in un data warehouse aziendale senza copiare i dati sottostanti per gestire profili di marketing e tipi di pubblico utilizzabili.
+
+* Utilizza un singolo sistema per flussi di lavoro basati sull’esperienza: cura i tipi di pubblico acquisiti e federati in Adobe Experience Platform e coordina le esperienze in uscita su tutti i canali.
 
 ## Casi d’uso {#rn-uc}
 
 Tramite un’interfaccia utente di semplice marketing, puoi creare regole di segmento per eseguire query nel data warehouse su un elenco di utenti idonei per un segmento specifico necessario per le campagne di marketing, accedere ai tipi di pubblico esistenti nel warehouse per l’attivazione o arricchire i tipi di pubblico di Adobe Experience Platform con punti dati aggiuntivi esistenti nel warehouse.
 
-In questa versione sono disponibili due casi d’uso: Creazione di tipi di pubblico e Arricchimento del pubblico.
+In questa versione sono disponibili due casi d’uso:
+
+1. Creazione di pubblico: crea nuovi tipi di pubblico dai set di dati aziendali senza copiare i dati sottostanti e attivali con le destinazioni predefinite&#x200B;
+
+1. Arricchimento del pubblico: arricchisci i tipi di pubblico esistenti in Adobe Experience Platform utilizzando dati del pubblico composti che sono stati federati dal data warehouse aziendale. Questi dati non verranno mantenuti nei profili cliente di Adobe Experience Platform.
 
 ![diagramma](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 

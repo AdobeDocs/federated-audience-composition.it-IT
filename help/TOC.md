@@ -1,11 +1,11 @@
 ---
-user-guide-title: Composizione di pubblico federato
-title: Documentazione di Adobe di Federated Audience Composition
-breadcrumb-title: Composizione di pubblico federato
-source-git-commit: 6cfd3bd85d7811e00e716042502c7d7b23fa4ad9
+user-guide-title: Experience Platform di Federated Audience Composition
+title: Documentazione di Experience Platform di Federated Audience Composition
+breadcrumb-title: Experience Platform di Federated Audience Composition
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 40%
+source-wordcount: '141'
+ht-degree: 34%
 
 ---
 

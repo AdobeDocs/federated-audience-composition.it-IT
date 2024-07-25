@@ -3,9 +3,10 @@ audience: end-user
 title: Introduzione ai Database federati
 description: Scopri come creare e gestire i Federated Database
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: fe425bf6f2773e04948378fa34d82731126774f5
+exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1467'
 ht-degree: 6%
 
 ---
@@ -27,7 +28,7 @@ ht-degree: 6%
 >title="Dettagli del database federato"
 >abstract="Immetti le impostazioni per la connessione al nuovo Database federato. Utilizza il pulsante **[!UICONTROL Verifica connessione]** per convalidare la configurazione."
 
-La Federated Audience Composition consente al cliente di creare e arricchire i tipi di pubblico dai data warehouse di terze parti e di importarli in Adobe Experience Platform.
+Experience Platform Federated Audience Composition consente al cliente di creare e arricchire i tipi di pubblico dai data warehouse di terze parti e di importare i tipi di pubblico in Adobe Experience Platform.
 
 Scopri come creare, configurare, testare e salvare la connessione al database esterno in questa pagina.
 
@@ -254,4 +255,3 @@ Il connettore supporta le seguenti opzioni:
 | Opzione | Descrizione |
 |---|---|
 | TimeZoneName | Per impostazione predefinita, questo significa che viene utilizzato il fuso orario del server app di Campaign Classic. L’opzione può essere utilizzata per forzare il parametro di sessione TIMEZONE. |
-

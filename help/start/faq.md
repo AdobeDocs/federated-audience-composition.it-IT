@@ -1,18 +1,18 @@
 ---
 title: Domande frequenti
-description: Domande frequenti
+description: Domande frequenti sulla composizione del pubblico federato di Adobe Experience Platform
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 03ad7a7ca602379567bca04f3750faa7a15d61db
+source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '836'
 ht-degree: 2%
 
 ---
 
 # Domande frequenti {#faq}
 
-Di seguito è riportato un elenco di domande frequenti sulla Federated Audience Composition. Sono inoltre disponibili domande frequenti globali per il servizio di segmentazione di Adobe Experience Platform in [questa pagina](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq){target="_blank"}.
+Di seguito è riportato un elenco di domande frequenti sulla Composizione federata del pubblico in Adobe Experience Platform. Sono inoltre disponibili domande frequenti globali per il servizio di segmentazione di Adobe Experience Platform in [questa pagina](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq){target="_blank"}.
 
 
 +++Quali sono le autorizzazioni necessarie per accedere a Federated Audience Composition?
