@@ -3,7 +3,7 @@ title: Guida introduttiva alla composizione federata del pubblico
 description: Scopri cos’è Adobe Federated Audience Composition e come utilizzarlo in Adobe Experience Platform
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 6a4e50c4d2958504a266297dffc125b00e1294e4
+source-git-commit: d198b0cb3584d204b4c5c54a584049173add0603
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 11%
@@ -22,13 +22,13 @@ Tramite un’interfaccia utente di semplice marketing, puoi creare regole di seg
 
 In questa versione sono disponibili due casi d’uso: Creazione di tipi di pubblico e Arricchimento del pubblico.
 
-![diagramma](assets/fac-use-cases.png){zoomable="yes"}
+![diagramma](assets/fac-use-cases.png){zoomable="yes"}{width="85%" align="center"}
 
 ## Passaggi chiave {#gs-steps}
 
 Adobe Federated Audience Composition consente di creare e aggiornare i tipi di pubblico di Adobe Experience Platform direttamente dal database, senza alcun processo di acquisizione.
 
-![diagramma](assets/steps-diagram.png){zoomable="yes"}
+![diagramma](assets/steps-diagram.png){zoomable="yes"}{width="85%" align="center"}
 
 Passaggi chiave:
 
