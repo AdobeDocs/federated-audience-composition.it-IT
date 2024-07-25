@@ -3,10 +3,11 @@ audience: end-user
 title: Introduzione agli schemi
 description: Scopri come iniziare con gli schemi
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: d168a67fb14644dab5d33e0e9d17c850d2a66262
+exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
+source-git-commit: 41b0778526bf1aa9e75191d13892ef6465e42e0b
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 20%
+source-wordcount: '438'
+ht-degree: 22%
 
 ---
 
@@ -44,76 +45,75 @@ ht-degree: 20%
 
 Uno schema è una rappresentazione di una tabella del database. Si tratta di un oggetto all&#39;interno dell&#39;applicazione che definisce il modo in cui i dati vengono legati alle tabelle del database.
 
-Creando uno schema, potrai manipolare una rappresentazione della tabella in FAC:
+Creando uno schema, puoi definire una rappresentazione della tabella in Experience Platform di Federated Audience Composition:
 
-- Assegna un nome descrittivo e una descrizione per semplificare la comprensione da parte dell’utente
-- Decidere la visibilità di ciascun campo in base al suo uso reale
-- Selezionare la chiave primaria per collegare gli schemi, in base alle esigenze nel [modello dati](../data-management/gs-models.md#data-model-start)
+* Assegna un nome descrittivo e una descrizione per semplificare la comprensione da parte dell’utente
+* Decidere la visibilità di ciascun campo in base al suo utilizzo reale
+* Selezionare la chiave primaria per collegare gli schemi, in base alle esigenze nel [modello dati](../data-management/gs-models.md#data-model-start)
 
 ## Crea uno schema {#schema-create}
 
-Per creare schemi in FAC, effettua le seguenti operazioni:
-Nella sezione **[!UICONTROL FEDERATED DATA]**, vai al collegamento **[!UICONTROL Models]**. Troverai la scheda **[!UICONTROL Schema]**.
-Fai clic sul pulsante **[!UICONTROL Crea schema]**.
+Per creare schemi in Federated Audience Composition, segui i passaggi seguenti:
 
-![](assets/schema_create.png){zoomable="yes"}
+1. Nella sezione **[!UICONTROL FEDERATED DATA]**, vai al collegamento **[!UICONTROL Models]**. Passare alla scheda **[!UICONTROL Schema]** e fare clic sul pulsante **[!UICONTROL Crea schema]**.
 
-Potrai accedere a una nuova interfaccia con un elenco a discesa in cui troverai
-tutti i database connessi all&#39;applicazione. Ulteriori informazioni sulla [connessione al database](../connections/connections.md#connections-fdb).
-Seleziona il database di origine nell&#39;elenco e fai clic sulla scheda **[!UICONTROL Aggiungi tabelle]**
+   ![](assets/schema_create.png){zoomable="yes"}
 
-![](assets/schema_tables.png){zoomable="yes"}
+   Questo passaggio consente di accedere a una nuova schermata con un elenco a discesa in cui è possibile trovare i database connessi all’ambiente. Ulteriori informazioni sulla connessione al database in [questa sezione](../connections/connections.md#connections-fdb).
 
-Sarà possibile accedere all&#39;elenco di tutte le tabelle del database.
+1. Selezionare il database di origine nell&#39;elenco e fare clic sulla scheda **[!UICONTROL Aggiungi tabelle]**.
 
-Aggiungendo le tabelle, per le quali desideri creare lo schema, potrai accedere ai relativi campi come indicato di seguito.
+   ![](assets/schema_tables.png){zoomable="yes"}
 
-![](assets/schema_fields.png){zoomable="yes"}
+   Viene quindi visualizzato l&#39;elenco di tutte le tabelle del database.
 
-Per ogni tabella è possibile:
+1. Aggiungendo le tabelle per le quali si desidera creare lo schema, è possibile accedere ai relativi campi come indicato di seguito:
 
-- rinomina l’etichetta dello schema specificata
-- aggiungi una descrizione
-- rinomina tutti i campi e decidi la loro visibilità.
-- seleziona la chiave primaria dello schema
+   ![](assets/schema_fields.png){zoomable="yes"}
 
-Ad esempio, ecco una tabella importata, subito dopo l’aggiunta:
+   Per ogni tabella è possibile:
 
-![](assets/schema_lumaorder.png){zoomable="yes"}
+   * modificare l’etichetta dello schema
+   * aggiungi una descrizione
+   * rinominare tutti i campi e impostarne la visibilità
+   * seleziona la chiave primaria dello schema
 
-Lo schema può essere definito come segue:
+   Ad esempio, per la tabella seguente importata:
 
-![](assets/schema_lumaorders.png){zoomable="yes"}
+   ![](assets/schema_lumaorder.png){zoomable="yes"}
+
+   Lo schema può essere definito come segue:
+
+   ![](assets/schema_lumaorders.png){zoomable="yes"}
 
 ## Modificare uno schema {#schema-edit}
 
-Per modificare uno schema, fai clic sul nome dello schema nella cartella degli schemi. Accedi alla pagina seguente.
-Fai clic sul pulsante **[!UICONTROL Modifica]**.
+Per modificare uno schema:
 
-![](assets/schema_edit.png){zoomable="yes"}
+1. Fai clic sul nome dello schema nella cartella degli schemi.
 
-Avrai accesso alla stessa possibilità di quando crei lo schema:
+1. Fai clic sul pulsante **[!UICONTROL Modifica]**.
 
-- rinomina l’etichetta dello schema specificata
-- aggiungi una descrizione
-- rinomina tutti i campi e decidi la loro visibilità.
-- seleziona la chiave primaria dello schema
+   ![](assets/schema_edit.png){zoomable="yes"}
 
-![](assets/schema_edit_orders.png){zoomable="yes"}
+   Puoi accedere alle stesse opzioni disponibili per [la creazione di uno schema](#schema-create).
+
+   ![](assets/schema_edit_orders.png){zoomable="yes"}
 
 ## Visualizzare l’anteprima dei dati in uno schema {#schema-preview}
 
 Per visualizzare in anteprima i dati nella tabella rappresentata dallo schema, passa alla scheda **[!UICONTROL Dati]** come indicato di seguito.
-Per ottenere il numero totale di registrazioni, fare clic sul collegamento **[!UICONTROL Calcola]**.
+
+Fai clic sul collegamento **[!UICONTROL Calcola]** per visualizzare in anteprima il numero totale di registrazioni.
 
 ![](assets/schema_data.png){zoomable="yes"}
 
-È possibile modificare la panoramica dei dati facendo clic sul pulsante **[!UICONTROL Configura colonne]**.
+Fai clic sul pulsante **[!UICONTROL Configura colonne]** per modificare la visualizzazione dei dati.
 
 ![](assets/schema_columns.png){zoomable="yes"}
 
 ## Eliminare uno schema {#schema-delete}
 
-Per eliminare uno schema, fai clic sul pulsante **[!UICONTROL Altro]**, quindi su **[!UICONTROL Elimina]**.
+Per eliminare uno schema, fai clic sul pulsante **[!UICONTROL Altro]**, quindi scegli **[!UICONTROL Elimina]**.
 
 ![](assets/schema_delete.png){zoomable="yes"}

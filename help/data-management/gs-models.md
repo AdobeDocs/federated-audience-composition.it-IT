@@ -4,15 +4,14 @@ title: Introduzione ai modelli di dati
 description: Scopri come iniziare con i modelli di dati
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: 7a1b58f6a1cbf00dcf5841290073e90a838a0315
+source-git-commit: 41b0778526bf1aa9e75191d13892ef6465e42e0b
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '226'
 ht-degree: 28%
 
 ---
 
 # Introduzione ai modelli di dati {#data-model}
-
 
 >[!CONTEXTUALHELP]
 >id="dc_model_menu"
@@ -46,37 +45,38 @@ Ulteriori informazioni su [tipi di pubblico](../start/audiences.md).
 
 ## Creare un modello dati {#data-model-create}
 
-Nella sezione **[!UICONTROL FEDERATED DATA]**, vai al collegamento **[!UICONTROL Models]**. Troverai la scheda **[!UICONTROL Modello dati]**.
+Per creare un modello dati, effettua le seguenti operazioni:
 
-![](assets/datamodel_create.png){zoomable="yes"}
+1. Nella sezione **[!UICONTROL FEDERATED DATA]**, vai al collegamento **[!UICONTROL Models]** e passa alla scheda **[!UICONTROL Data model]**.
 
-Facendo clic sul pulsante **[!UICONTROL Crea modello dati]**, potrai assegnare un nome al modello dati e fare clic sul pulsante **[!UICONTROL Crea]**.
+   ![](assets/datamodel_create.png){zoomable="yes"}
 
-![](assets/datamodel_name.png){zoomable="yes"}
+1. Fai clic sul pulsante **[!UICONTROL Crea modello dati]** per definire il nome del modello dati, quindi fai clic sul pulsante **[!UICONTROL Crea]**.
 
-Accedi alla finestra in cui puoi aggiungere gli schemi, i tipi di pubblico e i collegamenti del modello di dati.
+   ![](assets/datamodel_name.png){zoomable="yes"}
 
-![](assets/datamodel_created.png){zoomable="yes"}
+1. Quindi aggiungi gli schemi, i tipi di pubblico e i collegamenti del modello di dati.
 
-![](assets/datamodel_schemas.png){zoomable="yes"}
+   ![](assets/datamodel_schemas.png){zoomable="yes"}
 
 ### Crea collegamenti {#data-model-links}
 
-La creazione di collegamenti tra tabelle del modello dati può essere eseguita in 2 modi:
+Per creare collegamenti tra tabelle del modello dati, effettua le seguenti operazioni:
 
-- Fai clic direttamente sul menu **[!UICONTROL Crea collegamento]** di una delle tabelle
-- Fai clic sul pulsante **[!UICONTROL Crea collegamenti]** e scegli le 2 tabelle
+1. Fai clic sul menu **[!UICONTROL Crea collegamento]** di una delle tabelle oppure fai clic sul pulsante **[!UICONTROL Crea collegamenti]** e scegli le due tabelle:
 
-![](assets/datamodel_createlinks.png){zoomable="yes"}
+   ![](assets/datamodel_createlinks.png){zoomable="yes"}
 
-Compila il modulo fornito per definire il collegamento :
+1. Compila il modulo specificato per definire il collegamento.
 
-![](assets/datamodel_link.png){zoomable="yes"}
+   ![](assets/datamodel_link.png){zoomable="yes"}
 
-Di seguito sono elencati tutti i collegamenti definiti per il modello dati:
+   Di seguito sono elencati tutti i collegamenti definiti per il modello dati:
 
-![](assets/datamodel_alllinks.png){zoomable="yes"}
+   ![](assets/datamodel_alllinks.png){zoomable="yes"}
 
-## Creazione di un modello dati nel video {#data-model-video}
+## Video introduttivo {#data-model-video}
+
+Scopri come creare un modello dati in questo video:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3432020)
