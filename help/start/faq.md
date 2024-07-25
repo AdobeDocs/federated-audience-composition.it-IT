@@ -3,9 +3,9 @@ title: Domande frequenti
 description: Domande frequenti
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: b8cd36152433272277e7e694c8147211deae88bf
+source-git-commit: 03ad7a7ca602379567bca04f3750faa7a15d61db
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '826'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ Di seguito è riportato un elenco di domande frequenti sulla Federated Audience 
 
 +++Quali sono le autorizzazioni necessarie per accedere a Federated Audience Composition?
 
-Non esistono autorizzazioni specifiche per Federated Audience Composition. L’unico prerequisito per accedere a questa funzionalità è aver acquistato il componente aggiuntivo Federated Audience Composition.
+Federated Audience Composition richiede pacchetti Adobe Real-time Customer Data Platform e Adobe Journey Optimizer Prime o Ultimate. Non esistono autorizzazioni specifiche per Federated Audience Composition. L’unico prerequisito per accedere a questa funzionalità è aver acquistato il componente aggiuntivo Federated Audience Composition.
 
 +++
 
@@ -61,7 +61,7 @@ Sì, una volta connessa, Federated Audience Composition può essere utilizzato p
 
 +++Esiste un’archiviazione temporanea in Federated Audience Composition?
 
-No, Federated Audience Composition memorizza solo i metadati (descrizioni dello schema). Nessun dato cliente è in fase di transizione. Il flusso di esportazione del pubblico viene eseguito direttamente da Adobe Experience Platform Audience Portal (tramite [Destination](../connections/destinations.md)) al database del cliente. Il flusso di creazione e aggiornamento viene eseguito direttamente dal database del data warehouse a Adobe Experience Platform Audience Portal.
+No, Federated Audience Composition memorizza solo i metadati (descrizioni dello schema). Nessun dato cliente è in fase di transizione. <!--The Audience export flow is done directly from Adobe Experience Platform Audience Portal (via [Destination](../connections/destinations.md)) to the customer database. The creation and update flow is done directly from your data warehouse database to Adobe Experience Platform Audience Portal.-->
 
 +++
 
@@ -76,7 +76,7 @@ Tieni presente che la scadenza corrente dei dati per i tipi di pubblico generati
 
 * Nel caso di un pubblico di tipo Arricchimento pubblico, il punto di partenza è un pubblico Adobe Experience Platform esistente. Si possono esaminare due scenari:
    1. Acquisisci attributi aggiuntivi del payload del pubblico dal data warehouse federato: in questo caso, gli attributi aggiuntivi aggiunti verranno visualizzati come parte della definizione del pubblico. La scadenza dei dati per i tipi di pubblico generati esternamente è la stessa di cui sopra, ovvero 30 giorni.
-   1. Perfeziona il pubblico Adobe Experience Platform esistente in base agli attributi aggiuntivi presenti nel data warehouse. Ad esempio, un pubblico di clienti ha mostrato interesse per un particolare prodotto sul sito web negli ultimi due mesi. Ora vuoi prendere questo pubblico e segmentarlo ulteriormente utilizzando Federated Audience Composition per includere solo i clienti che hanno un punteggio di credito elevato. Il punteggio di credito è considerato sensibile e i singoli punti dati del punteggio di credito non vengono copiati dal data warehouse.
+   1. Perfeziona il pubblico Adobe Experience Platform esistente in base agli attributi aggiuntivi presenti nel data warehouse. <!--For example, you have an audience of customers who have shown interest in a particular product on the website for the last two months. You now want to take this audience and further segment it using Federated Audience Composition to only include customers who have a high credit score. The credit score is deemed sensitive and individual credit score data points are not copied over from the data warehouse.-->
 +++
 
 +++Se i modelli dei casi di utilizzo per Creazione e arricchimento del pubblico non vengono mantenuti, come vengono memorizzati temporaneamente?
