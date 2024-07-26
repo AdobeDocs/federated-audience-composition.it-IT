@@ -4,9 +4,9 @@ title: Introduzione ai Database federati
 description: Scopri come creare e gestire i Federated Database
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 866dbeb39f2d3cc73d21edea170a3861f91a4802
+source-git-commit: fa968e0c221befa7a0ddaef0f5908752f681c535
 workflow-type: tm+mt
-source-wordcount: '1467'
+source-wordcount: '1566'
 ht-degree: 6%
 
 ---
@@ -68,7 +68,11 @@ Utilizzare Federated Database per elaborare le informazioni memorizzate in un da
 
    * **[!UICONTROL Database]**: nome del database se non specificato nel DSN. Può essere lasciato vuoto se specificato nel DSN
 
-   * **[!UICONTROL Schema di lavoro]**: nome dello schema di lavoro. [Ulteriori informazioni](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+   * **[!UICONTROL Schema di lavoro]**: nome dello schema di database da utilizzare per le tabelle di lavoro. [Ulteriori informazioni](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+
+     >[!NOTE]
+     >
+     >È possibile utilizzare qualsiasi schema del database, inclusi gli schemi utilizzati per l&#39;elaborazione dati temporanea, purché si disponga dell&#39;autorizzazione necessaria per connettersi a questo schema.
 
 1. Selezionare l&#39;opzione **[!UICONTROL Verifica connessione]** per verificare la configurazione.
 
@@ -188,7 +192,11 @@ Utilizzare Federated Database per elaborare le informazioni memorizzate in un da
 
    * **[!UICONTROL Database]** (facoltativo): immettere il nome del database se non specificato nel DSN.
 
-   * **[!UICONTROL Schema di lavoro]** (facoltativo): immetti il nome dello schema di lavoro.
+   * **[!UICONTROL Schema di lavoro]** (facoltativo): immettere il nome dello schema di database da utilizzare per le tabelle di lavoro.
+
+     >[!NOTE]
+     >
+     >È possibile utilizzare qualsiasi schema del database, inclusi gli schemi utilizzati per l&#39;elaborazione dati temporanea, purché si disponga dell&#39;autorizzazione necessaria per connettersi a questo schema.
 
    * **[!UICONTROL Chiave privata]**: fai clic sul campo **[!UICONTROL Chiave privata]** per selezionare i file con estensione pem dalla cartella locale.
 
@@ -240,7 +248,11 @@ Utilizzare Federated Database per elaborare le informazioni memorizzate in un da
 
    * **[!UICONTROL Database]** (facoltativo): immettere il nome del database se non specificato nel DSN.
 
-   * **[!UICONTROL Schema di lavoro]** (facoltativo): immetti il nome dello schema di lavoro.
+   * **[!UICONTROL Schema di lavoro]** (facoltativo): immettere il nome dello schema di database da utilizzare per le tabelle di lavoro.
+
+     >[!NOTE]
+     >
+     >È possibile utilizzare qualsiasi schema del database, inclusi gli schemi utilizzati per l&#39;elaborazione dati temporanea, purché si disponga dell&#39;autorizzazione necessaria per connettersi a questo schema.
 
    * **[!UICONTROL Opzioni]**: il connettore supporta le opzioni descritte nella tabella seguente.
 
