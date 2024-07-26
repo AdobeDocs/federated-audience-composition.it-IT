@@ -4,9 +4,9 @@ title: Arricchire il pubblico di Adobe Experience Platform con dati esterni
 description: Scopri come perfezionare e arricchire i tipi di pubblico di Adobe Experience Platform con i dati dei database federati utilizzando la destinazione Federated Audiences Composition.
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: f2ea9a368b4409f0b38b12508ce310d49e3d84f8
+source-git-commit: 2547f1ae8b22a4fb25c259172b8c052b279fae10
 workflow-type: tm+mt
-source-wordcount: '553'
+source-wordcount: '566'
 ht-degree: 4%
 
 ---
@@ -22,7 +22,10 @@ Adobe Experience Platform consente l&#39;integrazione diretta dei tipi di pubbli
 
 A tal fine, devi impostare una nuova connessione in Adobe Experience Platform alla destinazione Federated Audience Composition di Adobe. Puoi utilizzare una pianificazione per inviare un determinato pubblico a frequenze regolari, selezionare attributi specifici da includere, ad esempio gli ID per la riconciliazione dei dati. Se hai applicato la governance e le policy sulla privacy al pubblico, queste verranno mantenute e rimandate al portale del pubblico una volta aggiornato.
 
-Ad esempio, se archivi i punteggi di credito dei clienti nel tuo data warehouse e disponi di un pubblico Adobe Experience Platform che include i clienti interessati a un prodotto specifico negli ultimi due mesi, puoi perfezionare questo pubblico in base ai punteggi di credito utilizzando la destinazione Federated Audience Composition. Questo processo ti consente di filtrare il pubblico in modo da includere solo profili con punteggi di credito elevati senza trasferire dati sensibili del punteggio di credito dal data warehouse.
+Ad esempio, supponiamo che tu stia memorizzando le informazioni di acquisto nel tuo data warehouse e che un pubblico Adobe Experience Platform sia indirizzato ai clienti interessati a un prodotto specifico negli ultimi due mesi. Utilizzando la destinazione Federated Audience Composition puoi:
+
+* Perfeziona il pubblico in base alle informazioni di acquisto. Ad esempio, puoi filtrare il pubblico in modo da eseguire il targeting dei clienti che hanno effettuato un acquisto superiore ai 150$.
+* Arricchisci il pubblico con campi relativi agli acquisti, come il nome del prodotto e la quantità acquistata.
 
 I passaggi principali per inviare il pubblico di Adobe Experience Platform ad Adobe Federated Audience Composition sono i seguenti:
 
