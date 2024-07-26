@@ -3,7 +3,7 @@ audience: end-user
 title: Utilizzare l’attività Scheduler
 description: Scopri come utilizzare l’attività Scheduler
 exl-id: 3e8be2a2-2227-42f4-a512-b9e686ba0f66
-source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
+source-git-commit: 8fa60d20dc574bbddc0106508d57a1cd3f3d3db8
 workflow-type: tm+mt
 source-wordcount: '456'
 ht-degree: 36%
@@ -19,7 +19,7 @@ ht-degree: 36%
 
 L’attività del **Modulo di pianificazione** è un’attività di **Controllo del flusso**. Consente di pianificare l&#39;inizio della composizione. Dovresti considerare questa attività come un avvio pianificato. Può essere utilizzata solo come prima attività della composizione.
 
-Se hai configurato una connessione alla destinazione Federated Data Composition, puoi utilizzare questa attività per inviare su pubblico Adobe Experience Platform a frequenze regolari. [Scopri come arricchire il pubblico di Adobe Experience Platform con dati esterni](../../connections/destinations.md)
+Se hai configurato una connessione alla destinazione Federated Audience Composition, puoi utilizzare questa attività per inviare i tipi di pubblico di Adobe Experience Platform a frequenze regolari. [Scopri come arricchire il pubblico di Adobe Experience Platform con dati esterni](../../connections/destinations.md)
 
 ![](../assets/scheduler.png)
 

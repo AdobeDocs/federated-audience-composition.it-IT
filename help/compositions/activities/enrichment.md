@@ -4,7 +4,7 @@ title: Utilizzare l’attività Enrichment
 description: Scopri come utilizzare l’attività Enrichment
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 6bf12c25-fbef-4588-89d0-28215cbcbf58
-source-git-commit: 1b9e4f23403e830a3cd4b12df5268d852f549ffe
+source-git-commit: 8fa60d20dc574bbddc0106508d57a1cd3f3d3db8
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 49%
@@ -40,7 +40,7 @@ ht-degree: 49%
 
 L&#39;attività **Enrichment** consente di migliorare i dati di destinazione con informazioni aggiuntive dal database federato. Viene comunemente utilizzata in una composizione dopo le attività di segmentazione.
 
-Se hai configurato una connessione alla destinazione Federated Data Composition, puoi utilizzare l’attività Enrichment per arricchire i dati in arrivo da Adobe Experience Platform con gli attributi del database esterno. [Scopri come arricchire il pubblico di Adobe Experience Platform con dati esterni](../../connections/destinations.md)
+Se hai configurato una connessione alla destinazione Federated Audience Composition, puoi utilizzare l’attività Enrichment per arricchire i dati in arrivo da Adobe Experience Platform con gli attributi del database esterno. [Scopri come arricchire il pubblico di Adobe Experience Platform con dati esterni](../../connections/destinations.md)
 
 I dati di arricchimento possono provenire:
 
