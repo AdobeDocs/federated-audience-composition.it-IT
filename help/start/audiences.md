@@ -4,9 +4,9 @@ title: Utilizzare i tipi di pubblico
 description: Scopri come utilizzare i tipi di pubblico
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
-source-git-commit: 58cbd9c38bbeab1fb8a18cbb30de282ed798ffb0
+source-git-commit: 4b7645e45b68a7316d9ddc09af1a8253b4e4dd62
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '301'
 ht-degree: 5%
 
 ---
@@ -17,11 +17,11 @@ Experience Platform di Federated Audience Composition consente di [creare compos
 
 Puoi quindi attivare questi tipi di pubblico in qualsiasi destinazione supportata da Adobe Experience Platform.
 
-### Creazione di tipi di pubblico tramite composizioni {#creation}
+## Creazione di tipi di pubblico tramite composizioni {#creation}
 
 Per creare tipi di pubblico utilizzando la composizione Pubblico federato, devi creare una composizione che includa un&#39;attività **[!UICONTROL Salva pubblico]**. Questa attività ti consente di salvare il pubblico in Audience Portal e di selezionare i campi dai database esterni da includere nel pubblico. [Scopri come configurare un’attività Salva pubblico](../compositions/activities/save-audience.md)
 
-Il pubblico creato con Adobe Federated Data Composition include tutti i campi selezionati nell&#39;attività **{!UICONTROL Save audience}** e viene memorizzato in Audience Portal insieme a tutti i tipi di pubblico di Adobe Experience Platform.
+Il pubblico creato con Adobe Federated Data Composition include tutti i campi selezionati nell&#39;attività **[!UICONTROL Save audience]** e viene memorizzato in Audience Portal insieme a tutti i tipi di pubblico di Adobe Experience Platform.
 
 Dopo aver eseguito la composizione, il pubblico risultante viene salvato in Adobe Experience Platform come pubblico esterno e disponibile in Adobe Real-Time Customer Data Platform e/o Adobe Journey Optimizer.
 
