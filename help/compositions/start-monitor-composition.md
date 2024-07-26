@@ -3,13 +3,13 @@ audience: end-user
 title: Creare composizioni
 description: Scopri come creare le composizioni
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
+source-git-commit: 3384c816e64b93a80b8e9b3e61dab74fa098889f
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 29%
+source-wordcount: '635'
+ht-degree: 27%
 
 ---
-
 
 # Avviare e monitorare la composizione {#start-monitor}
 
@@ -28,7 +28,7 @@ Puoi monitorare l’avanzamento dei profili target in tempo reale utilizzando un
 Nelle composizioni, i dati trasportati da un’attività all’altra tramite transizioni vengono memorizzati in una tabella di lavoro temporanea. Questi dati possono essere visualizzati per ogni transizione. A questo scopo, seleziona una transizione per aprirne le proprietà sul lato destro dello schermo.
 
 * Fai clic su **[!UICONTROL Anteprima schema]** per visualizzare lo schema della tabella di lavoro.
-* Fai clic su **[!UICONTROL Anteprima risultati]** per visualizzare i dati trasportati nella transizione selezionata.
+* Fai clic su **[!UICONTROL Anteprima risultati]** per visualizzare i dati trasportati nella transizione selezionata. Questa opzione è disponibile solo se è abilitata l&#39;opzione **[!UICONTROL Mantieni il risultato delle popolazioni provvisorie tra due esecuzioni]**. [Ulteriori informazioni](create-composition.md#settings).
 
 ![](assets/transition-preview.png)
 
