@@ -4,10 +4,10 @@ title: Introduzione ai modelli di dati
 description: Scopri come iniziare con i modelli di dati
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: 41b0778526bf1aa9e75191d13892ef6465e42e0b
+source-git-commit: e43c1061d33298d028ee8d5d873b6b1112f13abe
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 28%
+source-wordcount: '291'
+ht-degree: 22%
 
 ---
 
@@ -37,11 +37,19 @@ ht-degree: 28%
 
 ## Che cos’è un modello dati? {#data-model-start}
 
-Un modello dati è un set di schemi, tipi di pubblico e i collegamenti tra di essi.
+Un modello dati è un set di schemi, tipi di pubblico e i collegamenti tra di essi. Viene utilizzato per federare i tipi di pubblico con i dati dei database.
 
 Ulteriori informazioni su [schemi](../customer/schemas.md#schema-start).
 
 Ulteriori informazioni su [tipi di pubblico](../start/audiences.md).
+
+Ad esempio, di seguito è riportata una rappresentazione di un modello dati : le tabelle con il loro nome e i collegamenti tra di esse.
+
+![](assets/datamodel.png){zoomable="yes"}
+
+In Federated Audience Composition, è possibile creare molti modelli di dati.
+
+La loro creazione sarà basata sul caso d’uso: scegli le tabelle necessarie e collegale in base alle tue esigenze.
 
 ## Creare un modello dati {#data-model-create}
 
