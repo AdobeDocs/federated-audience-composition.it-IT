@@ -1,22 +1,22 @@
 ---
 audience: end-user
-title: Introduzione ai Database federati
-description: Scopri come creare e gestire i Federated Database
+title: Introduzione ai database federati
+description: Scopri come creare e gestire i database federati
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: fa968e0c221befa7a0ddaef0f5908752f681c535
+source-git-commit: 68b13d373688741e8b42c89c3f8cce247908adb2
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 6%
+source-wordcount: '1560'
+ht-degree: 4%
 
 ---
 
-# Introduzione ai Database federati {#federated-db}
+# Introduzione ai database federati {#federated-db}
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
 >title="Database federati"
->abstract="In questa schermata sono elencate le connessioni esistenti ai database federati. Per creare una nuova connessione, fai clic sul pulsante **[!UICONTROL Aggiungi database federato]**."
+>abstract="Le connessioni esistenti ai database federati sono elencate in questa schermata. Per creare una nuova connessione, fai clic sul pulsante **[!UICONTROL Aggiungi database federato]**."
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
@@ -44,7 +44,7 @@ Federated Audience Composition consente di connettersi ai seguenti database. La 
 
 ##  Amazon Redshift {#amazon-redshift}
 
-Utilizzare Federated Database per elaborare le informazioni memorizzate in un database esterno. Segui i passaggi seguenti per configurare l’accesso ad Amazon Redshift.
+Utilizzare i database federati per elaborare le informazioni archiviate in un database esterno. Segui i passaggi seguenti per configurare l’accesso ad Amazon Redshift.
 
 1. Nel menu **[!UICONTROL Dati federati]**, selezionare **[!UICONTROL Database federati]**.
 
@@ -82,7 +82,7 @@ Utilizzare Federated Database per elaborare le informazioni memorizzate in un da
 
 ## Azure synapse Redshift {#azure-synapse-redshift}
 
-Utilizzare Federated Database per elaborare le informazioni memorizzate in un database esterno. Segui i passaggi seguenti per configurare l’accesso all’Azure synapse di Redshift.
+Utilizzare i database federati per elaborare le informazioni archiviate in un database esterno. Segui i passaggi seguenti per configurare l’accesso all’Azure synapse di Redshift.
 
 1. Nel menu **[!UICONTROL Dati federati]**, selezionare **[!UICONTROL Database federati]**.
 
@@ -121,7 +121,7 @@ Utilizzare Federated Database per elaborare le informazioni memorizzate in un da
 
 ## Google BigQuery {#google-big-query}
 
-Utilizzare Federated Database per elaborare le informazioni memorizzate in un database esterno. Segui i passaggi seguenti per configurare l’accesso a Google Big Query.
+Utilizzare i database federati per elaborare le informazioni archiviate in un database esterno. Segui i passaggi seguenti per configurare l’accesso a Google Big Query.
 
 1. Nel menu **[!UICONTROL Dati federati]**, selezionare **[!UICONTROL Database federati]**.
 
@@ -168,7 +168,7 @@ Utilizzare Federated Database per elaborare le informazioni memorizzate in un da
 
 ## Snowflake {#snowflake}
 
-Utilizzare Federated Database per elaborare le informazioni memorizzate in un database esterno. Segui i passaggi seguenti per configurare l’accesso al Snowflake.
+Utilizzare i database federati per elaborare le informazioni archiviate in un database esterno. Segui i passaggi seguenti per configurare l’accesso al Snowflake.
 
 1. Nel menu **[!UICONTROL Dati federati]**, selezionare **[!UICONTROL Database federati]**.
 
@@ -214,7 +214,7 @@ Il connettore supporta le seguenti opzioni:
 |---|---|
 | schema di lavoro | Schema di database da utilizzare per le tabelle di lavoro |
 | data warehouse | Nome del magazzino predefinito da utilizzare. Sostituirà l’impostazione predefinita dell’utente. |
-| TimeZoneName | Per impostazione predefinita, questo significa che viene utilizzato il fuso orario del server app di Campaign Classic. L’opzione può essere utilizzata per forzare il parametro di sessione TIMEZONE. <br>Per ulteriori informazioni, consulta [questa pagina](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
+| TimeZoneName | Per impostazione predefinita, vuoto, il che significa che viene utilizzato il server app del fuso orario del sistema. L’opzione può essere utilizzata per forzare il parametro di sessione TIMEZONE. <br>Per ulteriori informazioni, consulta [questa pagina](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
 | WeekStart | Parametro di sessione WEEK_START. Per impostazione predefinita, è impostato su 0. <br>Per ulteriori informazioni, consulta [questa pagina](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start). |
 | UseCachedResult | Parametro di sessione USE_CACHED_RESULTS. Per impostazione predefinita, è impostato su TRUE. Questa opzione può essere utilizzata per disabilitare i risultati del Snowflake memorizzati nella cache. <br>Per ulteriori informazioni, consulta [questa pagina](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
 | bulkThreads | Numero di thread da utilizzare per il caricatore di massa di Snowflake; un numero maggiore di thread indica prestazioni migliori per caricamenti di massa di maggiori dimensioni. Per impostazione predefinita, è impostato su 1. Il numero può essere regolato, a seconda del numero di thread della macchina. |
@@ -224,7 +224,7 @@ Il connettore supporta le seguenti opzioni:
 
 ## Vertica Analytics {#vertica-analytics}
 
-Utilizzare Federated Database per elaborare le informazioni memorizzate in un database esterno. Per configurare l’accesso alle Vertiche analytics, segui la procedura riportata di seguito.
+Utilizzare i database federati per elaborare le informazioni archiviate in un database esterno. Per configurare l’accesso alle Vertiche analytics, segui la procedura riportata di seguito.
 
 1. Nel menu **[!UICONTROL Dati federati]**, selezionare **[!UICONTROL Database federati]**.
 
@@ -266,4 +266,4 @@ Il connettore supporta le seguenti opzioni:
 
 | Opzione | Descrizione |
 |---|---|
-| TimeZoneName | Per impostazione predefinita, questo significa che viene utilizzato il fuso orario del server app di Campaign Classic. L’opzione può essere utilizzata per forzare il parametro di sessione TIMEZONE. |
+| TimeZoneName | Per impostazione predefinita è vuoto, il che significa che viene utilizzato il fuso orario del sistema dell’app server. L’opzione può essere utilizzata per forzare il parametro di sessione TIMEZONE. |
