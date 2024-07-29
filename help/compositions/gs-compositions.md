@@ -3,9 +3,10 @@ audience: end-user
 title: Introduzione alle composizioni
 description: Scopri come iniziare con le composizioni
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 03b2fc39c6e0c724363c21418ea50691093d4a10
+exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
+source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '290'
 ht-degree: 13%
 
 ---
@@ -14,7 +15,7 @@ ht-degree: 13%
 
 ## Cos’è una composizione {#what}
 
-Adobe di Composizione del pubblico consente di creare composizioni, in cui puoi sfruttare varie attività (suddividere, escludere...) in un’area di lavoro visiva per creare tipi di pubblico. Al termine, i tipi di pubblico risultanti vengono salvati in Adobe Experience Platform insieme ai tipi di pubblico esistenti e possono essere utilizzati in destinazioni come Journey Optimizer per eseguire il targeting dei clienti. [Scopri come utilizzare i tipi di pubblico](../start/audiences.md)
+Adobe di Composizione del pubblico consente di creare composizioni, in cui puoi sfruttare varie attività (suddividere, escludere...) in un’area di lavoro visiva per creare tipi di pubblico. Al termine, il pubblico risultante viene salvato in Adobe Experience Platform insieme a quello esistente e può essere utilizzato nelle destinazioni Adobe Experience Platform e Adobe Journey Optimizer per il targeting dei clienti. [Scopri come utilizzare i tipi di pubblico](../start/audiences.md)
 
 ![](assets/composition-example.png)
 

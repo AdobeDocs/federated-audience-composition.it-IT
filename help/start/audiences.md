@@ -4,9 +4,9 @@ title: Utilizzare i tipi di pubblico
 description: Scopri come utilizzare i tipi di pubblico
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
-source-git-commit: 4b7645e45b68a7316d9ddc09af1a8253b4e4dd62
+source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '307'
 ht-degree: 5%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 5%
 
 Experience Platform di Federated Audience Composition consente di [creare composizioni](../compositions/gs-compositions.md), in cui è possibile sfruttare varie attività in un&#39;area di lavoro visiva per creare tipi di pubblico e memorizzarli in Adobe Experience Platform Audience Portal.
 
-Puoi quindi attivare questi tipi di pubblico in qualsiasi destinazione supportata da Adobe Experience Platform.
+Puoi quindi indirizzare questi tipi di pubblico in Journey Optimizer o attivarli in qualsiasi destinazione supportata da Adobe Experience Platform.
 
 ## Creazione di tipi di pubblico tramite composizioni {#creation}
 
