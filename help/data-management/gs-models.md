@@ -4,10 +4,10 @@ title: Introduzione ai modelli di dati
 description: Scopri come iniziare con i modelli di dati
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: e43c1061d33298d028ee8d5d873b6b1112f13abe
+source-git-commit: 2eef334ccc5b6c342a26dc452b76dc61f272ba84
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 22%
+source-wordcount: '380'
+ht-degree: 17%
 
 ---
 
@@ -79,9 +79,17 @@ Per creare collegamenti tra tabelle del modello dati, effettua le seguenti opera
 
    ![](assets/datamodel_link.png){zoomable="yes"}
 
-   Di seguito sono elencati tutti i collegamenti definiti per il modello dati:
+   **Cardinalità**
 
-   ![](assets/datamodel_alllinks.png){zoomable="yes"}
+   * 1-N: una occorrenza della tabella sorgente può avere diverse occorrenze corrispondenti della tabella di destinazione, ma una occorrenza della tabella di destinazione può avere al massimo una occorrenza corrispondente della tabella sorgente.
+
+   * N-1: una occorrenza della tabella di destinazione può avere diverse occorrenze corrispondenti della tabella di origine, ma una occorrenza della tabella di origine può avere al massimo una occorrenza corrispondente della tabella di destinazione.
+
+   * 1-1: una occorrenza della tabella sorgente può avere al massimo una occorrenza corrispondente della tabella di destinazione.
+
+Di seguito sono elencati tutti i collegamenti definiti per il modello dati:
+
+![](assets/datamodel_alllinks.png){zoomable="yes"}
 
 ## Video introduttivo {#data-model-video}
 
