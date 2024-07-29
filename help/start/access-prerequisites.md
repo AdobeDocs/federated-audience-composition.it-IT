@@ -2,9 +2,9 @@
 title: Accedere a Federated Audience Composition
 description: Scopri come accedere a Federated Audience Composition.
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 618d1675c28213d7a316f40cd624d282e01297f1
+source-git-commit: 4e3a74ba09d3d1fa267c4587cb37f6e95831f7c8
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '284'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,9 @@ Ad esempio, se viene attivata una nuova sandbox denominata &quot;fac-test&quot;,
 
 ## Inserimento di IP nell’elenco Consentiti {#ip}
 
-Per abilitare l’accesso al data warehouse e utilizzare la Federated Audience Composition, è necessario aggiungere i tuoi indirizzi IP all’elenco consentiti. Per aggiungere i tuoi indirizzi IP all’elenco consentiti, contatta il rappresentante del tuo Adobe.
+Per consentire in modo sicuro a Federated Audience Composition di accedere ai database, contatta il rappresentante del tuo Adobe per ottenere gli indirizzi IP dei server Federated Audience Composition che vi accederanno.
+
+Aggiungi questi indirizzi IP al tuo elenco consentiti per concedere l’accesso a Federated Audience Composition.&quot;
 
 ## Protezioni e limitazioni {#fac-guardrails}
 
