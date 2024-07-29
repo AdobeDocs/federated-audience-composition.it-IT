@@ -1,22 +1,22 @@
 ---
 audience: end-user
-title: Introduzione all’Audit trail
-description: Scopri come monitorare i database con l’audit trail
+title: Traccia di audit
+description: Scopri come le azioni e gli eventi vengono registrati e accessibili nell’audit trail
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 12%
+source-wordcount: '369'
+ht-degree: 3%
 
 ---
 
-# Introduzione all’Audit trail {#audit-trail}
+# Traccia di audit {#audit-trail}
 
 >[!CONTEXTUALHELP]
 >id="dc_audit_trail"
 >title="Audit trail"
->abstract="La funzionalità Audit trail fornisce un record cronologico e dettagliato di tutte le azioni e gli eventi eseguiti nell’ambiente in tempo reale."
+>abstract="La funzionalità Audit trail fornisce una registrazione dettagliata e cronologica di tutte le azioni e di tutti gli eventi eseguiti nell’ambiente Federated Audience Composition di Adobe Experience Platform in tempo reale."
 
 La funzionalità Audit trail fornisce una registrazione dettagliata e cronologica di tutte le azioni e di tutti gli eventi eseguiti nell’ambiente in tempo reale
 
