@@ -2,10 +2,10 @@
 user-guide-title: Experience Platform di Federated Audience Composition
 title: Documentazione di Experience Platform di Federated Audience Composition
 breadcrumb-title: Experience Platform di Federated Audience Composition
-source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 32%
+source-wordcount: '148'
+ht-degree: 33%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 32%
 + [Note sulla versione](start/release-notes.md)
 + Introduzione a Federated Audience Composition {#start}
    + [Cos’è la Federated Audience Composition](start/get-started.md)
-   + [Accedere a Federated Audience Composition](start/access-prerequisites.md)
+   + [Prerequisiti e guardrail](start/access-prerequisites.md)
    + [Utilizzare i tipi di pubblico](start/audiences.md)
    + [Domande frequenti](start/faq.md)
 + Passaggi di configurazione {#config}

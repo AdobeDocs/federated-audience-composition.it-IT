@@ -3,10 +3,11 @@ audience: end-user
 title: Introduzione all’Audit trail
 description: Scopri come monitorare i database con l’audit trail
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 0208da1a1897f166db9124ed6b014828fbe17484
+exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 11%
+source-wordcount: '365'
+ht-degree: 12%
 
 ---
 
@@ -52,7 +53,7 @@ Per accedere al **[!UICONTROL riepilogo di controllo]** dell&#39;istanza:
 
 1. Nel menu **[!UICONTROL Dati federati]**, seleziona **[!UICONTROL Audit trail]**.
 
-1. Viene visualizzata la finestra **[!UICONTROL Audit trail]** con l&#39;elenco delle entità. L’interfaccia utente web di Adobe Campaign controlla le azioni di creazione, modifica ed eliminazione per flussi di lavoro, opzioni, consegne e schemi.
+1. Viene visualizzata la finestra **[!UICONTROL Audit trail]** con l&#39;elenco delle entità. Federated Audience Composition controlla le azioni di creazione, modifica ed eliminazione per flussi di lavoro, opzioni, consegne e schemi.
 
    ![](assets/audit_trail.png)
 

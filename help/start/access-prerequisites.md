@@ -1,19 +1,17 @@
 ---
-title: Accedere a Federated Audience Composition
-description: Scopri come accedere a Federated Audience Composition.
+title: Prerequisiti e guardrail per la Federated Audience Composition
+description: Scopri i prerequisiti, le autorizzazioni e i guardrail per Federated Audience Composition
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 4e3a74ba09d3d1fa267c4587cb37f6e95831f7c8
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '286'
 ht-degree: 2%
 
 ---
 
-# Accedere a Federated Audience Composition {#fac-access}
+# Prerequisiti e guardrail {#fac-access}
 
-## Pacchetti e componente aggiuntivo {#package}
-
-Federated Audience Composition richiede pacchetti Adobe Real-time Customer Data Platform e Adobe Journey Optimizer Prime o Ultimate. Per accedere a questa funzionalità, devi aver acquistato il componente aggiuntivo Federated Audience Composition.
+La composizione federata del pubblico richiede pacchetti Adobe Real-time Customer Data Platform e/o Adobe Journey Optimizer **Prime** o **Ultimate**. Per accedere a questa funzionalità, devi aver acquistato il componente aggiuntivo Federated Audience Composition.
 
 >[!AVAILABILITY]
 >

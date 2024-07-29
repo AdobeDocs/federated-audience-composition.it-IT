@@ -4,7 +4,7 @@ title: Introduzione ai modelli di dati
 description: Scopri come iniziare con i modelli di dati
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: 2eef334ccc5b6c342a26dc452b76dc61f272ba84
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 17%
@@ -35,7 +35,7 @@ ht-degree: 17%
 >abstract="Immetti l’etichetta del modello dati."
 
 
-## Che cos’è un modello dati? {#data-model-start}
+## Che cos’è un modello dati {#data-model-start}
 
 Un modello dati è un set di schemi, tipi di pubblico e i collegamenti tra di essi. Viene utilizzato per federare i tipi di pubblico con i dati dei database.
 

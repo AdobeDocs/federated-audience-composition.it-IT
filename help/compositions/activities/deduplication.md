@@ -3,13 +3,13 @@ audience: end-user
 title: Utilizzare l’attività Deduplication
 description: Scopri come utilizzare l’attività Deduplication
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 55db2461-fcfb-4284-9ab7-7cb01071ed1c
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '565'
-ht-degree: 73%
+ht-degree: 59%
 
 ---
-
 
 # Deduplica {#deduplication}
 
@@ -47,13 +47,13 @@ Per configurare l’attività **Deduplica** segui questi passaggi:
 
    ![](../assets/deduplication.png)
 
-1. Nella sezione **[!UICONTROL Impostazioni deduplicazione]** selezionare il numero di **[!UICONTROL duplicati univoci da mantenere]**. Il valore predefinito per questo campo è 1. Il valore 0 ti consente di conservare tutti i duplicati.
+1. Nella sezione **[!UICONTROL Impostazioni deduplicazione]** selezionare il numero di **[!UICONTROL duplicati univoci da mantenere]**. Il valore predefinito per questo campo è **1**. Il valore **0** consente di mantenere tutti i duplicati.
 
    Ad esempio, se i record A e B sono considerati duplicati del record Y e il record C è considerato un duplicato del record Z:
 
-   * Se il valore del campo è 1: vengono conservati solo i record Y e Z.
-   * Se il valore del campo è 0: vengono conservati tutti i record.
-   * Se il valore del campo è 2: vengono conservati i record C e Z e due record tra A, B e Y, per caso o a seconda del metodo di deduplicazione selezionato successivamente.
+   * Se il valore del campo è **1**: vengono conservati solo i record Y e Z.
+   * Se il valore del campo è **0**: vengono conservati tutti i record.
+   * Se il valore del campo è **2**: vengono conservati i record C e Z e due record da A, B e Y, per caso o a seconda del metodo di deduplicazione selezionato successivamente.
 
 1. Seleziona il **[!UICONTROL Metodo di deduplica]** da utilizzare:
 

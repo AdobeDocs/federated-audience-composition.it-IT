@@ -4,9 +4,9 @@ title: Utilizzare i tipi di pubblico
 description: Scopri come utilizzare i tipi di pubblico
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
-source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '311'
 ht-degree: 5%
 
 ---
@@ -25,7 +25,7 @@ Il pubblico creato con Adobe Federated Data Composition include tutti i campi se
 
 Dopo aver eseguito la composizione, il pubblico risultante viene salvato in Adobe Experience Platform come pubblico esterno e disponibile in Adobe Real-Time Customer Data Platform e/o Adobe Journey Optimizer.
 
-Puoi attivare questi tipi di pubblico in qualsiasi destinazione supportata da Adobe Experience Platform. [Scopri come utilizzare le destinazioni](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home)
+Puoi attivare questi tipi di pubblico in qualsiasi destinazione supportata da Adobe Experience Platform. Scopri come utilizzare le destinazioni in [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/home){target="_blank"}
 
 >[!NOTE]
 >
@@ -39,6 +39,6 @@ Nella scheda **[!UICONTROL Sfoglia]** sono elencati tutti i tipi di pubblico esi
 
 ![](assets/audiences-list.png)
 
-Per ulteriori informazioni su come utilizzare i tipi di pubblico in Adobe Experience Platform, consulta la [documentazione di Audience Portal](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal)
+Per ulteriori informazioni su come utilizzare i tipi di pubblico in Adobe Experience Platform, consulta la [documentazione di Audience Portal](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 <!-- add link to this donc once published: https://jira.corp.adobe.com/browse/PLAT-198674-->

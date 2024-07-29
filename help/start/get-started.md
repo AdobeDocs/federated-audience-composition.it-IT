@@ -3,9 +3,9 @@ title: Guida introduttiva di Experience Platform Federated Audience Composition
 description: Scopri cos’è Adobe Federated Audience Composition e come utilizzarlo in Adobe Experience Platform
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '722'
 ht-degree: 8%
 
 ---
@@ -64,7 +64,11 @@ Passaggi chiave:
 
 <!-- Workflow + Workflow activities-->
 
-Vedi le domande frequenti in [questa pagina](faq.md).
+
+Scopri come accedere a Federated Audience Composition, guardrail e limitazioni in [questa pagina](access-prerequisites.md).
+
+Vedi anche le domande frequenti in [questa pagina](faq.md).
+
 
 >[!CONTEXTUALHELP]
 >id="dc_workflow_settings_execution"

@@ -4,9 +4,9 @@ title: Utilizzare l’attività Save audience
 description: Scopri come utilizzare l’attività Save audience
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: 3b891232a3a671f8ec12e06b19086f12ef849f1e
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '462'
 ht-degree: 23%
 
 ---
@@ -68,7 +68,7 @@ Dopo aver eseguito la composizione, il pubblico risultante viene salvato in Adob
 
 Il pubblico creato include tutti i campi selezionati nella sezione Mappature pubblico. Puoi indirizzare questo pubblico in Journey Optimizer o attivarlo in qualsiasi destinazione supportata da Adobe Experience Platform.
 
-[Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+[Ulteriori informazioni nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 <!--
 

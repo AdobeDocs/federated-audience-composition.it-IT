@@ -3,7 +3,7 @@ title: Novità di Experience Platform Federated Audience Composition
 description: Ultimi aggiornamenti e note sulla versione
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '188'
 ht-degree: 2%
@@ -23,7 +23,7 @@ Federated Audience Composition è una funzionalità aggiuntiva che offre alle az
 
 La Federated Audience Composition soddisfa le crescenti richieste del mercato per le aziende che necessitano della flessibilità per comporre i tipi di pubblico con set di dati di magazzino. Questo consente alle aziende di ridurre lo spostamento dei dati, rendendo al tempo stesso disponibili ai team di marketing i dati critici sul pubblico per soddisfare i requisiti dei casi d’uso e fornire esperienze personalizzate. 
 
-Ulteriori informazioni sulle funzionalità di Federated Audience Composition in [questa pagina](get-started.md) e nelle [domande frequenti](get-started.md#faq).
+Ulteriori informazioni sulle funzionalità di Federated Audience Composition in [questa pagina](get-started.md) e nelle [domande frequenti](faq.md).
 
 Informazioni dettagliate sui prerequisiti per accedere a Federated Audience Compositions e ai guardrail correnti, consulta [questa pagina](access-prerequisites.md).
 

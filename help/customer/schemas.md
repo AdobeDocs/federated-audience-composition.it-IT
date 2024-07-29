@@ -4,10 +4,10 @@ title: Introduzione agli schemi
 description: Scopri come iniziare con gli schemi
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 41b0778526bf1aa9e75191d13892ef6465e42e0b
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 22%
+ht-degree: 23%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 22%
 >abstract="Puoi filtrare gli schemi in base alla loro origine. Seleziona uno o più database federati per visualizzarne i relativi schemi."
 
 
-## Che cos’è uno schema? {#schema-start}
+## Che cos’è uno schema {#schema-start}
 
 Uno schema è una rappresentazione di una tabella del database. Si tratta di un oggetto all&#39;interno dell&#39;applicazione che definisce il modo in cui i dati vengono legati alle tabelle del database.
 
