@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Introduzione ai database federati
-description: Scopri come creare e gestire i database federati
+title: Configurare i database federati
+description: Scopri come configurare i database federati
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 68b13d373688741e8b42c89c3f8cce247908adb2
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '1560'
+source-wordcount: '1579'
 ht-degree: 4%
 
 ---
 
-# Introduzione ai database federati {#federated-db}
+# Configurare i database federati {#federated-db}
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
@@ -30,7 +30,7 @@ ht-degree: 4%
 
 Experience Platform Federated Audience Composition consente al cliente di creare e arricchire i tipi di pubblico dai data warehouse di terze parti e di importare i tipi di pubblico in Adobe Experience Platform.
 
-Scopri come creare, configurare, testare e salvare la connessione al database esterno in questa pagina.
+Scopri come creare, configurare, testare e salvare la connessione al tuo database esterno in [questa pagina](connections.md). Di seguito è riportato l&#39;elenco dei database supportati e le impostazioni dettagliate da configurare per ciascuno di essi.
 
 ## Database supportati {#supported-db}
 
@@ -68,7 +68,7 @@ Utilizzare i database federati per elaborare le informazioni archiviate in un da
 
    * **[!UICONTROL Database]**: nome del database se non specificato nel DSN. Può essere lasciato vuoto se specificato nel DSN
 
-   * **[!UICONTROL Schema di lavoro]**: nome dello schema di database da utilizzare per le tabelle di lavoro. [Ulteriori informazioni](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html)
+   * **[!UICONTROL Schema di lavoro]**: nome dello schema di database da utilizzare per le tabelle di lavoro. Ulteriori informazioni nella [documentazione di Amazon](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}
 
      >[!NOTE]
      >
@@ -116,7 +116,7 @@ Utilizzare i database federati per elaborare le informazioni archiviate in un da
 
 | Opzione | Descrizione |
 |---|---|
-| Autenticazione | Tipo di autenticazione supportato dal connettore. Valore attualmente supportato: ActiveDirectoryMSI. Per ulteriori informazioni, fare riferimento al documento [SQL](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings) (esempio di stringhe di connessione n°8) |
+| Autenticazione | Tipo di autenticazione supportato dal connettore. Valore attualmente supportato: ActiveDirectoryMSI. Per ulteriori informazioni, consultare la [documentazione di Microsoft SQL](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (ad esempio stringhe di connessione n° 8) |
 
 
 ## Google BigQuery {#google-big-query}
@@ -137,11 +137,11 @@ Utilizzare i database federati per elaborare le informazioni archiviate in un da
 
 1. Configura le impostazioni di autenticazione di Google Big Query:
 
-   * **[!UICONTROL Account di servizio]**: immetti l&#39;indirizzo e-mail del tuo **[!UICONTROL Account di servizio]**. Per ulteriori informazioni, consulta [Documentazione di Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts).
+   * **[!UICONTROL Account di servizio]**: immetti l&#39;indirizzo e-mail del tuo **[!UICONTROL Account di servizio]**. Per ulteriori informazioni, consulta la [documentazione di Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}.
 
-   * **[!UICONTROL Progetto]**: immetti il nome del **[!UICONTROL Progetto]**. Per ulteriori informazioni, consulta [Documentazione di Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects).
+   * **[!UICONTROL Progetto]**: immetti il nome del **[!UICONTROL Progetto]**. Per ulteriori informazioni, consulta la [documentazione di Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}.
 
-   * **[!UICONTROL Set di dati]**: immettere il nome del **[!UICONTROL Set di dati]**. Per ulteriori informazioni, consulta [Documentazione di Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro).
+   * **[!UICONTROL Set di dati]**: immettere il nome del **[!UICONTROL Set di dati]**. Per ulteriori informazioni, consulta la [documentazione di Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}.
 
    * **[!UICONTROL Percorso file chiave]**: carica il file chiave nel server. Sono accettati solo i file .json.
 
@@ -214,11 +214,11 @@ Il connettore supporta le seguenti opzioni:
 |---|---|
 | schema di lavoro | Schema di database da utilizzare per le tabelle di lavoro |
 | data warehouse | Nome del magazzino predefinito da utilizzare. Sostituirà l’impostazione predefinita dell’utente. |
-| TimeZoneName | Per impostazione predefinita, vuoto, il che significa che viene utilizzato il server app del fuso orario del sistema. L’opzione può essere utilizzata per forzare il parametro di sessione TIMEZONE. <br>Per ulteriori informazioni, consulta [questa pagina](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone). |
-| WeekStart | Parametro di sessione WEEK_START. Per impostazione predefinita, è impostato su 0. <br>Per ulteriori informazioni, consulta [questa pagina](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start). |
-| UseCachedResult | Parametro di sessione USE_CACHED_RESULTS. Per impostazione predefinita, è impostato su TRUE. Questa opzione può essere utilizzata per disabilitare i risultati del Snowflake memorizzati nella cache. <br>Per ulteriori informazioni, consulta [questa pagina](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html). |
+| TimeZoneName | Per impostazione predefinita, vuoto, il che significa che viene utilizzato il server app del fuso orario del sistema. L’opzione può essere utilizzata per forzare il parametro di sessione TIMEZONE. <br>Per ulteriori informazioni, consulta [questa pagina](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone){target="_blank"}. |
+| WeekStart | Parametro di sessione WEEK_START. Per impostazione predefinita, è impostato su 0. <br>Per ulteriori informazioni, consulta [questa pagina](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start){target="_blank"}. |
+| UseCachedResult | Parametro di sessione USE_CACHED_RESULTS. Per impostazione predefinita, è impostato su TRUE. Questa opzione può essere utilizzata per disabilitare i risultati del Snowflake memorizzati nella cache. <br>Per ulteriori informazioni, consulta [questa pagina](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"}. |
 | bulkThreads | Numero di thread da utilizzare per il caricatore di massa di Snowflake; un numero maggiore di thread indica prestazioni migliori per caricamenti di massa di maggiori dimensioni. Per impostazione predefinita, è impostato su 1. Il numero può essere regolato, a seconda del numero di thread della macchina. |
-| chunkSize | Determina la dimensione del file del blocco di caricamento bulk. Per impostazione predefinita, è impostato su 128 MB. Può essere modificata per ottenere prestazioni migliori se utilizzata con bulkThreads. Un numero maggiore di thread attivi contemporaneamente garantisce prestazioni migliori. <br>Per ulteriori informazioni, consulta la [documentazione del Snowflake](https://docs.snowflake.net/manuals/sql-reference/sql/put.html). |
+| chunkSize | Determina la dimensione del file del blocco di caricamento bulk. Per impostazione predefinita, è impostato su 128 MB. Può essere modificata per ottenere prestazioni migliori se utilizzata con bulkThreads. Un numero maggiore di thread attivi contemporaneamente garantisce prestazioni migliori. <br>Per ulteriori informazioni, consulta la [documentazione del Snowflake](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}. |
 | NomeFase | Nome della fase interna di preprovisioning. Verrà utilizzato in modalità bulk load anziché creare una nuova fase temporanea. |
 
 

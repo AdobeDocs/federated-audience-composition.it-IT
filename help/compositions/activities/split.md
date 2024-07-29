@@ -4,10 +4,10 @@ title: Utilizzare l’attività di suddivisione
 description: Scopri come utilizzare l’attività di suddivisione
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 6346eef6-b164-40cf-9402-b5ff208af97f
-source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
+source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 76%
+source-wordcount: '925'
+ht-degree: 73%
 
 ---
 
@@ -60,7 +60,7 @@ L’attività **Dividi** consente di segmentare le popolazioni in ingresso in pi
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_enable_overlapping"
 >title="Abilita la sovrapposizione di popolazioni di output"
->abstract="L’opzione **[!UICONTROL Abilita la sovrapposizione di popolazioni di output]** consente di gestire le popolazioni appartenenti a diversi sottoinsiemi. Quando la casella non è selezionata, l’attività di suddivisione si assicura che un destinatario non possa essere presente in diverse transizioni di output, anche se soddisfa i criteri di diversi sottoinsiemi. Saranno nella destinazione della prima scheda con i criteri corrispondenti. Quando la casella è selezionata, i destinatari possono essere trovati in diversi sottoinsiemi se soddisfano i propri criteri di filtro. Adobe Campaign consiglia di utilizzare criteri esclusivi."
+>abstract="L’opzione **[!UICONTROL Abilita la sovrapposizione di popolazioni di output]** consente di gestire le popolazioni appartenenti a diversi sottoinsiemi. Quando la casella non è selezionata, l’attività di suddivisione si assicura che un destinatario non possa essere presente in diverse transizioni di output, anche se soddisfa i criteri di diversi sottoinsiemi. Saranno nella destinazione della prima scheda con i criteri corrispondenti. Quando la casella è selezionata, i destinatari possono essere trovati in diversi sottoinsiemi se soddisfano i propri criteri di filtro. "
 
 Per configurare l’attività **Dividi** segui questi passaggi:
 
@@ -101,7 +101,7 @@ Per configurare l’attività **Dividi** segui questi passaggi:
 1. L&#39;opzione **[!UICONTROL Abilita la sovrapposizione delle popolazioni di output]** consente di gestire le popolazioni appartenenti a diversi sottoinsiemi:
 
    * Quando la casella non è selezionata, l’attività di suddivisione si assicura che un destinatario non possa essere presente in diverse transizioni di output, anche se soddisfa i criteri di diversi sottoinsiemi. Saranno nel target della prima scheda con criteri corrispondenti.
-   * Quando la casella è selezionata, i destinatari possono essere trovati in diversi sottoinsiemi se soddisfano i propri criteri di filtro. Adobe Campaign consiglia di utilizzare criteri esclusivi.
+   * Quando la casella è selezionata, i destinatari possono essere trovati in diversi sottoinsiemi se soddisfano i propri criteri di filtro. Si consiglia di utilizzare un criterio esclusivo.
 
 L’attività adesso è configurata. Al momento dell’esecuzione, la popolazione verrà segmentata in diversi sottoinsiemi, nell’ordine in cui sono stati aggiunti all’attività.
 
