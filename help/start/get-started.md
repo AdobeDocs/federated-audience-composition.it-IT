@@ -3,7 +3,7 @@ title: Guida introduttiva di Experience Platform Federated Audience Composition
 description: Scopri cos’è Adobe Federated Audience Composition e come utilizzarlo in Adobe Experience Platform
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 75f997e4b1c0338a635dff43e2254757fbc5ec69
+source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 8%
@@ -56,13 +56,9 @@ Passaggi chiave:
 
 4. **Utilizzo dati**: crea, orchestra e crea tipi di pubblico. Scopri come comporre il pubblico in [questa pagina](../compositions/gs-compositions.md). Puoi anche aggiornare o riutilizzare i tipi di pubblico esistenti tramite il portale del pubblico di Adobe Experience Platform e Destinazioni. Per ulteriori informazioni, consulta [questa pagina](../connections/destinations.md).
 
-
 >[!NOTE]
 >
 >Dopo aver eseguito la composizione, il pubblico risultante viene salvato in Adobe Experience Platform come pubblico esterno e disponibile in Adobe Real-Time Customer Data Platform e/o Adobe Journey Optimizer. È reso accessibile nel menu **Tipi di pubblico**. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
->
-
-
 
 ## Ulteriori informazioni {#learn}
 
@@ -74,9 +70,6 @@ Vedi le domande frequenti in [questa pagina](faq.md).
 >id="dc_workflow_settings_execution"
 >title="Impostazioni di esecuzione"
 >abstract="In questa sezione puoi configurare le impostazioni relative all’esecuzione del flusso di lavoro, ad esempio il numero di giorni in cui viene mantenuta la cronologia della composizione."
-
-
-
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_query_enrichment_noneditable"

@@ -3,9 +3,9 @@ title: Novità di Experience Platform Federated Audience Composition
 description: Ultimi aggiornamenti e note sulla versione
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 5d8d0c1195abf6ba28291be2f38a67ef4123964f
+source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '188'
 ht-degree: 2%
 
 ---
@@ -25,21 +25,5 @@ La Federated Audience Composition soddisfa le crescenti richieste del mercato pe
 
 Ulteriori informazioni sulle funzionalità di Federated Audience Composition in [questa pagina](get-started.md) e nelle [domande frequenti](get-started.md#faq).
 
-## Accesso a Federated Audience Composition {#fac-access}
+Informazioni dettagliate sui prerequisiti per accedere a Federated Audience Compositions e ai guardrail correnti, consulta [questa pagina](access-prerequisites.md).
 
-Federated Audience Composition richiede pacchetti Adobe Real-time Customer Data Platform e Adobe Journey Optimizer Prime o Ultimate.
-
-Non esistono autorizzazioni specifiche per Federated Audience Composition. L’unico prerequisito per accedere a questa funzionalità è aver acquistato il componente aggiuntivo Federated Audience Composition.
-
->[!AVAILABILITY]
->
->Dopo aver ricevuto la notifica e-mail di benvenuto da Adobe, potrebbero essere necessarie alcune ore prima che l’interfaccia venga aggiornata e le funzioni disponibili.
->
-
-## Prerequisiti e guardrail {#fac-guardrails}
-
-* La Federated Audience Composition è compatibile con Privacy &amp; Security Shield e può essere utilizzata in tutti i verticali ad eccezione delle industrie sanitarie. Attualmente, Federated Audience Composition non può essere concesso in licenza ai clienti che desiderano acquisire dati sullo stato. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}
-
-* Per abilitare l’accesso al data warehouse e utilizzare la Federated Audience Composition, è necessario aggiungere i tuoi indirizzi IP all’elenco consentiti. Per aggiungere i tuoi indirizzi IP all’elenco consentiti, contatta il rappresentante del tuo Adobe.
-
-* A questo componente aggiuntivo si applicano i diritti, le limitazioni del prodotto e i guardrail relativi alle prestazioni elencati nella [documentazione di Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/en/docs/experience-platform/profile/guardrails){target="_blank"}.
