@@ -7,7 +7,7 @@ exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: 741f73443471872025f63142e627ca1ed5b428ae
 workflow-type: tm+mt
 source-wordcount: '1621'
-ht-degree: 4%
+ht-degree: 74%
 
 ---
 
@@ -34,25 +34,25 @@ Scopri come creare, configurare, testare e salvare la connessione al tuo databas
 
 ## Database supportati {#supported-db}
 
-Federated Audience Composition consente di connettersi ai seguenti database. La configurazione di ciascun database è descritta di seguito.
+Con la composizione di pubblico federato puoi connetterti ai seguenti database. La configurazione di ciascun database è descritta di seguito.
 
-* [ Amazon Redshift](#amazon-redshift)
-* [Azure synapse](#azure-synapse-redshift)
+* [Amazon Redshift](#amazon-redshift)
+* [Azure Synapse](#azure-synapse-redshift)
 * [Google BigQuery](#google-big-query)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
 
-##  Amazon Redshift {#amazon-redshift}
+## Amazon Redshift {#amazon-redshift}
 
 Utilizzare i database federati per elaborare le informazioni archiviate in un database esterno. Segui i passaggi seguenti per configurare l’accesso ad Amazon Redshift.
 
-1. Nel menu **[!UICONTROL Dati federati]**, selezionare **[!UICONTROL Database federati]**.
+1. Nel menu **[!UICONTROL Dati federati]**, seleziona **[!UICONTROL Database federati]**.
 
-1. Fare clic su **[!UICONTROL Aggiungi database federato]**.
+1. Fai clic su **[!UICONTROL Aggiungi database federato]**.
 
    ![](assets/federated_database_1.png)
 
-1. Immetti un **[!UICONTROL Nome]** nel database Federate.
+1. Immetti un **[!UICONTROL Nome]** nel database federato.
 
 1. Dal menu a discesa **[!UICONTROL Tipo]**, seleziona Amazon Redshift.
 
@@ -60,13 +60,13 @@ Utilizzare i database federati per elaborare le informazioni archiviate in un da
 
 1. Configura le impostazioni di autenticazione Amazon Redshift:
 
-   * **[!UICONTROL Server]**: aggiungere il nome del DNS.
+   * **[!UICONTROL Server]**: aggiungi il nome del DNS.
 
    * **[!UICONTROL Account]**: aggiungi il nome utente.
 
-   * **[!UICONTROL Password]**: aggiungi la password dell&#39;account.
+   * **[!UICONTROL Password]**: aggiungi la password dell’account.
 
-   * **[!UICONTROL Database]**: nome del database se non specificato nel DSN. Può essere lasciato vuoto se specificato nel DSN
+   * **[!UICONTROL Database]**: nome del database se non specificato nel DSN. Se specificato nel DSN, questo campo può essere lasciato vuoto.
 
    * **[!UICONTROL Schema di lavoro]**: nome dello schema di database da utilizzare per le tabelle di lavoro. Ulteriori informazioni nella [documentazione di Amazon](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}
 
@@ -76,84 +76,84 @@ Utilizzare i database federati per elaborare le informazioni archiviate in un da
      >
      >**È necessario utilizzare schemi di lavoro distinti** per connettere più sandbox con lo stesso database.
 
-1. Selezionare l&#39;opzione **[!UICONTROL Verifica connessione]** per verificare la configurazione.
+1. Seleziona l’opzione **[!UICONTROL Verifica la connessione]** per verificare la configurazione.
 
-1. Fare clic sul pulsante **[!UICONTROL Distribuisci funzioni]** per creare le funzioni.
+1. Fai clic sul pulsante **[!UICONTROL Distribuisci funzioni]** per creare le funzioni.
 
-1. Al termine della configurazione, fai clic su **[!UICONTROL Aggiungi]** per creare il database Federate.
+1. Al termine della configurazione, fai clic su **[!UICONTROL Aggiungi]** per creare il database federato.
 
-## Azure synapse Redshift {#azure-synapse-redshift}
+## Azure Synapse Redshift {#azure-synapse-redshift}
 
-Utilizzare i database federati per elaborare le informazioni archiviate in un database esterno. Segui i passaggi seguenti per configurare l’accesso all’Azure synapse di Redshift.
+Utilizzare i database federati per elaborare le informazioni archiviate in un database esterno. Segui i passaggi seguenti per configurare l’accesso ad Azure Synapse Redshift.
 
-1. Nel menu **[!UICONTROL Dati federati]**, selezionare **[!UICONTROL Database federati]**.
+1. Nel menu **[!UICONTROL Dati federati]**, seleziona **[!UICONTROL Database federati]**.
 
-1. Fare clic su **[!UICONTROL Aggiungi database federato]**.
+1. Fai clic su **[!UICONTROL Aggiungi database federato]**.
 
    ![](assets/federated_database_1.png)
 
-1. Immetti un **[!UICONTROL Nome]** nel database Federate.
+1. Immetti un **[!UICONTROL Nome]** nel database federato.
 
-1. Dal menu a discesa **[!UICONTROL Tipo]**, selezionare Azure synapse Redshift.
+1. Dal menu a discesa **[!UICONTROL Tipo]**, seleziona Azure Synapse Redshift.
 
    ![](assets/federated_database_4.png)
 
-1. Configura le impostazioni di autenticazione Redshift dell&#39;Azure synapse:
+1. Configura le impostazioni di autenticazione di Azure Synapse Redshift:
 
-   * **[!UICONTROL Server]**: immettere l&#39;URL del server di Azure synapse.
+   * **[!UICONTROL Server]**: immetti l’URL del server di Azure Synapse.
 
    * **[!UICONTROL Account]**: immetti il nome utente.
 
-   * **[!UICONTROL Password]**: immettere la password dell&#39;account.
+   * **[!UICONTROL Password]**: immetti la password dell’account.
 
-   * **[!UICONTROL Database]** (facoltativo): immettere il nome del database se non specificato nel DSN.
+   * **[!UICONTROL Database]** (facoltativo): immetti il nome del database se non specificato nel DSN.
 
    * **[!UICONTROL Opzioni]**: il connettore supporta le opzioni descritte nella tabella seguente.
 
-1. Selezionare l&#39;opzione **[!UICONTROL Verifica connessione]** per verificare la configurazione.
+1. Seleziona l’opzione **[!UICONTROL Verifica la connessione]** per verificare la configurazione.
 
-1. Fare clic sul pulsante **[!UICONTROL Distribuisci funzioni]** per creare le funzioni.
+1. Fai clic sul pulsante **[!UICONTROL Distribuisci funzioni]** per creare le funzioni.
 
-1. Al termine della configurazione, fai clic su **[!UICONTROL Aggiungi]** per creare il database Federate.
+1. Al termine della configurazione, fai clic su **[!UICONTROL Aggiungi]** per creare il database federato.
 
 | Opzione | Descrizione |
 |---|---|
-| Autenticazione | Tipo di autenticazione supportato dal connettore. Valore attualmente supportato: ActiveDirectoryMSI. Per ulteriori informazioni, consultare la [documentazione di Microsoft SQL](https://learn.microsoft.com/en-us/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (ad esempio stringhe di connessione n° 8) |
+| Autenticazione | Tipo di autenticazione supportato dal connettore. Valore attualmente supportato: ActiveDirectoryMSI. Per ulteriori informazioni, consultare la [documentazione di Microsoft SQL](https://learn.microsoft.com/it-IT/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (ad esempio stringhe di connessione n° 8) |
 
 
 ## Google BigQuery {#google-big-query}
 
-Utilizzare i database federati per elaborare le informazioni archiviate in un database esterno. Segui i passaggi seguenti per configurare l’accesso a Google Big Query.
+Utilizzare i database federati per elaborare le informazioni archiviate in un database esterno. Segui i passaggi seguenti per configurare l’accesso a Google BigQuery.
 
-1. Nel menu **[!UICONTROL Dati federati]**, selezionare **[!UICONTROL Database federati]**.
+1. Nel menu **[!UICONTROL Dati federati]**, seleziona **[!UICONTROL Database federati]**.
 
-1. Fare clic su **[!UICONTROL Aggiungi database federato]**.
+1. Fai clic su **[!UICONTROL Aggiungi database federato]**.
 
    ![](assets/federated_database_1.png)
 
-1. Immetti un **[!UICONTROL Nome]** nel database Federate.
+1. Immetti un **[!UICONTROL Nome]** nel database federato.
 
-1. Dal menu a discesa **[!UICONTROL Tipo]**, seleziona Google Big Query.
+1. Dal menu a discesa **[!UICONTROL Tipo]**, seleziona Google BigQuery.
 
    ![](assets/federated_database_3.png)
 
-1. Configura le impostazioni di autenticazione di Google Big Query:
+1. Configura le impostazioni di autenticazione di Google BigQuery:
 
-   * **[!UICONTROL Account di servizio]**: immetti l&#39;indirizzo e-mail del tuo **[!UICONTROL Account di servizio]**. Per ulteriori informazioni, consulta la [documentazione di Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}.
+   * **[!UICONTROL Account di servizio]**: immetti l’indirizzo e-mail del tuo **[!UICONTROL Account di servizio]**. Per ulteriori informazioni, consulta la [documentazione di Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}.
 
    * **[!UICONTROL Progetto]**: immetti il nome del **[!UICONTROL Progetto]**. Per ulteriori informazioni, consulta la [documentazione di Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}.
 
-   * **[!UICONTROL Set di dati]**: immettere il nome del **[!UICONTROL Set di dati]**. Per ulteriori informazioni, consulta la [documentazione di Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}.
+   * **[!UICONTROL Set di dati]**: immetti il nome del **[!UICONTROL Set di dati]**. Per ulteriori informazioni, consulta la [documentazione di Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}.
 
-   * **[!UICONTROL Percorso file chiave]**: carica il file chiave nel server. Sono accettati solo i file .json.
+   * **[!UICONTROL Percorso file della chiave]**: carica il file della chiave nel server. Sono accettati solo i file .JSON.
 
    * **[!UICONTROL Opzioni]**: il connettore supporta le opzioni descritte nella tabella seguente.
 
-1. Selezionare l&#39;opzione **[!UICONTROL Verifica connessione]** per verificare la configurazione.
+1. Seleziona l’opzione **[!UICONTROL Verifica la connessione]** per verificare la configurazione.
 
-1. Fare clic sul pulsante **[!UICONTROL Distribuisci funzioni]** per creare le funzioni.
+1. Fai clic sul pulsante **[!UICONTROL Distribuisci funzioni]** per creare le funzioni.
 
-1. Al termine della configurazione, fai clic su **[!UICONTROL Aggiungi]** per creare il database Federate.
+1. Al termine della configurazione, fai clic su **[!UICONTROL Aggiungi]** per creare il database federato.
 
 | Opzione | Descrizione |
 |---|---|
@@ -162,37 +162,37 @@ Utilizzare i database federati per elaborare le informazioni archiviate in un da
 | ProxyPort | Numero di porta su cui è in esecuzione il proxy, ad esempio 8080 |
 | ProxyUid | Nome utente utilizzato per il proxy autenticato |
 | ProxyPwd | Password ProxyUid |
-| bqpath | Tieni presente che questo è applicabile solo per lo strumento di caricamento in blocco (SDK per cloud). </br> Per evitare di utilizzare la variabile PATH o se la directory google-cloud-sdk deve essere spostata in un&#39;altra posizione, è possibile specificare con questa opzione il percorso esatto della directory bin dell&#39;SDK cloud sul server. |
-| GCloudConfigName | Tieni presente che questo è applicabile a partire dalla versione 7.3.4 e solo per lo strumento di caricamento in massa (Cloud SDK).</br> L&#39;SDK di Google Cloud utilizza le configurazioni per caricare i dati nelle tabelle BigQuery. La configurazione denominata `accfda` memorizza i parametri per il caricamento dei dati. Tuttavia, questa opzione consente agli utenti di specificare un nome diverso per la configurazione. |
-| GCloudDefaultConfigName | Tieni presente che questo è applicabile a partire dalla versione 7.3.4 e solo per lo strumento di caricamento in massa (Cloud SDK).</br> Impossibile eliminare la configurazione SDK di Google Cloud attiva senza prima trasferire il tag attivo in una nuova configurazione. Questa configurazione temporanea è necessaria per ricreare la configurazione principale per il caricamento dei dati. Il nome predefinito per la configurazione temporanea è `default`, che può essere modificato se necessario. |
-| GCloudRecreateConfig | Tieni presente che questo è applicabile a partire dalla versione 7.3.4 e solo per lo strumento di caricamento in massa (Cloud SDK).</br> Se è impostato su `false`, il meccanismo di caricamento in blocco non tenta di ricreare, eliminare o modificare le configurazioni dell&#39;SDK di Google Cloud. Procede invece con il caricamento dei dati utilizzando la configurazione esistente sul computer. Questa funzione è utile quando altre operazioni dipendono dalle configurazioni dell’SDK di Google Cloud. </br> Se l&#39;utente abilita questa opzione del motore senza una configurazione corretta, il meccanismo di caricamento in massa invierà un messaggio di avviso: `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option`. Per evitare ulteriori errori, verrà utilizzato il meccanismo di caricamento bulk predefinito per Inserisci array ODBC. |
+| bqpath | Tieni presente che questo è applicabile solo per lo strumento di caricamento in blocco (SDK per cloud). </br> Per evitare di utilizzare la variabile PATH o se la directory google-cloud-sdk deve essere spostata in un’altra posizione, con questa opzione è possibile specificare il percorso esatto della directory bin SDK cloud sul server. |
+| GCloudConfigName | Tieni presente che questo è applicabile a partire dalla versione 7.3.4 e solo per lo strumento di caricamento in blocco (Cloud SDK).</br> L’SDK di Google Cloud utilizza le configurazioni per caricare i dati nelle tabelle BigQuery. La configurazione denominata `accfda` memorizza i parametri per il caricamento dei dati. Tuttavia, questa opzione consente agli utenti di specificare un nome diverso per la configurazione. |
+| GCloudDefaultConfigName | Tieni presente che questo è applicabile a partire dalla versione 7.3.4 e solo per lo strumento di caricamento in blocco (Cloud SDK).</br> Impossibile eliminare la configurazione SDK di Google Cloud attiva senza prima trasferire il tag attivo in una nuova configurazione. Questa configurazione temporanea è necessaria per ricreare la configurazione principale per il caricamento dei dati. Il nome predefinito per la configurazione temporanea è `default`, che, in base alle necessità, può essere modificato. |
+| GCloudRecreateConfig | Tieni presente che questo è applicabile a partire dalla versione 7.3.4 e solo per lo strumento di caricamento in blocco (Cloud SDK).</br> Se è impostato su `false`, il meccanismo di caricamento in blocco non tenta di ricreare, eliminare o modificare le configurazioni dell’SDK di Google Cloud. Procede invece con il caricamento dei dati utilizzando la configurazione esistente sul computer. Questa funzione è utile quando altre operazioni dipendono dalle configurazioni dell’SDK di Google Cloud. </br> Se l’utente abilita questa opzione del motore senza una configurazione corretta, il meccanismo di caricamento in blocco invierà un messaggio di avviso: `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option`. Per evitare ulteriori errori, verrà utilizzato il meccanismo di caricamento in blocco predefinito per Inserisci array ODBC. |
 
 
 ## Snowflake {#snowflake}
 
-Utilizzare i database federati per elaborare le informazioni archiviate in un database esterno. Segui i passaggi seguenti per configurare l’accesso al Snowflake.
+Utilizzare i database federati per elaborare le informazioni archiviate in un database esterno. Segui i passaggi seguenti per configurare l’accesso a Snowflake.
 
-1. Nel menu **[!UICONTROL Dati federati]**, selezionare **[!UICONTROL Database federati]**.
+1. Nel menu **[!UICONTROL Dati federati]**, seleziona **[!UICONTROL Database federati]**.
 
-1. Fare clic su **[!UICONTROL Aggiungi database federato]**.
+1. Fai clic su **[!UICONTROL Aggiungi database federato]**.
 
    ![](assets/federated_database_1.png)
 
-1. Immetti un **[!UICONTROL Nome]** nel database Federate.
+1. Immetti un **[!UICONTROL Nome]** nel database federato.
 
 1. Dal menu a discesa **[!UICONTROL Tipo]**, seleziona Snowflake.
 
    ![](assets/federated_database_2.png)
 
-1. Configurare le impostazioni di autenticazione del Snowflake:
+1. Configura le impostazioni dell’autenticazione di Snowflake:
 
-   * **[!UICONTROL Server]**: immettere il nome del server.
+   * **[!UICONTROL Server]**: immetti il nome del server.
 
-   * **[!UICONTROL Utente]**: Inserisci il tuo nome utente.
+   * **[!UICONTROL Utente]**: inserisci il tuo nome utente.
 
    * **[!UICONTROL Password]**: immetti la password del tuo account.
 
-   * **[!UICONTROL Database]** (facoltativo): immettere il nome del database se non specificato nel DSN.
+   * **[!UICONTROL Database]** (facoltativo): immetti il nome del database se non specificato nel DSN.
 
    * **[!UICONTROL Schema di lavoro]** (facoltativo): immettere il nome dello schema di database da utilizzare per le tabelle di lavoro.
 
@@ -202,55 +202,55 @@ Utilizzare i database federati per elaborare le informazioni archiviate in un da
      >
      >**È necessario utilizzare schemi di lavoro distinti** per connettere più sandbox con lo stesso database.
 
-   * **[!UICONTROL Chiave privata]**: fai clic sul campo **[!UICONTROL Chiave privata]** per selezionare i file con estensione pem dalla cartella locale.
+   * **[!UICONTROL Chiave privata]**: fai clic sul campo **[!UICONTROL Chiave privata]** per selezionare i file con estensione .pem dalla cartella locale.
 
    * **[!UICONTROL Opzioni]**: il connettore supporta le opzioni descritte nella tabella seguente.
 
-1. Selezionare l&#39;opzione **[!UICONTROL Verifica connessione]** per verificare la configurazione.
+1. Seleziona l’opzione **[!UICONTROL Verifica la connessione]** per verificare la configurazione.
 
-1. Fare clic sul pulsante **[!UICONTROL Distribuisci funzioni]** per creare le funzioni.
+1. Fai clic sul pulsante **[!UICONTROL Distribuisci funzioni]** per creare le funzioni.
 
-1. Al termine della configurazione, fai clic su **[!UICONTROL Aggiungi]** per creare il database Federate.
+1. Al termine della configurazione, fai clic su **[!UICONTROL Aggiungi]** per creare il database federato.
 
 Il connettore supporta le seguenti opzioni:
 
 | Opzione | Descrizione |
 |---|---|
 | schema di lavoro | Schema di database da utilizzare per le tabelle di lavoro |
-| data warehouse | Nome del magazzino predefinito da utilizzare. Sostituirà l’impostazione predefinita dell’utente. |
+| data warehouse | Nome del data warehouse predefinito da utilizzare. Sostituirà l’impostazione predefinita dell’utente. |
 | TimeZoneName | Per impostazione predefinita, vuoto, il che significa che viene utilizzato il server app del fuso orario del sistema. L’opzione può essere utilizzata per forzare il parametro di sessione TIMEZONE. <br>Per ulteriori informazioni, consulta [questa pagina](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone){target="_blank"}. |
 | WeekStart | Parametro di sessione WEEK_START. Per impostazione predefinita, è impostato su 0. <br>Per ulteriori informazioni, consulta [questa pagina](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start){target="_blank"}. |
-| UseCachedResult | Parametro di sessione USE_CACHED_RESULTS. Per impostazione predefinita, è impostato su TRUE. Questa opzione può essere utilizzata per disabilitare i risultati del Snowflake memorizzati nella cache. <br>Per ulteriori informazioni, consulta [questa pagina](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"}. |
-| bulkThreads | Numero di thread da utilizzare per il caricatore di massa di Snowflake; un numero maggiore di thread indica prestazioni migliori per caricamenti di massa di maggiori dimensioni. Per impostazione predefinita, è impostato su 1. Il numero può essere regolato, a seconda del numero di thread della macchina. |
-| chunkSize | Determina la dimensione del file del blocco di caricamento bulk. Per impostazione predefinita, è impostato su 128 MB. Può essere modificata per ottenere prestazioni migliori se utilizzata con bulkThreads. Un numero maggiore di thread attivi contemporaneamente garantisce prestazioni migliori. <br>Per ulteriori informazioni, consulta la [documentazione del Snowflake](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}. |
-| NomeFase | Nome della fase interna di preprovisioning. Verrà utilizzato in modalità bulk load anziché creare una nuova fase temporanea. |
+| UseCachedResult | Parametro di sessione USE_CACHED_RESULTS. Per impostazione predefinita, è impostato su TRUE. Questa opzione può essere utilizzata per disabilitare i risultati di Snowflake memorizzati nella cache. <br>Per ulteriori informazioni, consulta [questa pagina](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"}. |
+| bulkThreads | Numero di thread da utilizzare per il caricamento in blocco di Snowflake; un numero maggiore di thread indica prestazioni migliori per caricamenti in blocco di maggiori dimensioni. Per impostazione predefinita, è impostato su 1. Il numero può essere regolato, a seconda del conteggio di thread automatico. |
+| chunkSize | Determina la dimensione del file di un blocco del caricamento in blocco. Per impostazione predefinita, è impostata su 128 MB. Può essere modificata per ottenere prestazioni migliori se utilizzata con bulkThreads. Un numero maggiore di thread attivi contemporaneamente garantisce prestazioni migliori. <br>Per ulteriori informazioni, consulta la [documentazione del Snowflake](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}. |
+| StageName | Nome della fase interna di pre-provisioning. Verrà utilizzato nel caricamento in blocco anziché creare una nuova fase temporanea. |
 
 
 ## Vertica Analytics {#vertica-analytics}
 
-Utilizzare i database federati per elaborare le informazioni archiviate in un database esterno. Per configurare l’accesso alle Vertiche analytics, segui la procedura riportata di seguito.
+Utilizzare i database federati per elaborare le informazioni archiviate in un database esterno. Per configurare l’accesso a Vertica Analytics, segui la procedura riportata di seguito.
 
-1. Nel menu **[!UICONTROL Dati federati]**, selezionare **[!UICONTROL Database federati]**.
+1. Nel menu **[!UICONTROL Dati federati]**, seleziona **[!UICONTROL Database federati]**.
 
-1. Fare clic su **[!UICONTROL Aggiungi database federato]**.
+1. Fai clic su **[!UICONTROL Aggiungi database federato]**.
 
    ![](assets/federated_database_1.png)
 
-1. Immetti un **[!UICONTROL Nome]** nel database Federate.
+1. Immetti un **[!UICONTROL Nome]** nel database federato.
 
-1. Selezionare Vertiche analytics dal menu a discesa **[!UICONTROL Tipo]**.
+1. Seleziona Vertica Analytics dal menu a discesa **[!UICONTROL Tipo]**.
 
    ![](assets/federated_database_5.png)
 
-1. Configurare le impostazioni di autenticazione Vertica analytics:
+1. Configura le impostazioni di autenticazione Vertica Analytics:
 
-   * **[!UICONTROL Server]**: aggiungere l&#39;URL del server [!DNL Vertica Analytics].
+   * **[!UICONTROL Server]**: aggiungi l’URL del server [!DNL Vertica Analytics].
 
    * **[!UICONTROL Account]**: aggiungi il nome utente.
 
-   * **[!UICONTROL Password]**: aggiungi la password dell&#39;account.
+   * **[!UICONTROL Password]**: aggiungi la password dell’account.
 
-   * **[!UICONTROL Database]** (facoltativo): immettere il nome del database se non specificato nel DSN.
+   * **[!UICONTROL Database]** (facoltativo): immetti il nome del database se non specificato nel DSN.
 
    * **[!UICONTROL Schema di lavoro]** (facoltativo): immettere il nome dello schema di database da utilizzare per le tabelle di lavoro.
 
@@ -262,11 +262,11 @@ Utilizzare i database federati per elaborare le informazioni archiviate in un da
 
    * **[!UICONTROL Opzioni]**: il connettore supporta le opzioni descritte nella tabella seguente.
 
-1. Selezionare l&#39;opzione **[!UICONTROL Verifica connessione]** per verificare la configurazione.
+1. Seleziona l’opzione **[!UICONTROL Verifica la connessione]** per verificare la configurazione.
 
-1. Fare clic sul pulsante **[!UICONTROL Distribuisci funzioni]** per creare le funzioni.
+1. Fai clic sul pulsante **[!UICONTROL Distribuisci funzioni]** per creare le funzioni.
 
-1. Al termine della configurazione, fai clic su **[!UICONTROL Aggiungi]** per creare il database Federate.
+1. Al termine della configurazione, fai clic su **[!UICONTROL Aggiungi]** per creare il database federato.
 
 Il connettore supporta le seguenti opzioni:
 

@@ -7,7 +7,7 @@ exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 5%
+ht-degree: 27%
 
 ---
 
@@ -29,16 +29,16 @@ Puoi attivare questi tipi di pubblico in qualsiasi destinazione supportata da Ad
 
 >[!NOTE]
 >
->I tipi di pubblico creati con Adobe Federated Audience Composition non possono essere modificati. Per apportare modifiche a uno di questi tipi di pubblico, devi creare un nuovo pubblico utilizzando una composizione.
+>I tipi di pubblico creati con Composizione di pubblico federato di Adobe non possono essere modificati. Per apportare modifiche a uno di questi tipi di pubblico, devi creare un nuovo pubblico utilizzando una composizione.
 
 ## Accedere al pubblico in Adobe Experience Platform {#access-audience}
 
 I tipi di pubblico creati mediante Federated Audience Composition sono accessibili in Audience Portal, accessibile dal menu **Audiences**.
 
-Nella scheda **[!UICONTROL Sfoglia]** sono elencati tutti i tipi di pubblico esistenti archiviati in Adobe Experience Platform. Puoi identificare il pubblico di Federated Audience Composition nell&#39;elenco utilizzando la colonna **[!UICONTROL Origin]** o i filtri disponibili nel riquadro a sinistra.
+La scheda **[!UICONTROL Sfoglia]** elenca tutti i tipi di pubblico esistenti memorizzati in Adobe Experience Platform. Per riconoscere, tra i tipi di pubblico elencati, quelli creati con Composizione di pubblico federato, osserva la colonna **[!UICONTROL Origine]** o utilizza i filtri disponibili nel riquadro a sinistra.
 
 ![](assets/audiences-list.png)
 
-Per ulteriori informazioni su come utilizzare i tipi di pubblico in Adobe Experience Platform, consulta la [documentazione di Audience Portal](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+Per ulteriori informazioni su come utilizzare i tipi di pubblico in Adobe Experience Platform, consulta la [documentazione di Audience Portal](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 <!-- add link to this donc once published: https://jira.corp.adobe.com/browse/PLAT-198674-->
