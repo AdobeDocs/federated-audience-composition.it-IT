@@ -4,10 +4,10 @@ title: Introduzione agli schemi
 description: Scopri come iniziare con gli schemi
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 43e43d2600edc9e8c2aeb5713fba50ff4da8e2eb
+source-git-commit: 741f73443471872025f63142e627ca1ed5b428ae
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 22%
+source-wordcount: '438'
+ht-degree: 23%
 
 ---
 
@@ -48,10 +48,6 @@ Creando uno schema, puoi definire una rappresentazione della tabella in Experien
 * Assegna un nome descrittivo e una descrizione per semplificare la comprensione da parte dell’utente
 * Decidere la visibilità di ciascun campo in base al suo utilizzo reale
 * Selezionare la chiave primaria per collegare gli schemi, in base alle esigenze nel [modello dati](../data-management/gs-models.md#data-model-start)
-
->[!IMPORTANT]
->
->È consigliabile utilizzare schemi di database federati distinti per ogni sandbox.
 
 ## Crea uno schema {#schema-create}
 

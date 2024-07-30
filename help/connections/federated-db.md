@@ -4,9 +4,9 @@ title: Configurare i database federati
 description: Scopri come configurare i database federati
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 741f73443471872025f63142e627ca1ed5b428ae
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1621'
 ht-degree: 4%
 
 ---
@@ -73,6 +73,8 @@ Utilizzare i database federati per elaborare le informazioni archiviate in un da
      >[!NOTE]
      >
      >È possibile utilizzare qualsiasi schema del database, inclusi gli schemi utilizzati per l&#39;elaborazione dati temporanea, purché si disponga dell&#39;autorizzazione necessaria per connettersi a questo schema.
+     >
+     >**È necessario utilizzare schemi di lavoro distinti** per connettere più sandbox con lo stesso database.
 
 1. Selezionare l&#39;opzione **[!UICONTROL Verifica connessione]** per verificare la configurazione.
 
@@ -197,6 +199,8 @@ Utilizzare i database federati per elaborare le informazioni archiviate in un da
      >[!NOTE]
      >
      >È possibile utilizzare qualsiasi schema del database, inclusi gli schemi utilizzati per l&#39;elaborazione dati temporanea, purché si disponga dell&#39;autorizzazione necessaria per connettersi a questo schema.
+     >
+     >**È necessario utilizzare schemi di lavoro distinti** per connettere più sandbox con lo stesso database.
 
    * **[!UICONTROL Chiave privata]**: fai clic sul campo **[!UICONTROL Chiave privata]** per selezionare i file con estensione pem dalla cartella locale.
 
@@ -253,6 +257,8 @@ Utilizzare i database federati per elaborare le informazioni archiviate in un da
      >[!NOTE]
      >
      >È possibile utilizzare qualsiasi schema del database, inclusi gli schemi utilizzati per l&#39;elaborazione dati temporanea, purché si disponga dell&#39;autorizzazione necessaria per connettersi a questo schema.
+     >
+     >**È necessario utilizzare schemi di lavoro distinti** per connettere più sandbox con lo stesso database.
 
    * **[!UICONTROL Opzioni]**: il connettore supporta le opzioni descritte nella tabella seguente.
 
