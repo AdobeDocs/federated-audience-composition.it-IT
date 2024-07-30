@@ -2,9 +2,9 @@
 title: Prerequisiti e guardrail per la Federated Audience Composition
 description: Scopri i prerequisiti, le autorizzazioni e i guardrail per Federated Audience Composition
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 61ad8899f7de601b64c7b42cb873a172fcaea145
+source-git-commit: 75fa26d74931d63c94e138fe29d85088932acd7f
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '266'
 ht-degree: 13%
 
 ---
@@ -31,7 +31,7 @@ Aggiungi questi indirizzi IP al tuo elenco consentiti per concedere l’accesso 
 
 ## Protezioni e limitazioni {#fac-guardrails}
 
-* L’utilizzo di tipi di pubblico e attributi da Federated Audience Composition non è attualmente disponibile con Healthcare Shield e Privacy and Security Shield.
+* L’utilizzo di Federated Audience Composition non è attualmente disponibile con Healthcare Shield e Privacy and Security Shield.
 
 <!--
 * Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
