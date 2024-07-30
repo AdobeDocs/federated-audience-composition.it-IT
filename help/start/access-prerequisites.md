@@ -2,7 +2,7 @@
 title: Prerequisiti e guardrail per la Federated Audience Composition
 description: Scopri i prerequisiti, le autorizzazioni e i guardrail per Federated Audience Composition
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: e6858ecd06e97b952e59738f299afc90fddeafb7
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 2%
@@ -27,7 +27,7 @@ Ad esempio, se viene attivata una nuova sandbox denominata &quot;fac-test&quot;,
 
 Per consentire in modo sicuro a Federated Audience Composition di accedere ai database, contatta il rappresentante del tuo Adobe per ottenere gli indirizzi IP dei server Federated Audience Composition che vi accederanno.
 
-Aggiungi questi indirizzi IP al tuo elenco consentiti per concedere l’accesso a Federated Audience Composition.&quot;
+Aggiungi questi indirizzi IP al tuo elenco consentiti per concedere l’accesso a Federated Audience Composition.
 
 ## Protezioni e limitazioni {#fac-guardrails}
 
