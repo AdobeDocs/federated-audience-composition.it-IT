@@ -4,15 +4,14 @@ title: Introduzione agli schemi
 description: Scopri come iniziare con gli schemi
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 43e43d2600edc9e8c2aeb5713fba50ff4da8e2eb
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 23%
+source-wordcount: '450'
+ht-degree: 22%
 
 ---
 
 # Introduzione agli schemi {#schemas}
-
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
@@ -40,7 +39,6 @@ ht-degree: 23%
 >title="Selezionare il database di origine da filtrare"
 >abstract="Puoi filtrare gli schemi in base alla loro origine. Seleziona uno o più database federati per visualizzarne i relativi schemi."
 
-
 ## Che cos’è uno schema {#schema-start}
 
 Uno schema è una rappresentazione di una tabella del database. Si tratta di un oggetto all&#39;interno dell&#39;applicazione che definisce il modo in cui i dati vengono legati alle tabelle del database.
@@ -50,6 +48,10 @@ Creando uno schema, puoi definire una rappresentazione della tabella in Experien
 * Assegna un nome descrittivo e una descrizione per semplificare la comprensione da parte dell’utente
 * Decidere la visibilità di ciascun campo in base al suo utilizzo reale
 * Selezionare la chiave primaria per collegare gli schemi, in base alle esigenze nel [modello dati](../data-management/gs-models.md#data-model-start)
+
+>[!IMPORTANT]
+>
+>È consigliabile utilizzare schemi di database federati distinti per ogni sandbox.
 
 ## Crea uno schema {#schema-create}
 
