@@ -6,7 +6,7 @@ exl-id: 3e8be2a2-2227-42f4-a512-b9e686ba0f66
 source-git-commit: 8fa60d20dc574bbddc0106508d57a1cd3f3d3db8
 workflow-type: tm+mt
 source-wordcount: '456'
-ht-degree: 36%
+ht-degree: 41%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_scheduler"
 >title="Attività del Modulo di pianificazione"
->abstract="L&#39;attività **Scheduler** consente di pianificare l&#39;avvio della composizione del pubblico. Dovresti considerare questa attività come un avvio pianificato. Può essere utilizzata solo come prima attività di una composizione."
+>abstract="L’attività **Modulo di pianificazione** consente di pianificare quando viene avviata una composizione del pubblico. Dovresti considerare questa attività come un avvio pianificato. Può essere utilizzata solo come prima attività di una composizione."
 
 L’attività del **Modulo di pianificazione** è un’attività di **Controllo del flusso**. Consente di pianificare l&#39;inizio della composizione. Dovresti considerare questa attività come un avvio pianificato. Può essere utilizzata solo come prima attività della composizione.
 

@@ -7,16 +7,16 @@ exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '462'
-ht-degree: 23%
+ht-degree: 28%
 
 ---
 
-# Salvare il pubblico {#save-audience}
+# Salva pubblico {#save-audience}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
 >title="Salva un pubblico"
->abstract="Utilizza questa attività per creare un nuovo pubblico dalla popolazione calcolata a monte nella composizione. I tipi di pubblico creati vengono aggiunti all’elenco dei tipi di pubblico e sono disponibili tramite il menu **Tipi di pubblico**."
+>abstract="Utilizza questa attività per creare un pubblico nuovo dalla popolazione calcolata a monte nella composizione. I tipi di pubblico creati vengono aggiunti all’elenco dei tipi di pubblico e sono disponibili tramite il menu **Tipi di pubblico**."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveaudience_outbound"
@@ -64,11 +64,11 @@ Per configurare l’attività **Salva pubblico**, segui questi passaggi:
 
 ## Accedere al pubblico in Adobe Experience Platform {#access-audience}
 
-Dopo aver eseguito la composizione, il pubblico risultante viene salvato in Adobe Experience Platform come pubblico esterno e disponibile in Adobe Real-Time Customer Data Platform e/o Adobe Journey Optimizer. È reso accessibile nel menu **Tipi di pubblico**. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+Dopo aver eseguito la composizione, il pubblico risultante viene salvato in Adobe Experience Platform come pubblico esterno e disponibile in Adobe Real-Time Customer Data Platform e/o Adobe Journey Optimizer. È reso accessibile nel menu **Tipi di pubblico**. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 Il pubblico creato include tutti i campi selezionati nella sezione Mappature pubblico. Puoi indirizzare questo pubblico in Journey Optimizer o attivarlo in qualsiasi destinazione supportata da Adobe Experience Platform.
 
-[Ulteriori informazioni nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+[Ulteriori informazioni nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 <!--
 

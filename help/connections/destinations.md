@@ -1,17 +1,17 @@
 ---
 audience: end-user
-title: Arricchire il pubblico di Adobe Experience Platform con dati esterni
+title: Arricchire i tipi di pubblico di Adobe Experience Platform con dati esterni
 description: Scopri come perfezionare e arricchire i tipi di pubblico di Adobe Experience Platform con i dati dei database federati utilizzando la destinazione Federated Audiences Composition.
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 4%
+ht-degree: 7%
 
 ---
 
-# Arricchire il pubblico di Adobe Experience Platform con dati esterni {#connect-aep-fac}
+# Arricchire i tipi di pubblico di Adobe Experience Platform con dati esterni {#connect-aep-fac}
 
 >[!CONTEXTUALHELP]
 >id="dc_new_destination"
