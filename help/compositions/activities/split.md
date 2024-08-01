@@ -11,7 +11,7 @@ ht-degree: 73%
 
 ---
 
-# Divisione {#split}
+# Dividi {#split}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split"

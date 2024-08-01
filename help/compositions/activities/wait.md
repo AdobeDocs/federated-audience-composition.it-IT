@@ -11,7 +11,7 @@ ht-degree: 46%
 
 ---
 
-# Attendere {#wait}
+# Attendi {#wait}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_wait"

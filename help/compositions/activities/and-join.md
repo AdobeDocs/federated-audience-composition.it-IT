@@ -3,7 +3,8 @@ audience: end-user
 title: Utilizzare l’attività AND-join
 description: Scopri come utilizzare l’attività AND-join
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 7a3d03543f6f903c3f7f66299b600807cf15de5e
+exl-id: 9648f17b-e54c-4bc2-8dff-d35c438eeb8b
+source-git-commit: 6aec8f5d9e8550ece2b50234d86ed59938f1b028
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 57%
