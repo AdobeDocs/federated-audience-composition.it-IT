@@ -1,18 +1,18 @@
 ---
-user-guide-title: Experience Platform di Federated Audience Composition
-title: Documentazione di Experience Platform di Federated Audience Composition
-breadcrumb-title: Experience Platform di Federated Audience Composition
+user-guide-title: Composizione di pubblico federato di Experience Platform
+title: Documentazione della composizione di pubblico federato di Experience Platform
+breadcrumb-title: Composizione di pubblico federato di Experience Platform
 source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '145'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
 
-# Experience Platform di documentazione di Federated Audience Composition {#using}
+# Documentazione della composizione di pubblico federato di Experience Platform {#using}
 
-+ [Experience Platform di documentazione di Federated Audience Composition](home.md)
++ [Documentazione della composizione di pubblico federato di Experience Platform](home.md)
 + [Note sulla versione](start/release-notes.md)
 + Introduzione a Composizione di pubblico federato {#start}
    + [Cos’è la Composizione di pubblico federato?](start/get-started.md)
@@ -51,4 +51,4 @@ ht-degree: 80%
    + [Utilizzo del query modeler](query/query-modeler-overview.md)
    + [Creare la prima query](query/build-query.md)
    + [Modifica espressioni](query/expression-editor.md)
-+ [Traccia di audit](admin/audit-trail.md)
++ [Audit Trail](admin/audit-trail.md)

@@ -5,9 +5,9 @@ description: Scopri come configurare i database federati
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: 741f73443471872025f63142e627ca1ed5b428ae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1621'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 74%
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_menu"
 >title="Database federati"
->abstract="Le connessioni esistenti ai database federati sono elencate in questa schermata. Per creare una nuova connessione, fai clic sul pulsante **[!UICONTROL Aggiungi database federato]**."
+>abstract="In questa schermata sono elencate le connessioni esistenti ai database federati. Per creare una nuova connessione, fai clic sul pulsante **[!UICONTROL Aggiungi database federato]**."
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
@@ -28,9 +28,9 @@ ht-degree: 74%
 >title="Dettagli del database federato"
 >abstract="Immetti le impostazioni per la connessione al nuovo Database federato. Utilizza il pulsante **[!UICONTROL Verifica connessione]** per convalidare la configurazione."
 
-Experience Platform Federated Audience Composition consente al cliente di creare e arricchire i tipi di pubblico dai data warehouse di terze parti e di importare i tipi di pubblico in Adobe Experience Platform.
+La composizione di pubblico federato di Experience Platform consente di creare e arricchire i tipi di pubblico dai data warehouse di terze parti e di importarli in Adobe Experience Platform.
 
-Scopri come creare, configurare, testare e salvare la connessione al tuo database esterno in [questa pagina](connections.md). Di seguito è riportato l&#39;elenco dei database supportati e le impostazioni dettagliate da configurare per ciascuno di essi.
+Scopri come creare, configurare, testare e salvare la connessione al database esterno in [questa pagina](connections.md). Di seguito è riportato l’elenco dei database supportati e le impostazioni dettagliate da configurare per ciascuno di essi.
 
 ## Database supportati {#supported-db}
 
@@ -44,7 +44,7 @@ Con la composizione di pubblico federato puoi connetterti ai seguenti database. 
 
 ## Amazon Redshift {#amazon-redshift}
 
-Utilizzare i database federati per elaborare le informazioni archiviate in un database esterno. Segui i passaggi seguenti per configurare l’accesso ad Amazon Redshift.
+Utilizza i database federati per elaborare le informazioni memorizzate in un database esterno. Segui i passaggi seguenti per configurare l’accesso ad Amazon Redshift.
 
 1. Nel menu **[!UICONTROL Dati federati]**, seleziona **[!UICONTROL Database federati]**.
 
@@ -68,13 +68,13 @@ Utilizzare i database federati per elaborare le informazioni archiviate in un da
 
    * **[!UICONTROL Database]**: nome del database se non specificato nel DSN. Se specificato nel DSN, questo campo può essere lasciato vuoto.
 
-   * **[!UICONTROL Schema di lavoro]**: nome dello schema di database da utilizzare per le tabelle di lavoro. Ulteriori informazioni nella [documentazione di Amazon](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}
+   * **[!UICONTROL Schema di lavoro]**: nome dello schema del database da utilizzare per le tabelle di lavoro. Ulteriori informazioni sono disponibili nella sezione della [documentazione di Amazon](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}
 
      >[!NOTE]
      >
-     >È possibile utilizzare qualsiasi schema del database, inclusi gli schemi utilizzati per l&#39;elaborazione dati temporanea, purché si disponga dell&#39;autorizzazione necessaria per connettersi a questo schema.
+     >È possibile utilizzare qualsiasi schema del database, inclusi gli schemi utilizzati per l’elaborazione dati temporanea, purché si disponga dell’autorizzazione necessaria per connettersi a tale schema.
      >
-     >**È necessario utilizzare schemi di lavoro distinti** per connettere più sandbox con lo stesso database.
+     >È necessario utilizzare **schemi di lavoro distinti** per connettere più sandbox con lo stesso database.
 
 1. Seleziona l’opzione **[!UICONTROL Verifica la connessione]** per verificare la configurazione.
 
@@ -84,7 +84,7 @@ Utilizzare i database federati per elaborare le informazioni archiviate in un da
 
 ## Azure Synapse Redshift {#azure-synapse-redshift}
 
-Utilizzare i database federati per elaborare le informazioni archiviate in un database esterno. Segui i passaggi seguenti per configurare l’accesso ad Azure Synapse Redshift.
+Utilizza i database federati per elaborare le informazioni memorizzate in un database esterno. Segui i passaggi seguenti per configurare l’accesso ad Azure Synapse Redshift.
 
 1. Nel menu **[!UICONTROL Dati federati]**, seleziona **[!UICONTROL Database federati]**.
 
@@ -118,12 +118,12 @@ Utilizzare i database federati per elaborare le informazioni archiviate in un da
 
 | Opzione | Descrizione |
 |---|---|
-| Autenticazione | Tipo di autenticazione supportato dal connettore. Valore attualmente supportato: ActiveDirectoryMSI. Per ulteriori informazioni, consultare la [documentazione di Microsoft SQL](https://learn.microsoft.com/it-IT/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (ad esempio stringhe di connessione n° 8) |
+| Autenticazione | Tipo di autenticazione supportato dal connettore. Valore attualmente supportato: ActiveDirectoryMSI. Per ulteriori informazioni, fai riferimento alla [documentazione SQL di Microsoft](https://learn.microsoft.com/it-IT/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (esempio di stringhe di connessione n. 8) |
 
 
 ## Google BigQuery {#google-big-query}
 
-Utilizzare i database federati per elaborare le informazioni archiviate in un database esterno. Segui i passaggi seguenti per configurare l’accesso a Google BigQuery.
+Utilizza i database federati per elaborare le informazioni memorizzate in un database esterno. Segui i passaggi seguenti per configurare l’accesso a Google BigQuery.
 
 1. Nel menu **[!UICONTROL Dati federati]**, seleziona **[!UICONTROL Database federati]**.
 
@@ -170,7 +170,7 @@ Utilizzare i database federati per elaborare le informazioni archiviate in un da
 
 ## Snowflake {#snowflake}
 
-Utilizzare i database federati per elaborare le informazioni archiviate in un database esterno. Segui i passaggi seguenti per configurare l’accesso a Snowflake.
+Utilizza i database federati per elaborare le informazioni memorizzate in un database esterno. Segui i passaggi seguenti per configurare l’accesso a Snowflake.
 
 1. Nel menu **[!UICONTROL Dati federati]**, seleziona **[!UICONTROL Database federati]**.
 
@@ -194,13 +194,13 @@ Utilizzare i database federati per elaborare le informazioni archiviate in un da
 
    * **[!UICONTROL Database]** (facoltativo): immetti il nome del database se non specificato nel DSN.
 
-   * **[!UICONTROL Schema di lavoro]** (facoltativo): immettere il nome dello schema di database da utilizzare per le tabelle di lavoro.
+   * **[!UICONTROL Schema di lavoro]** (facoltativo): immettere il nome dello schema del database da utilizzare per le tabelle di lavoro.
 
      >[!NOTE]
      >
-     >È possibile utilizzare qualsiasi schema del database, inclusi gli schemi utilizzati per l&#39;elaborazione dati temporanea, purché si disponga dell&#39;autorizzazione necessaria per connettersi a questo schema.
+     >È possibile utilizzare qualsiasi schema del database, inclusi gli schemi utilizzati per l’elaborazione dati temporanea, purché si disponga dell’autorizzazione necessaria per connettersi a tale schema.
      >
-     >**È necessario utilizzare schemi di lavoro distinti** per connettere più sandbox con lo stesso database.
+     >È necessario utilizzare utilizzare **schemi di lavoro distinti** per connettere più sandbox con lo stesso database.
 
    * **[!UICONTROL Chiave privata]**: fai clic sul campo **[!UICONTROL Chiave privata]** per selezionare i file con estensione .pem dalla cartella locale.
 
@@ -218,17 +218,17 @@ Il connettore supporta le seguenti opzioni:
 |---|---|
 | schema di lavoro | Schema di database da utilizzare per le tabelle di lavoro |
 | data warehouse | Nome del data warehouse predefinito da utilizzare. Sostituirà l’impostazione predefinita dell’utente. |
-| TimeZoneName | Per impostazione predefinita, vuoto, il che significa che viene utilizzato il server app del fuso orario del sistema. L’opzione può essere utilizzata per forzare il parametro di sessione TIMEZONE. <br>Per ulteriori informazioni, consulta [questa pagina](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone){target="_blank"}. |
+| TimeZoneName | Per impostazione predefinita, questo significa che viene utilizzato il fuso orario del server dell’app. L’opzione può essere utilizzata per forzare il parametro di sessione TIMEZONE. <br>Per ulteriori informazioni, consulta [questa pagina](https://docs.snowflake.net/manuals/sql-reference/parameters.html#timezone){target="_blank"}. |
 | WeekStart | Parametro di sessione WEEK_START. Per impostazione predefinita, è impostato su 0. <br>Per ulteriori informazioni, consulta [questa pagina](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start){target="_blank"}. |
 | UseCachedResult | Parametro di sessione USE_CACHED_RESULTS. Per impostazione predefinita, è impostato su TRUE. Questa opzione può essere utilizzata per disabilitare i risultati di Snowflake memorizzati nella cache. <br>Per ulteriori informazioni, consulta [questa pagina](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"}. |
 | bulkThreads | Numero di thread da utilizzare per il caricamento in blocco di Snowflake; un numero maggiore di thread indica prestazioni migliori per caricamenti in blocco di maggiori dimensioni. Per impostazione predefinita, è impostato su 1. Il numero può essere regolato, a seconda del conteggio di thread automatico. |
-| chunkSize | Determina la dimensione del file di un blocco del caricamento in blocco. Per impostazione predefinita, è impostata su 128 MB. Può essere modificata per ottenere prestazioni migliori se utilizzata con bulkThreads. Un numero maggiore di thread attivi contemporaneamente garantisce prestazioni migliori. <br>Per ulteriori informazioni, consulta la [documentazione del Snowflake](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}. |
+| chunkSize | Determina la dimensione del file di un blocco del caricamento in blocco. Per impostazione predefinita, è impostata su 128 MB. Può essere modificata per ottenere prestazioni migliori se utilizzata con bulkThreads. Un numero maggiore di thread attivi contemporaneamente garantisce prestazioni migliori. <br>Per ulteriori informazioni, consulta la [documentazione Snowflake](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}. |
 | StageName | Nome della fase interna di pre-provisioning. Verrà utilizzato nel caricamento in blocco anziché creare una nuova fase temporanea. |
 
 
 ## Vertica Analytics {#vertica-analytics}
 
-Utilizzare i database federati per elaborare le informazioni archiviate in un database esterno. Per configurare l’accesso a Vertica Analytics, segui la procedura riportata di seguito.
+Utilizza i database federati per elaborare le informazioni memorizzate in un database esterno. Per configurare l’accesso a Vertica Analytics, segui la procedura riportata di seguito.
 
 1. Nel menu **[!UICONTROL Dati federati]**, seleziona **[!UICONTROL Database federati]**.
 
@@ -252,13 +252,13 @@ Utilizzare i database federati per elaborare le informazioni archiviate in un da
 
    * **[!UICONTROL Database]** (facoltativo): immetti il nome del database se non specificato nel DSN.
 
-   * **[!UICONTROL Schema di lavoro]** (facoltativo): immettere il nome dello schema di database da utilizzare per le tabelle di lavoro.
+   * **[!UICONTROL Schema di lavoro]** (facoltativo): immettere il nome dello schema del database da utilizzare per le tabelle di lavoro.
 
      >[!NOTE]
      >
-     >È possibile utilizzare qualsiasi schema del database, inclusi gli schemi utilizzati per l&#39;elaborazione dati temporanea, purché si disponga dell&#39;autorizzazione necessaria per connettersi a questo schema.
+     >È possibile utilizzare qualsiasi schema del database, inclusi gli schemi utilizzati per l’elaborazione dati temporanea, purché si disponga dell’autorizzazione necessaria per connettersi a tale schema.
      >
-     >**È necessario utilizzare schemi di lavoro distinti** per connettere più sandbox con lo stesso database.
+     >È necessario utilizzare **schemi di lavoro distinti** per connettere più sandbox con lo stesso database.
 
    * **[!UICONTROL Opzioni]**: il connettore supporta le opzioni descritte nella tabella seguente.
 
@@ -272,4 +272,4 @@ Il connettore supporta le seguenti opzioni:
 
 | Opzione | Descrizione |
 |---|---|
-| TimeZoneName | Per impostazione predefinita è vuoto, il che significa che viene utilizzato il fuso orario del sistema dell’app server. L’opzione può essere utilizzata per forzare il parametro di sessione TIMEZONE. |
+| TimeZoneName | Per impostazione predefinita, questo significa che viene utilizzato il fuso orario del server dell’app. L’opzione può essere utilizzata per forzare il parametro di sessione TIMEZONE. |

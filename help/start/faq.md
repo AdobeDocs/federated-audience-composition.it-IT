@@ -1,25 +1,25 @@
 ---
 title: Domande frequenti
-description: Domande frequenti sulla composizione del pubblico federato di Adobe Experience Platform
+description: Domande frequenti sulla composizione di pubblico federato di Adobe Experience Platform
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
 source-git-commit: dd19c6a8170a87c10fd8534bf2aa63adcf360529
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '834'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
 # Domande frequenti {#faq}
 
-Di seguito è riportato un elenco di domande frequenti sulla Composizione federata del pubblico in Adobe Experience Platform. Sono inoltre disponibili domande frequenti globali per il servizio di segmentazione di Adobe Experience Platform in [questa pagina](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/faq){target="_blank"}.
+Di seguito è riportato un elenco di domande frequenti sulla composizione di pubblico federato di Adobe Experience Platform. Sono inoltre disponibili domande frequenti globali per il servizio di segmentazione di Adobe Experience Platform in [questa pagina](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/faq){target="_blank"}.
 
 
 +++Quali sono le autorizzazioni necessarie per accedere alla composizione di pubblico federato?
 
-Federated Audience Composition richiede pacchetti Adobe Real-time Customer Data Platform e Adobe Journey Optimizer Prime o Ultimate. Devi anche aver acquistato il componente aggiuntivo Federated Audience Composition.
+La composizione di pubblico federato richiede i pacchetti Adobe Real-time Customer Data Platform e Adobe Journey Optimizer Prime o Ultimate. Devi anche aver acquistato il componente aggiuntivo Composizione di pubblico federato.
 
-Per utilizzare la Federated Audience Composition, ogni utente deve essere aggiunto a un profilo specifico creato per ogni sandbox. Per ulteriori informazioni, consulta la pagina [Accedere a Federated Audience Composition](access-prerequisites.md).
+Per utilizzare la composizione di pubblico federato, ogni utente deve essere aggiunto a un profilo specifico creato per ogni sandbox. Per ulteriori informazioni, consulta la pagina [Accedere alla composizione di pubblico federato](access-prerequisites.md).
 
 +++
 
@@ -73,15 +73,15 @@ La composizione di pubblico federato non conserva una copia fisica dei dati. La 
 
 Ad esempio:
 
-* In caso di creazione di un pubblico, il pubblico viene creato nel tuo data warehouse e puoi utilizzare la Composizione federata del pubblico per ulteriori attività di composizione e manipolazione dei dati prima di pubblicare il pubblico risultante e gli attributi associati tramite Adobe Experience Platform Audience Portal. La definizione del pubblico e gli attributi associati vengono trasmessi ad Adobe Experience Platform.
+* Per la creazione del pubblico, il pubblico viene creato nel data warehouse, quindi puoi utilizzare la composizione di pubblico federato per ulteriori attività di composizione e manipolazione dei dati prima di pubblicare il pubblico risultante e gli attributi associati tramite Adobe Experience Platform Audience Portal. La definizione del pubblico e gli attributi associati vengono trasmessi ad Adobe Experience Platform.
 Tieni presente che la scadenza corrente dei dati per i tipi di pubblico generati esternamente è di 30 giorni. Questa scadenza riduce la quantità di dati in eccesso archiviati all’interno di un’organizzazione. Al termine del periodo di scadenza dei dati, il set di dati associato rimane visibile all’interno dell’inventario dei set di dati, ma non è possibile attivare il pubblico e il conteggio dei profili viene visualizzato come zero. Ulteriori informazioni sono disponibili nella [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/faq#how-long-do-externally-generated-audiences-last-for){target="_blank"}.
 
 * In caso di un Arricchimento pubblico, il punto di partenza è un pubblico Adobe Experience Platform esistente. Ecco due scenari da esaminare:
    1. Acquisire attributi aggiuntivi del payload del pubblico dal data warehouse federato: in questo caso, gli attributi aggiuntivi aggiunti verranno visualizzati come parte della definizione del pubblico. La scadenza dei dati per i tipi di pubblico generati esternamente è la stessa, ovvero 30 giorni.
-   1. Perfeziona il pubblico Adobe Experience Platform esistente in base agli attributi aggiuntivi presenti nel data warehouse. <!--For example, you have an audience of customers who have shown interest in a particular product on the website for the last two months. You now want to take this audience and further segment it using Federated Audience Composition to only include customers who have a high credit score. The credit score is deemed sensitive and individual credit score data points are not copied over from the data warehouse.-->
+   1. Perfeziona il pubblico di Adobe Experience Platform esistente in base agli attributi aggiuntivi presenti nel data warehouse. <!--For example, you have an audience of customers who have shown interest in a particular product on the website for the last two months. You now want to take this audience and further segment it using Federated Audience Composition to only include customers who have a high credit score. The credit score is deemed sensitive and individual credit score data points are not copied over from the data warehouse.-->
 +++
 
-+++Se i modelli dei casi di utilizzo per Creazione e arricchimento del pubblico non vengono mantenuti, come vengono memorizzati temporaneamente?
++++Se i dati dei pattern di casi d’uso per la creazione del pubblico e l’arricchimento del pubblico non vengono mantenuti, come vengono memorizzati temporaneamente?
 
 I dati del pubblico risultanti non persistono a tempo indefinito in Adobe Experience Platform o nella composizione di pubblico federato. Non verranno conservati più a lungo di quanto richiesto dal tuo caso d’uso. Gli attributi del pubblico portati come parte del payload del pubblico persisteranno solo come parte della definizione del pubblico. La durata della persistenza si basa sul TTL per qualsiasi pubblico; il valore predefinito è 30 giorni.
 
@@ -89,7 +89,7 @@ I dati del pubblico risultanti non persistono a tempo indefinito in Adobe Experi
 
 +++È possibile eliminare un pubblico caricato personalizzato?
 
-No, nella versione corrente non è possibile eliminare i tipi di pubblico caricati personalizzati. <!--that are not used in downstream activation directly in Audience Portal by simply selecting delete from the actions menu. Learn more in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-do-i-put-an-audience-in-the-deleted-state){target="_blank"}.-->
+No, nella versione corrente non è possibile eliminare i tipi di pubblico personalizzati caricati. <!--that are not used in downstream activation directly in Audience Portal by simply selecting delete from the actions menu. Learn more in [Adobe Experience Platform documentation](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#how-do-i-put-an-audience-in-the-deleted-state){target="_blank"}.-->
 
 +++
 

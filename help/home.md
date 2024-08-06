@@ -1,12 +1,12 @@
 ---
-title: Home page della documentazione di Adobe Experience Platform Federated Audience Composition
-description: Documentazione del componente aggiuntivo Federated Audience Composition
+title: Pagina home della documentazione della composizione di pubblico federato di Adobe Experience Platform
+description: Documentazione aggiuntiva della composizione di pubblico federato
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
 source-git-commit: 369d2407eb2a7d6b90763da0710ce904f6f1fbb1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '232'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 85%
 
 Ti diamo il benvenuto nella documentazione della composizione di pubblico federato di Adobe Experience Platform.
 
-La Federated Audience Composition di Experience Platform offre agli utenti di Adobe Real-Time CDP e Adobe Journey Optimizer flessibilità ed efficienza nella gestione dei dati. Con la composizione di pubblico federato, puoi accedere al data warehouse aziendale utilizzando un’interfaccia utente intuitiva per i marketer per creare tipi di pubblico e sfruttare i set di dati nei flussi di lavoro di Adobe Experience Platform senza dover mantenere i dati aziendali sottostanti. Questo consente di ridurre lo spostamento dei dati durante l’accesso ai data warehouse per i casi d’uso dell’esperienza.
+La composizione di pubblico federato di Experience Platform offre agli utenti di Adobe Real-Time CDP e Adobe Journey Optimizer flessibilità ed efficienza nella gestione dei dati. Con la composizione di pubblico federato, puoi accedere al data warehouse aziendale utilizzando un’interfaccia utente intuitiva per i marketer per creare tipi di pubblico e sfruttare i set di dati nei flussi di lavoro di Adobe Experience Platform senza dover mantenere i dati aziendali sottostanti. Questo consente di ridurre lo spostamento dei dati durante l’accesso ai data warehouse per i casi d’uso dell’esperienza.
 
 >[!BEGINTABS]
 
