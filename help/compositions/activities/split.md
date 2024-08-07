@@ -7,7 +7,7 @@ exl-id: 6346eef6-b164-40cf-9402-b5ff208af97f
 source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
 workflow-type: tm+mt
 source-wordcount: '925'
-ht-degree: 73%
+ht-degree: 75%
 
 ---
 
@@ -60,7 +60,7 @@ L’attività **Dividi** consente di segmentare le popolazioni in ingresso in pi
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_enable_overlapping"
 >title="Abilita la sovrapposizione di popolazioni di output"
->abstract="L’opzione **[!UICONTROL Abilita la sovrapposizione di popolazioni di output]** consente di gestire le popolazioni appartenenti a diversi sottoinsiemi. Quando la casella non è selezionata, l’attività di suddivisione si assicura che un destinatario non possa essere presente in diverse transizioni di output, anche se soddisfa i criteri di diversi sottoinsiemi. Saranno nella destinazione della prima scheda con i criteri corrispondenti. Quando la casella è selezionata, i destinatari possono essere trovati in diversi sottoinsiemi se soddisfano i propri criteri di filtro. "
+>abstract="L’opzione **[!UICONTROL Abilita la sovrapposizione di popolazioni di output]** consente di gestire le popolazioni appartenenti a diversi sottoinsiemi. Quando la casella non è selezionata, l’attività di suddivisione si assicura che un destinatario non possa essere presente in diverse transizioni di output, anche se soddisfa i criteri di diversi sottoinsiemi. Saranno nella destinazione della prima scheda con i criteri corrispondenti. Quando la casella è selezionata, è possibile trovare i destinatari in diversi sottoinsiemi se soddisfano i criteri di filtro. "
 
 Per configurare l’attività **Dividi** segui questi passaggi:
 
