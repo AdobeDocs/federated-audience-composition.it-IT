@@ -4,7 +4,7 @@ description: Scopri cos’è la composizione di pubblico federato di Adobe e com
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 2a3eb92ba6d7c24e9eec7f6ff978bf9a34be34ab
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '721'
 ht-degree: 100%
 
@@ -85,4 +85,4 @@ Consulta le domande frequenti in [questa pagina](faq.md).
 >[!CONTEXTUALHELP]
 >id="dc_federated_database_create_link"
 >title="Creare un collegamento"
->abstract="Definire le impostazioni del collegamento."
+>abstract="Definisci le impostazioni del collegamento."

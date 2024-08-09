@@ -15,20 +15,20 @@ ht-degree: 30%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience"
->title="Attività Creazione del pubblico"
->abstract="L’attività **Creazione del pubblico** consente di definire il pubblico che sarà inserito nella composizione."
+>title="Attività Crea pubblico"
+>abstract="L’attività **Crea pubblico** consente di definire il pubblico che sarà inserito nella composizione."
 
 L&#39;attività **Genera pubblico** ti consente di definire il pubblico che entrerà nella composizione. Per definire la popolazione del pubblico, puoi eseguire le seguenti operazioni:
 
 * Seleziona un pubblico Adobe Experience Platform esistente.
 * Crea un nuovo pubblico con Query Modeler definendo e combinando criteri di filtro.
 
-## Configurare l’attività Creazione del pubblico {#build-audience-configuration}
+## Configurare l’attività Crea pubblico {#build-audience-configuration}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_audienceselector"
 >title="Pubblico"
->abstract="Selezionare il pubblico."
+>abstract="Seleziona il pubblico."
 
 Per configurare l’attività **Crea pubblico**, segui questi passaggi:
 
@@ -60,7 +60,7 @@ Per selezionare un pubblico esistente, segui questi passaggi:
 
    ![](../assets/build-audience-read.png)
 
-1. Selezionare il pubblico.
+1. Seleziona il pubblico.
 
 >[!ENDTABS]
 
