@@ -4,10 +4,10 @@ title: Utilizzare l’attività Reconciliation
 description: Scopri come utilizzare l’attività Reconciliation
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
-source-git-commit: 122bd469e04d72d2dac0f606c8ab4e195100d4a4
+source-git-commit: 682695357a9bd8f351b5152becd33088fa16f622
 workflow-type: tm+mt
 source-wordcount: '526'
-ht-degree: 39%
+ht-degree: 37%
 
 ---
 
@@ -64,7 +64,7 @@ Consente di collegare dati non identificati a risorse esistenti. L&#39;operazion
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_attribute"
 >title="Attributo di riconciliazione"
->abstract="Seleziona l’attributo da utilizzare per riconciliare i dati e conferma."
+>abstract="Selezionare l&#39;attributo da utilizzare per riconciliare i dati e confermare."
 
 Per configurare l&#39;attività **Reconciliation**, eseguire la procedura seguente:
 
@@ -87,7 +87,7 @@ Per configurare l&#39;attività **Reconciliation**, eseguire la procedura seguen
 
       ![](../assets/reconciliation-advanced.png)
 
-1. Puoi filtrare i dati da riconciliare utilizzando il pulsante **Crea filtro**. Questo consente di creare una condizione personalizzata utilizzando il modellatore di query.
+1. Puoi filtrare i dati per riconciliare utilizzando il pulsante **Crea filtro**. Questo consente di creare una condizione personalizzata utilizzando il modellatore di query.
 
 Per impostazione predefinita, i dati non riconciliati vengono conservati nella transizione in uscita e sono disponibili nella tabella di lavoro per utilizzi futuri. Per rimuovere i dati non riconciliati, disattiva l’opzione **Mantieni i dati non riconciliati**.
 
