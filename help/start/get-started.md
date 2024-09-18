@@ -3,10 +3,10 @@ title: Introduzione alla composizione di pubblico federato di Experience Platfor
 description: Scopri cos’è la composizione di pubblico federato di Adobe e come utilizzarla in Adobe Experience Platform
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 2a3eb92ba6d7c24e9eec7f6ff978bf9a34be34ab
+source-git-commit: 59b1bf080e06cfc33ea54cd914479f8ec2e182a7
 workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -38,7 +38,7 @@ In questa versione sono disponibili due casi d’uso:
 
 1. Arricchimento del pubblico: arricchisci i tipi di pubblico esistenti in Adobe Experience Platform utilizzando dati del pubblico composti che sono stati federati dal data warehouse aziendale. Questi dati non verranno mantenuti nei profili cliente di Adobe Experience Platform.
 
-![diagramma](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
+![diagramma](assets/fac-use-cases-1.png){zoomable="yes"}{width="75%" align="center"}
 
 ## Passaggi chiave {#gs-steps}
 
@@ -50,11 +50,11 @@ Passaggi chiave:
 
 1. **Integrazione dei dati**: raccogli i dati provenienti da varie origini e uniscili in un set di dati unificato. Scopri come connettere le app Adobe Experience Platform al tuo data warehouse aziendale e ai database supportati, quindi come configurarli in [questa sezione](../connections/federated-db.md).
 
-2. **Modellazione dati**: progetta e crea modelli di dati e schemi che definiscono la struttura, le relazioni e i vincoli dei dati. Per ulteriori informazioni sugli schemi consulta [questa pagina](../customer/schemas.md). Per scoprire come creare collegamenti per i modelli di dati, consulta [questa pagina](../data-management/gs-models.md).
+1. **Modellazione dati**: progetta e crea modelli di dati e schemi che definiscono la struttura, le relazioni e i vincoli dei dati. Per ulteriori informazioni sugli schemi consulta [questa pagina](../customer/schemas.md). Per scoprire come creare collegamenti per i modelli di dati, consulta [questa pagina](../data-management/gs-models.md).
 
-3. **Trasformazione dei dati**: applica tecniche di manipolazione dei dati per modificare il formato, la struttura o i valori degli elementi dati in modo da renderli compatibili o idonei per applicazioni o analisi specifiche.
+1. **Trasformazione dei dati**: applica tecniche di manipolazione dei dati per modificare il formato, la struttura o i valori degli elementi dati in modo da renderli compatibili o idonei per applicazioni o analisi specifiche.
 
-4. **Utilizzo dati**: crea, orchestra e crea tipi di pubblico. Scopri come creare i tipi di pubblico in [questa pagina](../compositions/gs-compositions.md). Puoi anche aggiornare o riutilizzare i tipi di pubblico esistenti tramite Adobe Experience Platform Audience Portal e le destinazioni. Per ulteriori informazioni, consulta [questa pagina](../connections/destinations.md).
+1. **Utilizzo dati**: crea, orchestra e crea tipi di pubblico. Scopri come creare i tipi di pubblico in [questa pagina](../compositions/gs-compositions.md). Puoi anche aggiornare o riutilizzare i tipi di pubblico esistenti tramite Adobe Experience Platform Audience Portal e le destinazioni. Per ulteriori informazioni, consulta [questa pagina](../connections/destinations.md).
 
 >[!NOTE]
 >
