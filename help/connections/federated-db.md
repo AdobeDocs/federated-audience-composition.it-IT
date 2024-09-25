@@ -4,10 +4,10 @@ title: Configurare i database federati
 description: Scopri come configurare i database federati
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 4b219827212351fd0cb0d604251014ab74a4d94b
+source-git-commit: 47d10997c7701611bbba533dfe7553a7bdc41e02
 workflow-type: tm+mt
-source-wordcount: '1621'
-ht-degree: 99%
+source-wordcount: '1622'
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,7 @@ Scopri come creare, configurare, testare e salvare la connessione al database es
 Con la composizione di pubblico federato puoi connetterti ai seguenti database. La configurazione di ciascun database è descritta di seguito.
 
 * [Amazon Redshift](#amazon-redshift)
-* [Azure Synapse](#azure-synapse-redshift)
+* [Azure Synapse Analytics](#azure-synapse)
 * [Google BigQuery](#google-big-query)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
@@ -82,9 +82,9 @@ Utilizza i database federati per elaborare le informazioni memorizzate in un dat
 
 1. Al termine della configurazione, fai clic su **[!UICONTROL Aggiungi]** per creare il database federato.
 
-## Azure Synapse Redshift {#azure-synapse-redshift}
+## Azure Synapse Analytics {#azure-synapse}
 
-Utilizza i database federati per elaborare le informazioni memorizzate in un database esterno. Segui i passaggi seguenti per configurare l’accesso ad Azure Synapse Redshift.
+Utilizza i database federati per elaborare le informazioni memorizzate in un database esterno. Segui i passaggi seguenti per configurare l’accesso ad Analytics per le Azure synapse.
 
 1. Nel menu **[!UICONTROL Dati federati]**, seleziona **[!UICONTROL Database federati]**.
 
@@ -94,11 +94,11 @@ Utilizza i database federati per elaborare le informazioni memorizzate in un dat
 
 1. Immetti un **[!UICONTROL Nome]** nel database federato.
 
-1. Dal menu a discesa **[!UICONTROL Tipo]**, seleziona Azure Synapse Redshift.
+1. Dal menu a discesa **[!UICONTROL Tipo]**, seleziona Azure synapse di Analytics.
 
    ![](assets/federated_database_4.png)
 
-1. Configura le impostazioni di autenticazione di Azure Synapse Redshift:
+1. Azure synapse Configura le impostazioni di autenticazione di Analytics:
 
    * **[!UICONTROL Server]**: immetti l’URL del server di Azure Synapse.
 
