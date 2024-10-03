@@ -4,9 +4,9 @@ description: Scopri cos’è la composizione di pubblico federato di Adobe e com
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 8b67aa9258b05a6ca239dd54ebb10273826ea550
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '721'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

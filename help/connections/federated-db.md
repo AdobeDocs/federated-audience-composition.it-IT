@@ -5,9 +5,9 @@ description: Scopri come configurare i database federati
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: 47d10997c7701611bbba533dfe7553a7bdc41e02
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1622'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Con la composizione di pubblico federato puoi connetterti ai seguenti database. 
 
 ## Amazon Redshift {#amazon-redshift}
 
-Utilizza i database federati per elaborare le informazioni memorizzate in un database esterno. Segui i passaggi seguenti per configurare l’accesso ad Amazon Redshift.
+Utilizza i database federati per elaborare le informazioni archiviate in un database esterno. Segui i passaggi seguenti per configurare l’accesso ad Amazon Redshift.
 
 1. Nel menu **[!UICONTROL Dati federati]**, seleziona **[!UICONTROL Database federati]**.
 
@@ -84,7 +84,7 @@ Utilizza i database federati per elaborare le informazioni memorizzate in un dat
 
 ## Azure Synapse Analytics {#azure-synapse}
 
-Utilizza i database federati per elaborare le informazioni memorizzate in un database esterno. Segui i passaggi seguenti per configurare l’accesso ad Analytics per le Azure synapse.
+Utilizza i database federati per elaborare le informazioni archiviate in un database esterno. Segui i passaggi seguenti per configurare l’accesso ad Azure Synapse Analytics.
 
 1. Nel menu **[!UICONTROL Dati federati]**, seleziona **[!UICONTROL Database federati]**.
 
@@ -94,11 +94,11 @@ Utilizza i database federati per elaborare le informazioni memorizzate in un dat
 
 1. Immetti un **[!UICONTROL Nome]** nel database federato.
 
-1. Dal menu a discesa **[!UICONTROL Tipo]**, seleziona Azure synapse di Analytics.
+1. Dal menu a discesa **[!UICONTROL Tipo]**, seleziona Azure Synapse Analytics.
 
    ![](assets/federated_database_4.png)
 
-1. Azure synapse Configura le impostazioni di autenticazione di Analytics:
+1. Configura le impostazioni di autenticazione di Azure Synapse Analytics:
 
    * **[!UICONTROL Server]**: immetti l’URL del server di Azure Synapse.
 
@@ -123,7 +123,7 @@ Utilizza i database federati per elaborare le informazioni memorizzate in un dat
 
 ## Google BigQuery {#google-big-query}
 
-Utilizza i database federati per elaborare le informazioni memorizzate in un database esterno. Segui i passaggi seguenti per configurare l’accesso a Google BigQuery.
+Utilizza i database federati per elaborare le informazioni archiviate in un database esterno. Segui i passaggi seguenti per configurare l’accesso a Google BigQuery.
 
 1. Nel menu **[!UICONTROL Dati federati]**, seleziona **[!UICONTROL Database federati]**.
 
@@ -141,7 +141,7 @@ Utilizza i database federati per elaborare le informazioni memorizzate in un dat
 
    * **[!UICONTROL Account di servizio]**: immetti l’indirizzo e-mail del tuo **[!UICONTROL Account di servizio]**. Per ulteriori informazioni, consulta la [documentazione di Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}.
 
-   * **[!UICONTROL Progetto]**: immetti l&#39;ID del **[!UICONTROL Progetto]**. Per ulteriori informazioni, consulta la [documentazione di Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}.
+   * **[!UICONTROL Progetto]**: immetti l’ID del **[!UICONTROL Progetto]**. Per ulteriori informazioni, consulta la [documentazione di Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}.
 
    * **[!UICONTROL Set di dati]**: immetti il nome del **[!UICONTROL Set di dati]**. Per ulteriori informazioni, consulta la [documentazione di Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}.
 
@@ -170,7 +170,7 @@ Utilizza i database federati per elaborare le informazioni memorizzate in un dat
 
 ## Snowflake {#snowflake}
 
-Utilizza i database federati per elaborare le informazioni memorizzate in un database esterno. Segui i passaggi seguenti per configurare l’accesso a Snowflake.
+Utilizza i database federati per elaborare le informazioni archiviate in un database esterno. Segui i passaggi seguenti per configurare l’accesso a Snowflake.
 
 1. Nel menu **[!UICONTROL Dati federati]**, seleziona **[!UICONTROL Database federati]**.
 
@@ -228,7 +228,7 @@ Il connettore supporta le seguenti opzioni:
 
 ## Vertica Analytics {#vertica-analytics}
 
-Utilizza i database federati per elaborare le informazioni memorizzate in un database esterno. Per configurare l’accesso a Vertica Analytics, segui la procedura riportata di seguito.
+Utilizza i database federati per elaborare le informazioni archiviate in un database esterno. Per configurare l’accesso a Vertica Analytics, segui la procedura riportata di seguito.
 
 1. Nel menu **[!UICONTROL Dati federati]**, seleziona **[!UICONTROL Database federati]**.
 
