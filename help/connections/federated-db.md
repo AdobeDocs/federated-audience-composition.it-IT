@@ -4,10 +4,10 @@ title: Configurare i database federati
 description: Scopri come configurare i database federati
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 47d10997c7701611bbba533dfe7553a7bdc41e02
-workflow-type: ht
+source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
+workflow-type: tm+mt
 source-wordcount: '1622'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 100%
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
->title="Proprietà del Database federato"
->abstract="Immetti il nome del nuovo Database federato e selezionane il tipo."
+>title="Proprietà del database federato"
+>abstract="Immettere il nome del nuovo database federato e selezionarne il tipo."
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"
 >title="Dettagli del database federato"
->abstract="Immetti le impostazioni per la connessione al nuovo Database federato. Utilizza il pulsante **[!UICONTROL Test di connessione]** per convalidare la configurazione."
+>abstract="Immettere le impostazioni per la connessione al nuovo database federato. Utilizza il pulsante **[!UICONTROL Test di connessione]** per convalidare la configurazione."
 
 La composizione di pubblico federato di Experience Platform consente di creare e arricchire i tipi di pubblico dai data warehouse di terze parti e di importarli in Adobe Experience Platform.
 

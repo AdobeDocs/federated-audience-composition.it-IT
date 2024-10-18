@@ -4,10 +4,10 @@ title: Arricchire i tipi di pubblico di Adobe Experience Platform con dati ester
 description: Scopri come perfezionare e arricchire i tipi di pubblico di Adobe Experience Platform con i dati dei database federati utilizzando la destinazione Federated Audiences Composition.
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 7%
+ht-degree: 5%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="dc_new_destination"
 >title="Creare una destinazione"
->abstract="Immetti le impostazioni per la connessione al nuovo Database federato. Utilizza il pulsante **[!UICONTROL Connetti alla destinazione]** per convalidare la configurazione."
+>abstract="Immettere le impostazioni per la connessione al nuovo database federato. Utilizza il pulsante **[!UICONTROL Connetti alla destinazione]** per convalidare la configurazione."
 
 Adobe Experience Platform consente l&#39;integrazione diretta dei tipi di pubblico da Audience Portal con i database esterni utilizzando la **destinazione Federated Audience Composition di Adobe**. Con questa integrazione, puoi sfruttare i tipi di pubblico esistenti nelle composizioni e arricchirli o perfezionarli utilizzando i dati dei database esterni per creare nuovi tipi di pubblico.
 

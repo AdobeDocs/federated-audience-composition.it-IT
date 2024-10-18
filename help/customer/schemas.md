@@ -4,10 +4,10 @@ title: Introduzione agli schemi
 description: Scopri come iniziare con gli schemi
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 91324185f91c552128774ad35e73c70b7cc33ac8
+source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 22%
+ht-degree: 20%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 22%
 >[!CONTEXTUALHELP]
 >id="dc_schema_filter_sources"
 >title="Selezionare il database di origine da filtrare"
->abstract="Puoi filtrare gli schemi in base alla loro origine. Seleziona uno o più database federati per visualizzarne i relativi schemi."
+>abstract="Puoi filtrare gli schemi in base alla loro origine. Selezionare uno o più database federati per visualizzare i relativi schemi."
 
 ## Che cos’è uno schema {#schema-start}
 
