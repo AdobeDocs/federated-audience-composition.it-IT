@@ -1,19 +1,19 @@
 ---
 audience: end-user
-title: Creare e gestire connessioni con i Federated Database
-description: Scopri come creare e gestire le connessioni con i Federated Database
+title: Creare e gestire connessioni con i database federati
+description: Scopri come creare e gestire le connessioni con i database federati
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
 workflow-type: tm+mt
 source-wordcount: '220'
-ht-degree: 5%
+ht-degree: 16%
 
 ---
 
 # Creare connessioni {#connections-fdb}
 
-Experience Platform Federated Audience Composition consente al cliente di creare e arricchire i tipi di pubblico dai data warehouse di terze parti e di importare i tipi di pubblico in Adobe Experience Platform.
+La composizione di pubblico federato di Experience Platform consente di creare e arricchire i tipi di pubblico dai data warehouse di terze parti e di importarli in Adobe Experience Platform.
 
 Per utilizzare il database federato e Adobe Experience Platform, è innanzitutto necessario stabilire una connessione. Questa connessione viene impostata in un’interfaccia utente dedicata disponibile nell’interfaccia utente di Adobe Experience Platform, come descritto in questa pagina.
 
@@ -47,6 +47,6 @@ Per impostare una connessione al database, eseguire la procedura seguente:
 
    ![](assets/connections_testdeploy.png){zoomable="yes"}
 
-   È disponibile una panoramica della connessione a Federated Database, come illustrato di seguito:
+   È disponibile una panoramica della connessione al database federato, come illustrato di seguito:
 
    ![](assets/connections_overview.png){zoomable="yes"}
