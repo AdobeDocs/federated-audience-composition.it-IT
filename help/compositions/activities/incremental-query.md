@@ -4,29 +4,16 @@ title: Utilizzare l’attività Incremental query
 description: Scopri come utilizzare l’attività Incremental query
 hide: true
 hidefromtoc: true
-source-git-commit: 5fe470ce83a5c3d3df7717bc1203849d99edf430
+source-git-commit: 34d6fc8f97c491fcb91eebf8e1377018e5020a4a
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 21%
+source-wordcount: '546'
+ht-degree: 13%
 
 ---
 
 # Query incrementale {#incremental-query}
 
->[!CONTEXTUALHELP]
->id="dc_orchestration_incrementalquery"
->title="Query incrementale"
->abstract="L’attività **Query incrementale** consente di eseguire query sul database utilizzando il query modeler. Ogni volta che questa attività viene eseguita, i risultati delle esecuzioni precedenti sono esclusi. Ciò ti consente di eseguire il targeting solo per nuovi elementi."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_incrementalquery_history"
->title="Cronologia della query incrementale"
->abstract="Cronologia della query incrementale"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_incrementalquery_processeddata"
->title="Dati elaborati della query incrementale"
->abstract="Dati elaborati della query incrementale"
+<!-- Warning : contextual help IDs are declared in /start/get-started.md-->
 
 L&#39;attività **Incremental query** ti consente di eseguire query sul database su base pianificata. Ogni volta che questa attività viene eseguita, i risultati delle esecuzioni precedenti sono esclusi. Ciò ti consente di eseguire il targeting solo per nuovi elementi.
 

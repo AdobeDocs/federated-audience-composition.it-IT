@@ -3,10 +3,10 @@ title: Introduzione alla composizione di pubblico federato di Experience Platfor
 description: Scopri cos’è la composizione di pubblico federato di Adobe e come utilizzarla in Adobe Experience Platform
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 8b67aa9258b05a6ca239dd54ebb10273826ea550
-workflow-type: ht
-source-wordcount: '721'
-ht-degree: 100%
+source-git-commit: 34d6fc8f97c491fcb91eebf8e1377018e5020a4a
+workflow-type: tm+mt
+source-wordcount: '887'
+ht-degree: 92%
 
 ---
 
@@ -86,3 +86,36 @@ Consulta le domande frequenti in [questa pagina](faq.md).
 >id="dc_federated_database_create_link"
 >title="Creare un collegamento"
 >abstract="Definisci le impostazioni del collegamento."
+
+
+<!-- incremental query IDs -->
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_incrementalquery"
+>title="Query incrementale"
+>abstract="L’attività **Query incrementale** consente di eseguire query sul database utilizzando il query modeler. Ogni volta che questa attività viene eseguita, i risultati delle esecuzioni precedenti sono esclusi. Ciò ti consente di eseguire il targeting solo per nuovi elementi."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_incrementalquery_history"
+>title="Cronologia della query incrementale"
+>abstract="Cronologia della query incrementale"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_incrementalquery_processeddata"
+>title="Dati elaborati della query incrementale"
+>abstract="Dati elaborati della query incrementale"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_incrementalmode_standard"
+>title="Modalità query incrementale"
+>abstract="La query incrementale consente di eseguire la stessa query diverse volte, escludendo i risultati delle esecuzioni precedenti per ogni nuova esecuzione."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_incrementalmode_custom"
+>title="Modalità query incrementale"
+>abstract="La query incrementale consente di eseguire la stessa query diverse volte tenendo conto solo dei risultati in cui il campo data è successivo o uguale all’ultima data di esecuzione dell’attività di query incrementale."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_build_audience_dimension"
+>title="Selezionare una dimensione di targeting"
+>abstract="La dimensione targeting consente di definire la popolazione target dell’operazione: destinatari, beneficiari del contratto, operatore, iscritti, ecc. Per impostazione predefinita, per le e-mail e gli SMS, la destinazione è selezionata dalla tabella incorporata Destinatari. Per le notifiche push, la dimensione di destinazione predefinita è Applicazioni in abbonamento."
