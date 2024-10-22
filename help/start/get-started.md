@@ -3,10 +3,10 @@ title: Introduzione alla composizione di pubblico federato di Experience Platfor
 description: Scopri cos’è la composizione di pubblico federato di Adobe e come utilizzarla in Adobe Experience Platform
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 34d6fc8f97c491fcb91eebf8e1377018e5020a4a
+source-git-commit: ce9539fe32ace4a3c35ab6f14f10100f5a7a1a4d
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 92%
+source-wordcount: '933'
+ht-degree: 87%
 
 ---
 
@@ -119,3 +119,31 @@ Consulta le domande frequenti in [questa pagina](faq.md).
 >id="dc_orchestration_build_audience_dimension"
 >title="Selezionare una dimensione di targeting"
 >abstract="La dimensione targeting consente di definire la popolazione target dell’operazione: destinatari, beneficiari del contratto, operatore, iscritti, ecc. Per impostazione predefinita, per le e-mail e gli SMS, la destinazione è selezionata dalla tabella incorporata Destinatari. Per le notifiche push, la dimensione di destinazione predefinita è Applicazioni in abbonamento."
+
+
+<!-- save profile IDs-->
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile"
+>title="Salva profilo"
+>abstract="Salva profilo"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectaepschema"
+>title="Salva schema AEP di selezione profilo"
+>abstract="Salva schema AEP di selezione profilo"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_aepschemalist"
+>title="Salva elenco schemi AEP profilo"
+>abstract="Salva elenco schemi AEP profilo"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectaepattribute"
+>title="Salva attributo schema AEP profilo"
+>abstract="Salva attributo schema AEP profilo"
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectprimaryfield"
+>title="Salva profilo Seleziona campo di identificazione principale"
+>abstract="Salva profilo Seleziona campo di identificazione principale"
