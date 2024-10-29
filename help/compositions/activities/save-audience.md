@@ -4,10 +4,10 @@ title: Utilizzare l’attività Save audience
 description: Scopri come utilizzare l’attività Save audience
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 62c6eac92bf5817840f55d9b4e981abd6c42ebaa
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 28%
+source-wordcount: '475'
+ht-degree: 37%
 
 ---
 
@@ -39,6 +39,10 @@ L&#39;attività **Save audience** ti consente di creare un nuovo pubblico dalla 
 
 Questa attività è essenzialmente utilizzata per mantenere i gruppi di popolazione calcolati nella stessa composizione, convertendoli in tipi di pubblico riutilizzabili. Connettila ad altre attività di targeting, come a un’attività **Crea pubblico** o **Combina**.
 
+>[!IMPORTANT]
+>
+>L&#39;attività **Save Audience** richiede uno schema e un set di dati abilitati per il profilo. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
+
 ## Configurare l’attività Salva pubblico {#save-audience-configuration}
 
 Per configurare l’attività **Salva pubblico**, segui questi passaggi:
@@ -64,7 +68,7 @@ Per configurare l’attività **Salva pubblico**, segui questi passaggi:
 
 ## Accedere al pubblico in Adobe Experience Platform {#access-audience}
 
-Dopo aver eseguito la composizione, il pubblico risultante viene salvato in Adobe Experience Platform come pubblico esterno e disponibile in Adobe Real-Time Customer Data Platform e/o Adobe Journey Optimizer. È reso accessibile nel menu **Tipi di pubblico**. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+Dopo aver eseguito la composizione, il pubblico risultante viene salvato in Adobe Experience Platform come pubblico esterno e reso disponibile in Adobe Real-Time Customer Data Platform e/o Adobe Journey Optimizer. È reso accessibile nel menu **Tipi di pubblico**. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 Il pubblico creato include tutti i campi selezionati nella sezione Mappature pubblico. Puoi indirizzare questo pubblico in Journey Optimizer o attivarlo in qualsiasi destinazione supportata da Adobe Experience Platform.
 

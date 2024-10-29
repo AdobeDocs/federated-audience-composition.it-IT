@@ -4,10 +4,10 @@ title: Introduzione agli schemi
 description: Scopri come iniziare con gli schemi
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
+source-git-commit: 25a60847484aae0cb0dc8441e5dcc7968f8c1615
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 20%
+source-wordcount: '515'
+ht-degree: 17%
 
 ---
 
@@ -91,9 +91,9 @@ Per creare schemi in Federated Audience Composition, segui i passaggi seguenti:
 
 ## Modificare uno schema {#schema-edit}
 
-Per modificare uno schema:
+Per modificare uno schema, effettua le seguenti operazioni:
 
-1. Fai clic sul nome dello schema nella cartella degli schemi.
+1. Fai clic sul nome dello schema nell’elenco.
 
 1. Fai clic sul pulsante **[!UICONTROL Modifica]**.
 
@@ -102,6 +102,7 @@ Per modificare uno schema:
    Puoi accedere alle stesse opzioni disponibili per [la creazione di uno schema](#schema-create).
 
    ![](assets/schema_edit_orders.png){zoomable="yes"}
+
 
 ## Visualizzare l’anteprima dei dati in uno schema {#schema-preview}
 
@@ -114,6 +115,16 @@ Fai clic sul collegamento **[!UICONTROL Calcola]** per visualizzare in anteprima
 Fai clic sul pulsante **[!UICONTROL Configura colonne]** per modificare la visualizzazione dei dati.
 
 ![](assets/schema_columns.png){zoomable="yes"}
+
+
+## Aggiornare uno schema {#schema-refresh}
+
+È possibile aggiornare, aggiungere o rimuovere tabelle in un database federato. In questi casi, è necessario aggiornare lo schema in Adobe Experience Platform per allinearlo alle modifiche più recenti. Per eseguire questa operazione, fare clic sui tre punti accanto al nome dello schema da aggiornare e selezionare **Aggiorna schema**.
+
+È inoltre possibile aggiornare la definizione dello schema durante la modifica.
+
+![](assets/schema_refresh.png){zoomable="yes"}
+
 
 ## Eliminare uno schema {#schema-delete}
 

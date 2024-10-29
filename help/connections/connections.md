@@ -4,9 +4,9 @@ title: Creare e gestire connessioni con i database federati
 description: Scopri come creare e gestire le connessioni con i database federati
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
+source-git-commit: 6191b9849200723d00398644d038af5b082e7964
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '221'
 ht-degree: 16%
 
 ---
@@ -40,12 +40,13 @@ Per impostare una connessione al database, eseguire la procedura seguente:
    * [Google BigQuery](federated-db.md#google-big-query)
    * [Snowflake](federated-db.md#snowflake)
    * [Vertica Analytics](federated-db.md#vertica-analytics)
+   * [Database](federated-db.md#databricks)
 
 1. Dopo aver compilato i dettagli, fare clic sul pulsante **[!UICONTROL Verifica connessione]** e sul pulsante **[!UICONTROL Distribuisci funzioni]**.
 
-1. Completa la creazione della connessione facendo clic sul pulsante **[!UICONTROL Salva]**.
-
    ![](assets/connections_testdeploy.png){zoomable="yes"}
+
+1. Completa la creazione della connessione facendo clic sul pulsante **[!UICONTROL Salva]**.
 
    È disponibile una panoramica della connessione al database federato, come illustrato di seguito:
 
