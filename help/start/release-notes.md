@@ -4,47 +4,47 @@ description: Ultimi aggiornamenti e note sulla versione
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 61a70f9de0a6cf171a2ff1128b57ae6206be842c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '442'
-ht-degree: 53%
+ht-degree: 100%
 
 ---
 
 # Note sulla versione {#rn-new}
 
-[!DNL Federated Audience Composition] offre continuamente nuove funzioni, miglioramenti alle funzioni esistenti e correzioni di bug. Tutte le modifiche sono consolidate in queste note sulla versione. [!DNL Federated Audience Composition] è stato sviluppato in modalità nativa su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Ulteriori informazioni su queste modifiche nelle [Note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it){target="_blank"}.
+[!DNL Federated Audience Composition] offre continuamente nuove funzioni, miglioramenti alle funzioni esistenti e correzioni di bug. In queste note sulla versione, tutte le modifiche sono consolidate. [!DNL Federated Audience Composition] è stato sviluppato in modalità nativa su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Ulteriori informazioni su queste modifiche nelle [Note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it){target="_blank"}.
 
 ## Versione di ottobre 2024 {#fac-24-10}
 
 ### Compatibilità {#fac-24-10-compat}
 
-Con questa nuova versione, Federated Audience Composition è ora compatibile con i sistemi elencati di seguito.
+Con questa nuova versione, la composizione di pubblico federato è ora compatibile con i sistemi elencati di seguito.
 
-* **Supporto di database**
+* **Supporto Databricks**
 
-  È ora possibile stabilire connessioni ai database delle banche dati tramite Federated Audience Composition. [Ulteriori informazioni](../connections/federated-db.md#databricks)
+  È ora possibile stabilire connessioni ai database Databricks tramite la composizione di pubblico federato. [Ulteriori informazioni](../connections/federated-db.md#databricks)
 
-* **Supporto per l&#39;accesso sicuro al Snowflake tramite AWS PrivateLink**
+* **Supporto per l’accesso sicuro a Snowflake tramite AWS PrivateLink**
 
-  È ora supportato l’accesso sicuro al data warehouse di Snowflake esterno tramite collegamento privato. Il tuo account di Snowflake deve essere ospitato su Amazon Web Services (AWS) e si trova nella stessa area dell’ambiente Federated Audience Composition. Contatta il tuo rappresentante Adobe per assistenza nella configurazione dell’accesso sicuro al tuo account di Snowflake. [Ulteriori informazioni](../connections/federated-db.md#snowflake)
+  È ora supportato l’accesso sicuro al data warehouse esterno di Snowflake tramite collegamento privato. Il tuo account di Snowflake deve essere ospitato su Amazon Web Services (AWS) e situato nella stessa area geografica dell’ambiente di composizione di pubblico federato. Contatta il tuo rappresentante Adobe per assistenza nella configurazione dell’accesso sicuro all’account Snowflake. [Ulteriori informazioni](../connections/federated-db.md#snowflake)
 
-* **Supporto Amazon Redshift Serverless**
+* **Supporto serverless Amazon Redshift**
 
-  Con questa nuova versione, Federated Audience Composition supporta [Amazon Redshift Serverless](https://aws.amazon.com/redshift/redshift-serverless/){target="_blank"}.
+  Con questa nuova versione, la composizione di pubblico federato supporta [Amazon Redshift serverless](https://aws.amazon.com/it/redshift/redshift-serverless/){target="_blank"}.
 
 ### Miglioramenti {#fac-24-10-improvements}
 
 Questa versione include i miglioramenti elencati di seguito.
 
-* **Aggiorna schemi esistenti**
+* **Aggiornare schemi esistenti**
 
   Quando una colonna viene creata, modificata o eliminata in un database federato, è ora possibile rilevare e applicare le modifiche facendo clic sul pulsante **[!UICONTROL Aggiorna schema]** nello schema corrispondente. [Ulteriori informazioni](../customer/schemas.md#schema-refresh)
 
 * **Associare un modello dati a una nuova composizione**
 
-  Durante la creazione di una composizione, è ora possibile selezionare il modello dati da associare. Con questa nuova opzione, la configurazione delle attività è più semplice in quanto sono disponibili solo tabelle del modello dati associato. [Ulteriori informazioni](../compositions/create-composition.md)
+  Quando viene creata una composizione, è ora possibile selezionare il modello dati da associare. Con questa nuova opzione, la configurazione delle attività è più semplice in quanto sono disponibili solo le tabelle del modello dati associato. [Ulteriori informazioni](../compositions/create-composition.md)
 
-## Versione del 24 luglio - Federated Audience Composition (LA) {#fac-la}
+## Versione di luglio 2024 - Composizione di pubblico federato (LA) {#fac-la}
 
 >[!AVAILABILITY]
 >

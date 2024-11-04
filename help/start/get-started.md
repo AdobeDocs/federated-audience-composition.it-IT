@@ -4,9 +4,9 @@ description: Scopri cos’è la composizione di pubblico federato di Adobe e com
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: ce9539fe32ace4a3c35ab6f14f10100f5a7a1a4d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '933'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -113,7 +113,7 @@ Consulta le domande frequenti in [questa pagina](faq.md).
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_incrementalmode_custom"
 >title="Modalità query incrementale"
->abstract="La query incrementale consente di eseguire la stessa query diverse volte tenendo conto solo dei risultati in cui il campo data è successivo o uguale all’ultima data di esecuzione dell’attività di query incrementale."
+>abstract="La query incrementale consente di eseguire la stessa query diverse volte, tenendo conto solo dei risultati in cui il campo data è successivo o uguale all’ultima data di esecuzione dell’attività di query incrementale."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_dimension"
@@ -125,25 +125,25 @@ Consulta le domande frequenti in [questa pagina](faq.md).
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile"
->title="Salva profilo"
->abstract="Salva profilo"
+>title="Salvare il profilo"
+>abstract="Salvare il profilo"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepschema"
->title="Salva schema AEP di selezione profilo"
->abstract="Salva schema AEP di selezione profilo"
+>title="Salvare il profilo in Seleziona schema AEP"
+>abstract="Salvare il profilo in Seleziona schema AEP"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
->title="Salva elenco schemi AEP profilo"
->abstract="Salva elenco schemi AEP profilo"
+>title="Salvare il profilo in Elenco schema AEP"
+>abstract="Salvare il profilo in Elenco schema AEP"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepattribute"
->title="Salva attributo schema AEP profilo"
->abstract="Salva attributo schema AEP profilo"
+>title="Salvare il profilo in Attributo schema AEP"
+>abstract="Salvare il profilo in Attributo schema AEP"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectprimaryfield"
->title="Salva profilo Seleziona campo di identificazione principale"
->abstract="Salva profilo Seleziona campo di identificazione principale"
+>title="Salvare il profilo in Seleziona campo di identificazione principale"
+>abstract="Salvare il profilo in Seleziona campo di identificazione principale"

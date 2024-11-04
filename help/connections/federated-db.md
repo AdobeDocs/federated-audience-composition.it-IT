@@ -5,9 +5,9 @@ description: Scopri come configurare i database federati
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: e52ab57e2e7fca91006e51973a759642ead5734f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1897'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
 >title="Proprietà del database federato"
->abstract="Immettere il nome del nuovo database federato e selezionarne il tipo."
+>abstract="Immetti il nome del nuovo database federato e seleziona il tipo."
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"
 >title="Dettagli del database federato"
->abstract="Immettere le impostazioni per la connessione al nuovo database federato. Utilizza il pulsante **[!UICONTROL Test di connessione]** per convalidare la configurazione."
+>abstract="Immetti le impostazioni per la connessione al nuovo database federato. Utilizza il pulsante **[!UICONTROL Test di connessione]** per convalidare la configurazione."
 
 La composizione di pubblico federato di Experience Platform consente di creare e arricchire i tipi di pubblico dai data warehouse di terze parti e di importarli in Adobe Experience Platform.
 
@@ -41,7 +41,7 @@ Con la composizione di pubblico federato puoi connetterti ai seguenti database. 
 * [Google BigQuery](#google-big-query)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
-* [Database](#databricks)
+* [Databricks](#databricks)
 
 ## Amazon Redshift {#amazon-redshift}
 
@@ -171,7 +171,7 @@ Utilizza i database federati per elaborare le informazioni archiviate in un data
 
 >[!NOTE]
 >
->È supportato l&#39;accesso sicuro al data warehouse di Snowflake esterno tramite collegamento privato. Il tuo account di Snowflake deve essere ospitato su Amazon Web Services (AWS) e si trova nella stessa area dell’ambiente Federated Audience Composition. Contatta il tuo rappresentante Adobe per assistenza nella configurazione dell’accesso sicuro al tuo account di Snowflake.
+>È supportato l’accesso sicuro al data warehouse esterno di Snowflake tramite collegamento privato. Il tuo account di Snowflake deve essere ospitato su Amazon Web Services (AWS) e situato nella stessa area geografica dell’ambiente di composizione di pubblico federato. Contatta il tuo rappresentante Adobe per assistenza nella configurazione dell’accesso sicuro all’account Snowflake.
 >
 
 Utilizza i database federati per elaborare le informazioni archiviate in un database esterno. Segui i passaggi seguenti per configurare l’accesso a Snowflake.
@@ -277,9 +277,9 @@ Il connettore supporta la seguente opzione:
 |---|---|
 | TimeZoneName | Per impostazione predefinita, questo significa che viene utilizzato il fuso orario del server dell’app. L’opzione può essere utilizzata per forzare il parametro di sessione TIMEZONE. |
 
-## Database {#databricks}
+## Databricks {#databricks}
 
-Utilizza i database federati per elaborare le informazioni archiviate in un database esterno. Per configurare l’accesso alle banche dati, segui la procedura riportata di seguito.
+Utilizza i database federati per elaborare le informazioni archiviate in un database esterno. Segui i passaggi seguenti per configurare l’accesso a Databricks.
 
 1. Nel menu **[!UICONTROL Dati federati]**, seleziona **[!UICONTROL Database federati]**.
 
@@ -289,21 +289,21 @@ Utilizza i database federati per elaborare le informazioni archiviate in un data
 
 1. Immetti un **[!UICONTROL Nome]** nel database federato.
 
-1. Selezionare Database dal menu a discesa **[!UICONTROL Tipo]**.
+1. Dal menu a discesa **[!UICONTROL Tipo]**, seleziona Databricks.
 
    ![](assets/databricks-config.png)
 
-1. Configurare le impostazioni di autenticazione dei database:
+1. Configura le impostazioni di autenticazione di Databricks:
 
-   * **[!UICONTROL Server]**: aggiungere il nome del server di database.
+   * **[!UICONTROL Server]**: aggiungi il nome del server Databricks.
 
-   * **[!UICONTROL Percorso HTTP]**: aggiungere il percorso al cluster o al data warehouse. [Ulteriori informazioni](https://docs.databricks.com/en/integrations/compute-details.html){target="_blank"}
+   * **[!UICONTROL Percorso HTTP]**: aggiungi il percorso al cluster o al data warehouse. [Ulteriori informazioni](https://docs.databricks.com/en/integrations/compute-details.html){target="_blank"}
 
-   * **[!UICONTROL Password]**: aggiungi il token di accesso dell&#39;account. [Ulteriori informazioni](https://docs.databricks.com/en/dev-tools/auth/pat.html){target="_blank"}
+   * **[!UICONTROL Password]**: aggiungi il token di accesso dell’account. [Ulteriori informazioni](https://docs.databricks.com/en/dev-tools/auth/pat.html){target="_blank"}
 
-   * **[!UICONTROL Catalogo]**: aggiungere il campo per il catalogo dei database.
+   * **[!UICONTROL Catalogo]**: aggiungi il campo per il catalogo Databricks.
 
-   * **[!UICONTROL Schema di lavoro]**: nome dello schema di database da utilizzare per le tabelle di lavoro.
+   * **[!UICONTROL Schema di lavoro]**: nome dello schema del database da utilizzare per le tabelle di lavoro.
 
      >[!NOTE]
      >
