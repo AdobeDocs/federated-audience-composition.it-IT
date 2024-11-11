@@ -3,8 +3,8 @@ title: Novità nella composizione di pubblico federato di Experience Platform
 description: Ultimi aggiornamenti e note sulla versione
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 61a70f9de0a6cf171a2ff1128b57ae6206be842c
-workflow-type: ht
+source-git-commit: de5955ad481061c6f8e488c86fc9666736a2fa1e
+workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 100%
 
@@ -13,6 +13,13 @@ ht-degree: 100%
 # Note sulla versione {#rn-new}
 
 [!DNL Federated Audience Composition] offre continuamente nuove funzioni, miglioramenti alle funzioni esistenti e correzioni di bug. In queste note sulla versione, tutte le modifiche sono consolidate. [!DNL Federated Audience Composition] è stato sviluppato in modalità nativa su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Ulteriori informazioni su queste modifiche nelle [Note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it){target="_blank"}.
+
+
+>[!AVAILABILITY]
+>
+>La composizione di pubblico federato è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata).
+>
+
 
 ## Versione di ottobre 2024 {#fac-24-10}
 
@@ -46,10 +53,6 @@ Questa versione include i miglioramenti elencati di seguito.
 
 ## Versione di luglio 2024 - Composizione di pubblico federato (LA) {#fac-la}
 
->[!AVAILABILITY]
->
->La composizione di pubblico federato è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata).
->
 
 La composizione di pubblico federato è una funzionalità aggiuntiva che offre alle aziende un accesso flessibile e ampio ai data warehouse aziendali per comporre il pubblico utilizzando set di dati aziendali critici ed esperienze immediate e avviate dal marchio. Con questo nuovo approccio, in qualità di utente di [Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/home){target="_blank"} e/o [Adobe Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"}, puoi raccogliere i set di dati direttamente dal data warehouse esistente per arricchire i tipi di pubblico di Adobe Experience Platform in un unico sistema.
 

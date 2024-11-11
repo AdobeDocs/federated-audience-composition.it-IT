@@ -2,10 +2,11 @@
 title: Prerequisiti e guardrail per la composizione di pubblico federato
 description: Scopri i prerequisiti, le autorizzazioni e i guardrail per la composizione di pubblico federato
 badge: label="Disponibilità limitata" type="Informative"
-source-git-commit: 07170ee709c9e3c4ad0bb2390aa0d44adae3b059
-workflow-type: ht
-source-wordcount: '274'
-ht-degree: 100%
+exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
+source-git-commit: de5955ad481061c6f8e488c86fc9666736a2fa1e
+workflow-type: tm+mt
+source-wordcount: '307'
+ht-degree: 92%
 
 ---
 
@@ -16,6 +17,19 @@ La composizione di pubblico federato richiede i pacchetti Adobe Real-time Custom
 >[!AVAILABILITY]
 >
 >Dopo aver ricevuto la notifica e-mail di benvenuto da Adobe, potrebbero essere necessarie alcune ore prima che l’interfaccia venga aggiornata e le funzioni siano disponibili.
+
+## Sistemi supportati {#supported-systems}
+
+Federated Audience Composition supporta i seguenti warehouse cloud:
+
+* Amazon Redshift
+* Azure Synapse
+* Databricks
+* Google BigQuery
+* Snowflake
+* Vertica Analytics
+
+Scopri come creare una connessione con questi sistemi in [questa pagina](../connections/connections.md).
 
 ## Autorizzazioni {#permissions}
 
