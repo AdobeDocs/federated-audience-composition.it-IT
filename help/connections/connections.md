@@ -4,16 +4,16 @@ title: Creare e gestire connessioni con i database federati
 description: Scopri come creare e gestire le connessioni con i database federati
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 6191b9849200723d00398644d038af5b082e7964
+source-git-commit: ef72fe2c94c0dc9eb0432d092a6e4f01de8b9845
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 16%
+source-wordcount: '228'
+ht-degree: 5%
 
 ---
 
 # Creare connessioni {#connections-fdb}
 
-La composizione di pubblico federato di Experience Platform consente di creare e arricchire i tipi di pubblico dai data warehouse di terze parti e di importarli in Adobe Experience Platform.
+Experience Platform Federated Audience Composition consente al cliente di creare e arricchire i tipi di pubblico dai data warehouse di terze parti e di importare i tipi di pubblico in Adobe Experience Platform. I data warehouse supportati sono elencati in [questa sezione](../start/access-prerequisites.md#supported-systems).
 
 Per utilizzare il database federato e Adobe Experience Platform, è innanzitutto necessario stabilire una connessione. Questa connessione viene impostata in un’interfaccia utente dedicata disponibile nell’interfaccia utente di Adobe Experience Platform, come descritto in questa pagina.
 
@@ -37,10 +37,10 @@ Per impostare una connessione al database, eseguire la procedura seguente:
 
    * [Amazon Redshift](federated-db.md#amazon-redshift)
    * [Azure Synapse](federated-db.md#azure-synapse-redshift)
+   * [Databricks](federated-db.md#databricks)
    * [Google BigQuery](federated-db.md#google-big-query)
    * [Snowflake](federated-db.md#snowflake)
    * [Vertica Analytics](federated-db.md#vertica-analytics)
-   * [Database](federated-db.md#databricks)
 
 1. Dopo aver compilato i dettagli, fare clic sul pulsante **[!UICONTROL Verifica connessione]** e sul pulsante **[!UICONTROL Distribuisci funzioni]**.
 
