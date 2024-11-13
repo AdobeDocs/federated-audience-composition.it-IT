@@ -5,7 +5,7 @@ description: Scopri come configurare i database federati
 badge: label="Disponibilità limitata" type="Informative"
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: e52ab57e2e7fca91006e51973a759642ead5734f
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1897'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_properties"
 >title="Proprietà del database federato"
->abstract="Immetti il nome del nuovo database federato e seleziona il tipo."
+>abstract="Immetti il nome del nuovo database federato e selezionane il tipo."
 
 >[!CONTEXTUALHELP]
 >id="dc_connection_federated_database_details"

@@ -7,7 +7,7 @@ exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
 source-git-commit: c2d4ec21f497a1c4ad9c1701b4283edd16ca0611
 workflow-type: tm+mt
 source-wordcount: '573'
-ht-degree: 5%
+ht-degree: 7%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 5%
 >[!CONTEXTUALHELP]
 >id="dc_new_destination"
 >title="Creare una destinazione"
->abstract="Immettere le impostazioni per la connessione al nuovo database federato. Utilizza il pulsante **[!UICONTROL Connetti alla destinazione]** per convalidare la configurazione."
+>abstract="Immetti le impostazioni per la connessione al nuovo database federato. Utilizza il pulsante **[!UICONTROL Connetti alla destinazione]** per convalidare la configurazione."
 
-Adobe Experience Platform consente l&#39;integrazione diretta dei tipi di pubblico da Audience Portal con i database esterni utilizzando la **destinazione Federated Audience Composition di Adobe**. Con questa integrazione, puoi sfruttare i tipi di pubblico esistenti nelle composizioni e arricchirli o perfezionarli utilizzando i dati dei database esterni per creare nuovi tipi di pubblico.
+Adobe Experience Platform Adobe consente l&#39;integrazione diretta dei tipi di pubblico da Audience Portal con i database esterni utilizzando la **destinazione Federated Audience Composition**. Con questa integrazione, puoi sfruttare i tipi di pubblico esistenti nelle composizioni e arricchirli o perfezionarli utilizzando i dati dei database esterni per creare nuovi tipi di pubblico.
 
 A tal fine, devi impostare una nuova connessione in Adobe Experience Platform alla destinazione Federated Audience Composition di Adobe. Puoi utilizzare una pianificazione per inviare un determinato pubblico a frequenze regolari, selezionare attributi specifici da includere, ad esempio gli ID per la riconciliazione dei dati. Se hai applicato la governance e le policy sulla privacy al pubblico, queste verranno mantenute e rimandate al portale del pubblico una volta aggiornato.
 
