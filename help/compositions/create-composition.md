@@ -2,18 +2,17 @@
 audience: end-user
 title: Creare composizioni
 description: Scopri come creare le composizioni
-badge: label="Disponibilità limitata" type="Informative"
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
-source-git-commit: bd3223a77f490a43487e21662d8f766d4f9b06fc
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '499'
 ht-degree: 21%
 
 ---
 
 # Creare e configurare la composizione {#create}
 
-The first step to create a composition is to define its label and configure additional settings if needed.
+Il primo passaggio per creare una composizione consiste nel definirne l’etichetta e, se necessario, configurare ulteriori impostazioni.
 
 ## Creare la composizione {#create-the-composition}
 
@@ -55,9 +54,9 @@ Quando accedete a una composizione, potete accedere a impostazioni avanzate che 
 
 Le impostazioni disponibili sono le seguenti:
 
-* ****
+* **[!UICONTROL Etichetta]**: modifica l&#39;etichetta della composizione.
 
-* **** Le tabelle di lavoro delle esecuzioni precedenti sono eliminate da una composizione tecnica, che viene eseguita su base giornaliera.
+* **[!UICONTROL Mantieni il risultato delle popolazioni provvisorie tra due esecuzioni]**: per impostazione predefinita, vengono mantenute solo le tabelle di lavoro dell&#39;ultima esecuzione della composizione. Le tabelle di lavoro delle esecuzioni precedenti sono eliminate da una composizione tecnica, che viene eseguita su base giornaliera.
 
   Se questa opzione è attivata, le tabelle di lavoro verranno mantenute anche dopo l&#39;esecuzione della composizione. Puoi utilizzarlo a scopo di test e quindi deve essere utilizzato **solo** in ambienti di sviluppo o di staging. Non deve mai essere controllato in una composizione di produzione.
 
@@ -67,4 +66,4 @@ Le impostazioni disponibili sono le seguenti:
    * **[!UICONTROL Ignora]**: lo stato dell&#39;attività che ha attivato l&#39;errore diventa **[!UICONTROL Non riuscito]**, ma la composizione mantiene lo stato **[!UICONTROL Avviato]**.
    * **[!UICONTROL Interrompi il processo]**: la composizione viene interrotta automaticamente e il suo stato cambia in **[!UICONTROL Non riuscito]**. Una volta risolto il problema, riavviare la composizione utilizzando il pulsante **[!UICONTROL Avvia]**.
 
-* **** **** If the value of this field is 0, the composition will never be stopped regardless of the number of errors.
+* **[!UICONTROL Errori consecutivi]**: specificare il numero di errori che possono essere ignorati prima dell&#39;interruzione del processo. Una volta raggiunto questo numero, lo stato della composizione diventa **[!UICONTROL Non riuscito]**. Se il valore di questo campo è 0, la composizione non verrà mai interrotta indipendentemente dal numero di errori.

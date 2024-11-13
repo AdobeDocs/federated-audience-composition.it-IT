@@ -1,12 +1,11 @@
 ---
 title: Novità nella composizione di pubblico federato di Experience Platform
 description: Ultimi aggiornamenti e note sulla versione
-badge: label="Disponibilità limitata" type="Informative"
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: de5955ad481061c6f8e488c86fc9666736a2fa1e
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 100%
+source-wordcount: '461'
+ht-degree: 92%
 
 ---
 
@@ -14,14 +13,12 @@ ht-degree: 100%
 
 [!DNL Federated Audience Composition] offre continuamente nuove funzioni, miglioramenti alle funzioni esistenti e correzioni di bug. In queste note sulla versione, tutte le modifiche sono consolidate. [!DNL Federated Audience Composition] è stato sviluppato in modalità nativa su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Ulteriori informazioni su queste modifiche nelle [Note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it){target="_blank"}.
 
+## Versione di ottobre 2024 {#fac-24-10}
 
 >[!AVAILABILITY]
 >
->La composizione di pubblico federato è attualmente disponibile solo per un set di organizzazioni (disponibilità limitata).
+>Precedentemente disponibile per un set di organizzazioni (LA), Adobe Experience Platform Federated Audience Composition è ora disponibile per tutti gli utenti (GA). Questo componente aggiuntivo viene attivato in base all’offerta e visibile solo con le autorizzazioni associate. [Ulteriori informazioni](access-prerequisites.md)
 >
-
-
-## Versione di ottobre 2024 {#fac-24-10}
 
 ### Compatibilità {#fac-24-10-compat}
 
@@ -52,7 +49,6 @@ Questa versione include i miglioramenti elencati di seguito.
   Quando viene creata una composizione, è ora possibile selezionare il modello dati da associare. Con questa nuova opzione, la configurazione delle attività è più semplice in quanto sono disponibili solo le tabelle del modello dati associato. [Ulteriori informazioni](../compositions/create-composition.md)
 
 ## Versione di luglio 2024 - Composizione di pubblico federato (LA) {#fac-la}
-
 
 La composizione di pubblico federato è una funzionalità aggiuntiva che offre alle aziende un accesso flessibile e ampio ai data warehouse aziendali per comporre il pubblico utilizzando set di dati aziendali critici ed esperienze immediate e avviate dal marchio. Con questo nuovo approccio, in qualità di utente di [Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/home){target="_blank"} e/o [Adobe Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"}, puoi raccogliere i set di dati direttamente dal data warehouse esistente per arricchire i tipi di pubblico di Adobe Experience Platform in un unico sistema.
 

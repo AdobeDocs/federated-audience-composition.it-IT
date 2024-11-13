@@ -2,11 +2,10 @@
 audience: end-user
 title: Audit Trail
 description: Scopri come le azioni e gli eventi vengono registrati e accessibili nell’audit trail
-badge: label="Disponibilità limitata" type="Informative"
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '367'
 ht-degree: 11%
 
 ---
@@ -20,11 +19,11 @@ ht-degree: 11%
 
 La funzionalità Audit trail fornisce una registrazione dettagliata e cronologica di tutte le azioni e di tutti gli eventi eseguiti nell’ambiente in tempo reale
 
-La funzionalità **[!UICONTROL Audit trail]** registra costantemente in tempo reale un registro dettagliato delle azioni e degli eventi che si verificano all&#39;interno dell&#39;istanza Adobe Federated Composition. Offre un metodo comodo per accedere a un record cronologico di dati, che affronta query quali: lo stato dei flussi di lavoro, gli utenti più recenti per modificarli o le attività eseguite dagli utenti all’interno dell’istanza.
+La funzionalità **[!UICONTROL Audit trail]** registra costantemente in tempo reale un registro dettagliato delle azioni e degli eventi che si verificano all&#39;interno dell&#39;istanza di Adobe Federated Composition. Offre un metodo comodo per accedere a un record cronologico di dati, che affronta query quali: lo stato dei flussi di lavoro, gli utenti più recenti per modificarli o le attività eseguite dagli utenti all’interno dell’istanza.
 
 +++ Ulteriori informazioni sulle entità disponibili in Audit Trail
 
-* **Audit trail dello schema di Source** consente di monitorare le attività e le modifiche recenti apportate agli schemi nell&#39;istanza di Federated Audience Composition di Adobe.
+* **Audit trail dello schema di Source Adobe** consente di monitorare le attività e le modifiche recenti apportate agli schemi all&#39;interno dell&#39;istanza di Federated Audience Composition.
 
   Per informazioni dettagliate sugli schemi, consulta questa [pagina](../customer/schemas.md).
 

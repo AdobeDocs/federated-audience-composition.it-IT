@@ -2,12 +2,11 @@
 audience: end-user
 title: Utilizzare l’attività Deduplication
 description: Scopri come utilizzare l’attività Deduplication
-badge: label="Disponibilità limitata" type="Informative"
 exl-id: 55db2461-fcfb-4284-9ab7-7cb01071ed1c
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '565'
-ht-degree: 59%
+source-wordcount: '563'
+ht-degree: 58%
 
 ---
 

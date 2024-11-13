@@ -2,12 +2,11 @@
 audience: end-user
 title: Utilizzare l’attività Modifica dimensione
 description: Scopri come utilizzare l’attività Modifica dimensione
-badge: label="Disponibilità limitata" type="Informative"
 exl-id: e71017bd-6d2f-4ace-b2d9-cbfbb537d127
-source-git-commit: f549f1611bfe6deb6dc684e3a0d9c968ba7c184a
+source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 50%
+source-wordcount: '187'
+ht-degree: 49%
 
 ---
 
