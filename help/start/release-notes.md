@@ -1,11 +1,11 @@
 ---
 title: Novità nella composizione di pubblico federato di Experience Platform
-description: Ultimi aggiornamenti e note sulla versione
+description: Aggiornamenti e note sulla versione più recenti
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '461'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 92%
 
 >[!AVAILABILITY]
 >
->Precedentemente disponibile per un set di organizzazioni (LA), Adobe Experience Platform Federated Audience Composition è ora disponibile per tutti gli utenti (GA). Questo componente aggiuntivo viene attivato in base all’offerta e visibile solo con le autorizzazioni associate. [Ulteriori informazioni](access-prerequisites.md)
+>Precedentemente disponibile per un set di organizzazioni (LA), la Composizione di pubblico federato di Adobe Experience Platform è ora disponibile per tutti gli utenti (GA). Questo componente aggiuntivo viene attivato in base all’offerta ed è visibile solo con le autorizzazioni associate. [Ulteriori informazioni](access-prerequisites.md)
 >
 
 ### Compatibilità {#fac-24-10-compat}

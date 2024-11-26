@@ -3,9 +3,9 @@ title: Pagina home della documentazione della composizione di pubblico federato 
 description: Documentazione aggiuntiva della composizione di pubblico federato
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '230'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Crea, configura, verifica e salva la connessione al database esterno.
 
 >[!TAB Comporre un pubblico]
 
-Aggiungi e configura attività (Dividi, Arricchimento, Query, ecc.) per creare composizioni e tipi di pubblico.
+Aggiungi e configura attività (Suddivisione, Arricchimento, Query, ecc.) per generare composizioni e creare un pubblico.
 
 [![immagine](assets/learn-more-button.svg)](compositions/gs-compositions.md)
 
@@ -53,7 +53,7 @@ Aggiungi e configura attività (Dividi, Arricchimento, Query, ecc.) per creare c
     </td>
     <td>
     <a href="compositions/gs-compositions.md"><img src="assets/do-not-localize/start-journey.jpeg"></a>
-    <div><strong>Componi un pubblico</strong><br/>Aggiungi e configura attività (Dividi, Arricchimento, Query, ecc.) per creare composizioni e creare il tuo primo pubblico federato.
+    <div><strong>Componi un pubblico</strong><br/>Aggiungi e configura attività (Suddivisione, Arricchimento, Query, ecc.) per generare composizioni e creare il primo pubblico federato.
     </div>
     </td>
     <td>

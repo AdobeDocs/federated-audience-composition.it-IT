@@ -3,9 +3,9 @@ title: Domande frequenti
 description: Domande frequenti sulla composizione di pubblico federato di Adobe Experience Platform
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '827'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -24,14 +24,14 @@ Per utilizzare la composizione di pubblico federato, ogni utente deve essere agg
 
 +++Quali data warehouse cloud sono supportati?
 
-L&#39;elenco dei sistemi supportati con Federated Audience Composition è disponibile in [questa pagina](../start/access-prerequisites.md#supported-systems).
+L’elenco dei sistemi supportati con la composizione di pubblico federato è disponibile in [questa pagina](../start/access-prerequisites.md#supported-systems).
 
 +++
 
 
 +++È possibile eseguire query su più data warehouse nella stessa composizione?
 
-Sì, è possibile eseguire query su più data warehouse nella stessa composizione e combinare dati provenienti da più origini.  In genere, ogni [attività di composizione](../compositions/orchestrate-activities.md) (Query, Enrichment, Split, ecc.) esegue una o più istruzioni SQL in base alla configurazione dell&#39;attività, ai database di destinazione (possono esistere più casi di accesso ai dati federati) e agli output di una o più tabelle di lavoro con il risultato dell&#39;esecuzione. Tali tabelle di lavoro vengono utilizzate come input per attività consecutive.
+Sì, è possibile eseguire query su più data warehouse nella stessa composizione e combinare dati provenienti da più origini.  In genere, ogni [attività di composizione](../compositions/orchestrate-activities.md) (Query, Arricchimento, Suddivisione, ecc.) esegue una o più istruzioni SQL in base alla configurazione dell’attività, ai database di destinazione (possono esistere più casi di Federated Data Access) e agli output di una o più tabelle di lavoro con il risultato dell’esecuzione. Tali tabelle di lavoro vengono utilizzate come input per attività consecutive.
 
 +++
 
@@ -79,7 +79,7 @@ I dati del pubblico risultanti non persistono a tempo indefinito in Adobe Experi
 
 +++È possibile eliminare un pubblico caricato personalizzato?
 
-No, nella versione corrente non è possibile eliminare i tipi di pubblico caricati personalizzati.-->
+No, nella versione corrente non è possibile eliminare i tipi di pubblico personalizzati caricati.-->
 
 +++
 
