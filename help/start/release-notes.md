@@ -2,16 +2,26 @@
 title: Novità nella composizione di pubblico federato di Experience Platform
 description: Aggiornamenti e note sulla versione più recenti
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: ht
-source-wordcount: '461'
-ht-degree: 100%
+source-git-commit: 96931b019e840d6f0351c9b2349eeffcdd4a55b4
+workflow-type: tm+mt
+source-wordcount: '525'
+ht-degree: 88%
 
 ---
 
 # Note sulla versione {#rn-new}
 
 [!DNL Federated Audience Composition] offre continuamente nuove funzioni, miglioramenti alle funzioni esistenti e correzioni di bug. In queste note sulla versione, tutte le modifiche sono consolidate. [!DNL Federated Audience Composition] è stato sviluppato in modalità nativa su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Ulteriori informazioni su queste modifiche nelle [Note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it){target="_blank"}.
+
+## Versione di novembre 2024 {#fac-24-11}
+
+### Miglioramenti {#fac-24-11-improvements}
+
+Questa versione include i miglioramenti riportati di seguito.
+
+* **elenco consentiti indirizzo IP**
+
+  Ora quando aggiungi un database federato nell’interfaccia utente di Adobe Experience Platform puoi visualizzare direttamente gli indirizzi IP associati alle istanze Federated Audience Composition. Questo consente di copiare e autorizzare facilmente questi IP per la connessione al database, al fine di migliorare la sicurezza e la flessibilità. [Ulteriori informazioni](../connections/connections.md)
 
 ## Versione di ottobre 2024 {#fac-24-10}
 
