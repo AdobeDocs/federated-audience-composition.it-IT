@@ -3,7 +3,7 @@ audience: end-user
 title: Creare e gestire connessioni con i database federati
 description: Scopri come creare e gestire le connessioni con i database federati
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 285facb78861bf5558992c0ab777a101bbfc237a
+source-git-commit: 03ff4c5ecc3f3a5f59dd820fc5052b55f09f88af
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 3%
@@ -47,9 +47,9 @@ Per impostare una connessione al database, eseguire la procedura seguente:
 
    Selezionare un IP dall&#39;elenco per copiarlo nel sistema e autorizzare l&#39;IP a connettersi al database.
 
->[!NOTE]
->
->Per utilizzare Federated Audience Composition per un dato database, è necessario eseguire l’elenco consentiti di tutti gli indirizzi IP associati a tale database.
+   >[!NOTE]
+   >
+   >Per utilizzare Federated Audience Composition per un dato database, è necessario eseguire l’elenco consentiti di tutti gli indirizzi IP associati a tale database.
 
 1. Dopo aver compilato i dettagli, fare clic sul pulsante **[!UICONTROL Verifica connessione]** e sul pulsante **[!UICONTROL Distribuisci funzioni]**.
 
