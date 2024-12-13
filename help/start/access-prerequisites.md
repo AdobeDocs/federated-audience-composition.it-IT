@@ -2,10 +2,10 @@
 title: Prerequisiti e guardrail per la composizione di pubblico federato
 description: Scopri i prerequisiti, le autorizzazioni e i guardrail per la composizione di pubblico federato
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: ht
-source-wordcount: '305'
-ht-degree: 100%
+source-git-commit: 8d498adf9f8998639e39f8f98de098682f828628
+workflow-type: tm+mt
+source-wordcount: '321'
+ht-degree: 86%
 
 ---
 
@@ -30,6 +30,12 @@ La composizione di pubblico federato supporta i seguenti data warehouse cloud:
 
 Scopri come creare una connessione con questi sistemi in [questa pagina](../connections/connections.md).
 
+<!--
+## Sandboxes
+
+When purchasing the Federated Audience Composition add-on, you are entitled to two sandboxes (one production sandbox and one non-production sandbox). For any additional sandbox provisioning requests, contact your Adobe representative.
+-->
+
 ## Autorizzazioni {#permissions}
 
 Quando acquisti il componente aggiuntivo Composizione di pubblico federato, viene creato un profilo di prodotto per ogni sandbox attiva in quel momento. Questo profilo di prodotto viene creato in Admin Console nella scheda prodotto di **Adobe Experience Platform** e segue questa convenzione di denominazione: `ACP_FAC - <<SandboxName>> - admin.` per accedere alla composizione di pubblico federato per una sandbox specifica, è necessario aggiungere gli utenti al profilo di prodotto creato per tale sandbox.
@@ -38,7 +44,7 @@ Ad esempio, se viene attivata una nuova sandbox denominata “fac-test”, viene
 
 ## Elenco IP consentiti {#ip}
 
-Per consentire a una composizione di pubblico federato di accedere ai database in modo sicuro, contatta il rappresentante Adobe per ottenere gli indirizzi IP dei server di una composizione di pubblico federato che vi accederanno.
+Per consentire in modo sicuro a Federated Audience Composition di accedere ai database, devi autorizzare gli indirizzi IP dei server Federated Audience Composition che vi accederanno. Questi indirizzi IP vengono visualizzati quando si aggiunge un database federato nell’interfaccia utente di Adobe Experience Platform. [Ulteriori informazioni](../connections/connections.md)
 
 Aggiungi questi indirizzi IP al tuo elenco consentiti per concedere l’accesso a una composizione di pubblico federato.
 
@@ -50,3 +56,4 @@ Aggiungi questi indirizzi IP al tuo elenco consentiti per concedere l’accesso 
 * Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
 
 * A questo componente aggiuntivo si applicano i diritti, le limitazioni del prodotto e i guardrail delle prestazioni elencati nella [documentazione di Real-time Customer Data Platform di Adobe](https://experienceleague.adobe.com/it/docs/experience-platform/profile/guardrails){target="_blank"}.
+
