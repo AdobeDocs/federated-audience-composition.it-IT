@@ -2,10 +2,10 @@
 title: Domande frequenti
 description: Domande frequenti sulla composizione di pubblico federato di Adobe Experience Platform
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: ht
-source-wordcount: '827'
-ht-degree: 100%
+source-git-commit: 1bdab901b7aae3019b672a34eab184405c927f56
+workflow-type: tm+mt
+source-wordcount: '1004'
+ht-degree: 82%
 
 ---
 
@@ -79,12 +79,26 @@ I dati del pubblico risultanti non persistono a tempo indefinito in Adobe Experi
 
 +++È possibile eliminare un pubblico caricato personalizzato?
 
-No, nella versione corrente non è possibile eliminare i tipi di pubblico personalizzati caricati.-->
+No, nella versione corrente non è possibile eliminare i tipi di pubblico personalizzati caricati.
 
 +++
 
 +++Se vengono combinati dati provenienti da più origini, in che modo vengono uniti? Utilizzando Identity Service?
 
 No, Identity service non viene utilizzato durante una composizione. I dati tra le varie origini utilizzate nella composizione vengono uniti tramite logica definita dall’utente (come espressa nel modello sottostante), ad esempio ID CRM, numero account utente, ecc. È necessario selezionare l’identità utilizzata come identificatore nel pubblico per la selezione nel data warehouse. In un pubblico risultante dalla composizione di pubblico federato, è necessario identificare lo spazio dei nomi identità per l’identità nel set di dati risultante.
+
++++
+
++++In che modo le preferenze di consenso del cliente vengono rispettate per i tipi di pubblico generati esternamente e importati in Federated Audience Composition?
+
+Poiché i dati del cliente vengono acquisiti da più canali, i criteri di unione e unione delle identità consentono di consolidarli in un unico profilo cliente in tempo reale. Le informazioni sulle preferenze di consenso dei clienti vengono memorizzate e valutate a livello di profilo.
+
+Le destinazioni a valle di Real-Time CDP e Journey Optimizer controllano ogni profilo per individuare le preferenze di consenso prima dell’attivazione. Le informazioni sul consenso di ciascun profilo vengono confrontate con i requisiti del consenso per una particolare destinazione. Se il profilo non soddisfa i requisiti, non viene inviato a una destinazione.
+
+Quando un pubblico esterno viene acquisito in Federated Audience Composition, viene riconciliato con i profili esistenti utilizzando un ID primario come e-mail o ECID. Di conseguenza, i criteri di consenso esistenti rimarranno in vigore per tutta la durata dell’attivazione.
+
+>[!NOTE]
+>
+>Poiché le variabili di payload non sono memorizzate nel profilo, ma nel data lake, non devi includere le informazioni sul consenso nei tipi di pubblico generati esternamente. Utilizza invece altri canali di acquisizione Adobe Experience Platform in cui vengono importati i dati del profilo.
 
 +++
