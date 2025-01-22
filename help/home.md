@@ -3,9 +3,9 @@ title: Pagina home della documentazione della composizione di pubblico federato 
 description: Documentazione aggiuntiva della composizione di pubblico federato
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
 source-git-commit: 10705adefc4bf195ab67b36533265c9e3228e188
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '230'
+ht-degree: 100%
 
 ---
 
