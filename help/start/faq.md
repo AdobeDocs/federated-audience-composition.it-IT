@@ -2,10 +2,10 @@
 title: Domande frequenti
 description: Domande frequenti sulla composizione di pubblico federato di Adobe Experience Platform
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: e3a5afe631ad652c90d67ca22f0581b5a068ad5d
-workflow-type: ht
-source-wordcount: '827'
-ht-degree: 100%
+source-git-commit: 356826396a0b6c8a1b8716d2102f91b2d612a677
+workflow-type: tm+mt
+source-wordcount: '826'
+ht-degree: 97%
 
 ---
 
@@ -77,9 +77,9 @@ I dati del pubblico risultanti non persistono a tempo indefinito in Adobe Experi
 
 +++
 
-+++È possibile eliminare un pubblico caricato personalizzato?
++++Posso eliminare un pubblico?
 
-No, nella versione corrente non è possibile eliminare i tipi di pubblico personalizzati caricati.
+No, nella versione corrente non è possibile eliminare i tipi di pubblico Federated Audience Composition.
 
 +++
 
