@@ -6,7 +6,7 @@ exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
 workflow-type: tm+mt
 source-wordcount: '513'
-ht-degree: 17%
+ht-degree: 19%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 17%
 >[!CONTEXTUALHELP]
 >id="dc_schema_filter_sources"
 >title="Selezionare il database di origine da filtrare"
->abstract="Puoi filtrare gli schemi in base alla loro origine. Selezionare uno o più database federati per visualizzare i relativi schemi."
+>abstract="Puoi filtrare gli schemi in base alla loro origine. Seleziona uno o più database federati per visualizzarne i relativi schemi."
 
 ## Che cos’è uno schema {#schema-start}
 
