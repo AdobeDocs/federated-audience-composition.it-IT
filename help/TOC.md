@@ -2,10 +2,10 @@
 user-guide-title: Composizione di pubblico federato di Experience Platform
 title: Documentazione della composizione di pubblico federato di Experience Platform
 breadcrumb-title: Composizione di pubblico federato di Experience Platform
-source-git-commit: 16599cc499b45ee8a293c923b9c26f85aa8e0b68
-workflow-type: ht
-source-wordcount: '145'
-ht-degree: 100%
+source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
+workflow-type: tm+mt
+source-wordcount: '149'
+ht-degree: 97%
 
 ---
 
@@ -17,6 +17,7 @@ ht-degree: 100%
 + Introduzione a Composizione di pubblico federato {#start}
    + [Cos’è la Composizione di pubblico federato?](start/get-started.md)
    + [Prerequisiti e guardrail](start/access-prerequisites.md)
+   + [Accedere a Federated Audience Composition](start/feature-access.md)
    + [Utilizzare i tipi di pubblico](start/audiences.md)
    + [Domande frequenti](start/faq.md)
 + Passaggi di configurazione {#config}

@@ -2,10 +2,10 @@
 title: Prerequisiti e guardrail per la composizione di pubblico federato
 description: Scopri i prerequisiti, le autorizzazioni e i guardrail per la composizione di pubblico federato
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: d44813e447de92fe8ba7e43c7b0f0ad9f0b07239
-workflow-type: ht
-source-wordcount: '335'
-ht-degree: 100%
+source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
+workflow-type: tm+mt
+source-wordcount: '260'
+ht-degree: 90%
 
 ---
 
@@ -36,9 +36,7 @@ Quando acquisti il componente aggiuntivo Composizione di pubblico federato, hai 
 
 ## Autorizzazioni {#permissions}
 
-Quando acquisti il componente aggiuntivo Composizione di pubblico federato, viene creato un profilo di prodotto per ogni sandbox attiva in quel momento. Questo profilo di prodotto viene creato in Admin Console nella scheda prodotto di **Adobe Experience Platform** e segue questa convenzione di denominazione: `ACP_FAC - <<SandboxName>> - admin.` per accedere alla composizione di pubblico federato per una sandbox specifica, è necessario aggiungere gli utenti al profilo di prodotto creato per tale sandbox.
-
-Ad esempio, se viene attivata una nuova sandbox denominata “fac-test”, viene creato il profilo di prodotto corrispondente “ACP_FAC - fac-test - admin”. Per accedere alle composizione di pubblico federato con questa sandbox, gli utenti devono essere aggiunti a questo profilo di prodotto.
+Per accedere a Federated Audience Composition, gli utenti devono essere aggiunti al profilo di prodotto specifico per la sandbox creato al momento dell&#39;acquisto e assegnati all&#39;autorizzazione **[!UICONTROL Gestisci dati federati]**. [Ulteriori informazioni](feature-access.md)
 
 ## Elenco IP consentiti {#ip}
 
