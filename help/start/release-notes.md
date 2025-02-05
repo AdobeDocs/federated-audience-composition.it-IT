@@ -2,10 +2,10 @@
 title: Novità nella composizione di pubblico federato di Experience Platform
 description: Aggiornamenti e note sulla versione più recenti
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: edea9937554c4be4df3e9f03686033aa183cadb7
+source-git-commit: 51a6c6154452ae56e495312f1d4e909f4eb2d06e
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 94%
+source-wordcount: '590'
+ht-degree: 88%
 
 ---
 
@@ -16,9 +16,11 @@ ht-degree: 94%
 
 ## Aggiornamento del 25 febbraio {#fac-25-01}
 
-A partire dalla versione di febbraio, [!DNL Federated Audience Composition] è accessibile solo agli utenti a cui è stata concessa l&#39;autorizzazione **Gestisci dati federati**.
-Per informazioni su come assegnare questa autorizzazione, consulta la [documentazione dettagliata](feature-access.md).
+A partire dalla versione di febbraio, [!DNL Federated Audience Composition] inizierà ad applicare l&#39;accesso di **Federated data management** e **Federated Compositions** alle interfacce utente a cui è stata concessa l&#39;autorizzazione **Manage Federated Data**.
 
+Si consiglia agli utenti di contattare gli amministratori per aggiungere questa autorizzazione al loro ruolo per continuare ad accedere all&#39;interfaccia utente [!DNL Federated Audience Composition].
+
+Per informazioni su come assegnare questa autorizzazione, consulta la [documentazione dettagliata](feature-access.md).
 
 ## Versione di novembre 2024 {#fac-24-11}
 
