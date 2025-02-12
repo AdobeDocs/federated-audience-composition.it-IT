@@ -1,7 +1,8 @@
 ---
 title: Accedere a Federated Audience Composition
 description: Scopri le autorizzazioni richieste per Federated Audience Composition
-source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
+exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
+source-git-commit: 224dc190e998298c68bf60567bbb280b652355a2
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 36%
@@ -20,7 +21,7 @@ Ad esempio, se viene attivata una nuova sandbox denominata “fac-test”, viene
 
 >[!AVAILABILITY]
 >
->Le autorizzazioni sono disponibili nella versione di febbraio.
+>Le autorizzazioni sono disponibili con la versione di marzo.
 
 Per accedere a **Federated Audience Composition**, devi prima verificare che l&#39;autorizzazione **Manage Federated Data** sia assegnata ai ruoli appropriati. Questi ruoli devono quindi essere assegnati agli utenti che devono accedere a **Federated Audience Composition**.
 
@@ -53,5 +54,3 @@ Per assegnare questo ruolo a nuovi utenti:
 1. Inserisci il nome o l’indirizzo e-mail dell’utente oppure selezionalo dall’elenco disponibile. Al termine, fai clic su **[!UICONTROL Salva]**.
 
 L’utente riceverà quindi un’e-mail con le istruzioni per accedere all’istanza. Se l’utente non è già stato creato in precedenza, consulta [questa documentazione](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/abac/permissions-ui/users).
-
-
