@@ -3,10 +3,10 @@ audience: end-user
 title: Introduzione ai modelli di dati
 description: Scopri come iniziare con i modelli di dati
 exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 61a7b66d16358a4a1c3d4b2ae153e856d8f682f7
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 16%
+source-wordcount: '413'
+ht-degree: 15%
 
 ---
 
@@ -54,19 +54,25 @@ La loro creazione sarà basata sul caso d’uso: scegli le tabelle necessarie e 
 
 Per creare un modello dati, effettua le seguenti operazioni:
 
-1. Nella sezione **[!UICONTROL FEDERATED DATA]**, vai al collegamento **[!UICONTROL Models]** e passa alla scheda **[!UICONTROL Data model]**.
+1. Nella sezione **[!UICONTROL Federated Data]**, accedi al menu **[!UICONTROL Models]** e passa alla scheda **[!UICONTROL Data model]**.
+
+   Fare clic sul pulsante **[!UICONTROL Crea modello dati]**.
 
    ![](assets/datamodel_create.png){zoomable="yes"}
 
-1. Fai clic sul pulsante **[!UICONTROL Crea modello dati]** per definire il nome del modello dati, quindi fai clic sul pulsante **[!UICONTROL Crea]**.
+1. Definisci il nome del modello dati e fai clic sul pulsante **[!UICONTROL Crea]**.
 
-   ![](assets/datamodel_name.png){zoomable="yes"}
-
-1. Quindi aggiungi gli schemi, i tipi di pubblico e i collegamenti del modello di dati.
+1. Dal dashboard del modello dati, fai clic su **[!UICONTROL Aggiungi schemi]** per scegliere lo schema associato al modello dati.
 
    ![](assets/datamodel_schemas.png){zoomable="yes"}
 
-### Crea collegamenti {#data-model-links}
+1. Fai clic su **[!UICONTROL Aggiungi pubblico]** per definire i gruppi target.
+
+1. Stabilisci connessioni tra tabelle nel modello dati per garantire relazioni di dati accurate. [Ulteriori informazioni](#data-model-links)
+
+1. Dopo aver completato la configurazione, fai clic su **[!UICONTROL Salva]** per applicare le modifiche.
+
+## Crea collegamenti {#data-model-links}
 
 Per creare collegamenti tra tabelle del modello dati, effettua le seguenti operazioni:
 
@@ -80,11 +86,11 @@ Per creare collegamenti tra tabelle del modello dati, effettua le seguenti opera
 
    **Cardinalità**
 
-   * 1-N: una occorrenza della tabella sorgente può avere diverse occorrenze corrispondenti della tabella di destinazione, ma una occorrenza della tabella di destinazione può avere al massimo una occorrenza corrispondente della tabella sorgente.
+   * **1-N**: una occorrenza della tabella di origine può avere diverse occorrenze corrispondenti della tabella di destinazione, ma una occorrenza della tabella di destinazione può avere al massimo una occorrenza corrispondente della tabella di origine.
 
-   * N-1: una occorrenza della tabella di destinazione può avere diverse occorrenze corrispondenti della tabella di origine, ma una occorrenza della tabella di origine può avere al massimo una occorrenza corrispondente della tabella di destinazione.
+   * **N-1**: una occorrenza della tabella di destinazione può avere diverse occorrenze corrispondenti della tabella di origine, ma una occorrenza della tabella di origine può avere al massimo una occorrenza corrispondente della tabella di destinazione.
 
-   * 1-1: una occorrenza della tabella sorgente può avere al massimo una occorrenza corrispondente della tabella di destinazione.
+   * **1-1**: una occorrenza della tabella di origine può avere al massimo una occorrenza corrispondente della tabella di destinazione.
 
 Di seguito sono elencati tutti i collegamenti definiti per il modello dati:
 
