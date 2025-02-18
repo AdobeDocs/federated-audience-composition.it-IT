@@ -3,9 +3,9 @@ audience: end-user
 title: Introduzione agli schemi
 description: Scopri come iniziare con gli schemi
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 3c0cbda211eed4fa1a8fdab015d4db4c9ad0cf30
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '516'
 ht-degree: 19%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 19%
 
 Uno schema è una rappresentazione di una tabella del database. Si tratta di un oggetto all&#39;interno dell&#39;applicazione che definisce il modo in cui i dati vengono legati alle tabelle del database.
 
-Creando uno schema, puoi definire una rappresentazione della tabella in Experience Platform di Federated Audience Composition:
+Creando uno schema, puoi definire una rappresentazione della tabella in Experience Platform Federated Audience Composition:
 
 * Assegna un nome descrittivo e una descrizione per semplificare la comprensione da parte dell’utente
 * Decidere la visibilità di ciascun campo in base al suo utilizzo reale
@@ -57,19 +57,21 @@ Creando uno schema, puoi definire una rappresentazione della tabella in Experien
 
 Per creare schemi in Federated Audience Composition, segui i passaggi seguenti:
 
-1. Nella sezione **[!UICONTROL FEDERATED DATA]**, vai al collegamento **[!UICONTROL Models]**. Passare alla scheda **[!UICONTROL Schema]** e fare clic sul pulsante **[!UICONTROL Crea schema]**.
+1. Nella sezione **[!UICONTROL Federated Data]**, accedi al menu **[!UICONTROL Models]**. Passare alla scheda **[!UICONTROL Schema]** e fare clic su **[!UICONTROL Crea schema]**.
 
    ![](assets/schema_create.png){zoomable="yes"}
 
    Questo passaggio consente di accedere a una nuova schermata con un elenco a discesa in cui è possibile trovare i database connessi all’ambiente. Ulteriori informazioni sulla connessione al database in [questa sezione](../connections/connections.md#connections-fdb).
 
-1. Selezionare il database di origine nell&#39;elenco e fare clic sulla scheda **[!UICONTROL Aggiungi tabelle]**.
+1. Selezionare il database di origine nell&#39;elenco e fare clic su **[!UICONTROL Avanti]**.
 
    ![](assets/schema_tables.png){zoomable="yes"}
 
    Viene quindi visualizzato l&#39;elenco di tutte le tabelle del database.
 
-1. Aggiungendo le tabelle per le quali si desidera creare lo schema, è possibile accedere ai relativi campi come indicato di seguito:
+1. Selezionare le tabelle per le quali si desidera creare lo schema.
+
+1. Ogni tabella selezionata genera uno schema con le colonne selezionate. Configura lo schema e le relative colonne in base alle esigenze.
 
    ![](assets/schema_fields.png){zoomable="yes"}
 
@@ -77,31 +79,28 @@ Per creare schemi in Federated Audience Composition, segui i passaggi seguenti:
 
    * modificare l’etichetta dello schema
    * aggiungi una descrizione
-   * rinominare tutti i campi e impostarne la visibilità
+   * rinominare tutte le etichette dei campi e impostarne la visibilità
    * seleziona la chiave primaria dello schema
-
-   Ad esempio, per la tabella seguente importata:
-
-   ![](assets/schema_lumaorder.png){zoomable="yes"}
 
    Lo schema può essere definito come segue:
 
-   ![](assets/schema_lumaorders.png){zoomable="yes"}
+   ![](assets/schema_example.png)
+
+1. Dopo aver completato la configurazione, fai clic su **[!UICONTROL Fine]**.
 
 ## Modificare uno schema {#schema-edit}
 
 Per modificare uno schema, effettua le seguenti operazioni:
 
-1. Fai clic sul nome dello schema nell’elenco.
+1. Accedi allo schema creato in precedenza.
 
 1. Fai clic sul pulsante **[!UICONTROL Modifica]**.
 
    ![](assets/schema_edit.png){zoomable="yes"}
 
-   Puoi accedere alle stesse opzioni disponibili per [la creazione di uno schema](#schema-create).
+1. Dalla finestra **[!UICONTROL Modifica schema]**, puoi accedere e configurare le stesse opzioni disponibili per [la creazione di uno schema](#schema-create).
 
    ![](assets/schema_edit_orders.png){zoomable="yes"}
-
 
 ## Visualizzare l’anteprima dei dati in uno schema {#schema-preview}
 
@@ -114,7 +113,6 @@ Fai clic sul collegamento **[!UICONTROL Calcola]** per visualizzare in anteprima
 Fai clic sul pulsante **[!UICONTROL Configura colonne]** per modificare la visualizzazione dei dati.
 
 ![](assets/schema_columns.png){zoomable="yes"}
-
 
 ## Aggiornare uno schema {#schema-refresh}
 

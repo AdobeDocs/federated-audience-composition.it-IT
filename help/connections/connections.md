@@ -3,16 +3,16 @@ audience: end-user
 title: Creare e gestire connessioni con i database federati
 description: Scopri come creare e gestire le connessioni con i database federati
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 03ff4c5ecc3f3a5f59dd820fc5052b55f09f88af
+source-git-commit: 7818cabf3769cffd05ca5308910fbc412240999e
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '293'
 ht-degree: 3%
 
 ---
 
 # Creare connessioni {#connections-fdb}
 
-Experience Platform Federated Audience Composition consente al cliente di creare e arricchire i tipi di pubblico dai data warehouse di terze parti e di importare i tipi di pubblico in Adobe Experience Platform. I data warehouse supportati sono elencati in [questa sezione](../start/access-prerequisites.md#supported-systems).
+La Federated Audience Composition di Experience Platform consente al cliente di creare e arricchire i tipi di pubblico dai data warehouse di terze parti e di importarli in Adobe Experience Platform. I data warehouse supportati sono elencati in [questa sezione](../start/access-prerequisites.md#supported-systems).
 
 Per utilizzare il database federato e Adobe Experience Platform, è innanzitutto necessario stabilire una connessione. Questa connessione viene impostata in un’interfaccia utente dedicata disponibile nell’interfaccia utente di Adobe Experience Platform, come descritto in questa pagina.
 
@@ -40,6 +40,7 @@ Per impostare una connessione al database, eseguire la procedura seguente:
    * [Google BigQuery](federated-db.md#google-big-query)
    * [Snowflake](federated-db.md#snowflake)
    * [Vertica Analytics](federated-db.md#vertica-analytics)
+   * [Microsoft Fabric](federated-db.md#microsoft-fabric)
 
 1. Per ogni database supportato, selezionare il pulsante **[!UICONTROL Server IP]**. Viene visualizzato l’elenco di tutti gli IP associati alle istanze Federated Audience Composition.
 
