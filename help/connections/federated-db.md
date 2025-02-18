@@ -3,10 +3,10 @@ audience: end-user
 title: Configurare i database federati
 description: Scopri come configurare i database federati
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: 845b92dc2064e5274705b61f8e7f42cc396828b1
+source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
 workflow-type: tm+mt
-source-wordcount: '2081'
-ht-degree: 95%
+source-wordcount: '2068'
+ht-degree: 96%
 
 ---
 
@@ -331,9 +331,6 @@ Il connettore supporta le seguenti opzioni:
 
 ## Microsoft Fabric {#microsoft-fabric}
 
->[!AVAILABILITY]
->
->Microsoft Fabric è attualmente disponibile solo per un insieme di organizzazioni (disponibilità limitata).
 
 Utilizza i database federati per elaborare le informazioni archiviate in un database esterno. Per configurare l&#39;accesso a Microsoft Fabric, attenersi alla procedura descritta di seguito.
 
