@@ -3,9 +3,9 @@ title: Prerequisiti e guardrail per la composizione di pubblico federato
 description: Scopri i prerequisiti, le autorizzazioni e i guardrail per la composizione di pubblico federato
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: ed72ae722ffd5fbf14f491630b748a5009f4ebc5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '260'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Quando acquisti il componente aggiuntivo Composizione di pubblico federato, hai 
 
 ## Autorizzazioni {#permissions}
 
-Per accedere a Federated Audience Composition, gli utenti devono essere aggiunti al profilo di prodotto specifico per la sandbox creato al momento dell&#39;acquisto e assegnati all&#39;autorizzazione **[!UICONTROL Gestisci dati federati]**. [Ulteriori informazioni](feature-access.md)
+Per accedere alla Composizione di pubblico federato, gli utenti devono essere aggiunti al profilo di prodotto specifico per la sandbox creato al momento dell’acquisto e si deve assegnare loro l’autorizzazione **[!UICONTROL Gestisci dati federati]**. [Ulteriori informazioni](feature-access.md)
 
 ## Elenco IP consentiti {#ip}
 

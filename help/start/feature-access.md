@@ -1,17 +1,17 @@
 ---
-title: Accedere a Federated Audience Composition
-description: Scopri le autorizzazioni richieste per Federated Audience Composition
+title: Accedere alla Composizione di pubblico federato
+description: Ulteriori informazioni sulle autorizzazioni richieste per la Composizione di pubblico federato
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
 hide: true
 hidefromtoc: true
 source-git-commit: e9cc50cbcbd076f784c924bd941e4396c14190ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '309'
-ht-degree: 36%
+ht-degree: 100%
 
 ---
 
-# Accedere a Federated Audience Composition {#feature-access}
+# Accedere alla Composizione di pubblico federato {#feature-access}
 
 ## Gestire l’accesso alle sandbox {#access-sandboxes}
 
@@ -19,15 +19,15 @@ Quando acquisti il componente aggiuntivo Composizione di pubblico federato, vien
 
 Ad esempio, se viene attivata una nuova sandbox denominata “fac-test”, viene creato il profilo di prodotto corrispondente “ACP_FAC - fac-test - admin”. Per accedere alle composizione di pubblico federato con questa sandbox, gli utenti devono essere aggiunti a questo profilo di prodotto.
 
-## Gestire l’accesso a Federated Audience Composition
+## Gestire l’accesso alla Composizione di pubblico federato
 
 >[!AVAILABILITY]
 >
->Le autorizzazioni sono disponibili con la versione di marzo.
+>Le autorizzazioni sono disponibili nella versione di marzo.
 
-Per accedere a **Federated Audience Composition**, devi prima verificare che l&#39;autorizzazione **Manage Federated Data** sia assegnata ai ruoli appropriati. Questi ruoli devono quindi essere assegnati agli utenti che devono accedere a **Federated Audience Composition**.
+Per accedere alla **Composizione di pubblico federato**, devi prima verificare che l’autorizzazione **Gestisci dati federati** sia assegnata ai ruoli appropriati. Questi ruoli devono quindi essere assegnati agli utenti che devono accedere alla **Composizione di pubblico federato**.
 
-Solo gli amministratori possono assegnare le autorizzazioni.
+Nota: solo gli amministratori possono assegnare le autorizzazioni.
 
 1. Passa al menu **[!UICONTROL Autorizzazioni]**.
 
@@ -35,24 +35,24 @@ Solo gli amministratori possono assegnare le autorizzazioni.
 
    ![](assets/access_fda_1.png)
 
-1. Fai clic su **[!UICONTROL Modifica]** per modificare le autorizzazioni del tuo ruolo.
+1. Fai clic su **[!UICONTROL Modifica]** per modificare le autorizzazioni dei ruoli.
 
    ![](assets/access_fda_2.png)
 
-1. Aggiungi la risorsa **Federated Data**, quindi seleziona **[!UICONTROL Gestisci Federated Data]** dal menu a discesa.
+1. Aggiungi la risorsa **Dati federati**, quindi seleziona **[!UICONTROL Gestisci dati federati]** dal menu a discesa.
 
    ![](assets/access_fda_3.png)
 
 1. Dopo aver apportato le modifiche necessarie, fai clic su **[!UICONTROL Salva]**.
 
-Tutti gli utenti già assegnati a questo ruolo avranno le loro autorizzazioni aggiornate automaticamente e avranno accesso a Federated Audience Composition.
+Tutti gli utenti già assegnati a questo ruolo avranno le autorizzazioni aggiornate automaticamente e l’accesso alla Composizione di pubblico federato.
 
-Per assegnare questo ruolo a nuovi utenti:
+Per assegnare questo ruolo ai nuovi utenti:
 
-1. Passa alla scheda **[!UICONTROL Utenti]** nel dashboard dei ruoli e fai clic su **[!UICONTROL Aggiungi utenti]**.
+1. Passa alla scheda **[!UICONTROL Utenti]** nella dashboard dei ruoli e fai clic su **[!UICONTROL Aggiungi utenti]**.
 
    ![](assets/access_fda_4.png)
 
 1. Inserisci il nome o l’indirizzo e-mail dell’utente oppure selezionalo dall’elenco disponibile. Al termine, fai clic su **[!UICONTROL Salva]**.
 
-L’utente riceverà quindi un’e-mail con le istruzioni per accedere all’istanza. Se l’utente non è già stato creato in precedenza, consulta [questa documentazione](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/abac/permissions-ui/users).
+L’utente riceverà quindi un’e-mail con istruzioni per accedere all’istanza. Se l’utente non è già stato creato in precedenza, consulta [questa documentazione](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/abac/permissions-ui/users).

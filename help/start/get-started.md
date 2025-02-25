@@ -3,9 +3,9 @@ title: Introduzione alla composizione di pubblico federato di Experience Platfor
 description: Scopri che cos’è la composizione di pubblico federato di Adobe e come utilizzarla in Adobe Experience Platform
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: b0720ba28e9d01565217ed0b095f4c0bc17893ac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '946'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ La composizione di pubblico federato di Adobe consente agli utenti delle app Ado
 
 >[!INFO]
 >
->Segui questa [guida dettagliata](https://experienceleague.adobe.com/en/docs/platform-learn/tutorial-comprehensive-technical/datacollection/module13/fac) per scoprire come creare tipi di pubblico utilizzando Federated Audience Composition.
+>Segui questa [guida dettagliata](https://experienceleague.adobe.com/it/docs/platform-learn/tutorial-comprehensive-technical/datacollection/module13/fac) per scoprire come creare i tipi di pubblico utilizzando la Composizione di pubblico federato.
 
 ## Funzionalità {#rn-capabilities}
 

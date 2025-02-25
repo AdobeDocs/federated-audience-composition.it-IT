@@ -3,9 +3,9 @@ title: Novità nella composizione di pubblico federato di Experience Platform
 description: Aggiornamenti e note sulla versione più recenti
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '647'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -15,23 +15,23 @@ ht-degree: 82%
 
 ## Versione di febbraio 2025 {#fac-25-2}
 
-Questa versione include le modifiche elencate di seguito.
+Questa versione include i cambiamenti elencati di seguito.
 
 * **Supporto di Microsoft Fabric**
 
-  È ora possibile stabilire connessioni ai database di Microsoft Fabric tramite Federated Audience Composition. [Ulteriori informazioni](../connections/federated-db.md)
+  È ora possibile stabilire connessioni ai database Microsoft Fabric tramite la Composizione di pubblico federato. [Ulteriori informazioni](../connections/federated-db.md)
 
-* **Supporto per Amazon Redshift Spectrum**
+* **Supporto di Amazon Redshift Spectrum**
 
-  Amazon Redshift Spectrum è ora supportato per le connessioni Amazon Redshift Database. [Ulteriori informazioni](../connections/federated-db.md#amazon-redshift)
+  Amazon Redshift Spectrum è ora supportato per le connessioni al database Amazon Redshift. [Ulteriori informazioni](../connections/federated-db.md#amazon-redshift)
 
 * **Esperienza di creazione schema avanzata**
 
-  Il processo di creazione degli schemi è stato migliorato tramite un’interfaccia utente aggiornata, progettata per essere più intuitiva e facile da navigare. Questi miglioramenti offrono ai professionisti dei dati un modo più semplice ed efficiente di sviluppare modelli di dati. [Ulteriori informazioni](../customer/schemas.md)
+  Il processo di creazione degli schemi è stato migliorato tramite un’interfaccia utente aggiornata, progettata per navigare in modo più intuitivo e facile. Questi miglioramenti offrono ai professionisti dei dati un modo più semplice ed efficiente per sviluppare modelli di dati. [Ulteriori informazioni](../customer/schemas.md)
 
-* **Supporto per l&#39;arricchimento del pubblico per le banche dati**
+* **Supporto per l’arricchimento del pubblico per Databricks**
 
-  È ora possibile utilizzare i Databrick nel flusso Read Audience, abilitando l’attività per i database Databricks e consentendone l’impostazione come nuova destinazione. [Ulteriori informazioni](../connections/destinations.md)
+  È ora possibile utilizzare Databricks nel flusso Leggi pubblico, abilitando l’attività per i database Databricks e consentendone l’impostazione come nuova destinazione. [Ulteriori informazioni](../connections/destinations.md)
 
 <!--
 * **Federated Audience Composition permissions**

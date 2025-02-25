@@ -4,9 +4,9 @@ title: Configurare i database federati
 description: Scopri come configurare i database federati
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: 3e508a769856e66e3b1381c3996df01539668dbd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2068'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -332,7 +332,7 @@ Il connettore supporta le seguenti opzioni:
 ## Microsoft Fabric {#microsoft-fabric}
 
 
-Utilizza i database federati per elaborare le informazioni archiviate in un database esterno. Per configurare l&#39;accesso a Microsoft Fabric, attenersi alla procedura descritta di seguito.
+Utilizza i database federati per elaborare le informazioni archiviate in un database esterno. Per configurare l’accesso a Microsoft Fabric, segui la procedura riportata di seguito.
 
 1. Nel menu **[!UICONTROL Dati federati]**, seleziona **[!UICONTROL Database federati]**.
 
@@ -342,21 +342,21 @@ Utilizza i database federati per elaborare le informazioni archiviate in un data
 
 1. Immetti un **[!UICONTROL Nome]** nel database federato.
 
-1. Dal menu a discesa **[!UICONTROL Tipo]**, selezionare Microsoft Fabric.
+1. Seleziona Microsoft Fabric dal menu a discesa **[!UICONTROL Tipo]**.
 
    ![](assets/microsoft-config.png)
 
-1. Configurare le impostazioni di autenticazione di Microsoft Fabric:
+1. Configura le impostazioni di autenticazione di Microsoft Fabric:
 
-   * **[!UICONTROL Server]**: immettere l&#39;URL del server Microsoft Fabric.
+   * **[!UICONTROL Server]**: immetti l’URL del server Microsoft Fabric.
 
-   * **[!UICONTROL ID applicazione]**: immettere l&#39;ID applicazione Microsoft Fabric.
+   * **[!UICONTROL ID applicazione]**: immetti l’ID dell’applicazione Microsoft Fabric.
 
-   * **[!UICONTROL Segreto client]**: immetti il segreto client.
+   * **[!UICONTROL Segreto client]**: immetti il segreto del client.
 
    * **[!UICONTROL Opzioni]**: il connettore supporta le opzioni descritte nella tabella seguente.
 
-1. Fare clic su **[!UICONTROL IP server]** per selezionare gli IP server che si desidera autorizzare.
+1. Fai clic su **[!UICONTROL IP server]** per selezionare gli IP server che desideri autorizzare.
 
 1. Seleziona l’opzione **[!UICONTROL Verifica la connessione]** per verificare la configurazione.
 

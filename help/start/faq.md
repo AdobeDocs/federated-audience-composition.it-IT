@@ -3,9 +3,9 @@ title: Domande frequenti
 description: Domande frequenti sulla composizione di pubblico federato di Adobe Experience Platform
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
 source-git-commit: 356826396a0b6c8a1b8716d2102f91b2d612a677
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '826'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -77,9 +77,9 @@ I dati del pubblico risultanti non persistono a tempo indefinito in Adobe Experi
 
 +++
 
-+++Posso eliminare un pubblico?
++++È possibile eliminare un pubblico?
 
-No, nella versione corrente non è possibile eliminare i tipi di pubblico Federated Audience Composition.
+No, nella versione corrente non è possibile eliminare i tipi di pubblico della Composizione di pubblico federato.
 
 +++
 

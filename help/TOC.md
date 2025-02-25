@@ -3,9 +3,9 @@ user-guide-title: Composizione di pubblico federato di Experience Platform
 title: Documentazione della composizione di pubblico federato di Experience Platform
 breadcrumb-title: Composizione di pubblico federato di Experience Platform
 source-git-commit: c3025f4682696352dd5d0999268b4413befe1d66
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '154'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 94%
 + Introduzione a Composizione di pubblico federato {#start}
    + [Cos’è la Composizione di pubblico federato?](start/get-started.md)
    + [Prerequisiti e guardrail](start/access-prerequisites.md)
-   + [Accedere a Federated Audience Composition](start/feature-access.md)
+   + [Accedere alla Composizione di pubblico federato](start/feature-access.md)
    + [Utilizzare i tipi di pubblico](start/audiences.md)
    + [Domande frequenti](start/faq.md)
 + Passaggi di configurazione {#config}
@@ -25,7 +25,7 @@ ht-degree: 94%
    + [Configurare i database federati](connections/federated-db.md)
    + Modelli di dati e schemi{#datamodel}
       + [Creare e configurare gli schemi](customer/schemas.md)
-      + [Configurare i modelli di dati (beta)](data-management/gs-models-beta.md)
+      + [Configurare i modelli di dati (Beta)](data-management/gs-models-beta.md)
       + [Configurare i modelli di dati](data-management/gs-models.md)
    + [Arricchire i tipi di pubblico di Adobe Experience Platform con dati esterni](connections/destinations.md)
 + Comporre i tipi di pubblico {#compositions}
