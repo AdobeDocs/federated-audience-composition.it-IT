@@ -2,10 +2,10 @@
 title: Domande frequenti
 description: Domande frequenti sulla composizione di pubblico federato di Adobe Experience Platform
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 356826396a0b6c8a1b8716d2102f91b2d612a677
-workflow-type: ht
-source-wordcount: '826'
-ht-degree: 100%
+source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+workflow-type: tm+mt
+source-wordcount: '824'
+ht-degree: 98%
 
 ---
 
@@ -16,7 +16,7 @@ Di seguito è riportato un elenco di domande frequenti sulla composizione di pub
 
 +++Quali sono le autorizzazioni necessarie per accedere alla composizione di pubblico federato?
 
-La composizione di pubblico federato richiede i pacchetti Adobe Real-time Customer Data Platform e Adobe Journey Optimizer Prime o Ultimate. Devi anche aver acquistato il componente aggiuntivo Composizione di pubblico federato.
+La composizione di pubblico federato richiede i pacchetti Adobe Real-time Customer Data Platform e Adobe Journey Optimizer Prime o Ultimate. Devi anche aver acquistato Federated Audience Composition.
 
 Per utilizzare la composizione di pubblico federato, ogni utente deve essere aggiunto a un profilo specifico creato per ogni sandbox. Per ulteriori informazioni, consulta la pagina [Accedere alla composizione di pubblico federato](access-prerequisites.md).
 
