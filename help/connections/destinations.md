@@ -3,10 +3,10 @@ audience: end-user
 title: Arricchire i tipi di pubblico di Adobe Experience Platform con dati esterni
 description: Scopri come perfezionare e arricchire i tipi di pubblico di Adobe Experience Platform con i dati dei database federati utilizzando la destinazione Federated Audiences Composition.
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: 2dc7e0ef359eb2b864f2d0e49ec4ff48f7c8bf61
+source-git-commit: 302bdfa32249e5efa420256ab4f3abda31bbdd50
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 8%
+source-wordcount: '588'
+ht-degree: 9%
 
 ---
 
@@ -42,6 +42,7 @@ I passaggi principali per inviare i tipi di pubblico di Adobe Experience Platfor
    * Snowflake
    * Vertica Analytics
    * Databricks
+   * Microsoft Fabric
 
 1. Selezionare il **[!UICONTROL database federato]** a cui connettersi e fare clic su **[!UICONTROL Avanti]**.
 
