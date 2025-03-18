@@ -2,9 +2,9 @@
 user-guide-title: Composizione di pubblico federato di Experience Platform
 title: Documentazione della composizione di pubblico federato di Experience Platform
 breadcrumb-title: Composizione di pubblico federato di Experience Platform
-source-git-commit: c3025f4682696352dd5d0999268b4413befe1d66
-workflow-type: ht
-source-wordcount: '154'
+source-git-commit: 3d4ab8da423ac058e0c8c145caac09315c73ce59
+workflow-type: tm+mt
+source-wordcount: '156'
 ht-degree: 100%
 
 ---
@@ -14,6 +14,7 @@ ht-degree: 100%
 
 + [Documentazione della composizione di pubblico federato di Experience Platform](home.md)
 + [Note sulla versione](start/release-notes.md)
++ [Note sulla versione](start/e-release-notes.md)
 + Introduzione a Composizione di pubblico federato {#start}
    + [Cos’è la Composizione di pubblico federato?](start/get-started.md)
    + [Prerequisiti e guardrail](start/access-prerequisites.md)
