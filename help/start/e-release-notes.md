@@ -3,10 +3,10 @@ title: Novità nella composizione di pubblico federato di Experience Platform
 description: Aggiornamenti e note sulla versione più recenti
 hide: true
 hidefromtoc: true
-source-git-commit: 59959bf01321d8062d345e1ec89538e5904a03cd
+source-git-commit: 016623ed6aa6e3b2c4dafa5733fd6d1a00109271
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 68%
+source-wordcount: '898'
+ht-degree: 65%
 
 ---
 
@@ -35,6 +35,10 @@ Questa versione include i miglioramenti riportati di seguito.
 * **Esportazione pubblico**
 
   Federated Audience Composition ora supporta l’esportazione di tipi di pubblico di grandi dimensioni, gestendo file di dimensioni fino a 20 GB.
+
+* **Assistente IA**
+
+  L’Assistente AI è una funzione dell’interfaccia utente progettata per aiutarti a navigare tra i concetti di Adobe e ottenere informazioni operative per il tuo ambiente specifico. È disponibile in diversi prodotti in Adobe Experience Cloud, tra cui Federated Audience Composition.
 
 ### Compatibilità {#fac-25-3-compat}
 
