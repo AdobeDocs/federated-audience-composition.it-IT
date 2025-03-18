@@ -3,10 +3,10 @@ title: Novità nella composizione di pubblico federato di Experience Platform
 description: Aggiornamenti e note sulla versione più recenti
 hide: true
 hidefromtoc: true
-source-git-commit: 3d4ab8da423ac058e0c8c145caac09315c73ce59
+source-git-commit: 59959bf01321d8062d345e1ec89538e5904a03cd
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 69%
+source-wordcount: '857'
+ht-degree: 68%
 
 ---
 
@@ -16,7 +16,9 @@ ht-degree: 69%
 
 ## Versione di marzo 2025 {#fac-25-3}
 
-Questa versione include il miglioramento indicato di seguito.
+### Miglioramenti {#fac-25-3-improvements}
+
+Questa versione include i miglioramenti riportati di seguito.
 
 * **Autorizzazioni di Federated Audience Composition**
 
@@ -34,7 +36,7 @@ Questa versione include il miglioramento indicato di seguito.
 
   Federated Audience Composition ora supporta l’esportazione di tipi di pubblico di grandi dimensioni, gestendo file di dimensioni fino a 20 GB.
 
-### Compatibilità {#fac-25.3-compat}
+### Compatibilità {#fac-25-3-compat}
 
 * **Connessione a database**
 
