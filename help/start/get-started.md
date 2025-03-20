@@ -2,10 +2,10 @@
 title: Introduzione alla composizione di pubblico federato di Experience Platform
 description: Scopri che cos’è la composizione di pubblico federato di Adobe e come utilizzarla in Adobe Experience Platform
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: dbce012ed4f5d971be9109cfcb33b24de2d9af18
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 96%
+source-wordcount: '957'
+ht-degree: 93%
 
 ---
 
@@ -132,11 +132,6 @@ Consulta le domande frequenti in [questa pagina](faq.md).
 >abstract="Salvare il profilo"
 
 >[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectaepschema"
->title="Salvare il profilo in Seleziona schema AEP"
->abstract="Salvare il profilo in Seleziona schema AEP"
-
->[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
 >title="Salvare il profilo in Elenco schema AEP"
 >abstract="Salvare il profilo in Elenco schema AEP"
@@ -147,6 +142,16 @@ Consulta le domande frequenti in [questa pagina](faq.md).
 >abstract="Salvare il profilo in Attributo schema AEP"
 
 >[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectprimaryfield"
->title="Salvare il profilo in Seleziona campo di identificazione principale"
->abstract="Salvare il profilo in Seleziona campo di identificazione principale"
+>id="dc_orchestration_saveprofile_primaryidentitynamespace"
+>title="Seleziona campo di identificazione principale"
+>abstract="Campo di identificazione principale da utilizzare per i profili."
+
+>[!CONTEXTUALHELP]
+>id="ddc_orchestration_saveprofile_selectdataset"
+>title="Set di dati di AEP"
+>abstract="Seleziona il set di dati di AEP da utilizzare per i profili."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_selectaepschema"
+>title="Salvare il profilo in Seleziona schema AEP"
+>abstract="Seleziona lo schema AEP da utilizzare per i profili."
