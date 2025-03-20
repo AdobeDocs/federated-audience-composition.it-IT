@@ -3,10 +3,10 @@ audience: end-user
 title: Audit Trail
 description: Scopri come le azioni e gli eventi vengono registrati e accessibili nell’audit trail
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 154edf65bc460c6c98ae16f9b799ec38939fb5fd
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 11%
+source-wordcount: '343'
+ht-degree: 12%
 
 ---
 
@@ -17,13 +17,11 @@ ht-degree: 11%
 >title="Audit trail"
 >abstract="La funzionalità Audit trail fornisce un record cronologico e dettagliato di tutte le azioni e degli eventi eseguiti nell’ambiente di composizione del pubblico federato di Adobe Experience Platform in tempo reale."
 
-La funzionalità Audit trail fornisce una registrazione dettagliata e cronologica di tutte le azioni e di tutti gli eventi eseguiti nell’ambiente in tempo reale
-
-La funzionalità **[!UICONTROL Audit trail]** registra costantemente in tempo reale un registro dettagliato delle azioni e degli eventi che si verificano all&#39;interno dell&#39;istanza di Adobe Federated Composition. Offre un metodo comodo per accedere a un record cronologico di dati, che affronta query quali: lo stato dei flussi di lavoro, gli utenti più recenti per modificarli o le attività eseguite dagli utenti all’interno dell’istanza.
+La funzione **[!UICONTROL Audit trail]** registra costantemente in tempo reale un registro dettagliato delle azioni e degli eventi che si verificano all&#39;interno dell&#39;istanza di Adobe Federated Composition. Offre un metodo comodo per accedere a un record cronologico di dati, che affronta query quali: lo stato dei flussi di lavoro, gli utenti più recenti per modificarli o le attività eseguite dagli utenti all’interno dell’istanza.
 
 +++ Ulteriori informazioni sulle entità disponibili in Audit Trail
 
-* **Audit trail dello schema di Source Adobe** consente di monitorare le attività e le modifiche recenti apportate agli schemi all&#39;interno dell&#39;istanza di Federated Audience Composition.
+* **Audit trail dello schema di Source** consente di monitorare le attività e le modifiche recenti apportate agli schemi all&#39;interno dell&#39;istanza di Adobe Federated Audience Composition.
 
   Per informazioni dettagliate sugli schemi, consulta questa [pagina](../customer/schemas.md).
 

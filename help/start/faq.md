@@ -2,10 +2,10 @@
 title: Domande frequenti
 description: Domande frequenti sulla composizione di pubblico federato di Adobe Experience Platform
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: 03e918ab8828f9a9a1fedeef173852d31f0af818
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 98%
+source-wordcount: '897'
+ht-degree: 91%
 
 ---
 
@@ -88,6 +88,18 @@ No, nella versione corrente non è possibile eliminare i tipi di pubblico della 
 No, Identity service non viene utilizzato durante una composizione. I dati tra le varie origini utilizzate nella composizione vengono uniti tramite logica definita dall’utente (come espressa nel modello sottostante), ad esempio ID CRM, numero account utente, ecc. È necessario selezionare l’identità utilizzata come identificatore nel pubblico per la selezione nel data warehouse. In un pubblico risultante dalla composizione di pubblico federato, è necessario identificare lo spazio dei nomi identità per l’identità nel set di dati risultante.
 
 +++
+
++++Come creare e gestire le richieste di accesso ai dati personali con Federated Audience Composition?
+
+Puoi inviare singole richieste di accesso e cancellazione dei dati dei clienti da Adobe Federated Audience Composition in due modi:
+
+* Tramite l&#39;interfaccia utente di Adobe Experience Platform **Privacy Service**. [Ulteriori informazioni](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it){target="_blank"}
+* Tramite Adobe Experience Platform **API Privacy Service**. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/privacy/api/overview){target="_blank"}
+
+Tutti i passaggi per creare e gestire **richieste di accesso** e **richieste di eliminazione** sono descritti nella [documentazione del profilo cliente in tempo reale](https://experienceleague.adobe.com/it/docs/experience-platform/profile/privacy){target="_blank"}.
+
++++
+
 <!--
 +++How are customer consent preferences honored for externally generated audiences that are imported into Federated Audience Composition?
 

@@ -2,7 +2,7 @@
 user-guide-title: Composizione di pubblico federato di Experience Platform
 title: Documentazione della composizione di pubblico federato di Experience Platform
 breadcrumb-title: Composizione di pubblico federato di Experience Platform
-source-git-commit: 3d4ab8da423ac058e0c8c145caac09315c73ce59
+source-git-commit: 03e918ab8828f9a9a1fedeef173852d31f0af818
 workflow-type: tm+mt
 source-wordcount: '156'
 ht-degree: 100%
@@ -55,3 +55,4 @@ ht-degree: 100%
    + [Creare la prima query](query/build-query.md)
    + [Modifica espressioni](query/expression-editor.md)
 + [Audit Trail](admin/audit-trail.md)
+

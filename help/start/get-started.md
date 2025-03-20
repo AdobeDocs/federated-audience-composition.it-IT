@@ -2,10 +2,10 @@
 title: Introduzione alla composizione di pubblico federato di Experience Platform
 description: Scopri che cos’è la composizione di pubblico federato di Adobe e come utilizzarla in Adobe Experience Platform
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: dbce012ed4f5d971be9109cfcb33b24de2d9af18
+source-git-commit: 645d3378120fb52fba7866d3e3499c6af5635027
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 93%
+source-wordcount: '1095'
+ht-degree: 82%
 
 ---
 
@@ -62,6 +62,24 @@ Passaggi chiave:
 >[!NOTE]
 >
 >Dopo aver eseguito la composizione, il pubblico risultante viene salvato in Adobe Experience Platform come pubblico esterno e reso disponibile in Adobe Real-Time Customer Data Platform e/o Adobe Journey Optimizer. È reso accessibile nel menu **Tipi di pubblico**. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+
+## Governance, privacy e sicurezza {#governance-privacy-security}
+
+### Richieste di accesso a dati personali {#gov-privacy-requests}
+
+Dopo aver creato una composizione, i tipi di pubblico risultanti vengono salvati in Adobe Experience Platform.
+
+Puoi quindi effettuare richieste di privacy per accedere e/o eliminare i dati del profilo corrispondenti a questi tipi di pubblico tramite Adobe Experience Platform **Privacy Service**, che fornisce una [interfaccia utente](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it){target="_blank"} e [API RESTful](https://experienceleague.adobe.com/it/docs/experience-platform/privacy/api/overview){target="_blank"} per aiutarti a gestire le richieste di dati dei clienti.
+
+>[!NOTE]
+>
+>Per ulteriori informazioni su Privacy Service, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it){target="_blank"}.
+
+Puoi creare e gestire singole richieste di accesso ed eliminazione dei dati dei clienti da Adobe Federated Audience Composition. I passaggi per inviare **richieste di accesso** e **richieste di eliminazione** sono descritti nella [documentazione del profilo cliente in tempo reale](https://experienceleague.adobe.com/it/docs/experience-platform/profile/privacy){target="_blank"}.
+
+### Audit Trail {#gov-audit-trail}
+
+La funzionalità Audit trail fornisce una registrazione dettagliata e cronologica di tutte le azioni e di tutti gli eventi che sono stati eseguiti nell’ambiente in tempo reale. [Ulteriori informazioni](../admin/audit-trail.md)
 
 ## Ulteriori informazioni {#learn}
 
