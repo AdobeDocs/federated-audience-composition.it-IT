@@ -2,11 +2,9 @@
 title: Accedere alla Composizione di pubblico federato
 description: Ulteriori informazioni sulle autorizzazioni richieste per la Composizione di pubblico federato
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
-hide: true
-hidefromtoc: true
-source-git-commit: 0b8781b5b33d96db7d7f23b3c399942b9cfe901f
+source-git-commit: 0f4bba9c749a6548da07d78136e914cc53314684
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '301'
 ht-degree: 93%
 
 ---
@@ -20,10 +18,6 @@ Quando acquisti Adobe Experience Platform Federated Audience Composition, viene 
 Ad esempio, se viene attivata una nuova sandbox denominata “fac-test”, viene creato il profilo di prodotto corrispondente “ACP_FAC - fac-test - admin”. Per accedere alle composizione di pubblico federato con questa sandbox, gli utenti devono essere aggiunti a questo profilo di prodotto.
 
 ## Gestire l’accesso alla Composizione di pubblico federato
-
->[!AVAILABILITY]
->
->Le autorizzazioni sono disponibili nella versione di marzo.
 
 Per accedere alla **Composizione di pubblico federato**, devi prima verificare che l’autorizzazione **Gestisci dati federati** sia assegnata ai ruoli appropriati. Questi ruoli devono quindi essere assegnati agli utenti che devono accedere alla **Composizione di pubblico federato**.
 

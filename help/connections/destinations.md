@@ -3,10 +3,10 @@ audience: end-user
 title: Arricchire i tipi di pubblico di Adobe Experience Platform con dati esterni
 description: Scopri come perfezionare e arricchire i tipi di pubblico di Adobe Experience Platform con i dati dei database federati utilizzando la destinazione Federated Audiences Composition.
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: 302bdfa32249e5efa420256ab4f3abda31bbdd50
+source-git-commit: 5a332d9252fec16e66e38a1d57ab4e3484ac2b8a
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 9%
+source-wordcount: '611'
+ht-degree: 8%
 
 ---
 
@@ -60,11 +60,15 @@ I passaggi principali per inviare i tipi di pubblico di Adobe Experience Platfor
 
    ![](assets/destination-activate.png)
 
-1. Selezionare il pubblico desiderato da inviare e fare clic su **[!UICONTROL Avanti]**.
+1. Seleziona i tipi di pubblico desiderati da inviare.
 
-1. Configura il nome del file e una pianificazione di esportazione per i tipi di pubblico selezionati.
+1. Seleziona l&#39;icona ![](assets/do-not-localize/Smock_Edit_18_N.svg) per modificare la pianificazione dell&#39;esportazione.
 
    ![](assets/destination-schedule.png)
+
+1. Definisci le opzioni del file di esportazione. Per attivare i tipi di pubblico più rapidamente, seleziona l&#39;opzione **[!UICONTROL Dopo la valutazione del segmento]** per attivare il processo di attivazione subito dopo il completamento del processo di segmentazione batch giornaliero di Platform.
+
+   ![](assets/destination-schedule-2.png)
 
    >[!NOTE]
    >
