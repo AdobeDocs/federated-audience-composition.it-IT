@@ -5,7 +5,7 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: b8687a26a48c574ec4057ec55419c15433c31b4e
 workflow-type: tm+mt
 source-wordcount: '813'
-ht-degree: 72%
+ht-degree: 96%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 72%
 
 ### Miglioramenti {#fac-25-3-improvements}
 
-Questa versione include i miglioramenti riportati di seguito.
+Questa versione include i miglioramenti indicati di seguito.
 
-* **Autorizzazioni di Federated Audience Composition**
+* **Autorizzazioni di Composizione di pubblico federato**
 
-  A partire dalla versione di marzo, [!DNL Federated Audience Composition] inizierà ad applicare l&#39;accesso di **Federated data management** e **Federated Compositions** alle interfacce utente a cui è stata concessa l&#39;autorizzazione **Manage Federated Data**.
+  A partire dalla versione di marzo, [!DNL Federated Audience Composition] inizierà ad applicare l’accesso alle interfacce **Gestione dati federati** e **Composizioni federate** a chi è stata concessa l’autorizzazione **Gestisci dati federati**.
 
-  Si consiglia agli utenti di contattare gli amministratori per aggiungere questa autorizzazione al loro ruolo per continuare ad accedere all&#39;interfaccia utente [!DNL Federated Audience Composition].
+  Per continuare ad accedere all’interfaccia utente di [!DNL Federated Audience Composition], contattata il tuo amministratore per richeidere che questa autorizzazione venga aggiunta al tuo ruolo.
 
   Per informazioni su come assegnare questa autorizzazione, consulta la [documentazione dettagliata](feature-access.md).
 
@@ -40,18 +40,18 @@ Questa versione include i miglioramenti riportati di seguito.
 
 ### Compatibilità {#fac-25-3-compat}
 
-* **Connessione a database**
+* **Connessione Databricks**
 
-  Con questa nuova versione, Federated Audience Composition ora supporta la connettività di collegamento privato per le connessioni al database Databricks.
+  Con questa nuova versione, la funzionalità Composizione di pubblico federato ora supporta la connettività con collegamento privato per le connessioni a database Databricks.
 Ciò include connessioni sicure ai database Databricks ospitati su Amazon Web Services (AWS) tramite collegamento privato e ai database Databricks ospitati su Microsoft Azure tramite VPN. [Ulteriori informazioni](../connections/federated-db.md#databricks)
 
-* **Supporto per clienti CDP B2B**
+* **Supporto per clienti di CDP B2B**
 
-  La Federated Audience Composition è ora disponibile per i clienti di Business-to-Business (B2B) Customer Data Platform (CDP) per i casi di utilizzo di pubblico basati sulle persone.
+  La funzionalità Composizione di pubblico federato è ora disponibile per la clientela di Customer Data Platform (CDP) Business-to-Business (B2B) per i casi d’uso con pubblico basato su persone.
 
 * **Connessione protetta Snowflake**
 
-  Con questa nuova versione, Federated Audience Composition supporta connessioni sicure di collegamenti privati ai database di Snowflake ospitati in Microsoft Azure. [Ulteriori informazioni](../connections/federated-db.md#snowflake)
+  Con questa nuova versione, la funzionalità Composizione di pubblico federato supporta connessioni sicure con collegamento privato a database Snowflake ospitati in Microsoft Azure. [Ulteriori informazioni](../connections/federated-db.md#snowflake)
 
 ## Versione di febbraio 2025 {#fac-25-2}
 
@@ -87,7 +87,7 @@ Questa versione include il miglioramento indicato di seguito.
 
 >[!AVAILABILITY]
 >
->Precedentemente disponibile per un set di organizzazioni (LA), la Composizione di pubblico federato di Adobe Experience Platform è ora disponibile per tutti gli utenti (GA). Questa funzionalità viene attivata in base all’offerta e visibile solo con le autorizzazioni associate. [Ulteriori informazioni](access-prerequisites.md)
+>Precedentemente disponibile per un set di organizzazioni (LA), la Composizione di pubblico federato di Adobe Experience Platform è ora disponibile per tutti gli utenti (GA). Questa funzionalità viene attivata in base all’offerta ed è visibile solo con le autorizzazioni associate. [Ulteriori informazioni](access-prerequisites.md)
 >
 
 ### Compatibilità {#fac-24-10-compat}
@@ -120,9 +120,9 @@ Questa versione include i miglioramenti elencati di seguito.
 
 ## Versione di luglio 2024 - Composizione di pubblico federato (LA) {#fac-la}
 
-Federated Audience Composition offre alle aziende un accesso flessibile e esteso ai data warehouse aziendali per comporre il pubblico utilizzando set di dati aziendali critici e fornire esperienze immediate e avviate dal marchio. Con questo nuovo approccio, in qualità di utente di [Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/home){target="_blank"} e/o [Adobe Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"}, puoi raccogliere i set di dati direttamente dal data warehouse esistente per arricchire i tipi di pubblico di Adobe Experience Platform in un unico sistema.
+La composizione di pubblico federato offre alle aziende un accesso flessibile ed esteso ai data warehouse aziendali per comporre tipi di pubblico utilizzando set di dati aziendali critici e fornire esperienze immediate e avviate dal brand. Con questo nuovo approccio, in qualità di utente di [Adobe Real-time Customer Data Platform](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/home){target="_blank"} e/o [Adobe Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"}, puoi raccogliere i set di dati direttamente dal data warehouse esistente per arricchire i tipi di pubblico di Adobe Experience Platform in un unico sistema.
 
-La Federated Audience Composition soddisfa le crescenti richieste del mercato per le aziende che necessitano della flessibilità per comporre i tipi di pubblico con set di dati di magazzino. Questo consente alle aziende di ridurre lo spostamento dei dati, rendendo al tempo stesso disponibili ai team di marketing i dati critici sul pubblico per soddisfare i requisiti dei casi d’uso e fornire esperienze personalizzate.
+La composizione di pubblico federato affronta le crescenti richieste del mercato per le aziende che necessitano flessibilità per comporre i tipi di pubblico con set di dati warehouse. Questo consente alle aziende di ridurre lo spostamento dei dati, rendendo al tempo stesso disponibili ai team di marketing i dati critici sul pubblico per soddisfare i requisiti dei casi d’uso e fornire esperienze personalizzate.
 
 Ulteriori informazioni sulle funzionalità della composizione di pubblico federato sono disponibili in [questa pagina](get-started.md) e nelle [domande frequenti](faq.md).
 

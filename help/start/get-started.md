@@ -5,13 +5,13 @@ exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 97bda9d08eead79e6172e3b5bb746e7516bf6d85
 workflow-type: tm+mt
 source-wordcount: '1146'
-ht-degree: 78%
+ht-degree: 95%
 
 ---
 
 # Introduzione alla composizione di pubblico federato {#gs-fac}
 
-La composizione del pubblico federato è disponibile per gli ambienti [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/home){target="_blank"} e [Adobe Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"}. Consente di creare e arricchire i tipi di pubblico dai data warehouse di terze parti e di importarli in Adobe Experience Platform. La composizione di pubblico federato offre una soluzione semplice e potente per collegare il data warehouse aziendale direttamente all’interno di Adobe Real-time Customer Data Platform e/o Adobe Journey Optimizer ed eseguire query sulle tabelle del data warehouse.
+La composizione di pubblico federato è disponibile per gli ambienti [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/home){target="_blank"} e [Adobe Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"}. Consente di creare e arricchire i tipi di pubblico dai data warehouse di terze parti e di importarli in Adobe Experience Platform. La composizione di pubblico federato offre una soluzione semplice e potente per collegare il data warehouse aziendale direttamente all’interno di Adobe Real-time Customer Data Platform e/o Adobe Journey Optimizer ed eseguire query sulle tabelle del data warehouse.
 
 La composizione di pubblico federato di Adobe consente agli utenti delle app Adobe Experience Platform di accedere ai dati dei propri clienti archiviati nei data warehouse e nelle piattaforme di archiviazione cloud, come Amazon Redshift, Azure Synapse Analytics e altro ancora. I dati della clientela possono risiedere in più data warehouse e sono ora accessibili immediatamente, senza replica. Le piattaforme supportate sono elencate in questa [pagina](../connections/federated-db.md#supported-db).
 
@@ -67,21 +67,21 @@ Passaggi chiave:
 
 ## Governance, privacy e sicurezza {#governance-privacy-security}
 
-### Richieste di accesso a dati personali {#gov-privacy-requests}
+### Richieste di privacy {#gov-privacy-requests}
 
 Dopo aver creato una composizione, i tipi di pubblico risultanti vengono salvati in Adobe Experience Platform.
 
-Puoi quindi effettuare richieste di privacy per accedere e/o eliminare i dati del profilo corrispondenti a questi tipi di pubblico tramite Adobe Experience Platform **Privacy Service**, che fornisce una [interfaccia utente](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it){target="_blank"} e [API RESTful](https://experienceleague.adobe.com/it/docs/experience-platform/privacy/api/overview){target="_blank"} per aiutarti a gestire le richieste di dati dei clienti.
+Puoi quindi effettuare richieste di privacy per accedere e/o eliminare i dati del profilo corrispondenti a questi tipi di pubblico tramite Adobe Experience Platform **Privacy Service**, che fornisce un’[interfaccia utente](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it){target="_blank"} e [API RESTful](https://experienceleague.adobe.com/it/docs/experience-platform/privacy/api/overview){target="_blank"} per aiutarti a gestire le richieste di dati della clientela.
 
 >[!NOTE]
 >
 >Per ulteriori informazioni su Privacy Service, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it){target="_blank"}.
 
-Puoi creare e gestire singole richieste di accesso ed eliminazione dei dati dei clienti da Adobe Federated Audience Composition. I passaggi per inviare **richieste di accesso** e **richieste di eliminazione** sono descritti nella [documentazione del profilo cliente in tempo reale](https://experienceleague.adobe.com/it/docs/experience-platform/profile/privacy){target="_blank"}.
+Puoi creare e gestire singole richieste di accesso ed eliminazione dei dati della clientela dalla composizione di pubblico federato di Adobe. I passaggi per inviare **richieste di accesso** e **richieste di eliminazione** sono descritti nella [documentazione del profilo cliente in tempo reale](https://experienceleague.adobe.com/it/docs/experience-platform/profile/privacy){target="_blank"}.
 
 ### Audit Trail {#gov-audit-trail}
 
-La funzionalità Audit trail fornisce una registrazione dettagliata e cronologica di tutte le azioni e di tutti gli eventi che sono stati eseguiti nell’ambiente in tempo reale. [Ulteriori informazioni](../admin/audit-trail.md)
+La funzionalità Audit trail fornisce un record cronologico e dettagliato di tutte le azioni e gli eventi eseguiti nell’ambiente in tempo reale. [Ulteriori informazioni](../admin/audit-trail.md)
 
 ## Ulteriori informazioni {#learn}
 
@@ -163,15 +163,15 @@ Consulta le domande frequenti in [questa pagina](faq.md).
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_primaryidentitynamespace"
->title="Seleziona campo di identificazione principale"
+>title="Selezionare campo di identificazione principale"
 >abstract="Campo di identificazione principale da utilizzare per i profili."
 
 >[!CONTEXTUALHELP]
 >id="ddc_orchestration_saveprofile_selectdataset"
 >title="Set di dati di AEP"
->abstract="Seleziona il set di dati di AEP da utilizzare per i profili."
+>abstract="Selezionare i set di dati di AEP da utilizzare per i profili."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepschema"
 >title="Salvare il profilo in Seleziona schema AEP"
->abstract="Seleziona lo schema AEP da utilizzare per i profili."
+>abstract="Selezionare lo schema di AEP da utilizzare per i profili."
