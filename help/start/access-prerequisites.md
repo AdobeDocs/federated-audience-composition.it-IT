@@ -3,9 +3,9 @@ title: Prerequisiti e guardrail per la composizione di pubblico federato
 description: Scopri i prerequisiti, le autorizzazioni e i guardrail per la composizione di pubblico federato
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: 97bda9d08eead79e6172e3b5bb746e7516bf6d85
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '311'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -35,11 +35,11 @@ Scopri come creare una connessione con questi sistemi in [questa pagina](../conn
 
 Quando acquisti Composizione di pubblico federato, hai diritto a due sandbox. Per ulteriori richieste di provisioning per la sandbox, contatta il tuo rappresentante Adobe.
 
-Per visualizzare l’elenco delle sandbox di Federated Audience Composition attive, segui i passaggi seguenti:
+Per visualizzare l’elenco delle sandbox attive della composizione di pubblico federato, segui i passaggi seguenti:
 
-1. Da Federated Audience Composition, accedi al menu **[!UICONTROL Utilizzo licenze]** in **[!UICONTROL Amministrazione]**.
+1. Da Composizione di pubblico federato, accedi al menu **[!UICONTROL Utilizzo licenze]** in **[!UICONTROL Amministrazione]**.
 
-1. Fai clic sull&#39;icona ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) da **[!UICONTROL Volume totale di dati in uscita]** per accedere alle proprietà della sandbox.
+1. Fai clic sull’icona ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) da **[!UICONTROL Volume totale di dati in uscita]** per accedere alle proprietà della sandbox.
 
    ![](assets/sandbox_1.png)
 
