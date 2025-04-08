@@ -3,10 +3,10 @@ audience: end-user
 title: Configurare i database federati
 description: Scopri come configurare i database federati
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: b8687a26a48c574ec4057ec55419c15433c31b4e
-workflow-type: ht
+source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+workflow-type: tm+mt
 source-wordcount: '2120'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 
 La composizione di pubblico federato di Experience Platform consente di creare e arricchire i tipi di pubblico dai data warehouse di terze parti e di importarli in Adobe Experience Platform.
 
-Scopri come creare, configurare, testare e salvare la connessione al database esterno in [questa pagina](connections.md). Di seguito è riportato l’elenco dei database supportati e le impostazioni dettagliate da configurare per ciascuno di essi.
+Scopri come creare, configurare, testare e salvare la connessione al tuo database esterno in [questa pagina](connections.md). Di seguito è riportato l’elenco dei database supportati e le impostazioni dettagliate da configurare per ciascuno di essi.
 
 ## Database supportati {#supported-db}
 
@@ -73,7 +73,7 @@ Utilizza i database federati per elaborare le informazioni archiviate in un data
 
    * **[!UICONTROL Database]**: nome del database se non specificato nel DSN. Se specificato nel DSN, questo campo può essere lasciato vuoto.
 
-   * **[!UICONTROL Schema di lavoro]**: nome dello schema del database da utilizzare per le tabelle di lavoro. Ulteriori informazioni sono disponibili nella sezione della [documentazione di Amazon](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}
+   * **[!UICONTROL Schema di lavoro]**: nome dello schema del database da utilizzare per le tabelle di lavoro. Ulteriori informazioni nella [documentazione di Amazon](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}
 
      >[!NOTE]
      >
@@ -123,7 +123,7 @@ Utilizza i database federati per elaborare le informazioni archiviate in un data
 
 | Opzione | Descrizione |
 |---|---|
-| Autenticazione | Tipo di autenticazione supportato dal connettore. Valore attualmente supportato: ActiveDirectoryMSI. Per ulteriori informazioni, fai riferimento alla [documentazione SQL di Microsoft](https://learn.microsoft.com/it-IT/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (esempio di stringhe di connessione n. 8) |
+| Autenticazione | Tipo di autenticazione supportato dal connettore. Valore attualmente supportato: ActiveDirectoryMSI. Per ulteriori informazioni, consultare [Documentazione di Microsoft SQL](https://learn.microsoft.com/it-IT/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (ad esempio stringhe di connessione n° 8) |
 
 ## Google BigQuery {#google-big-query}
 
@@ -143,11 +143,11 @@ Utilizza i database federati per elaborare le informazioni archiviate in un data
 
 1. Configura le impostazioni di autenticazione di Google BigQuery:
 
-   * **[!UICONTROL Account di servizio]**: immetti l’indirizzo e-mail del tuo **[!UICONTROL Account di servizio]**. Per ulteriori informazioni, consulta la [documentazione di Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}.
+   * **[!UICONTROL Account di servizio]**: immetti l’indirizzo e-mail del tuo **[!UICONTROL Account di servizio]**. Per ulteriori informazioni, consulta la [Documentazione di Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}.
 
-   * **[!UICONTROL Progetto]**: immetti l’ID del **[!UICONTROL Progetto]**. Per ulteriori informazioni, consulta la [documentazione di Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}.
+   * **[!UICONTROL Progetto]**: immetti l’ID del **[!UICONTROL Progetto]**. Per ulteriori informazioni, consulta la [Documentazione di Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}.
 
-   * **[!UICONTROL Set di dati]**: immetti il nome del **[!UICONTROL Set di dati]**. Per ulteriori informazioni, consulta la [documentazione di Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}.
+   * **[!UICONTROL Set di dati]**: immetti il nome del **[!UICONTROL Set di dati]**. Per ulteriori informazioni, consulta la [Documentazione di Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}.
 
    * **[!UICONTROL Percorso file della chiave]**: carica il file della chiave nel server. Sono accettati solo i file .JSON.
 
@@ -230,7 +230,7 @@ Il connettore supporta le seguenti opzioni:
 | WeekStart | Parametro di sessione WEEK_START. Per impostazione predefinita, è impostato su 0. <br>Per ulteriori informazioni, consulta [questa pagina](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start){target="_blank"}. |
 | UseCachedResult | Parametro di sessione USE_CACHED_RESULTS. Per impostazione predefinita, è impostato su TRUE. Questa opzione può essere utilizzata per disabilitare i risultati di Snowflake memorizzati nella cache. <br>Per ulteriori informazioni, consulta [questa pagina](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"}. |
 | bulkThreads | Numero di thread da utilizzare per il caricamento in blocco di Snowflake; un numero maggiore di thread indica prestazioni migliori per caricamenti in blocco di maggiori dimensioni. Per impostazione predefinita, è impostato su 1. Il numero può essere regolato, a seconda del conteggio di thread automatico. |
-| chunkSize | Determina la dimensione del file di un blocco del caricamento in blocco. Per impostazione predefinita, è impostata su 128 MB. Può essere modificata per ottenere prestazioni migliori se utilizzata con bulkThreads. Un numero maggiore di thread attivi contemporaneamente garantisce prestazioni migliori. <br>Per ulteriori informazioni, consulta la [documentazione Snowflake](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}. |
+| chunkSize | Determina la dimensione del file di un blocco del caricamento in blocco. Per impostazione predefinita, è impostata su 128 MB. Può essere modificata per ottenere prestazioni migliori se utilizzata con bulkThreads. Un numero maggiore di thread attivi contemporaneamente garantisce prestazioni migliori. <br>Per ulteriori informazioni, consulta la [documentazione di Snowflake](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}. |
 | StageName | Nome della fase interna di pre-provisioning. Verrà utilizzato nel caricamento in blocco anziché creare una nuova fase temporanea. |
 
 ## Vertica Analytics {#vertica-analytics}
@@ -370,5 +370,5 @@ Utilizza i database federati per elaborare le informazioni archiviate in un data
 
 | Opzione | Descrizione |
 |---|---|
-| Autenticazione | Tipo di autenticazione supportato dal connettore. Valore attualmente supportato: ActiveDirectoryMSI. Per ulteriori informazioni, fai riferimento alla [documentazione SQL di Microsoft](https://learn.microsoft.com/it-IT/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (esempio di stringhe di connessione n. 8) |
+| Autenticazione | Tipo di autenticazione supportato dal connettore. Valore attualmente supportato: ActiveDirectoryMSI. Per ulteriori informazioni, consultare [Documentazione di Microsoft SQL](https://learn.microsoft.com/it-IT/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (ad esempio stringhe di connessione n° 8) |
 

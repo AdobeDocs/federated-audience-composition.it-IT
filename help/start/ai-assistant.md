@@ -1,10 +1,10 @@
 ---
 title: Utilizzare l’Assistente IA
 description: Scopri come sfruttare l’Assistente IA
-source-git-commit: c9396f2b72fe6572f5feb5145b6d636ac6c068e1
-workflow-type: ht
+source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 100%
+ht-degree: 85%
 
 ---
 
@@ -19,7 +19,7 @@ Per accedere all’Assistente IA, fai clic sull’icona nella barra superiore. L
 
 >[!CAUTION]
 >
->Prima di poter utilizzare l’Assistente IA, devi accettare le linee guida per l’utente dell’intelligenza artificiale generativa di Adobe Experience Cloud. Per ulteriori informazioni sull’accordo consulta [questa pagina](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/home){target="_blank"}.
+>Prima di poter utilizzare l’Assistente IA, devi accettare le linee guida per l’utente dell’intelligenza artificiale generativa di Adobe Experience Cloud. Ulteriori informazioni sul contratto in [questa pagina](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
 In Composizione di pubblico federato, puoi accedere alle domande sulla conoscenza del prodotto riguardanti i concetti di Adobe relativi ai vari aspetti del processo. Esempi di tali domande includono:
 
@@ -39,4 +39,4 @@ Per porre una domanda:
 
 1. Utilizza il pollice verso l’alto o verso il basso per valutare la risposta.
 
-Per scoprire come utilizzare l’Assistente IA, vedi gli obiettivi di esempio che puoi raggiungere con l’Assistente IA, e per scoprire come funziona, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/home){target="_blank"}.
+Per informazioni su come utilizzare l&#39;Assistente IA, vedi gli obiettivi di esempio che puoi raggiungere con l&#39;Assistente AI e come funziona l&#39;Assistente AI, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/home){target="_blank"}.
