@@ -3,9 +3,9 @@ title: Domande frequenti
 description: Domande frequenti sulla composizione di pubblico federato di Adobe Experience Platform
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
 source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '897'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Per utilizzare la composizione di pubblico federato, ogni utente deve essere agg
 
 +++Quali data warehouse cloud sono supportati?
 
-L&#39;elenco dei sistemi supportati con Federated Audience Composition è disponibile in [questa pagina](../start/access-prerequisites.md#supported-systems).
+L’elenco dei sistemi supportati con la composizione di pubblico federato è disponibile in [questa pagina](../start/access-prerequisites.md#supported-systems).
 
 +++
 

@@ -3,9 +3,9 @@ title: Novità nella composizione di pubblico federato di Experience Platform
 description: Aggiornamenti e note sulla versione più recenti
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 83d6074da966553caec36908729729445246ea2f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '813'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -104,7 +104,7 @@ Con questa nuova versione, la composizione di pubblico federato è ora compatibi
 
 * **Supporto serverless Amazon Redshift**
 
-  Con questa nuova versione, Federated Audience Composition supporta [Amazon Redshift Serverless](https://aws.amazon.com/it/redshift/redshift-serverless/){target="_blank"}.
+  Con questa nuova versione, la composizione di pubblico federato supporta [Amazon Redshift serverless](https://aws.amazon.com/it/redshift/redshift-serverless/){target="_blank"}.
 
 ### Miglioramenti {#fac-24-10-improvements}
 
@@ -120,10 +120,10 @@ Questa versione include i miglioramenti elencati di seguito.
 
 ## Versione di luglio 2024 - Composizione di pubblico federato (LA) {#fac-la}
 
-La composizione di pubblico federato offre alle aziende un accesso flessibile ed esteso ai data warehouse aziendali per comporre tipi di pubblico utilizzando set di dati aziendali critici e fornire esperienze immediate e avviate dal brand. Con questo nuovo approccio, in qualità di utente di [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/home){target="_blank"} e/o [Adobe Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"}, puoi federare i dati del pubblico direttamente dal data warehouse esistente per arricchire i tipi di pubblico di Adobe Experience Platform in un unico sistema.
+La composizione di pubblico federato offre alle aziende un accesso flessibile ed esteso ai data warehouse aziendali per comporre tipi di pubblico utilizzando set di dati aziendali critici e fornire esperienze immediate e avviate dal brand. Con questo nuovo approccio, in qualità di utente di [Real-time Customer Data Platform di Adobe](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/home){target="_blank"} e/o [Adobe Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"}, puoi raccogliere i dati di pubblico federato direttamente dal data warehouse esistente per arricchire i tipi di pubblico di Adobe Experience Platform in un unico sistema.
 
 La composizione di pubblico federato affronta le crescenti richieste del mercato per le aziende che necessitano flessibilità per comporre i tipi di pubblico con set di dati warehouse. Questo consente alle aziende di ridurre lo spostamento dei dati, rendendo al tempo stesso disponibili ai team di marketing i dati critici sul pubblico per soddisfare i requisiti dei casi d’uso e fornire esperienze personalizzate.
 
-Ulteriori informazioni sulle funzionalità di Federated Audience Composition in [questa pagina](get-started.md) e nelle [domande frequenti](faq.md).
+Ulteriori informazioni sulle funzionalità della composizione di pubblico federato sono disponibili in [questa pagina](get-started.md) e nelle [domande frequenti](faq.md).
 
 Per informazioni dettagliate sui prerequisiti per accedere alle composizioni di pubblico federato e ai guardrail attuali, consulta [questa pagina](access-prerequisites.md).

@@ -5,9 +5,9 @@ hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
 source-git-commit: 60ead6d1c17161558ed1fb4d92929fdd470ac4f9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '969'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -21,27 +21,27 @@ ht-degree: 77%
 
 Questa versione include i miglioramenti indicati di seguito.
 
-* **Visualizzazione area di lavoro modello dati**
+* **Vista area di lavoro modello dati**
 
-  La visualizzazione Area di lavoro per la sezione Modelli di dati migliora l’esperienza consentendo la visualizzazione dei modelli di dati e dei relativi collegamenti in un layout di area di lavoro, insieme alla visualizzazione tabulare esistente. [Ulteriori informazioni](../data-management/gs-models.md)
+  La vista area di lavoro per la sezione Modelli dati migliora l’esperienza consentendo la visualizzazione dei modelli di dati e dei relativi collegamenti in un layout dell’area di lavoro, insieme alla vista a tabella esistente. [Ulteriori informazioni](../data-management/gs-models.md)
 
 * **Assistente IA**
 
-  L’Assistente AI è una funzione dell’interfaccia utente progettata per aiutarti a navigare tra i concetti di Adobe e a comprendere le informazioni operative per il tuo ambiente specifico. È disponibile in diversi prodotti in Adobe Experience Cloud, tra cui Federated Audience Composition. [Ulteriori informazioni](../start/audiences.md)
+  L’Assistente IA è una funzione dell’interfaccia utente che consente di accedere e comprendere i concetti Adobe e ottenere insight operativi per l’ambiente specifico. È disponibile in diversi prodotti di Adobe Experience Cloud, tra cui la composizione di pubblico federato. [Ulteriori informazioni](../start/audiences.md)
 
-* **Nome modello dati**
+* **Nome del modello dati**
 
-  Dal menu Tipi di pubblico, la scheda **Composizioni federate** visualizza ora il nome del modello dati invece dell&#39;ID, migliorando la chiarezza e l&#39;usabilità complessiva.
+  Dal menu Tipi di pubblico, la scheda **Composizioni federate** mostra ora il nome del modello dati invece dell’ID, migliorando la chiarezza e l’usabilità complessiva.
 
-* **Destinatari**
+* **Pubblico**
 
-  Il menu Pubblico ora visualizza il nome o l’etichetta del modello dati selezionato quando un utente seleziona un modello dati senza tipi di pubblico associati.
+  Il menu Tipi di pubblico ora mostra il nome o l’etichetta del modello dati selezionato quando un utente seleziona un modello dati senza tipi di pubblico associati.
 
 ### Compatibilità {#fac-25-4-compat}
 
 * **Connessione protetta Snowflake**
 
-  Con questa nuova versione, Federated Audience Composition supporta connessioni sicure di collegamenti privati ai database Amazon Redshift ospitati in Microsoft Azure. [Ulteriori informazioni](../connections/federated-db.md#amazon-redshift)
+  Con questa nuova versione, la composizione di pubblico federato supporta connessioni protette di collegamento privato a database Amazon Redshift ospitati su Microsoft Azure. [Ulteriori informazioni](../connections/federated-db.md#amazon-redshift)
 
 ## Versione di marzo 2025 {#fac-25-3}
 
@@ -134,7 +134,7 @@ Con questa nuova versione, la composizione di pubblico federato è ora compatibi
 
 * **Supporto serverless Amazon Redshift**
 
-  Con questa nuova versione, Federated Audience Composition supporta [Amazon Redshift Serverless](https://aws.amazon.com/it/redshift/redshift-serverless/){target="_blank"}.
+  Con questa nuova versione, la composizione di pubblico federato supporta [Amazon Redshift serverless](https://aws.amazon.com/it/redshift/redshift-serverless/){target="_blank"}.
 
 ### Miglioramenti {#fac-24-10-improvements}
 
@@ -150,10 +150,10 @@ Questa versione include i miglioramenti elencati di seguito.
 
 ## Versione di luglio 2024 - Composizione di pubblico federato (LA) {#fac-la}
 
-La composizione di pubblico federato offre alle aziende un accesso flessibile ed esteso ai data warehouse aziendali per comporre tipi di pubblico utilizzando set di dati aziendali critici e fornire esperienze immediate e avviate dal brand. Con questo nuovo approccio, in qualità di utente di [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/home){target="_blank"} e/o [Adobe Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"}, puoi federare i dati del pubblico direttamente dal data warehouse esistente per arricchire i tipi di pubblico di Adobe Experience Platform in un unico sistema.
+La composizione di pubblico federato offre alle aziende un accesso flessibile ed esteso ai data warehouse aziendali per comporre tipi di pubblico utilizzando set di dati aziendali critici e fornire esperienze immediate e avviate dal brand. Con questo nuovo approccio, in qualità di utente di [Real-time Customer Data Platform di Adobe](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/home){target="_blank"} e/o [Adobe Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"}, puoi raccogliere i dati di pubblico federato direttamente dal data warehouse esistente per arricchire i tipi di pubblico di Adobe Experience Platform in un unico sistema.
 
 La composizione di pubblico federato affronta le crescenti richieste del mercato per le aziende che necessitano flessibilità per comporre i tipi di pubblico con set di dati warehouse. Questo consente alle aziende di ridurre lo spostamento dei dati, rendendo al tempo stesso disponibili ai team di marketing i dati critici sul pubblico per soddisfare i requisiti dei casi d’uso e fornire esperienze personalizzate.
 
-Ulteriori informazioni sulle funzionalità di Federated Audience Composition in [questa pagina](get-started.md) e nelle [domande frequenti](faq.md).
+Ulteriori informazioni sulle funzionalità della composizione di pubblico federato sono disponibili in [questa pagina](get-started.md) e nelle [domande frequenti](faq.md).
 
 Per informazioni dettagliate sui prerequisiti per accedere alle composizioni di pubblico federato e ai guardrail attuali, consulta [questa pagina](access-prerequisites.md).
