@@ -14,12 +14,12 @@ ht-degree: 49%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment"
->title="Attività di arricchimento"
+>title="Attività Arricchimento"
 >abstract="L’attività di **Arricchimento** consente di migliorare i dati mirati con informazioni aggiuntive provenienti dal database. Viene comunemente utilizzata in una composizione dopo le attività di segmentazione."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_data"
->title="Attività di arricchimento"
+>title="Attività Arricchimento"
 >abstract="Una volta aggiunti i dati di arricchimento alla composizione, questi possono essere utilizzati nelle attività aggiunte dopo quella **Arricchimento** per segmentare i profili in gruppi distinti in base a comportamenti, preferenze e scelte."
 
 >[!CONTEXTUALHELP]

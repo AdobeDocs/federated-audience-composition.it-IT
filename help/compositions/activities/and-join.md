@@ -15,7 +15,7 @@ ht-degree: 57%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_and-join"
 >title="Attività AND-join"
->abstract="L’attività **AND-join** consente di sincronizzare più rami di esecuzione di una composizione. Viene attivata al termie di tutte le attività precedenti. Questo consente di verificare che alcune attività siano state completate prima di continuare a eseguire la composizione."
+>abstract="L’attività **AND-join** consente di sincronizzare più rami di esecuzione di una composizione. Viene attivata al termine di tutte le attività precedenti. Questo consente di verificare che alcune attività siano state completate prima di continuare a eseguire la composizione."
 
 L&#39;attività **AND-join** consente di sincronizzare più rami di esecuzione di una composizione.
 

@@ -15,11 +15,11 @@ ht-degree: 58%
 >[!CONTEXTUALHELP]
 >id="dc_composition_creation_properties"
 >title="Proprietà della composizione"
->abstract="In questa schermata, scegli il modello da utilizzare per creare la composizione e specifica un’etichetta. Espandi la sezione OPZIONI AGGIUNTIVE per configurare altre impostazioni quali il nome interno della composizione, la relativa cartella, il fuso orario e il gruppo di supervisori. Si consiglia vivamente di selezionare un gruppo di supervisori in modo che gli operatori vengano avvisati in caso di errore."
+>abstract="In questa schermata, scegli il modello da utilizzare per creare la composizione e specifica un’etichetta. Espandi la sezione OPZIONI AGGIUNTIVE per configurare altre impostazioni quali il nome interno della composizione, la relativa cartella, il fuso orario e il gruppo di supervisori. Si consiglia vivamente di selezionare un gruppo di supervisori in modo che gli operatori siano avvisati in caso di errore."
 
 ## Cosa c&#39;è all&#39;interno di una composizione {#gs-composition-inside}
 
-Experience Platform di Federated Audience Composition fornisce un’area di lavoro visiva che consente di creare tipi di pubblico sfruttando varie attività (suddivisione, arricchimento, ecc.).
+La Federated Audience Composition di Experience Platform fornisce un’area di lavoro visiva che consente di creare tipi di pubblico sfruttando varie attività (suddivisione, arricchimento, ecc.).
 
 Il diagramma di composizione è una rappresentazione di ciò che dovrebbe accadere. Descrive le varie attività da eseguire e il modo in cui vengono collegate tra loro.
 
