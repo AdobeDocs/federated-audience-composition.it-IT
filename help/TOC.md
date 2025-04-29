@@ -2,10 +2,10 @@
 user-guide-title: Composizione di pubblico federato di Experience Platform
 title: Documentazione della composizione di pubblico federato di Experience Platform
 breadcrumb-title: Composizione di pubblico federato di Experience Platform
-source-git-commit: 03e918ab8828f9a9a1fedeef173852d31f0af818
-workflow-type: ht
-source-wordcount: '156'
-ht-degree: 100%
+source-git-commit: 8cd1b967e004d84fda3788e442e41d2010f5ec24
+workflow-type: tm+mt
+source-wordcount: '159'
+ht-degree: 84%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 + [Documentazione della composizione di pubblico federato di Experience Platform](home.md)
 + [Note sulla versione](start/release-notes.md)
 + [Note sulla versione](start/e-release-notes.md)
-+ Introduzione a Composizione di pubblico federato {#start}
++ Guida introduttiva a Federated Audience Composition {#start}
    + [Cos’è la Composizione di pubblico federato?](start/get-started.md)
    + [Prerequisiti e guardrail](start/access-prerequisites.md)
    + [Accedere alla Composizione di pubblico federato](start/feature-access.md)
@@ -24,12 +24,13 @@ ht-degree: 100%
 + Passaggi di configurazione {#config}
    + [Creare e gestire le connessioni](connections/connections.md)
    + [Configurare i database federati](connections/federated-db.md)
+   + [Matrice dei diritti FDA](connections/fda-rights.md)
    + Modelli di dati e schemi{#datamodel}
       + [Creare e configurare gli schemi](customer/schemas.md)
       + [Configurare i modelli di dati (Beta)](data-management/gs-models-beta.md)
       + [Configurare i modelli di dati](data-management/gs-models.md)
    + [Arricchire i tipi di pubblico di Adobe Experience Platform con dati esterni](connections/destinations.md)
-+ Comporre i tipi di pubblico {#compositions}
++ Componi tipi di pubblico {#compositions}
    + [Introduzione alle composizioni](compositions/gs-compositions.md)
    + Creare ed eseguire la prima composizione {#create-composition}
       + [Principi chiave per la creazione della composizione](compositions/gs-composition-creation.md)
@@ -50,7 +51,7 @@ ht-degree: 100%
       + [Modulo di pianificazione](compositions/activities/scheduler.md)
       + [Dividi](compositions/activities/split.md)
       + [Attendi](compositions/activities/wait.md)
-+ Eseguire una query sul database {#query-database}
++ Eseguire query sul database {#query-database}
    + [Utilizzo del query modeler](query/query-modeler-overview.md)
    + [Creare la prima query](query/build-query.md)
    + [Modifica espressioni](query/expression-editor.md)
