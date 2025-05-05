@@ -24,7 +24,7 @@ Puoi aggiungere due tipi di elementi:
 
 * **Gli operatori di gruppo** (AND, OR, EXCEPT) consentono di raggruppare i componenti di filtro nel diagramma. Vengono aggiunte alle transizioni esistenti prima di un componente di filtro. [Scopri come utilizzare gli operatori](#filtering)
 
-  Esempio: *Destinatari abbonati alla newsletter &quot;Sport&quot;**AND**che vivono a New York **OR**San Francisco*.
+  Esempio: *Destinatari abbonati alla newsletter &quot;Sport&quot;**AND**&#x200B;che vivono a New York **OR**&#x200B;San Francisco*.
 
   ![](assets/query-add-operator.png){zoomable="yes"}
 
@@ -77,7 +77,7 @@ Per filtrare la query utilizzando una condizione personalizzata, effettua le seg
    | Simile a | Simile a è identico all’operatore Contiene. Ti consente di inserire un carattere jolly % nel valore. | Cognome (@lastName) simile a “Jon%s”. Qui, il carattere jolly viene usato come un “jolly” per trovare il nome “Jones”, nel caso in cui l’operatore avesse dimenticato la lettera mancante tra la “n” e la “s”. |
    | Diverso da | Simile a è identico all’operatore Contiene. Ti consente di inserire un carattere jolly % nel valore. | Cognome (@lastName) diverso da “Smi%h”. In questo caso, i destinatari con il cognome è “Smi%h” non verranno restituiti. |
 
-+++
+   +++
 
 1. Nel campo **[!UICONTROL Valore]**, definisci il valore previsto. Puoi anche sfruttare l’editor espressioni per definire manualmente un’espressione utilizzando i campi delle funzioni di database e helper. A tale scopo, fare clic sul pulsante **[!UICONTROL Modifica espressione]**. [Scopri come modificare le espressioni](expression-editor.md)
 

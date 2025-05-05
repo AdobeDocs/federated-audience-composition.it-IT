@@ -73,7 +73,7 @@ Per l’attività Unione, è necessario selezionare il **Tipo di riconciliazione
 
 ## Intersezione  {#combine-intersection}
 
-Nell&#39;attività **Combina** è possibile configurare un&#39;intersezione ****.
+Nell&#39;attività **Combina** è possibile configurare un&#39;intersezione **&#x200B;**.
 
 ![](../assets/combine-intersection.png)
 
@@ -104,7 +104,7 @@ A questo scopo, segui i passaggi aggiuntivi seguenti:
 >title="Complemento generato da combinazione"
 >abstract="Attiva l’opzione **Genera complemento** per elaborare la popolazione rimanente in una transizione aggiuntiva."
 
-Nell&#39;attività **Combina**, puoi configurare un&#39;esclusione ****.
+Nell&#39;attività **Combina**, puoi configurare un&#39;esclusione **&#x200B;**.
 
 ![](../assets/combine-exclusion.png)
 

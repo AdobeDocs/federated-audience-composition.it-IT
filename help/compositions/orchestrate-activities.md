@@ -72,6 +72,6 @@ Puoi eseguire le seguenti operazioni:
 
   La sezione **[!UICONTROL Script di inizializzazione]** consente di inizializzare le variabili o modificare le proprietà dell&#39;attività. Fare clic sul pulsante **[!UICONTROL Modifica codice]** e digitare il frammento di codice da eseguire. Lo script viene chiamato durante l’esecuzione dell’attività.
 
-+++
+  +++
 
 * Accedi a **Registri e attività**.
