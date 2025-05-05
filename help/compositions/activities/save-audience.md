@@ -38,11 +38,11 @@ L&#39;attività **Save audience** ti consente di creare un nuovo pubblico dalla 
 
 Questa attività è essenzialmente utilizzata per mantenere i gruppi di popolazione calcolati nella stessa composizione, convertendoli in tipi di pubblico riutilizzabili. Connettila ad altre attività di targeting, come a un’attività **Crea pubblico** o **Combina**.
 
-L&#39;attività **[!UICONTROL Save Audience]** genera un nuovo schema e set di dati per il pubblico. Dopo la creazione del pubblico, coordinati con l’amministratore per assegnare le etichette di governance dei dati appropriate. [Ulteriori informazioni sulle etichette di utilizzo dei dati](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
+L&#39;attività **[!UICONTROL Save Audience]** genera un nuovo schema e set di dati per il pubblico. Dopo la creazione del pubblico, coordinati con l’amministratore per assegnare le etichette di governance dei dati appropriate. [Ulteriori informazioni sulle etichette di utilizzo dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/user-guide)
 
 >[!IMPORTANT]
 >
->L&#39;attività **Save Audience** richiede uno schema e un set di dati abilitati per il profilo. [Ulteriori informazioni](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
+>L&#39;attività **Save Audience** richiede uno schema e un set di dati abilitati per il profilo. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
 
 ## Configurare l’attività Salva pubblico {#save-audience-configuration}
 

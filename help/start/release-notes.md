@@ -89,7 +89,7 @@ Questa versione include i miglioramenti indicati di seguito.
 * **Salva attività pubblico**
 
   È stata aggiunta una nota all&#39;attività **Save Audience**, che ricorda agli utenti di collaborare con un amministratore di dati per applicare etichette di governance ai nuovi schemi e set di dati creati durante la creazione e l&#39;arricchimento del pubblico.
-  [Ulteriori informazioni sulle etichette di utilizzo dei dati](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
+  [Ulteriori informazioni sulle etichette di utilizzo dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/user-guide)
 
 ### Compatibilità {#fac-25-4-compat}
 
