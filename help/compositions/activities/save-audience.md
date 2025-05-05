@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Save audience
 description: Scopri come utilizzare l’attività Save audience
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 37%
+source-wordcount: '508'
+ht-degree: 34%
 
 ---
 
@@ -37,6 +37,8 @@ ht-degree: 37%
 L&#39;attività **Save audience** ti consente di creare un nuovo pubblico dalla popolazione calcolata a monte in una composizione. I tipi di pubblico creati vengono aggiunti all&#39;elenco dei tipi di pubblico di Adobe Experience Platform e sono disponibili tramite il menu **Tipi di pubblico**. [Scopri come utilizzare i tipi di pubblico](../../start/audiences.md)
 
 Questa attività è essenzialmente utilizzata per mantenere i gruppi di popolazione calcolati nella stessa composizione, convertendoli in tipi di pubblico riutilizzabili. Connettila ad altre attività di targeting, come a un’attività **Crea pubblico** o **Combina**.
+
+L&#39;attività **[!UICONTROL Save Audience]** genera un nuovo schema e set di dati per il pubblico. Dopo la creazione del pubblico, coordinati con l’amministratore per assegnare le etichette di governance dei dati appropriate. [Ulteriori informazioni sulle etichette di utilizzo dei dati](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/user-guide)
 
 >[!IMPORTANT]
 >

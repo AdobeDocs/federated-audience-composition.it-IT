@@ -3,7 +3,7 @@ audience: end-user
 title: Audit Trail
 description: Scopri come le azioni e gli eventi vengono registrati e accessibili nell’audit trail
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 12%

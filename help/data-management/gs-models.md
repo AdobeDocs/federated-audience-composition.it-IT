@@ -2,53 +2,32 @@
 audience: end-user
 title: Introduzione ai modelli di dati
 description: Scopri come iniziare con i modelli di dati
-exl-id: 8f9e9895-dcd7-4718-8922-4f7fefe9ed94
-source-git-commit: 61a7b66d16358a4a1c3d4b2ae153e856d8f682f7
+badge: label="Beta" type="Informative"
+exl-id: 7e1f74c4-b89a-480c-8e12-0257a71e629d
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 15%
+source-wordcount: '661'
+ht-degree: 2%
 
 ---
 
-# Introduzione ai modelli di dati {#data-model}
+# Introduzione ai modelli di dati {#data-model-beta}
 
->[!CONTEXTUALHELP]
->id="dc_model_menu"
->title="Utilizzare i modelli"
->abstract="In questa schermata sono elencati gli schemi e i modelli di dati. Puoi creare schemi e modelli di dati dal pulsante **Crea**."
-
->[!CONTEXTUALHELP]
->id="dc_datamodel_add_schema"
->title="Selezionare gli schemi"
->abstract="Seleziona gli schemi per il modello dati."
-
-
->[!CONTEXTUALHELP]
->id="dc_datamodel_add_audience"
->title="Selezionare un pubblico"
->abstract="Seleziona il pubblico per il modello dati."
-
->[!CONTEXTUALHELP]
->id="dc_datamodel_properties"
->title="Proprietà del modello dati"
->abstract="Immetti l’etichetta del modello dati."
-
+>[!AVAILABILITY]
+>
+>Il modello dati con vista Area di lavoro è attualmente disponibile come versione beta solo per alcuni utenti.
 
 ## Che cos’è un modello dati {#data-model-start}
 
 Un modello dati è un set di schemi, tipi di pubblico e i collegamenti tra di essi. Viene utilizzato per federare i tipi di pubblico con i dati dei database.
 
-Ulteriori informazioni su [schemi](../customer/schemas.md#schema-start).
+In Federated Audience Composition, puoi creare e gestire modelli di dati direttamente nella vista Area di lavoro. Ciò include l’aggiunta di schemi e tipi di pubblico, nonché la definizione dei collegamenti tra di essi in base al caso d’uso.
 
-Ulteriori informazioni su [tipi di pubblico](../start/audiences.md).
+Ulteriori informazioni su [schemi](../customer/schemas.md#schema-start) e [tipi di pubblico](../start/audiences.md).
 
-Ad esempio, di seguito è riportata una rappresentazione di un modello dati : le tabelle con il loro nome e i collegamenti tra di esse.
+Di seguito è riportata una rappresentazione di un modello dati, ad esempio le tabelle con il nome e i collegamenti tra di esse.
 
 ![](assets/datamodel.png){zoomable="yes"}
-
-In Federated Audience Composition, è possibile creare molti modelli di dati.
-
-La loro creazione sarà basata sul caso d’uso: scegli le tabelle necessarie e collegale in base alle tue esigenze.
 
 ## Creare un modello dati {#data-model-create}
 
@@ -74,7 +53,11 @@ Per creare un modello dati, effettua le seguenti operazioni:
 
 ## Crea collegamenti {#data-model-links}
 
-Per creare collegamenti tra tabelle del modello dati, effettua le seguenti operazioni:
+>[!BEGINTABS]
+
+>[!TAB Vista tabella]
+
+Per creare collegamenti tra tabelle del modello dati dalla scheda Vista tabella, effettuare le seguenti operazioni:
 
 1. Fai clic sul menu **[!UICONTROL Crea collegamento]** di una delle tabelle oppure fai clic sul pulsante **[!UICONTROL Crea collegamenti]** e scegli le due tabelle:
 
@@ -95,6 +78,45 @@ Per creare collegamenti tra tabelle del modello dati, effettua le seguenti opera
 Di seguito sono elencati tutti i collegamenti definiti per il modello dati:
 
 ![](assets/datamodel_alllinks.png){zoomable="yes"}
+
+>[!TAB Visualizzazione area di lavoro]
+
+Per creare collegamenti tra tabelle del modello dati dalla scheda della vista Area di lavoro, effettua le seguenti operazioni:
+
+1. Accedi alla vista Area di lavoro del modello dati e scegli le due tabelle da collegare
+
+1. Fai clic sul pulsante ![](assets/do-not-localize/Smock_AddCircle_18_N.svg) accanto a Source Join, quindi trascina e guida la freccia verso Target Join per stabilire la connessione.
+
+   ![](assets/datamodel.gif){zoomable="yes"}
+
+1. Compila il modulo specificato per definire il collegamento e fai clic su **[!UICONTROL Applica]** una volta configurato.
+
+   ![](assets/datamodel-canvas-1.png){zoomable="yes"}
+
+   **Cardinalità**
+
+   * **1-N**: una occorrenza della tabella di origine può avere diverse occorrenze corrispondenti della tabella di destinazione, ma una occorrenza della tabella di destinazione può avere al massimo una occorrenza corrispondente della tabella di origine.
+
+   * **N-1**: una occorrenza della tabella di destinazione può avere diverse occorrenze corrispondenti della tabella di origine, ma una occorrenza della tabella di origine può avere al massimo una occorrenza corrispondente della tabella di destinazione.
+
+   * **1-1**: una occorrenza della tabella di origine può avere al massimo una occorrenza corrispondente della tabella di destinazione.
+
+1. Tutti i collegamenti definiti nel modello dati sono rappresentati da frecce nella vista area di lavoro. Fai clic su una freccia tra due tabelle per visualizzare i dettagli, apportare modifiche o rimuovere il collegamento in base alle esigenze.
+
+   ![](assets/datamodel-canvas-2.png){zoomable="yes"}
+
+1. Utilizza la barra degli strumenti per personalizzare e regolare l’area di lavoro.
+
+   ![](assets/datamodel-canvas-3.png)
+
+   * **[!UICONTROL Zoom in]**: ingrandisci l&#39;area di lavoro per visualizzare più chiaramente i dettagli del modello dati.
+   * **[!UICONTROL Zoom indietro]**: riduci le dimensioni dell&#39;area di lavoro per una visualizzazione più ampia del modello dati.
+   * **[!UICONTROL Adatta visualizzazione]**: regola lo zoom per adattarlo a tutti gli schemi e/o i tipi di pubblico all&#39;interno dell&#39;area visibile.
+   * **[!UICONTROL Attiva/disattiva interattività]**: attiva/disattiva l&#39;interazione dell&#39;utente con l&#39;area di lavoro.
+   * **[!UICONTROL Filtro]**: scegliere lo schema da visualizzare nell&#39;area di lavoro.
+   * **[!UICONTROL Forza layout automatico]**: disponi automaticamente schemi e/o tipi di pubblico per una migliore organizzazione.
+
+>[!ENDTABS]
 
 ## Video introduttivo {#data-model-video}
 

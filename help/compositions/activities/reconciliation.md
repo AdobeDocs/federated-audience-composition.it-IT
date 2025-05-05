@@ -3,9 +3,9 @@ audience: end-user
 title: Utilizzare l’attività Reconciliation
 description: Scopri come utilizzare l’attività Reconciliation
 exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '521'
 ht-degree: 39%
 
 ---
@@ -74,7 +74,7 @@ Per configurare l&#39;attività **Reconciliation**, eseguire la procedura seguen
 1. Seleziona i campi da utilizzare per la riconciliazione. Puoi utilizzare uno o più criteri di riconciliazione.
 
    1. Per utilizzare gli attributi per riconciliare i dati, seleziona l&#39;opzione **Attributi semplici**, quindi fai clic sul pulsante **Aggiungi regola**.
-   1. Selezionare i campi **Source** e **Destination** per la riconciliazione. Il campo **Source**. Il campo **Destinazione** corrisponde ai campi dello schema selezionato.
+   1. Selezionare i campi **Source** e **Destination** per la riconciliazione. Il campo **Destinazione** corrisponde ai campi dello schema selezionato.
 
       I dati vengono riconciliati quando l’origine e la destinazione sono uguali. Ad esempio, seleziona i campi **E-mail** per deduplicare i profili in base al loro indirizzo e-mail.
 

@@ -2,10 +2,10 @@
 title: Introduzione alla composizione di pubblico federato di Experience Platform
 description: Scopri che cos’è la composizione di pubblico federato di Adobe e come utilizzarla in Adobe Experience Platform
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 87%
+source-wordcount: '1112'
+ht-degree: 84%
 
 ---
 
@@ -42,6 +42,8 @@ In questa versione sono disponibili due casi d’uso:
 1. Creazione di pubblico: crea nuovi tipi di pubblico dai set di dati aziendali senza copiare i dati sottostanti e attivali con le destinazioni predefinite.
 
 1. Arricchimento del pubblico: arricchisci i tipi di pubblico esistenti in Adobe Experience Platform utilizzando dati del pubblico composti che sono stati federati dal data warehouse aziendale. Questi dati non verranno mantenuti nei profili cliente di Adobe Experience Platform.
+
+1. Arricchimento profilo: arricchisci i profili Adobe Experience Platform unendo i dati provenienti da warehouse esterni, consentendoti di migliorare i profili dei clienti con attributi e informazioni aggiuntive.
 
 ![diagramma](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
@@ -143,35 +145,3 @@ Vedi anche le domande frequenti su [questa pagina](faq.md).
 >title="Selezionare una dimensione di targeting"
 >abstract="La dimensione targeting consente di definire la popolazione target dell’operazione: destinatari, beneficiari del contratto, operatore, iscritti, ecc. Per impostazione predefinita, per le e-mail e gli SMS, la destinazione è selezionata dalla tabella incorporata Destinatari. Per le notifiche push, la dimensione di destinazione predefinita è Applicazioni in abbonamento."
 
-
-<!-- save profile IDs-->
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile"
->title="Salvare il profilo"
->abstract="Salvare il profilo"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_aepschemalist"
->title="Salvare il profilo in Elenco schema AEP"
->abstract="Salvare il profilo in Elenco schema AEP"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectaepattribute"
->title="Salvare il profilo in Attributo schema AEP"
->abstract="Salvare il profilo in Attributo schema AEP"
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_primaryidentitynamespace"
->title="Selezionare campo di identificazione principale"
->abstract="Campo di identificazione principale da utilizzare per i profili."
-
->[!CONTEXTUALHELP]
->id="ddc_orchestration_saveprofile_selectdataset"
->title="Set di dati di AEP"
->abstract="Selezionare i set di dati di AEP da utilizzare per i profili."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_saveprofile_selectaepschema"
->title="Salvare il profilo in Seleziona schema AEP"
->abstract="Selezionare lo schema di AEP da utilizzare per i profili."
