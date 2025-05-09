@@ -2,19 +2,20 @@
 audience: end-user
 title: Utilizzare l’attività Salva profili
 description: Scopri come utilizzare l’attività Salva profili
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+exl-id: 1c840838-32d5-4ceb-8430-835a235b7436
+source-git-commit: fae57356b8e9f5358a39d31cad4883171a310fb6
 workflow-type: tm+mt
 source-wordcount: '238'
-ht-degree: 0%
+ht-degree: 29%
 
 ---
 
-# Salvare profili {#save-profile}
+# Salva i profili {#save-profile}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile"
 >title="Salva i profili"
->abstract="L’attività Save Profiles ti consente di arricchire i profili Experience Platform unendo i dati provenienti da magazzini esterni, per migliorare i profili dei clienti con attributi aggiuntivi. "
+>abstract="L’attività Salva i profili ti consente di arricchire i profili di Experience Platform unendo i dati provenienti da warehouse esterni, permettendoti di migliorare i profili clienti con attributi aggiuntivi. "
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
@@ -23,7 +24,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_primaryidentitynamespace"
->title="Seleziona il campo di identificazione principale"
+>title="Seleziona campo dell’identità primaria"
 >abstract="Seleziona l’identità primaria da utilizzare per identificare i profili target nel database."
 
 >[!CONTEXTUALHELP]

@@ -25,7 +25,7 @@ ht-degree: 58%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_complement"
 >title="Generare un complemento"
->abstract="Puoi generare una transizione in uscita aggiuntiva con la popolazione rimanente, che è stata esclusa come duplicato. A tale scopo, attiva l’opzione **[!UICONTROL Genera complemento]**."
+>abstract="Puoi generare una transizione in uscita aggiuntiva con la popolazione rimanente, che è stata esclusa come duplicato. A tale scopo, attiva l’opzione **[!UICONTROL Genera complemento]**"
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_settings"

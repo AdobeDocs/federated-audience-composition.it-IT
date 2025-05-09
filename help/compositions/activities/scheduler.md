@@ -14,7 +14,7 @@ ht-degree: 41%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_scheduler"
->title="Attività del Modulo di pianificazione"
+>title="Attività del modulo di pianificazione"
 >abstract="L’attività **Modulo di pianificazione** consente di pianificare quando viene avviata una composizione del pubblico. Questa attività deve essere considerata come un avvio pianificato. Può essere utilizzata solo come prima attività di una composizione."
 
 L’attività del **Modulo di pianificazione** è un’attività di **Controllo del flusso**. Consente di pianificare l&#39;inizio della composizione. Questa attività deve essere considerata come un avvio pianificato. Può essere utilizzata solo come prima attività della composizione.
