@@ -3,15 +3,15 @@ title: Introduzione alla composizione di pubblico federato di Experience Platfor
 description: Scopri che cos’è la composizione di pubblico federato di Adobe e come utilizzarla in Adobe Experience Platform
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1112'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
 # Introduzione alla composizione di pubblico federato {#gs-fac}
 
-La Composizione del pubblico federato è disponibile per [ambienti Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/home){target="_blank"} e [Adobe Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"}. Consente di creare e arricchire i tipi di pubblico dai data warehouse di terze parti e di importarli in Adobe Experience Platform. La composizione di pubblico federato offre una soluzione semplice e potente per collegare il data warehouse aziendale direttamente all’interno di Adobe Real-time Customer Data Platform e/o Adobe Journey Optimizer ed eseguire query sulle tabelle del data warehouse.
+La composizione di pubblico federato è disponibile per gli ambienti [Adobe Real-Time Customer Data Platform](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/home){target="_blank"} e [Adobe Journey Optimizer](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/ajo-home){target="_blank"}. Consente di creare e arricchire i tipi di pubblico dai data warehouse di terze parti e di importarli in Adobe Experience Platform. La composizione di pubblico federato offre una soluzione semplice e potente per collegare il data warehouse aziendale direttamente all’interno di Adobe Real-time Customer Data Platform e/o Adobe Journey Optimizer ed eseguire query sulle tabelle del data warehouse.
 
 La composizione di pubblico federato di Adobe consente agli utenti delle app Adobe Experience Platform di accedere ai dati dei propri clienti archiviati nei data warehouse e nelle piattaforme di archiviazione cloud, come Amazon Redshift, Azure Synapse Analytics e altro ancora. I dati della clientela possono risiedere in più data warehouse e sono ora accessibili immediatamente, senza replica. Le piattaforme supportate sono elencate in [questa pagina](../connections/federated-db.md#supported-db).
 
@@ -43,7 +43,7 @@ In questa versione sono disponibili due casi d’uso:
 
 1. Arricchimento del pubblico: arricchisci i tipi di pubblico esistenti in Adobe Experience Platform utilizzando dati del pubblico composti che sono stati federati dal data warehouse aziendale. Questi dati non verranno mantenuti nei profili cliente di Adobe Experience Platform.
 
-1. Arricchimento profilo: arricchisci i profili Adobe Experience Platform unendo i dati provenienti da warehouse esterni, consentendoti di migliorare i profili dei clienti con attributi e informazioni aggiuntive.
+1. Arricchimento profilo: arricchisci i profili Adobe Experience Platform unendo i dati provenienti da warehouse esterni, in modo da migliorare i profili cliente con attributi e informazioni aggiuntive.
 
 ![diagramma](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
@@ -57,11 +57,11 @@ Passaggi chiave:
 
 1. **Integrazione dei dati**: raccogli i dati provenienti da varie origini e uniscili in un set di dati unificato. Scopri come connettere le app Adobe Experience Platform al tuo data warehouse aziendale e ai database supportati, quindi come configurarli in [questa sezione](../connections/federated-db.md).
 
-1. **Modellazione dati**: progetta e crea modelli di dati e schemi che definiscono la struttura, le relazioni e i vincoli dei dati. Ulteriori informazioni sugli schemi in [questa pagina](../customer/schemas.md). Scopri come creare collegamenti per il modello dati in [questa pagina](../data-management/gs-models.md).
+1. **Modellazione dati**: progetta e crea modelli di dati e schemi che definiscono la struttura, le relazioni e i vincoli dei dati. Ulteriori informazioni sugli schemi sono disponibili in [questa pagina](../customer/schemas.md). Per scoprire come creare collegamenti per il modello dati, consulta [questa pagina](../data-management/gs-models.md).
 
 1. **Trasformazione dei dati**: applica tecniche di manipolazione dei dati per modificare il formato, la struttura o i valori degli elementi dati in modo da renderli compatibili o idonei per applicazioni o analisi specifiche.
 
-1. **Utilizzo dati**: crea, orchestra e crea tipi di pubblico. Scopri come comporre il pubblico in [questa pagina](../compositions/gs-compositions.md). Puoi anche aggiornare o riutilizzare i tipi di pubblico esistenti tramite Adobe Experience Platform Audience Portal e le destinazioni. Ulteriori informazioni su [questa pagina](../connections/destinations.md)
+1. **Utilizzo dati**: crea, orchestra e crea tipi di pubblico. Ulteriori informazioni su creare i tipi di pubblico sono disponibili in [questa pagina](../compositions/gs-compositions.md). Puoi anche aggiornare o riutilizzare i tipi di pubblico esistenti tramite Adobe Experience Platform Audience Portal e le destinazioni. Ulteriori informazioni sono disponibili in [questa pagina](../connections/destinations.md).
 
 >[!NOTE]
 >
@@ -73,7 +73,7 @@ Passaggi chiave:
 
 Dopo aver creato una composizione, i tipi di pubblico risultanti vengono salvati in Adobe Experience Platform.
 
-Puoi quindi effettuare richieste di privacy per accedere e/o eliminare i dati del profilo corrispondenti a questi tipi di pubblico tramite Adobe Experience Platform **Privacy Service**, che fornisce una [interfaccia utente](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it){target="_blank"} e [API RESTful](https://experienceleague.adobe.com/it/docs/experience-platform/privacy/api/overview){target="_blank"} per aiutarti a gestire le richieste di dati dei clienti.
+Puoi quindi effettuare richieste di privacy per accedere e/o eliminare i dati di profilo corrispondenti a questi tipi di pubblico tramite Adobe Experience Platform **Privacy Service**, che fornisce un’[interfaccia utente](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it){target="_blank"} e [API RESTful](https://experienceleague.adobe.com/it/docs/experience-platform/privacy/api/overview){target="_blank"} per aiutarti a gestire le richieste di dati della clientela.
 
 >[!NOTE]
 >
@@ -90,9 +90,9 @@ La funzionalità Audit trail fornisce un record cronologico e dettagliato di tut
 <!-- Workflow + Workflow activities-->
 
 
-Scopri come accedere a Federated Audience Composition, guardrail e limitazioni in [questa pagina](access-prerequisites.md).
+Ulteriori informazioni su come accedere alla composizione di pubblico federato, a guardrail e limitazioni sono disponibili in [questa pagina](access-prerequisites.md).
 
-Vedi anche le domande frequenti su [questa pagina](faq.md).
+Consulta anche le domande frequenti in [questa pagina](faq.md).
 
 
 >[!CONTEXTUALHELP]

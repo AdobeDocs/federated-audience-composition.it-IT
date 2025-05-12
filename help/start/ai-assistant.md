@@ -1,34 +1,35 @@
 ---
-title: Utilizzare l’Assistente AI
-description: Scopri come sfruttare l’Assistente AI
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+title: Utilizzare l’Assistente IA
+description: Scopri come sfruttare l’Assistente IA
+exl-id: f7493a57-e42d-43f9-b20a-1b9b90477a74
+source-git-commit: fae57356b8e9f5358a39d31cad4883171a310fb6
+workflow-type: ht
 source-wordcount: '266'
-ht-degree: 21%
+ht-degree: 100%
 
 ---
 
-# Utilizzare l’Assistente AI {#ai-assistant}
+# Utilizzare l’Assistente IA {#ai-assistant}
 
-AI Assistant è una funzione dell’interfaccia utente progettata per aiutarti a navigare e comprendere i concetti di Adobe. È disponibile per casi d’uso relativi alla conoscenza del prodotto in diversi prodotti Adobe Experience Cloud, inclusa la Federated Audience Composition.
+L’Assistente IA è una funzione dell’interfaccia utente progettata per aiutarti ad accedere e comprendere i concetti di Adobe. È disponibile per casi d’uso di conoscenza del prodotto in diversi prodotti di Adobe Experience Cloud, tra cui la composizione di pubblico federato.
 
 >[!CAUTION]
 >
->Prima di poter utilizzare l’Assistente all’intelligenza artificiale, devi accettare le linee guida per l’utente di Adobe Experience Cloud Generative AI. Ulteriori informazioni sul contratto in [questa pagina](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/home){target="_blank"}.
+>Prima di poter utilizzare l’Assistente IA, devi accettare le linee guida per l’utente sull’intelligenza artificiale generativa di Adobe Experience Cloud. Per ulteriori informazioni sull’accordo consulta [questa pagina](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
-In Federated Audience Composition, puoi accedere alla conoscenza del prodotto per scoprire i concetti di Adobe relativi a diverse parti del processo. L&#39;Assistente AI supporta due tipi di conoscenza del prodotto: **Individuazione aperta** (esplorazione dei concetti del prodotto in base alla documentazione di Experience League) e **Apprendimento mirato e risoluzione dei problemi** (domande su funzionalità o caratteristiche specifiche).
+Nella composizione di pubblico federato, puoi accedere alla conoscenza del prodotto per scoprire i concetti di Adobe riguardanti i vari aspetti del processo. L’Assistente AI supporta due tipi di conoscenza del prodotto: **Individuazione aperta** (esplorazione dei concetti del prodotto in base alla documentazione di Experience League) e **Apprendimento mirato e risoluzione dei problemi** (domande su funzionalità o caratteristiche specifiche).
 
 Esempi di tali domande includono:
 
-* Cos’è la Federated Audience Composition?
-* Come si configura un account di Snowflake Federated Database?
+* Che cos’è la composizione di pubblico federato?
+* Come si configura un account del database federato Snowflake?
 * Come si crea una composizione federata?
 
 Per porre una domanda:
 
-1. Accedi a AI Assistant facendo clic sull’icona nella barra superiore.
+1. Accedi all’Assistente IA facendo clic sull’icona nella barra superiore.
 
-   L’Assistente AI viene visualizzato nella sezione destra dello schermo. Puoi fare clic su ![Testo alternativo immagine immersione](assets/do-not-localize/Smock_FullScreen_18_N.svg "Espandi") per espandere la finestra dell&#39;assistente di intelligenza artificiale.
+   L’Assistente IA compare nella sezione a destra dello schermo. Puoi fare clic su ![testo alternativo di approfondimento immagine](assets/do-not-localize/Smock_FullScreen_18_N.svg "Espandi") per espandere la finestra dell’Assistente IA.
 
    ![](assets/do-not-localize/ai-assistant-open.png)
 
@@ -42,4 +43,4 @@ Per porre una domanda:
 
 1. Utilizza il pollice verso l’alto o verso il basso per valutare la risposta.
 
-Per informazioni su come utilizzare l&#39;Assistente AI, vedi gli obiettivi di esempio che puoi raggiungere con l&#39;Assistente AI e come funziona l&#39;Assistente AI, consulta la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/home){target="_blank"}.
+Per scoprire come utilizzare l’Assistente IA, rivedi gli obiettivi di esempio che puoi raggiungere con l’Assistente IA e scopri come funziona, consultando la [documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/home){target="_blank"}.

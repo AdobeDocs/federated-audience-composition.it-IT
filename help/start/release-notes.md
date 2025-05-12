@@ -3,9 +3,9 @@ title: Novità nella composizione di pubblico federato di Experience Platform
 description: Aggiornamenti e note sulla versione più recenti
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1130'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 83%
 <table>
 <thead>
 <tr>
-<th><strong>Vista area di lavoro modello dati - Beta</strong><br/></th>
+<th><strong>Vista area di lavoro modello dati (Beta)</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>La visualizzazione Area di lavoro per la sezione Modelli di dati migliora l’esperienza consentendo la visualizzazione dei modelli di dati e dei relativi collegamenti in un layout di area di lavoro, insieme alla visualizzazione tabulare esistente. </p>
-<p>Il modello dati con vista Area di lavoro è attualmente disponibile come versione beta solo per alcuni utenti.</p>
+<p>La vista area di lavoro per la sezione Modelli dati migliora l’esperienza consentendo la visualizzazione dei modelli di dati e dei relativi collegamenti in un layout dell’area di lavoro, insieme alla vista a tabella esistente. </p>
+<p>La vista area di lavoro del modello dati è attualmente disponibile in versione Beta solo per alcuni utenti.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../data-management/gs-models.md">documentazione dettagliata</a>.</p>
 </br>
 </td>
@@ -38,13 +38,13 @@ ht-degree: 83%
 <table>
 <thead>
 <tr>
-<th><strong>Supporto di AI Assistant per la conoscenza del prodotto</strong><br/></th>
+<th><strong>Supporto dell’Assistente IA per la conoscenza del prodotto</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>L’Assistente IA è una funzione dell’interfaccia utente che consente di accedere e comprendere i concetti Adobe e ottenere insight operativi per l’ambiente specifico. È disponibile in diversi prodotti Adobe Experience Cloud, tra cui Composizione di pubblico federato.</p>
+<p>L’Assistente IA è una funzione dell’interfaccia utente che consente di accedere e comprendere i concetti di Adobe e ottenere insight operativi per l’ambiente specifico. È disponibile in diversi prodotti Adobe Experience Cloud, tra cui la composizione di pubblico federato.</p>
 <p>Per ulteriori informazioni, consulta la <a href="../start/ai-assistant.md">documentazione dettagliata</a>.</p>
 </br>
 </td>
@@ -55,13 +55,13 @@ ht-degree: 83%
 <table>
 <thead>
 <tr>
-<th><strong>Attività Salva profili</strong><br/></th>
+<th><strong>Attività Salva i profili</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p> Federated Audience Composition ora supporta il caso di utilizzo dell’arricchimento dei profili, consentendo ai clienti di migliorare i profili Experience Platform esistenti con i dati dei propri data warehouse esterni.
+<p> La composizione di pubblico federato ora supporta il caso d’uso dell’arricchimento dei profili, consentendo alla clientela di migliorare i profili Experience Platform esistenti con i dati dei propri data warehouse esterni.
 </p>
 <p>Per ulteriori informazioni, consulta la <a href="../compositions/activities/save-profiles.md">documentazione dettagliata</a>.</p>
 </br>
@@ -84,22 +84,22 @@ Questa versione include i miglioramenti indicati di seguito.
 
 * **Esportazione di tipi di pubblico di grandi dimensioni**
 
-  Federated Audience Composition ora supporta l’esportazione di tipi di pubblico di grandi dimensioni, con file di dimensioni superiori a 1 GB.
+  La composizione di pubblico federato ora supporta l’esportazione di tipi di pubblico di grandi dimensioni, anche con file di dimensioni superiori a 1 GB.
 
-* **Salva attività pubblico**
+* **Attività Salva pubblico**
 
-  È stata aggiunta una nota all&#39;attività **Save Audience**, che ricorda agli utenti di collaborare con un amministratore di dati per applicare etichette di governance ai nuovi schemi e set di dati creati durante la creazione e l&#39;arricchimento del pubblico.
+  È stata aggiunta una nota all’attività **Salva pubblico**, che ricorda agli utenti di collaborare con un amministratore dati per applicare etichette di governance ai nuovi schemi e set di dati creati durante la creazione e l’arricchimento del pubblico.
   [Ulteriori informazioni sulle etichette di utilizzo dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/user-guide)
 
 ### Compatibilità {#fac-25-4-compat}
 
-* **Connessione protetta Amazon Redshift**
+* **Connessione protetta ad Amazon Redshift**
 
-  Con questa nuova versione, Federated Audience Composition supporta connessioni sicure di collegamenti privati ai database Amazon Redshift. [Ulteriori informazioni](../connections/federated-db.md#amazon-redshift)
+  Con questa nuova versione, la composizione di pubblico federato supporta connessioni protette di collegamento privato a database Amazon Redshift. [Ulteriori informazioni](../connections/federated-db.md#amazon-redshift)
 
-* **Google Big Query**
+* **Google BigQuery**
 
-  Con questa nuova versione, Federated Audience Composition supporta connessioni VPN sicure per i database Google Big Query. [Ulteriori informazioni](../connections/federated-db.md#google-big-query)
+  Con questa nuova versione, la composizione di pubblico federato supporta connessioni VPN sicure per i database Google BigQuery. [Ulteriori informazioni](../connections/federated-db.md#google-big-query)
 
 ## Versione di marzo 2025 {#fac-25-3}
 

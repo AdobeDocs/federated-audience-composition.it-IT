@@ -4,9 +4,9 @@ title: Configurare i database federati
 description: Scopri come configurare i database federati
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2133'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 95%
 
 La composizione di pubblico federato di Experience Platform consente di creare e arricchire i tipi di pubblico dai data warehouse di terze parti e di importarli in Adobe Experience Platform.
 
-Scopri come creare, configurare, testare e salvare la connessione al tuo database esterno in [questa pagina](connections.md). Di seguito è riportato l’elenco dei database supportati e le impostazioni dettagliate da configurare per ciascuno di essi.
+Scopri come creare, configurare, testare e salvare la connessione al database esterno in [questa pagina](connections.md). Di seguito è riportato l’elenco dei database supportati e le impostazioni dettagliate da configurare per ciascuno di essi.
 
 ## Database supportati {#supported-db}
 
@@ -49,7 +49,7 @@ Con la composizione di pubblico federato puoi connetterti ai seguenti database. 
 >
 >* Sono supportati solo Amazon Redshift AWS, Amazon Redshift Spectrum e Amazon Redshift Serverless.
 >
->* È supportato l&#39;accesso sicuro ai database Amazon Redshift esterni tramite un collegamento privato.
+>* È supportato l’accesso sicuro al database esterno Amazon Redshift tramite collegamento privato.
 
 Utilizza i database federati per elaborare le informazioni archiviate in un database esterno. Segui i passaggi seguenti per configurare l’accesso ad Amazon Redshift.
 
@@ -75,7 +75,7 @@ Utilizza i database federati per elaborare le informazioni archiviate in un data
 
    * **[!UICONTROL Database]**: nome del database se non specificato nel DSN. Se specificato nel DSN, questo campo può essere lasciato vuoto.
 
-   * **[!UICONTROL Schema di lavoro]**: nome dello schema del database da utilizzare per le tabelle di lavoro. Ulteriori informazioni nella [documentazione di Amazon](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}
+   * **[!UICONTROL Schema di lavoro]**: nome dello schema del database da utilizzare per le tabelle di lavoro. Per ulteriori informazioni consulta la [documentazione di Amazon](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}
 
      >[!NOTE]
      >
@@ -125,7 +125,7 @@ Utilizza i database federati per elaborare le informazioni archiviate in un data
 
 | Opzione | Descrizione |
 |---|---|
-| Autenticazione | Tipo di autenticazione supportato dal connettore. Valore attualmente supportato: ActiveDirectoryMSI. Per ulteriori informazioni, consultare [Documentazione di Microsoft SQL](https://learn.microsoft.com/it-IT/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (ad esempio stringhe di connessione n° 8) |
+| Autenticazione | Tipo di autenticazione supportato dal connettore. Valore attualmente supportato: ActiveDirectoryMSI. Per ulteriori informazioni, consulta la [documentazione di Microsoft SQL](https://learn.microsoft.com/it-IT/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (esempio di stringhe di connessione n. 8) |
 
 ## Google BigQuery {#google-big-query}
 
@@ -232,7 +232,7 @@ Il connettore supporta le seguenti opzioni:
 | WeekStart | Parametro di sessione WEEK_START. Per impostazione predefinita, è impostato su 0. <br>Per ulteriori informazioni, consulta [questa pagina](https://docs.snowflake.com/en/sql-reference/parameters.html#week-start){target="_blank"}. |
 | UseCachedResult | Parametro di sessione USE_CACHED_RESULTS. Per impostazione predefinita, è impostato su TRUE. Questa opzione può essere utilizzata per disabilitare i risultati di Snowflake memorizzati nella cache. <br>Per ulteriori informazioni, consulta [questa pagina](https://docs.snowflake.net/manuals/user-guide/querying-persisted-results.html){target="_blank"}. |
 | bulkThreads | Numero di thread da utilizzare per il caricamento in blocco di Snowflake; un numero maggiore di thread indica prestazioni migliori per caricamenti in blocco di maggiori dimensioni. Per impostazione predefinita, è impostato su 1. Il numero può essere regolato, a seconda del conteggio di thread automatico. |
-| chunkSize | Determina la dimensione del file di un blocco del caricamento in blocco. Per impostazione predefinita, è impostata su 128 MB. Può essere modificata per ottenere prestazioni migliori se utilizzata con bulkThreads. Un numero maggiore di thread attivi contemporaneamente garantisce prestazioni migliori. <br>Per ulteriori informazioni, consulta la [documentazione di Snowflake](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}. |
+| chunkSize | Determina la dimensione del file di un blocco del caricamento in blocco. Per impostazione predefinita, è impostata su 128 MB. Può essere modificata per ottenere prestazioni migliori se utilizzata con bulkThreads. Un numero maggiore di thread attivi contemporaneamente garantisce prestazioni migliori. <br>Per ulteriori informazioni, consulta la [documentazione Snowflake](https://docs.snowflake.net/manuals/sql-reference/sql/put.html){target="_blank"}. |
 | StageName | Nome della fase interna di pre-provisioning. Verrà utilizzato nel caricamento in blocco anziché creare una nuova fase temporanea. |
 
 ## Vertica Analytics {#vertica-analytics}
@@ -372,5 +372,5 @@ Utilizza i database federati per elaborare le informazioni archiviate in un data
 
 | Opzione | Descrizione |
 |---|---|
-| Autenticazione | Tipo di autenticazione supportato dal connettore. Valore attualmente supportato: ActiveDirectoryMSI. Per ulteriori informazioni, consultare [Documentazione di Microsoft SQL](https://learn.microsoft.com/it-IT/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (ad esempio stringhe di connessione n° 8) |
+| Autenticazione | Tipo di autenticazione supportato dal connettore. Valore attualmente supportato: ActiveDirectoryMSI. Per ulteriori informazioni, consulta la [documentazione di Microsoft SQL](https://learn.microsoft.com/it-IT/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (esempio di stringhe di connessione n. 8) |
 

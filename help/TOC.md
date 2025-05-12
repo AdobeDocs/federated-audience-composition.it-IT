@@ -3,9 +3,9 @@ user-guide-title: Composizione di pubblico federato di Experience Platform
 title: Documentazione della composizione di pubblico federato di Experience Platform
 breadcrumb-title: Composizione di pubblico federato di Experience Platform
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '161'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -15,8 +15,8 @@ ht-degree: 83%
 + [Documentazione della composizione di pubblico federato di Experience Platform](home.md)
 + [Note sulla versione](start/release-notes.md)
 + [Note sulla versione](start/e-release-notes.md)
-+ Guida introduttiva a Federated Audience Composition {#start}
-   + [Cos’è la Composizione di pubblico federato?](start/get-started.md)
++ Introduzione alla composizione di pubblico federato {#start}
+   + [Che cos’è la composizione di pubblico federato?](start/get-started.md)
    + [Prerequisiti e guardrail](start/access-prerequisites.md)
    + [Accedere alla Composizione di pubblico federato](start/feature-access.md)
    + [Utilizzare i tipi di pubblico](start/audiences.md)
@@ -30,7 +30,7 @@ ht-degree: 83%
       + [Creare e configurare gli schemi](customer/schemas.md)
       + [Configurare i modelli di dati](data-management/gs-models.md)
    + [Arricchire i tipi di pubblico di Adobe Experience Platform con dati esterni](connections/destinations.md)
-+ Componi tipi di pubblico {#compositions}
++ Comporre i tipi di pubblico {#compositions}
    + [Introduzione alle composizioni](compositions/gs-compositions.md)
    + Creare ed eseguire la prima composizione {#create-composition}
       + [Principi chiave per la creazione della composizione](compositions/gs-composition-creation.md)
@@ -48,7 +48,7 @@ ht-degree: 83%
       + [Fork](compositions/activities/fork.md)
       + [Riconciliazione](compositions/activities/reconciliation.md)
       + [Salva pubblico](compositions/activities/save-audience.md)
-      + [Salvare profili](compositions/activities/save-profiles.md)
+      + [Salva i profili](compositions/activities/save-profiles.md)
       + [Modulo di pianificazione](compositions/activities/scheduler.md)
       + [Dividi](compositions/activities/split.md)
       + [Attendi](compositions/activities/wait.md)
