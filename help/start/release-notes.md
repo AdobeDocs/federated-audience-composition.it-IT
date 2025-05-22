@@ -2,16 +2,48 @@
 title: Novità nella composizione di pubblico federato di Experience Platform
 description: Aggiornamenti e note sulla versione più recenti
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: ht
-source-wordcount: '1130'
-ht-degree: 100%
+source-git-commit: eee35ac94be4192a2e4f9372caec164fbf0e2471
+workflow-type: tm+mt
+source-wordcount: '1246'
+ht-degree: 93%
 
 ---
 
 # Note sulla versione {#rn-new}
 
 [!DNL Federated Audience Composition] offre continuamente nuove funzioni, miglioramenti alle funzioni esistenti e correzioni di bug. In queste note sulla versione, tutte le modifiche sono consolidate. [!DNL Federated Audience Composition] è stato sviluppato in modalità nativa su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Ulteriori informazioni su queste modifiche sono disponibili nelle [Note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it){target="_blank"}.
+
+## Versione di maggio 2025 {#fac-25-5}
+
+### Nuove funzionalità {#fac-25-05-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>Vista area di lavoro modello dati - Disponibilità generale</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Il modello dati con vista Area di lavoro è ora disponibile per tutti i clienti.</p>
+<p>La vista area di lavoro per la sezione Modelli dati migliora l’esperienza consentendo la visualizzazione dei modelli di dati e dei relativi collegamenti in un layout dell’area di lavoro, insieme alla vista a tabella esistente. </p>
+<p>Per ulteriori informazioni sulla visualizzazione Area di lavoro, leggere la <a href="../data-management/gs-models.md">panoramica dei modelli di dati</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Miglioramenti {#fac-25-5-improvements}
+
+Questa versione include i seguenti miglioramenti.
+
+* **Controllo dell&#39;accesso basato sul ruolo**
+
+  A partire dalla versione di maggio, [!DNL Federated Audience Composition] supporta le nuove autorizzazioni granulari per il controllo degli accessi. Gli utenti possono assegnare queste autorizzazioni ai ruoli utente per un accesso più preciso a [!DNL Federated Audience Composition].
+
+  Per ulteriori informazioni sulle nuove autorizzazioni, consulta la [guida all&#39;accesso a Federated Audience Composition](feature-access.md).
 
 ## Versione di aprile 2025 {#fac-25-4}
 

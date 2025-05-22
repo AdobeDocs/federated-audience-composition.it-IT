@@ -3,14 +3,23 @@ audience: end-user
 title: Introduzione alle composizioni
 description: Scopri come iniziare a utilizzare le composizioni
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
-workflow-type: ht
-source-wordcount: '288'
-ht-degree: 100%
+source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
+workflow-type: tm+mt
+source-wordcount: '319'
+ht-degree: 90%
 
 ---
 
 # Introduzione alle composizioni {#compositions}
+
+>[!AVAILABILITY]
+>
+>Per accedere alle composizioni, è necessario disporre di una delle seguenti autorizzazioni:
+>
+>-**Gestisci composizioni federate**
+>-**Visualizza composizioni federate**
+>
+>Per ulteriori informazioni sulle autorizzazioni richieste, consulta la [Guida all&#39;accesso a Federated Audience Composition](/help/start/feature-access.md).
 
 ## Che cos’è una composizione? {#what}
 

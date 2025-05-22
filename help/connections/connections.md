@@ -3,14 +3,23 @@ audience: end-user
 title: Creare e gestire connessioni con i database federati
 description: Scopri come creare e gestire le connessioni con i database federati
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 5972479c87a757eb09ce74535e26427f5410f254
+source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '324'
 ht-degree: 4%
 
 ---
 
 # Creare connessioni {#connections-fdb}
+
+>[!AVAILABILITY]
+>
+>Per accedere alle connessioni, è necessario disporre di una delle seguenti autorizzazioni:
+>
+>-**Gestisci database federato**
+>-**Visualizza database federato**
+>
+>Per ulteriori informazioni sulle autorizzazioni richieste, consulta la [Guida all&#39;accesso a Federated Audience Composition](/help/start/feature-access.md).
 
 La Federated Audience Composition di Experience Platform consente al cliente di creare e arricchire i tipi di pubblico dai data warehouse di terze parti e di importarli in Adobe Experience Platform. I data warehouse supportati sono elencati in [questa sezione](../start/access-prerequisites.md#supported-systems).
 

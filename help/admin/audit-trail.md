@@ -3,14 +3,22 @@ audience: end-user
 title: Audit Trail
 description: Scopri come le azioni e gli eventi vengono registrati e accessibili nell’audit trail
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 12%
+source-wordcount: '371'
+ht-degree: 11%
 
 ---
 
 # Audit Trail {#audit-trail}
+
+>[!AVAILABILITY]
+>
+>Per accedere all’audit trail, è necessaria la seguente autorizzazione:
+>
+>-**Visualizza prova di verifica**
+>
+>Per ulteriori informazioni sulle autorizzazioni richieste, consulta la [Guida all&#39;accesso a Federated Audience Composition](/help/start/feature-access.md).
 
 >[!CONTEXTUALHELP]
 >id="dc_audit_trail"
