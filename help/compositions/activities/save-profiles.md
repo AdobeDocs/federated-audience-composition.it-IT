@@ -15,7 +15,7 @@ ht-degree: 29%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile"
 >title="Salva i profili"
->abstract="L’attività Salva i profili ti consente di arricchire i profili di Experience Platform unendo i dati provenienti da warehouse esterni, permettendoti di migliorare i profili clienti con attributi aggiuntivi. "
+>abstract="L’attività Salva profili consente di arricchire i profili di Experience Platform mediante la federazione di dati provenienti da warehouse esterni, in modo da migliorare i profili clienti con attributi aggiuntivi. "
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
