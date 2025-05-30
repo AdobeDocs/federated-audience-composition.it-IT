@@ -3,9 +3,9 @@ title: Novità nella composizione di pubblico federato di Experience Platform
 description: Aggiornamenti e note sulla versione più recenti
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: eee35ac94be4192a2e4f9372caec164fbf0e2471
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1246'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ ht-degree: 93%
 <tbody>
 <tr>
 <td>
-<p>Il modello dati con vista Area di lavoro è ora disponibile per tutti i clienti.</p>
+<p>Il modello dati con vista area di lavoro è ora disponibile per tutta la clientela.</p>
 <p>La vista area di lavoro per la sezione Modelli dati migliora l’esperienza consentendo la visualizzazione dei modelli di dati e dei relativi collegamenti in un layout dell’area di lavoro, insieme alla vista a tabella esistente. </p>
-<p>Per ulteriori informazioni sulla visualizzazione Area di lavoro, leggere la <a href="../data-management/gs-models.md">panoramica dei modelli di dati</a>.</p>
+<p>Per ulteriori informazioni sulla vista area di lavoro, consulta la <a href="../data-management/gs-models.md">panoramica sui modelli di dati</a>.</p>
 </br>
 </td>
 </tr>
@@ -37,13 +37,13 @@ ht-degree: 93%
 
 ### Miglioramenti {#fac-25-5-improvements}
 
-Questa versione include i seguenti miglioramenti.
+Questa versione include i seguenti miglioramenti:
 
-* **Controllo dell&#39;accesso basato sul ruolo**
+* **Controllo degli accessi basato sul ruolo**
 
-  A partire dalla versione di maggio, [!DNL Federated Audience Composition] supporta le nuove autorizzazioni granulari per il controllo degli accessi. Gli utenti possono assegnare queste autorizzazioni ai ruoli utente per un accesso più preciso a [!DNL Federated Audience Composition].
+  A partire dalla versione di maggio, [!DNL Federated Audience Composition] supporta le nuove autorizzazioni granulari per il controllo degli accessi. Gli utenti possono assegnare tali autorizzazioni ai ruoli utente per un accesso più preciso alla [!DNL Federated Audience Composition].
 
-  Per ulteriori informazioni sulle nuove autorizzazioni, consulta la [guida all&#39;accesso a Federated Audience Composition](feature-access.md).
+  Per ulteriori informazioni sulle nuove autorizzazioni, consulta la [guida all’accesso alla Composizione di pubblico federato](feature-access.md).
 
 ## Versione di aprile 2025 {#fac-25-4}
 
