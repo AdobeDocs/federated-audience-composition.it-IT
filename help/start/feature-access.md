@@ -5,7 +5,7 @@ exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
 source-git-commit: 62bbed4818caf06539234f97d4c0d1cf9c9a52d1
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Ad esempio, se viene attivata una nuova sandbox denominata “fac-test”, viene
 
 ## Gestire l’accesso alla Composizione di pubblico federato
 
-Per accedere a **Federated Audience Composition**, devi prima assicurarti di assegnare le autorizzazioni necessarie per accedere a diversi aspetti di Federated Audience Composition. Questi ruoli devono quindi essere assegnati agli utenti che devono accedere a **Federated Audience Composition**.
+Per accedere alla **Composizione di pubblico federato** e ai relativi diversi aspetti, devi prima assicurarti di assegnare le autorizzazioni necessarie. Questi ruoli devono quindi essere assegnati agli utenti che devono accedere alla **Composizione di pubblico federato**.
 
 Nota: solo gli amministratori possono assegnare le autorizzazioni.
 
@@ -29,25 +29,25 @@ Nota: solo gli amministratori possono assegnare le autorizzazioni.
 
    ![](assets/access_fda_1.png)
 
-1. Seleziona **[!UICONTROL Modifica]** per modificare le autorizzazioni del tuo ruolo.
+1. Seleziona **[!UICONTROL Modifica]** per modificare le autorizzazioni del ruolo.
 
    ![](assets/access_fda_2.png)
 
-1. Aggiungi le autorizzazioni richieste per l’utente. Puoi aggiungere le seguenti autorizzazioni per accedere a Federated Audience Composition:
+1. Aggiungi le autorizzazioni richieste per l’utente. Per accedere alla Composizione di pubblico federato, puoi aggiungere le seguenti autorizzazioni:
 
    | Autorizzazione | Descrizione |
    | ---------- | ----------- |
-   | Gestisci dati federati | Utilizza questa autorizzazione per gestire tutti gli aspetti di Federated Audience Composition. Questa autorizzazione include le autorizzazioni Gestisci database federato, Gestisci schema federato, Gestisci modello dati federato e Gestisci composizioni federate. |
-   | Gestisci database federato | Utilizzare questa autorizzazione per aggiungere, visualizzare, aggiornare ed eliminare le connessioni ai database federati. |
-   | Visualizza Federated Database | Utilizzare questa autorizzazione per visualizzare le connessioni ai database federati. |
-   | Gestisci schema federato | Utilizzare questa autorizzazione per creare, visualizzare, aggiornare, eliminare e aggiornare schemi. |
-   | Visualizza dati schema federato | Utilizza questa autorizzazione per visualizzare la scheda dati all’interno della sezione schema. |
-   | Visualizza schema federato | Utilizzare questa autorizzazione per visualizzare le tabelle dello schema. |
-   | Gestisci Federated Data Model | Utilizza questa autorizzazione per creare, visualizzare, aggiornare ed eliminare modelli di dati. |
-   | Visualizza Federated Data Model | Utilizza questa autorizzazione per visualizzare i modelli di dati. |
-   | Visualizza prova di verifica federativa | Utilizza questa autorizzazione per visualizzare l’audit trail per Federated Audience Composition. |
-   | Gestisci composizioni federate | Utilizzare questa autorizzazione per creare, visualizzare, aggiornare ed eliminare composizioni federate. |
-   | Visualizza composizioni federate | Utilizzare questa autorizzazione per visualizzare le composizioni federate. |
+   | Gestione dati federati | Utilizza questa autorizzazione per gestire tutti gli aspetti della Composizione di pubblico federato. Questa autorizzazione include: Gestione database federato, Gestione schema federato, Gestione modello dati federato e Gestione composizioni federate. |
+   | Gestione database federato | Utilizza questa autorizzazione per aggiungere, visualizzare, aggiornare ed eliminare le connessioni ai database federati. |
+   | Visualizzazione database federato | Utilizza questa autorizzazione per visualizzare le connessioni ai database federati. |
+   | Gestione schema federato | Utilizza questa autorizzazione per creare, visualizzare, aggiornare, eliminare e aggiornare schemi. |
+   | Visualizzazione dati schema federato | Utilizza questa autorizzazione per visualizzare la scheda dati all’interno della sezione dello schema. |
+   | Visualizzazione schema federato | Utilizza questa autorizzazione per visualizzare le tabelle dello schema. |
+   | Gestione modello dati federato | Utilizza questa autorizzazione per creare, visualizzare, aggiornare ed eliminare modelli di dati. |
+   | Visualizzazione modello dati federato | Utilizza questa autorizzazione per visualizzare i modelli di dati. |
+   | Visualizzazione audit trail della federazione | Utilizza questa autorizzazione per visualizzare l’audit trail per la Composizione di pubblico federato. |
+   | Gestione composizioni federate | Utilizza questa autorizzazione per creare, visualizzare, aggiornare ed eliminare composizioni federate. |
+   | Visualizzazione composizioni federate | Utilizza questa autorizzazione per visualizzare le composizioni federate. |
 
    ![](assets/permissions.png)
 
@@ -57,13 +57,13 @@ Tutti gli utenti già assegnati a questo ruolo avranno le autorizzazioni aggiorn
 
 Per assegnare questo ruolo ai nuovi utenti:
 
-1. Passa alla scheda **[!UICONTROL Utenti]** nel dashboard Ruolo e seleziona **[!UICONTROL Aggiungi utenti]**.
+1. Passa alla scheda **[!UICONTROL Utenti]** nella dashboard dei ruoli e seleziona **[!UICONTROL Aggiungi utenti]**.
 
    ![](assets/access_fda_4.png)
 
 1. Inserisci il nome o l’indirizzo e-mail dell’utente oppure selezionalo dall’elenco disponibile. Al termine, seleziona **[!UICONTROL Salva]**.
 
-<!-- Alternatively, you can assign one of the pre-existing roles to the users, depending on what permissions they need. For more information on assigning pre-existing roles to a user, please read the [guide on managing users for a product profile](https://experienceleague.adobe.com/it/docs/experience-platform/access-control/ui/users).
+<!-- Alternatively, you can assign one of the pre-existing roles to the users, depending on what permissions they need. For more information on assigning pre-existing roles to a user, please read the [guide on managing users for a product profile](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/ui/users).
 
 | Role name | Permissions |
 | --------- | ----------- |
