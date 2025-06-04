@@ -25,7 +25,7 @@ Per ulteriori informazioni su Privacy Service, leggere la [panoramica di Privacy
 
 ### Richieste di privacy {#privacy-requests}
 
-In Privacy Service, puoi creare e gestire singole richieste di privacy per accedere e cancellare i dati dei clienti da Federated Audience Composition. Privacy Service fornisce sia un&#39;interfaccia utente [1} che un&#39;API [RESTful](https://experienceleague.adobe.com/it/docs/experience-platform/privacy/api/overview){target="_blank"} per aiutarti a gestire le richieste di dati dei clienti.](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it){target="_blank"}
+In Privacy Service, puoi creare e gestire singole richieste di privacy per accedere e cancellare i dati dei clienti da Federated Audience Composition. Privacy Service fornisce sia un&#39;interfaccia utente [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it)1&rbrace; che un&#39;API [RESTful](https://experienceleague.adobe.com/it/docs/experience-platform/privacy/api/overview){target="_blank"} per aiutarti a gestire le richieste di dati dei clienti.{target="_blank"}
 
 Per ulteriori informazioni sulla creazione e la gestione delle richieste di accesso a dati personali, leggere i [processi relativi alla privacy nella guida dell&#39;interfaccia utente di Privacy Service](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/ui/user-guide){target="_blank"}.
 
