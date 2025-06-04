@@ -3,10 +3,10 @@ audience: end-user
 title: Configurare i database federati
 description: Scopri come configurare i database federati
 exl-id: b8c0589d-4150-40da-ac79-d53cced236e8
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: ht
-source-wordcount: '2133'
-ht-degree: 100%
+source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
+workflow-type: tm+mt
+source-wordcount: '2128'
+ht-degree: 98%
 
 ---
 
@@ -37,7 +37,7 @@ Con la composizione di pubblico federato puoi connetterti ai seguenti database. 
 
 * [Amazon Redshift](#amazon-redshift)
 * [Azure Synapse Analytics](#azure-synapse)
-* [Google BigQuery](#google-big-query)
+* [BigQuery Google](#google-bigquery)
 * [Snowflake](#snowflake)
 * [Vertica Analytics](#vertica-analytics)
 * [Databricks](#databricks)
@@ -127,7 +127,7 @@ Utilizza i database federati per elaborare le informazioni archiviate in un data
 |---|---|
 | Autenticazione | Tipo di autenticazione supportato dal connettore. Valore attualmente supportato: ActiveDirectoryMSI. Per ulteriori informazioni, consulta la [documentazione di Microsoft SQL](https://learn.microsoft.com/it-IT/sql/connect/odbc/using-azure-active-directory?view=sql-server-ver15#example-connection-strings){target="_blank"} (esempio di stringhe di connessione n. 8) |
 
-## Google BigQuery {#google-big-query}
+## BigQuery Google {#google-bigquery}
 
 Utilizza i database federati per elaborare le informazioni archiviate in un database esterno. Segui i passaggi seguenti per configurare l’accesso a Google BigQuery.
 
@@ -143,7 +143,7 @@ Utilizza i database federati per elaborare le informazioni archiviate in un data
 
    ![](assets/federated_database_3.png)
 
-1. Configura le impostazioni di autenticazione di Google BigQuery:
+1. Configura le impostazioni di autenticazione BigQuery di Google:
 
    * **[!UICONTROL Account di servizio]**: immetti l’indirizzo e-mail del tuo **[!UICONTROL Account di servizio]**. Per ulteriori informazioni, consulta la [Documentazione di Google Cloud](https://cloud.google.com/iam/docs/creating-managing-service-accounts){target="_blank"}.
 

@@ -2,9 +2,9 @@
 title: Prerequisiti e guardrail per la composizione di pubblico federato
 description: Scopri i prerequisiti, le autorizzazioni e i guardrail per la composizione di pubblico federato
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: ht
-source-wordcount: '338'
+source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
+workflow-type: tm+mt
+source-wordcount: '337'
 ht-degree: 100%
 
 ---
@@ -24,7 +24,7 @@ La composizione di pubblico federato supporta i seguenti data warehouse cloud:
 * Amazon Redshift
 * Azure Synapse
 * Databricks
-* Google BigQuery
+* BigQuery Google
 * Snowflake
 * Vertica Analytics
 * Microsoft Fabric
@@ -62,7 +62,7 @@ Aggiungi questi indirizzi IP al tuo elenco consentiti per concedere l’accesso 
 * La composizione di pubblico federato non è attualmente disponibile per la clientela [che acquisisce dati sanitari](https://experienceleague.adobe.com/it/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/audiences-profiles-identities/audiences/about-audiences){target="_blank"}
 
 <!--
-* Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/it/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
+* Federated Audience Composition is compatible with Privacy & Security Shield and can be used in all verticals except for healthcare industries. Currently, Federated Audience Composition cannot be licensed to customers looking to ingest health data. [Learn more](https://experienceleague.adobe.com/en/docs/events/customer-data-management-voices-recordings/governance/healthcare-shield){target="_blank"}-->
 
 * La composizione di pubblico federato è soggetta alle limitazioni del prodotto e ai guardrail delle prestazioni elencati nella [documentazione di Real-time Customer Data Platform di Adobe](https://experienceleague.adobe.com/it/docs/experience-platform/profile/guardrails){target="_blank"}.
 

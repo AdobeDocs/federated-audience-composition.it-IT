@@ -3,10 +3,10 @@ audience: end-user
 title: Creare e gestire connessioni con i database federati
 description: Scopri come creare e gestire le connessioni con i database federati
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: e26b3cfda7c4de98d1e47fc40edd2b87859c6209
+source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 4%
+source-wordcount: '323'
+ht-degree: 8%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 4%
 >Per accedere alle connessioni, è necessario disporre di una delle seguenti autorizzazioni:
 >
 >-**Gestisci database federato**
->-**Visualizza database federato**
+>>-**Visualizza database federato**
 >
->Per ulteriori informazioni sulle autorizzazioni richieste, consulta la [Guida all&#39;accesso a Federated Audience Composition](/help/start/feature-access.md).
+>Per ulteriori informazioni sulle autorizzazioni richieste, consulta la [Guida all’accesso alla Composizione di pubblico federato](/help/start/feature-access.md).
 
 La Federated Audience Composition di Experience Platform consente al cliente di creare e arricchire i tipi di pubblico dai data warehouse di terze parti e di importarli in Adobe Experience Platform. I data warehouse supportati sono elencati in [questa sezione](../start/access-prerequisites.md#supported-systems).
 
@@ -46,7 +46,7 @@ Per impostare una connessione al database, eseguire la procedura seguente:
    * [Amazon Redshift](federated-db.md#amazon-redshift)
    * [Azure Synapse](federated-db.md#azure-synapse-redshift)
    * [Databricks](federated-db.md#databricks)
-   * [Google BigQuery](federated-db.md#google-big-query)
+   * [BigQuery Google](federated-db.md#google-bigquery)
    * [Snowflake](federated-db.md#snowflake)
    * [Vertica Analytics](federated-db.md#vertica-analytics)
    * [Microsoft Fabric](federated-db.md#microsoft-fabric)
