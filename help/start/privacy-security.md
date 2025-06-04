@@ -21,23 +21,23 @@ Ad esempio, quando crei un pubblico utilizzando il blocco dell’attività di sa
 
 In alternativa, dopo aver creato un arricchimento del profilo utilizzando l’attività salva profilo nell’area di lavoro della composizione, l’arricchimento risultante viene memorizzato in Experience Platform come schema abilitato per il profilo e set di dati abilitati per il profilo. Questi dati di arricchimento sono contrassegnati con un campo di identità e uno spazio dei nomi di identità. Di conseguenza, puoi utilizzare Privacy Service per accedere a questi profili e pulirli.
 
-Per ulteriori informazioni su Privacy Service, leggere la [panoramica di Privacy Service](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/home){target="_blank"}.
+Per ulteriori informazioni su Privacy Service, leggere la [panoramica di Privacy Service](https://experienceleague.adobe.com/it/docs/experience-platform/privacy/home){target="_blank"}.
 
 ### Richieste di privacy {#privacy-requests}
 
 In Privacy Service, puoi creare e gestire singole richieste di privacy per accedere e cancellare i dati dei clienti da Federated Audience Composition. Privacy Service fornisce sia un&#39;interfaccia utente [&#128279;](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/user-guide.html?lang=it)1&rbrace; che un&#39;API [RESTful](https://experienceleague.adobe.com/it/docs/experience-platform/privacy/api/overview){target="_blank"} per aiutarti a gestire le richieste di dati dei clienti.{target="_blank"}
 
-Per ulteriori informazioni sulla creazione e la gestione delle richieste di accesso a dati personali, leggere i [processi relativi alla privacy nella guida dell&#39;interfaccia utente di Privacy Service](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/ui/user-guide){target="_blank"}.
+Per ulteriori informazioni sulla creazione e la gestione delle richieste di accesso a dati personali, leggere i [processi relativi alla privacy nella guida dell&#39;interfaccia utente di Privacy Service](https://experienceleague.adobe.com/it/docs/experience-platform/privacy/ui/user-guide){target="_blank"}.
 
 ## Applicazione dei criteri di consenso {#consent}
 
 Federated Audience Composition, tramite Experience Platform, offre strumenti che consentono di automatizzare l’applicazione del consenso, garantendo l’attivazione di tipi di pubblico in base al consenso fornito ai clienti.
 
-Ad esempio, quando crei un pubblico utilizzando il blocco dell’attività di salvataggio nell’area di lavoro della composizione, il pubblico risultante viene memorizzato nel data lake in Experience Platform come pubblico esterno. Experience Platform supporta automaticamente la convalida del consenso durante l’attivazione. Per ulteriori informazioni, leggere le [Domande frequenti sul servizio di segmentazione](https://experienceleague.adobe.com/en/docs/experience-platform/segmentation/faq#consent){target="_blank"}.
+Ad esempio, quando crei un pubblico utilizzando il blocco dell’attività di salvataggio nell’area di lavoro della composizione, il pubblico risultante viene memorizzato nel data lake in Experience Platform come pubblico esterno. Experience Platform supporta automaticamente la convalida del consenso durante l’attivazione. Per ulteriori informazioni, leggere le [Domande frequenti sul servizio di segmentazione](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/faq#consent){target="_blank"}.
 
-In alternativa, dopo aver creato un arricchimento del profilo utilizzando l’attività salva profilo nell’area di lavoro della composizione, l’arricchimento risultante viene memorizzato in Experience Platform come schema abilitato per il profilo e set di dati abilitato per il profilo. Per i profili esistenti, gli attributi di consenso disponibili vengono rispettati automaticamente durante l’attivazione. Per i nuovi profili, gli attributi di consenso forniti durante l’acquisizione del profilo vengono rispettati automaticamente durante l’attivazione. Per ulteriori informazioni sull&#39;applicazione dei consensi ai profili, leggere la [guida del gruppo di campi consensi e preferenze](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/field-groups/profile/consents){target="_blank"}.
+In alternativa, dopo aver creato un arricchimento del profilo utilizzando l’attività salva profilo nell’area di lavoro della composizione, l’arricchimento risultante viene memorizzato in Experience Platform come schema abilitato per il profilo e set di dati abilitato per il profilo. Per i profili esistenti, gli attributi di consenso disponibili vengono rispettati automaticamente durante l’attivazione. Per i nuovi profili, gli attributi di consenso forniti durante l’acquisizione del profilo vengono rispettati automaticamente durante l’attivazione. Per ulteriori informazioni sull&#39;applicazione dei consensi ai profili, leggere la [guida del gruppo di campi consensi e preferenze](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/field-groups/profile/consents){target="_blank"}.
 
-Per ulteriori informazioni sull&#39;applicazione dei consensi, leggere la [guida all&#39;interfaccia utente per la gestione dei criteri](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/policies/user-guide#consent-policy){target="_blank"}.
+Per ulteriori informazioni sull&#39;applicazione dei consensi, leggere la [guida all&#39;interfaccia utente per la gestione dei criteri](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/policies/user-guide#consent-policy){target="_blank"}.
 
 ## Ciclo di vita dei dati {#data-lifecycle}
 
@@ -47,13 +47,13 @@ Ad esempio, quando crei un pubblico utilizzando il blocco dell’attività di sa
 
 In alternativa, dopo aver creato un arricchimento del profilo utilizzando l’attività salva profilo nell’area di lavoro della composizione, l’arricchimento risultante viene memorizzato in Experience Platform come schema abilitato per il profilo e set di dati abilitato per il profilo. Di conseguenza, puoi eseguire il ciclo di vita dei dati per accedere ai profili e pulirli.
 
-Per ulteriori informazioni sull&#39;utilizzo del ciclo di vita dei dati, leggere la [Panoramica del ciclo di vita dei dati](https://experienceleague.adobe.com/en/docs/experience-platform/data-lifecycle/home){target="_blank"}.
+Per ulteriori informazioni sull&#39;utilizzo del ciclo di vita dei dati, leggere la [Panoramica del ciclo di vita dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/data-lifecycle/home){target="_blank"}.
 
 ## Etichette di utilizzo dei dati {#data-usage-labels}
 
 Le etichette di utilizzo dei dati ti consentono di categorizzare set di dati e campi in base ai criteri di governance applicabili a tali dati. Dopo aver creato un pubblico utilizzando le composizioni, puoi applicare le etichette dati appropriate allo schema risultante per garantire che rispetti le restrizioni di utilizzo richieste.
 
-Per ulteriori informazioni sull&#39;utilizzo delle etichette dati, leggere la [panoramica delle etichette di utilizzo dati](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/overview){target="_blank"}.
+Per ulteriori informazioni sull&#39;utilizzo delle etichette dati, leggere la [panoramica delle etichette di utilizzo dati](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/overview){target="_blank"}.
 
 ## Crittografia {#encryption}
 
@@ -63,13 +63,13 @@ I dati inattivi si riferiscono ai dati dei clienti utilizzati in Federated Audie
 
 I dati in transito si riferiscono ai dati dei clienti durante lo spostamento da un componente all’altro in Federated Audience Composition. I dati vengono mantenuti crittografati in tutti i componenti Federated Audience Composition che utilizzano TLS 1.3 tramite HTTPS.
 
-Per ulteriori informazioni su come Adobe gestisce la crittografia dei dati, leggere la guida sulla crittografia dei dati [in Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/encryption){target="_blank"}.
+Per ulteriori informazioni su come Adobe gestisce la crittografia dei dati, leggere la guida sulla crittografia dei dati [in Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/landing/governance-privacy-security/encryption){target="_blank"}.
 
 ### Chiavi gestite dal cliente {#customer-managed-keys}
 
 Le chiavi gestite dal cliente consentono di controllare i dati, utilizzando le proprie chiavi di crittografia per crittografare i dati. Poiché Federated Audience Composition **non** memorizza i dati del cliente, puoi utilizzare le chiavi gestite dal cliente direttamente sui tipi di pubblico e sugli arricchimenti risultanti, poiché verranno memorizzati nel data lake su Experience Platform.
 
-Per ulteriori informazioni sulle chiavi gestite dal cliente, leggere la [guida alle chiavi gestite dal cliente](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys/overview){target="_blank"}.
+Per ulteriori informazioni sulle chiavi gestite dal cliente, leggere la [guida alle chiavi gestite dal cliente](https://experienceleague.adobe.com/it/docs/experience-platform/landing/governance-privacy-security/customer-managed-keys/overview){target="_blank"}.
 
 ## Registro di audit {#audit-log}
 
