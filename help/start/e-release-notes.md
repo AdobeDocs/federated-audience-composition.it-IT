@@ -4,9 +4,9 @@ description: Aggiornamenti e note sulla versione più recenti
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: a33c3706836e578246c994130d6b46c0cb0e5c1f
+source-git-commit: 996f5a932b2cc849f5844300fcaf38b4d62a84b4
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1095'
 ht-degree: 89%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 89%
 
 Questa versione include i seguenti miglioramenti:
 
-* **Disponibilità generale per i clienti del settore sanitario**
+* **Disponibilità generale per i clienti Adobe Healthcare Shield**
 
-  Federated Audience Composition sarà disponibile per i clienti del settore sanitario per i casi di utilizzo di creazione di pubblico, arricchimento e arricchimento di profili entro la fine di giugno.
+  Federated Audience Composition sarà disponibile per i clienti di Adobe Healthcare Shield per i casi di utilizzo di creazione di pubblico, arricchimento e arricchimento del profilo entro la fine di giugno.
 
 * **Controllo dell&#39;accesso a livello di oggetto**
 
