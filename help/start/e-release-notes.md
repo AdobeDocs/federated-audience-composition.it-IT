@@ -4,16 +4,36 @@ description: Aggiornamenti e note sulla versione più recenti
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: ht
-source-wordcount: '980'
-ht-degree: 100%
+source-git-commit: a33c3706836e578246c994130d6b46c0cb0e5c1f
+workflow-type: tm+mt
+source-wordcount: '1091'
+ht-degree: 89%
 
 ---
 
 # Note sulla versione {#rn-new}
 
 [!DNL Federated Audience Composition] offre continuamente nuove funzioni, miglioramenti alle funzioni esistenti e correzioni di bug. In queste note sulla versione, tutte le modifiche sono consolidate. [!DNL Federated Audience Composition] è stato sviluppato in modalità nativa su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Ulteriori informazioni su queste modifiche sono disponibili nelle [Note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it){target="_blank"}.
+
+## Versione di giugno 2025 {#fac-25-6}
+
+Questa versione include i seguenti miglioramenti:
+
+* **Disponibilità generale per i clienti del settore sanitario**
+
+  Federated Audience Composition sarà disponibile per i clienti del settore sanitario per i casi di utilizzo di creazione di pubblico, arricchimento e arricchimento di profili entro la fine di giugno.
+
+* **Controllo dell&#39;accesso a livello di oggetto**
+
+  Federated Audience Composition ora supporta il controllo degli accessi a livello di oggetto per applicare le etichette di accesso alle composizioni specificate.
+
+* **Ruoli predefiniti**
+
+  Ora puoi utilizzare uno dei ruoli predefiniti per gestire le autorizzazioni utente per l’accesso a Federated Audience Composition.
+
+* **Aggiornamenti incrementali nei casi di utilizzo dell&#39;arricchimento dei profili**
+
+  L’attività Save profiles ora supporta gli aggiornamenti incrementali. Con gli aggiornamenti incrementali, puoi eseguire query e aggiornare dati incrementali durante l’arricchimento dei profili con dati provenienti da data warehouse esterni.
 
 ## Versione di aprile 2025 {#fac-25-4}
 
