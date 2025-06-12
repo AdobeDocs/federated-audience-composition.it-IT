@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Salva profili
 description: Scopri come utilizzare l’attività Salva profili
 exl-id: 1c840838-32d5-4ceb-8430-835a235b7436
-source-git-commit: fae57356b8e9f5358a39d31cad4883171a310fb6
+source-git-commit: ca975be136155f69bc84362fde8c283b1c4edffe
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 29%
+source-wordcount: '374'
+ht-degree: 18%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 29%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
->title="Seleziona schema AEP"
+>title="Seleziona schema Experience Platform"
 >abstract="Scegli lo schema Experience Platform per i profili."
 
 >[!CONTEXTUALHELP]
@@ -29,12 +29,42 @@ ht-degree: 29%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepschema"
->title="Seleziona schema AEP"
+>title="Seleziona schema Experience Platform"
 >abstract="Scegli lo schema Experience Platform per i profili."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_updatemode"
+>title="Modalità di aggiornamento Salva profilo"
+>abstract="Le modalità di aggiornamento disponibili per l’attività Save profile includono l’aggiornamento completo e l’aggiornamento incrementale."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_updatemode_full"
+>title="Aggiornamento completo"
+>abstract="La modalità di aggiornamento completo aggiorna l’intero set di profili per l’arricchimento."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_updatemode_incremental"
+>title="Aggiornamento incrementale"
+>abstract="La modalità di aggiornamento incrementale aggiorna i profili che sono stati modificati dall’ultima esecuzione dell’arricchimento."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_primaryidentityfield"
+>title="Campo dell’identità primaria"
+>abstract="Il campo dell’identità primaria indica la fonte di verità quando si uniscono i profili per l’arricchimento."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_requiredfieldscheck"
+>title="Criteri dei campi obbligatori"
+>abstract="Un campo obbligatorio è un attributo che deve essere compilato per ogni profilo o record durante l’esportazione dei dati. Se manca un campo obbligatorio, l’esportazione non sarà completa o valida."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_saveprofile_primaryidentitycheck"
+>title="Criteri del campo di identità primaria"
+>abstract="L’identificatore univoco di ciascun profilo o record. In questo modo, ogni record può essere riconosciuto e abbinato in modo distinto, evitando la duplicazione dei dati."
 
 L&#39;attività **Salva profili** consente di arricchire i profili Adobe Experience Platform con dati federati da warehouse esterni.
 
-Questa attività viene generalmente utilizzata per migliorare i profili dei clienti inserendo attributi e informazioni aggiuntivi senza spostare o duplicare fisicamente i dati nella piattaforma
+Questa attività viene generalmente utilizzata per migliorare i profili dei clienti inserendo attributi e informazioni aggiuntivi senza spostare o duplicare fisicamente i dati nella piattaforma.
 
 ## Configurare l’attività Salva profili {#save-profile-configuration}
 
