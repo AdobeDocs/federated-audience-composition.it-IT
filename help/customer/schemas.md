@@ -17,7 +17,7 @@ ht-degree: 18%
 >Per accedere agli schemi, è necessario disporre di una delle seguenti autorizzazioni:
 >
 >-**Gestisci schema federato**
->>-**Visualizza schema federato**
+>&#x200B;>-**Visualizza schema federato**
 >
 >Per ulteriori informazioni sulle autorizzazioni richieste, leggere la [guida al controllo degli accessi](/help/governance-privacy-security/access-control.md).
 

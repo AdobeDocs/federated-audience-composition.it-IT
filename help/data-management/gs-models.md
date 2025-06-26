@@ -18,7 +18,7 @@ ht-degree: 2%
 >Per accedere ai modelli di dati, è necessario disporre di una delle seguenti autorizzazioni:
 >
 >-**Gestisci Federated Data Model**
->>-**Visualizza Federated Data Model**
+>&#x200B;>-**Visualizza Federated Data Model**
 >
 >Per ulteriori informazioni sulle autorizzazioni richieste, leggere la [guida al controllo degli accessi](/help/governance-privacy-security/access-control.md).
 
