@@ -17,7 +17,7 @@ ht-degree: 16%
 >Per accedere alle composizioni, è necessario disporre di una delle seguenti autorizzazioni:
 >
 >-**Gestione composizioni federate**
->>-**Visualizzazione composizioni federate**
+>&#x200B;>-**Visualizzazione composizioni federate**
 >
 >Per ulteriori informazioni sulle autorizzazioni richieste, leggere la [guida al controllo degli accessi](/help/governance-privacy-security/access-control.md).
 
