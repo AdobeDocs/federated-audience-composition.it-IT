@@ -17,7 +17,7 @@ ht-degree: 16%
 >Per accedere alle composizioni, è necessario disporre di una delle seguenti autorizzazioni:
 >
 >-**Gestione composizioni federate**
->&#x200B;>-**Visualizzazione composizioni federate**
+>>-**Visualizzazione composizioni federate**
 >
 >Per ulteriori informazioni sulle autorizzazioni richieste, leggere la [guida al controllo degli accessi](/help/governance-privacy-security/access-control.md).
 
@@ -73,7 +73,7 @@ Viene visualizzato il popover **[!UICONTROL Gestisci accesso]**. In questa pagin
 | Etichette per dati sensibili | Le etichette sensibili (etichette &quot;S&quot;) vengono utilizzate per categorizzare l’utente e/o l’organizzazione in questione come sensibili. |
 | Etichette per ecosistemi partner | Le etichette dell’ecosistema partner vengono utilizzate per categorizzare i dati provenienti da origini esterne all’organizzazione. |
 
-Per ulteriori informazioni sulle etichette di accesso e governance dei dati, leggere il glossario delle [etichette di utilizzo dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/reference).
+Per ulteriori informazioni sulle etichette di accesso e governance dei dati, leggere il glossario delle [etichette di utilizzo dei dati](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference).
 
 ## Passaggi successivi
 
