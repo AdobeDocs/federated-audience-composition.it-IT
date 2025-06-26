@@ -70,9 +70,9 @@ Questa attività viene generalmente utilizzata per migliorare i profili dei clie
 
 >[!IMPORTANT]
 >
->L&#39;attività **Salva profili** richiede uno schema e un set di dati abilitati per il profilo. Per informazioni su come abilitare il set di dati per l&#39;abilitazione del profilo, leggere la [guida utente del set di dati](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
+>L&#39;attività **Salva profili** richiede uno schema e un set di dati abilitati per il profilo. Per informazioni su come abilitare il set di dati per l&#39;abilitazione del profilo, leggere la [guida utente del set di dati](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
 >
->Inoltre, se il set di dati selezionato **non** ha upsert abilitato, i dati dei profili saranno **sostituiti**. Per informazioni su come abilitare l&#39;upsert per i set di dati, leggere la [guida all&#39;upsert](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
+>Inoltre, se il set di dati selezionato **non** ha upsert abilitato, i dati dei profili saranno **sostituiti**. Per informazioni su come abilitare l&#39;upsert per i set di dati, leggere la [guida all&#39;upsert](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/enable-upsert).
 
 Segui questi passaggi per configurare l&#39;attività **[!UICONTROL Salva profili]**:
 
