@@ -73,7 +73,7 @@ Viene visualizzato il popover **[!UICONTROL Gestisci accesso]**. In questa pagin
 | Etichette per dati sensibili | Le etichette sensibili (etichette &quot;S&quot;) vengono utilizzate per categorizzare l’utente e/o l’organizzazione in questione come sensibili. |
 | Etichette per ecosistemi partner | Le etichette dell’ecosistema partner vengono utilizzate per categorizzare i dati provenienti da origini esterne all’organizzazione. |
 
-Per ulteriori informazioni sulle etichette di accesso e governance dei dati, leggere il glossario delle [etichette di utilizzo dei dati](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference).
+Per ulteriori informazioni sulle etichette di accesso e governance dei dati, leggere il glossario delle [etichette di utilizzo dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/reference).
 
 ## Passaggi successivi
 
