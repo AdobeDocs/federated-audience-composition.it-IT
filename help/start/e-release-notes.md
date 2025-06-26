@@ -4,7 +4,7 @@ description: Aggiornamenti e note sulla versione più recenti
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: 996f5a932b2cc849f5844300fcaf38b4d62a84b4
+source-git-commit: a9410b26629a39b27466ef587e2ff0a1122b9868
 workflow-type: tm+mt
 source-wordcount: '1095'
 ht-degree: 89%
@@ -75,7 +75,7 @@ Questa versione include i miglioramenti indicati di seguito.
 
   Per continuare ad accedere all’interfaccia utente di [!DNL Federated Audience Composition], contattata il tuo amministratore per richeidere che questa autorizzazione venga aggiunta al tuo ruolo.
 
-  Per informazioni su come assegnare questa autorizzazione, consulta la [documentazione dettagliata](feature-access.md).
+  Per informazioni su come assegnare questa autorizzazione, consulta la [documentazione dettagliata](/help/governance-privacy-security/access-control.md).
 
 <!--
 * **Data model Canvas view**

@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Salva profili
 description: Scopri come utilizzare l’attività Salva profili
 exl-id: 1c840838-32d5-4ceb-8430-835a235b7436
-source-git-commit: ca975be136155f69bc84362fde8c283b1c4edffe
+source-git-commit: c76ef4b64a58d3d43e78b489a1efe1a97a8c09f7
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 18%
+source-wordcount: '563'
+ht-degree: 12%
 
 ---
 
@@ -62,17 +62,23 @@ ht-degree: 18%
 >title="Criteri del campo di identità primaria"
 >abstract="L’identificatore univoco di ciascun profilo o record. In questo modo, ogni record può essere riconosciuto e abbinato in modo distinto, evitando la duplicazione dei dati."
 
-L&#39;attività **Salva profili** consente di arricchire i profili Adobe Experience Platform con dati federati da warehouse esterni.
+L&#39;attività **[!UICONTROL Salva profili]** consente di arricchire i profili Adobe Experience Platform con dati federati da warehouse esterni.
 
 Questa attività viene generalmente utilizzata per migliorare i profili dei clienti inserendo attributi e informazioni aggiuntivi senza spostare o duplicare fisicamente i dati nella piattaforma.
 
-## Configurare l’attività Salva profili {#save-profile-configuration}
+## Configura l&#39;attività [!UICONTROL Salva profili] {#save-profile-configuration}
 
-Segui questi passaggi per configurare l&#39;attività **Salva profili**:
+>[!IMPORTANT]
+>
+>L&#39;attività **Salva profili** richiede uno schema e un set di dati abilitati per il profilo. Per informazioni su come abilitare il set di dati per l&#39;abilitazione del profilo, leggere la [guida utente del set di dati](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
+>
+>Inoltre, se il set di dati selezionato **non** ha upsert abilitato, i dati dei profili saranno **sostituiti**. Per informazioni su come abilitare l&#39;upsert per i set di dati, leggere la [guida all&#39;upsert](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
 
-1. Aggiungi un&#39;attività **Salva profili** alla composizione.
+Segui questi passaggi per configurare l&#39;attività **[!UICONTROL Salva profili]**:
 
-   ![](../assets/save-profile.png)
+1. Aggiungi un&#39;attività **[!UICONTROL Salva profili]** alla composizione.
+
+   ![Il pulsante Salva profili è evidenziato all&#39;interno delle attività.](../assets/save-profiles/save-profiles.png){width="1500" zoomable="yes"}
 
 1. Specifica l’etichetta dei profili da creare.
 
@@ -82,14 +88,31 @@ Segui questi passaggi per configurare l&#39;attività **Salva profili**:
 
 1. Seleziona lo schema Adobe Experience Platform da utilizzare.
 
-   ![](../assets/save-profile-2.png)
+   ![Vengono visualizzati gli schemi disponibili.](../assets/save-profiles/select-schema.png){width="1500" zoomable="yes"}
 
-1. Scegli il campo di identità principale che verrà utilizzato per identificare i profili nel database.
+1. Seleziona il set di dati in cui desideri salvare l’arricchimento.
 
-1. Se si desidera riconciliare attributi di dati aggiuntivi, fare clic su **Aggiungi attributi**.
+   ![Il menu a discesa del set di dati è evidenziato.](../assets/save-profiles/select-dataset.png){width="300" zoomable="yes"}
 
-   Quindi, specifica il campo **Source** (dati esterni) e il campo **Destination** (campo schema) per ogni attributo che desideri mappare.
+1. Dopo aver selezionato il set di dati, puoi visualizzare il campo dell’identità primaria che verrà utilizzato per identificare i profili nel database.
 
-   ![](../assets/save-profile-3.png)
+1. Seleziona **[!UICONTROL Aggiungi campi]** per aggiungere i campi di identità primari e obbligatori.
 
-1. Una volta configurata, fai clic su **Inizio**.
+   ![Il pulsante Aggiungi campi è evidenziato.](../assets/save-profiles/add-fields.png){width="300" zoomable="yes"}
+
+   Puoi specificare il campo **Source** (dati esterni) e il campo **Destination** (campo schema) per ogni attributo che desideri mappare.
+
+   ![I campi Source e Destinazione sono evidenziati e indicano dove creare la mappatura tra i campi](../assets/save-profiles/specify-mapping.png){width="300" zoomable="yes"}
+
+1. Puoi anche specificare la modalità di aggiornamento per l’arricchimento.
+
+   ![Vengono visualizzati i tipi di modalità di aggiornamento.](../assets/save-profiles/select-update-mode.png){width="300" zoomable="yes"}
+
+   | Modalità di aggiornamento | Descrizione |
+   | ----------- | ----------- |
+   | Aggiornamenti completi | L’intero set di profili viene aggiornato per l’arricchimento. |
+   | Aggiornamenti incrementali | Per l’arricchimento vengono aggiornati solo i profili che sono stati modificati dopo l’ultimo arricchimento eseguito. |
+
+   Se selezioni [!UICONTROL Aggiornamenti incrementali], devi anche scegliere la data dell&#39;ultima modifica per determinare quali dati vengono inviati.
+
+1. Una volta configurata, selezionare **Inizio**.

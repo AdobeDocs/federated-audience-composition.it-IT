@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Save audience
 description: Scopri come utilizzare l’attività Save audience
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+source-git-commit: 7429577d99d2f163e7084db056005fe641d1bcf3
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 34%
+source-wordcount: '532'
+ht-degree: 25%
 
 ---
 
@@ -34,15 +34,11 @@ ht-degree: 34%
 >abstract="Selezionare lo spazio dei nomi da utilizzare per i profili."
 >additional-url="https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/namespaces" text="Ulteriori informazioni nella documentazione di Experience Platform"
 
-L&#39;attività **Save audience** ti consente di creare un nuovo pubblico dalla popolazione calcolata a monte in una composizione. I tipi di pubblico creati vengono aggiunti all&#39;elenco dei tipi di pubblico di Adobe Experience Platform e sono disponibili tramite il menu **Tipi di pubblico**. [Scopri come utilizzare i tipi di pubblico](../../start/audiences.md)
+L&#39;attività **[!UICONTROL Save audience]** ti consente di creare un nuovo pubblico dalla popolazione calcolata a monte in una composizione. I tipi di pubblico creati vengono aggiunti all&#39;elenco dei tipi di pubblico di Adobe Experience Platform e sono disponibili tramite il menu **Tipi di pubblico**. [Scopri come utilizzare i tipi di pubblico](../../start/audiences.md)
 
 Questa attività è essenzialmente utilizzata per mantenere i gruppi di popolazione calcolati nella stessa composizione, convertendoli in tipi di pubblico riutilizzabili. Connettila ad altre attività di targeting, come a un’attività **Crea pubblico** o **Combina**.
 
-L&#39;attività **[!UICONTROL Save Audience]** genera un nuovo schema e set di dati per il pubblico. Dopo la creazione del pubblico, coordinati con l’amministratore per assegnare le etichette di governance dei dati appropriate. [Ulteriori informazioni sulle etichette di utilizzo dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/user-guide)
-
->[!IMPORTANT]
->
->L&#39;attività **Save Audience** richiede uno schema e un set di dati abilitati per il profilo. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
+L&#39;attività **[!UICONTROL Save Audience]** genera un nuovo schema di pubblico e un set di dati associato, che può contenere informazioni personali (PII) o informazioni sanitarie protette (PHI). Dopo la creazione del pubblico, collabora con l’amministratore per garantire che le etichette di governance dei dati appropriate vengano applicate in conformità ai criteri dei dati della tua organizzazione. Per ulteriori informazioni su come applicare le etichette di utilizzo dati, leggere la [guida utente delle etichette di utilizzo dati](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/user-guide).
 
 ## Configurare l’attività Salva pubblico {#save-audience-configuration}
 
@@ -69,7 +65,7 @@ Per configurare l’attività **Salva pubblico**, segui questi passaggi:
 
 ## Accedere al pubblico in Adobe Experience Platform {#access-audience}
 
-Dopo aver eseguito la composizione, il pubblico risultante viene salvato in Adobe Experience Platform come pubblico esterno e reso disponibile in Adobe Real-Time Customer Data Platform e/o Adobe Journey Optimizer. È reso accessibile nel menu **Tipi di pubblico**. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+Dopo aver eseguito la composizione, il pubblico risultante viene salvato in Adobe Experience Platform come pubblico esterno e disponibile in Adobe Real-Time CDP e/o Adobe Journey Optimizer in Audience Portal. Per ulteriori informazioni su Audience Portal, consulta la [panoramica di Audience Portal](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}.
 
 Il pubblico creato include tutti i campi selezionati nella sezione Mappature pubblico. Puoi indirizzare questo pubblico in Journey Optimizer o attivarlo in qualsiasi destinazione supportata da Adobe Experience Platform.
 
