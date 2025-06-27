@@ -6,7 +6,7 @@ exl-id: 1c840838-32d5-4ceb-8430-835a235b7436
 source-git-commit: c76ef4b64a58d3d43e78b489a1efe1a97a8c09f7
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 12%
+ht-degree: 37%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 12%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_aepschemalist"
->title="Seleziona schema Experience Platform"
+>title="Selezionare lo schema Experience Platform"
 >abstract="Scegli lo schema Experience Platform per i profili."
 
 >[!CONTEXTUALHELP]
@@ -29,13 +29,13 @@ ht-degree: 12%
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_selectaepschema"
->title="Seleziona schema Experience Platform"
+>title="Selezionare lo schema Experience Platform"
 >abstract="Scegli lo schema Experience Platform per i profili."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_updatemode"
 >title="Modalità di aggiornamento Salva profilo"
->abstract="Le modalità di aggiornamento disponibili per l’attività Save profile includono l’aggiornamento completo e l’aggiornamento incrementale."
+>abstract="Le modalità di aggiornamento disponibili per l’attività Salva profilo includono l’aggiornamento completo e quello incrementale."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_updatemode_full"
@@ -50,17 +50,17 @@ ht-degree: 12%
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_primaryidentityfield"
 >title="Campo dell’identità primaria"
->abstract="Il campo dell’identità primaria indica la fonte di verità quando si uniscono i profili per l’arricchimento."
+>abstract="Il campo dell’identità primaria indica l’attendibilità al momento dell’unione dei profili per l’arricchimento."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_requiredfieldscheck"
 >title="Criteri dei campi obbligatori"
->abstract="Un campo obbligatorio è un attributo che deve essere compilato per ogni profilo o record durante l’esportazione dei dati. Se manca un campo obbligatorio, l’esportazione non sarà completa o valida."
+>abstract="Un campo obbligatorio è un attributo che deve essere compilato per ogni profilo o record durante l’esportazione dei dati. Se un campo obbligatorio manca, l’esportazione non sarà completa o valida."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_saveprofile_primaryidentitycheck"
->title="Criteri del campo di identità primaria"
->abstract="L’identificatore univoco di ciascun profilo o record. In questo modo, ogni record può essere riconosciuto e abbinato in modo distinto, evitando la duplicazione dei dati."
+>title="Criteri del campo dell’identità primaria"
+>abstract="L’identificatore univoco di ciascun profilo o record. Questo assicura che ogni record possa essere riconosciuto e abbinato in modo distinto, evitando la duplicazione dei dati."
 
 L&#39;attività **[!UICONTROL Salva profili]** consente di arricchire i profili Adobe Experience Platform con dati federati da warehouse esterni.
 
@@ -70,9 +70,9 @@ Questa attività viene generalmente utilizzata per migliorare i profili dei clie
 
 >[!IMPORTANT]
 >
->L&#39;attività **Salva profili** richiede uno schema e un set di dati abilitati per il profilo. Per informazioni su come abilitare il set di dati per l&#39;abilitazione del profilo, leggere la [guida utente del set di dati](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
+>L&#39;attività **Salva profili** richiede uno schema e un set di dati abilitati per il profilo. Per informazioni su come abilitare il set di dati per l&#39;abilitazione del profilo, leggere la [guida utente del set di dati](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/user-guide#enable-profile){target="_blank"}.
 >
->Inoltre, se il set di dati selezionato **non** ha upsert abilitato, i dati dei profili saranno **sostituiti**. Per informazioni su come abilitare l&#39;upsert per i set di dati, leggere la [guida all&#39;upsert](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/enable-upsert).
+>Inoltre, se il set di dati selezionato **non** ha upsert abilitato, i dati dei profili saranno **sostituiti**. Per informazioni su come abilitare l&#39;upsert per i set di dati, leggere la [guida all&#39;upsert](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
 
 Segui questi passaggi per configurare l&#39;attività **[!UICONTROL Salva profili]**:
 
