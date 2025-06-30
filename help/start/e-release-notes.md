@@ -7,7 +7,7 @@ exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
 source-git-commit: a9410b26629a39b27466ef587e2ff0a1122b9868
 workflow-type: tm+mt
 source-wordcount: '1095'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -19,21 +19,21 @@ ht-degree: 89%
 
 Questa versione include i seguenti miglioramenti:
 
-* **Disponibilità generale per i clienti Adobe Healthcare Shield**
+* **Disponibilità generale per la clientela Healthcare Shield di Adobe**
 
-  Federated Audience Composition sarà disponibile per i clienti di Adobe Healthcare Shield per i casi di utilizzo di creazione di pubblico, arricchimento e arricchimento del profilo entro la fine di giugno.
+  La funzione Composizione di pubblico federato sarà disponibile per la clientela Healthcare Shield di Adobe per i casi d’uso di creazione di pubblico, arricchimento e arricchimento del profilo entro la fine di giugno.
 
-* **Controllo dell&#39;accesso a livello di oggetto**
+* **Controllo degli accessi a livello di oggetto**
 
-  Federated Audience Composition ora supporta il controllo degli accessi a livello di oggetto per applicare le etichette di accesso alle composizioni specificate.
+  La funzione Composizione di pubblico federato ora supporta il controllo degli accessi a livello di oggetto per applicare le etichette di accesso alle composizioni specificate.
 
 * **Ruoli predefiniti**
 
-  Ora puoi utilizzare uno dei ruoli predefiniti per gestire le autorizzazioni utente per l’accesso a Federated Audience Composition.
+  Ora è possibile utilizzare uno dei ruoli predefiniti per gestire le autorizzazioni utente per l’accesso a Composizione di pubblico federato.
 
-* **Aggiornamenti incrementali nei casi di utilizzo dell&#39;arricchimento dei profili**
+* **Aggiornamenti incrementali nei casi d’uso dell’arricchimento del profilo**
 
-  L’attività Save profiles ora supporta gli aggiornamenti incrementali. Con gli aggiornamenti incrementali, puoi eseguire query e aggiornare dati incrementali durante l’arricchimento dei profili con dati provenienti da data warehouse esterni.
+  L’attività Salva profili ora supporta gli aggiornamenti incrementali. Con gli aggiornamenti incrementali, puoi eseguire query e aggiornare dati incrementali durante l’arricchimento dei profili con dati provenienti da data warehouse di dati esterni.
 
 ## Versione di aprile 2025 {#fac-25-4}
 
