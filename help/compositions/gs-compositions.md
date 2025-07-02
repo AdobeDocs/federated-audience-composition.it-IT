@@ -5,8 +5,8 @@ description: Scopri come iniziare a utilizzare le composizioni
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 source-git-commit: 5c16e22587cbbbe5bc87cfa4f22210aa8108341c
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 16%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 16%
 >Per accedere alle composizioni, è necessario disporre di una delle seguenti autorizzazioni:
 >
 >-**Gestione composizioni federate**
->&#x200B;>-**Visualizzazione composizioni federate**
+>>-**Visualizzazione composizioni federate**
 >
 >Per ulteriori informazioni sulle autorizzazioni richieste, leggere la [guida al controllo degli accessi](/help/governance-privacy-security/access-control.md).
 
@@ -25,7 +25,7 @@ Federated Audience Composition consente di creare composizioni, in cui è possib
 
 ![Un flusso di lavoro di composizione di esempio viene visualizzato in Federated Audience Composition.](assets/gs-compositions/composition-example.png){zoomable="yes"}{width="70%"}
 
-## Accedere e gestire le composizioni {#access}
+## Accesso e gestione delle composizioni {#access}
 
 >[!CONTEXTUALHELP]
 >id="dc_composition_list"
@@ -73,7 +73,7 @@ Viene visualizzato il popover **[!UICONTROL Gestisci accesso]**. In questa pagin
 | Etichette per dati sensibili | Le etichette sensibili (etichette &quot;S&quot;) vengono utilizzate per categorizzare l’utente e/o l’organizzazione in questione come sensibili. |
 | Etichette per ecosistemi partner | Le etichette dell’ecosistema partner vengono utilizzate per categorizzare i dati provenienti da origini esterne all’organizzazione. |
 
-Per ulteriori informazioni sulle etichette di accesso e governance dei dati, leggere il glossario delle [etichette di utilizzo dei dati](https://experienceleague.adobe.com/it/docs/experience-platform/data-governance/labels/reference).
+Per ulteriori informazioni sulle etichette di accesso e governance dei dati, leggere il glossario delle [etichette di utilizzo dei dati](https://experienceleague.adobe.com/en/docs/experience-platform/data-governance/labels/reference).
 
 ## Passaggi successivi
 
