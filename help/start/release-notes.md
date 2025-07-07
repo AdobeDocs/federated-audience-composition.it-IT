@@ -3,9 +3,9 @@ title: Novità nella composizione di pubblico federato di Experience Platform
 description: Aggiornamenti e note sulla versione più recenti
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: cfbcccd99f81fc5c771a2ccaad93b35b617a84c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1428'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -19,29 +19,29 @@ ht-degree: 87%
 
 Questa versione include i seguenti miglioramenti:
 
-* **Disponibilità generale per i clienti Adobe Healthcare Shield**
+* **Disponibilità generale per la clientela Healthcare Shield di Adobe**
 
-  Federated Audience Composition sarà disponibile per i clienti di Adobe Healthcare Shield per i casi di utilizzo di creazione di pubblico, arricchimento e arricchimento del profilo entro la fine di giugno.
+  La funzione Composizione di pubblico federato sarà disponibile per la clientela Healthcare Shield di Adobe per i casi d’uso di creazione di pubblico, arricchimento e arricchimento del profilo entro la fine di giugno.
 
-  Ulteriori informazioni sulla privacy e la sicurezza in Federated Audience Composition sono disponibili nella [Guida alla governance dei dati, alla privacy e alla sicurezza](/help/governance-privacy-security/home.md).
+  Ulteriori informazioni sulla privacy e la sicurezza in Composizione di pubblico federato sono disponibili nella [guida alla governance, privacy e sicurezza dei dati](/help/governance-privacy-security/home.md).
 
-* **Controllo dell&#39;accesso a livello di oggetto**
+* **Controllo degli accessi a livello di oggetto**
 
-  Federated Audience Composition ora supporta il controllo degli accessi a livello di oggetto per applicare le etichette di accesso alle composizioni specificate.
+  La funzione Composizione di pubblico federato ora supporta il controllo degli accessi a livello di oggetto per applicare le etichette di accesso alle composizioni specificate.
 
-  Ulteriori informazioni sull&#39;utilizzo delle etichette di accesso a livello di oggetto sono disponibili nella [guida alle composizioni](/help/compositions/gs-compositions.md).
+  Ulteriori informazioni sull’utilizzo delle etichette di accesso a livello di oggetto sono disponibili nella [guida alle composizioni](/help/compositions/gs-compositions.md).
 
 * **Ruoli predefiniti**
 
-  Ora puoi utilizzare uno dei ruoli predefiniti per gestire le autorizzazioni utente per l’accesso a Federated Audience Composition.
+  Ora è possibile utilizzare uno dei ruoli predefiniti per gestire le autorizzazioni utente per l’accesso a Composizione di pubblico federato.
 
-  Ulteriori informazioni sui ruoli predefiniti sono disponibili nella guida [Accedi a Federated Audience Composition](/help/governance-privacy-security/access-control.md).
+  Ulteriori informazioni sui ruoli predefiniti sono disponibili nella [guida all’accesso alla composizione di pubblico federato](/help/governance-privacy-security/access-control.md).
 
-* **Aggiornamenti incrementali nei casi di utilizzo dell&#39;arricchimento dei profili**
+* **Aggiornamenti incrementali nei casi d’uso dell’arricchimento del profilo**
 
-  L’attività Save profiles ora supporta gli aggiornamenti incrementali. Con gli aggiornamenti incrementali, puoi eseguire query e aggiornare dati incrementali durante l’arricchimento dei profili con dati provenienti da data warehouse esterni.
+  L’attività Salva profili ora supporta gli aggiornamenti incrementali. Con gli aggiornamenti incrementali, puoi eseguire query e aggiornare dati incrementali durante l’arricchimento dei profili con dati provenienti da data warehouse di dati esterni.
 
-  Ulteriori informazioni sull&#39;utilizzo dell&#39;attività di salvataggio dei profili sono disponibili nella [guida all&#39;attività di salvataggio dei profili](/help/compositions/activities/save-profiles.md).
+  Ulteriori informazioni sull’utilizzo dell’attività di salvataggio dei profili sono disponibili nella [guida all’attività di salvataggio dei profili](/help/compositions/activities/save-profiles.md).
 
 ## Versione di maggio 2025 {#fac-25-5}
 
