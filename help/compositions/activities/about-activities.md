@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare le attività
 description: Scopri come utilizzare le attività
 exl-id: 1e4e5f53-636f-4f1c-bf2f-cc3b5d6d6dda
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
+source-git-commit: 2a21dcde345febdaad0934c8835df5f7ae8c30f6
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 16%
+source-wordcount: '289'
+ht-degree: 17%
 
 ---
 
@@ -20,6 +20,7 @@ In Federated Audience Composition puoi creare composizioni utilizzando due tipi 
 ## Attività di targeting
 
 * [Genera attività pubblico](build-audience.md): definisci la popolazione target. Puoi selezionare un pubblico esistente o utilizzare il modellatore di query per definire una query personalizzata.
+* [Modifica origine dati](./change-data-source.md): modifica l&#39;origine dati utilizzata dalla composizione.
 * [Modifica dimensione](change-dimension.md): modifica lo schema, noto anche come dimensione di targeting, durante la creazione della composizione.
 * [Combina](combine.md): esegui la segmentazione del gruppo in entrata. Puoi utilizzare un’unione, un’intersezione o un’esclusione.
 * [Deduplicazione](deduplication.md): elimina i duplicati nei risultati delle attività in entrata.

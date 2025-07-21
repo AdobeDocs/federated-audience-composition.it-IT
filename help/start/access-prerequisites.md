@@ -2,10 +2,10 @@
 title: Prerequisiti e guardrail per la composizione di pubblico federato
 description: Scopri i prerequisiti, le autorizzazioni e i guardrail per la composizione di pubblico federato
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: a9410b26629a39b27466ef587e2ff0a1122b9868
-workflow-type: ht
-source-wordcount: '322'
-ht-degree: 100%
+source-git-commit: ddbadca06acea06258c7d01807ed0f33ea5f8a60
+workflow-type: tm+mt
+source-wordcount: '374'
+ht-degree: 86%
 
 ---
 
@@ -56,6 +56,12 @@ Per accedere alla Composizione di pubblico federato, gli utenti devono essere ag
 Per consentire alla composizione di pubblico federato di accedere ai database in modo sicuro, è necessario autorizzare gli indirizzi IP dei server della composizione di pubblico federato che vi accederanno. Questi indirizzi IP vengono visualizzati quando viene aggiunto un database federato nell’interfaccia utente di Adobe Experience Platform. [Ulteriori informazioni](../connections/connections.md)
 
 Aggiungi questi indirizzi IP al tuo elenco consentiti per concedere l’accesso a una composizione di pubblico federato.
+
+## Criteri di unione {#merge-policies}
+
+Per poter utilizzare la Federated Audience Composition per generare i tipi di pubblico, **devi** utilizzare un **timestamp ordinato** criterio di unione. Se il pubblico utilizza un criterio di unione di **precedenza set di dati**, contatta l&#39;Assistenza clienti Adobe per procedere.
+
+Per ulteriori informazioni sui criteri di unione, leggere la [panoramica dei criteri di unione](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview).
 
 ## Guardrail e limitazioni {#fac-guardrails}
 

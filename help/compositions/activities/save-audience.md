@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Save audience
 description: Scopri come utilizzare l’attività Save audience
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: 7429577d99d2f163e7084db056005fe641d1bcf3
+source-git-commit: ddbadca06acea06258c7d01807ed0f33ea5f8a60
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 25%
+source-wordcount: '578'
+ht-degree: 23%
 
 ---
 
@@ -33,6 +33,12 @@ ht-degree: 25%
 >title="Spazio dei nomi identità"
 >abstract="Selezionare lo spazio dei nomi da utilizzare per i profili."
 >additional-url="https://experienceleague.adobe.com/it/docs/experience-platform/identity/features/namespaces" text="Ulteriori informazioni nella documentazione di Experience Platform"
+
+>[!IMPORTANT]
+>
+>Per utilizzare l&#39;attività Save audience, il pubblico deve utilizzare un criterio di unione **timestamp ordinato**. Se il pubblico utilizza un criterio di unione di **precedenza set di dati**, contatta l&#39;Assistenza clienti Adobe per procedere.
+>
+>Per ulteriori informazioni sui criteri di unione, leggere la [panoramica dei criteri di unione](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview).
 
 L&#39;attività **[!UICONTROL Save audience]** ti consente di creare un nuovo pubblico dalla popolazione calcolata a monte in una composizione. I tipi di pubblico creati vengono aggiunti all&#39;elenco dei tipi di pubblico di Adobe Experience Platform e sono disponibili tramite il menu **Tipi di pubblico**. [Scopri come utilizzare i tipi di pubblico](../../start/audiences.md)
 

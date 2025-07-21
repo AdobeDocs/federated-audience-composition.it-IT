@@ -2,9 +2,9 @@
 user-guide-title: Composizione di pubblico federato di Experience Platform
 title: Documentazione della composizione di pubblico federato di Experience Platform
 breadcrumb-title: Composizione di pubblico federato di Experience Platform
-source-git-commit: 326509ed14bb2c29b2061ede11389aceb1f26956
-workflow-type: ht
-source-wordcount: '163'
+source-git-commit: d67acd28c05143202ca9a9cd64b15cfaf42c62e4
+workflow-type: tm+mt
+source-wordcount: '166'
 ht-degree: 100%
 
 ---
@@ -43,6 +43,7 @@ ht-degree: 100%
       + [Elenco delle attività](compositions/activities/about-activities.md)
       + [Unione E](compositions/activities/and-join.md)
       + [Crea pubblico](compositions/activities/build-audience.md)
+      + [Modificare l’origine dati](compositions/activities/change-data-source.md)
       + [Cambiare dimensione](compositions/activities/change-dimension.md)
       + [Combina](compositions/activities/combine.md)
       + [Deduplica](compositions/activities/deduplication.md)
