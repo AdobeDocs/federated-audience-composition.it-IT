@@ -61,7 +61,7 @@ Aggiungi questi indirizzi IP al tuo elenco consentiti per concedere l’accesso 
 
 Per poter utilizzare la Federated Audience Composition per generare i tipi di pubblico, **devi** utilizzare un **timestamp ordinato** criterio di unione. Se il pubblico utilizza un criterio di unione di **precedenza set di dati**, contatta l&#39;Assistenza clienti Adobe per procedere.
 
-Per ulteriori informazioni sui criteri di unione, leggere la [panoramica dei criteri di unione](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview).
+Per ulteriori informazioni sui criteri di unione, leggere la [panoramica dei criteri di unione](https://experienceleague.adobe.com/it/docs/experience-platform/profile/merge-policies/overview).
 
 ## Guardrail e limitazioni {#fac-guardrails}
 

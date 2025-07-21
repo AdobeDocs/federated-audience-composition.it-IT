@@ -38,7 +38,7 @@ ht-degree: 23%
 >
 >Per utilizzare l&#39;attività Save audience, il pubblico deve utilizzare un criterio di unione **timestamp ordinato**. Se il pubblico utilizza un criterio di unione di **precedenza set di dati**, contatta l&#39;Assistenza clienti Adobe per procedere.
 >
->Per ulteriori informazioni sui criteri di unione, leggere la [panoramica dei criteri di unione](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview).
+>Per ulteriori informazioni sui criteri di unione, leggere la [panoramica dei criteri di unione](https://experienceleague.adobe.com/it/docs/experience-platform/profile/merge-policies/overview).
 
 L&#39;attività **[!UICONTROL Save audience]** ti consente di creare un nuovo pubblico dalla popolazione calcolata a monte in una composizione. I tipi di pubblico creati vengono aggiunti all&#39;elenco dei tipi di pubblico di Adobe Experience Platform e sono disponibili tramite il menu **Tipi di pubblico**. [Scopri come utilizzare i tipi di pubblico](../../start/audiences.md)
 
