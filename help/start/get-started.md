@@ -2,10 +2,10 @@
 title: Introduzione alla composizione di pubblico federato di Experience Platform
 description: Scopri che cos’è la composizione di pubblico federato di Adobe e come utilizzarla in Adobe Experience Platform
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
-source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
-workflow-type: ht
-source-wordcount: '1112'
-ht-degree: 100%
+source-git-commit: bb3e01b11d34568b61fdd98eedaa59af5267fd87
+workflow-type: tm+mt
+source-wordcount: '1236'
+ht-degree: 76%
 
 ---
 
@@ -33,19 +33,22 @@ La composizione di pubblico federato estende il valore di Real-Time CDP e Journe
 
 * La clientela CDP B2C e B2B ora può sfruttare la composizione di pubblico federato per creare tipi di pubblico basati su persone integrando i dati dai data warehouse aziendali supportati. Inoltre, può arricchire il pubblico esistente basato sulle persone di AEP incorporando gli attributi pertinenti disponibili nel data warehouse aziendale, migliorando i profili di pubblico per un coinvolgimento più personalizzato e mirato.
 
-## Casi d’uso {#rn-uc}
+## Casi d’uso {#use-cases}
 
-Tramite un’interfaccia utente ottimizzata per il marketing, crea regole di segmento per eseguire query nel data warehouse su un elenco di utenti idonei per un segmento specifico necessario per le campagne di marketing, accedi ai tipi di pubblico esistenti nel data warehouse per l’attivazione o arricchisci i tipi di pubblico di Adobe Experience Platform con punti dati aggiuntivi esistenti nel data warehouse.
+Federated Audience Composition supporta **tre** categorie di casi d&#39;uso: creazione di tipi di pubblico, arricchimento di pubblico e arricchimento di profili cliente.
 
-In questa versione sono disponibili due casi d’uso:
+* Creazione di tipi di pubblico: puoi creare tipi di pubblico da un data warehouse e federarli in Experience Platform per l’utilizzo in Real-Time CDP o Journey Optimizer tramite un’interfaccia utente di tipo trascina e rilascia intuitiva. Di conseguenza, puoi eseguire query nei data warehouse senza copiare dati sottostanti sensibili o duplicare dati esistenti.
+   * **Esempio:** crea un pubblico di acquirenti passati di alto valore utilizzando dati di transazione storici nel magazzino, senza copiare tali transazioni in Experience Platform.
 
-1. Creazione di pubblico: crea nuovi tipi di pubblico dai set di dati aziendali senza copiare i dati sottostanti e attivali con le destinazioni predefinite.
+* Arricchimento del pubblico: puoi aggiungere ulteriori dettagli ai tipi di pubblico esistenti in Experience Platform utilizzando set di dati aggiuntivi provenienti dai data warehouse e sovrapponendo i tipi di pubblico con queste informazioni, il tutto senza copiare i dati sottostanti in Experience Platform. Con l’arricchimento del pubblico, puoi offrire una personalizzazione migliorata con un pubblico più ricco.
+   * **Esempio:** arricchisci un pubblico Experience Platform di utenti che abbandonano il carrello con il pubblico Federated Audience Composition di acquirenti passati di alto valore per distribuire un&#39;offerta mirata.
 
-1. Arricchimento del pubblico: arricchisci i tipi di pubblico esistenti in Adobe Experience Platform utilizzando dati del pubblico composti che sono stati federati dal data warehouse aziendale. Questi dati non verranno mantenuti nei profili cliente di Adobe Experience Platform.
-
-1. Arricchimento profilo: arricchisci i profili Adobe Experience Platform unendo i dati provenienti da warehouse esterni, in modo da migliorare i profili cliente con attributi e informazioni aggiuntive.
+* Arricchimento del profilo: puoi selezionare i singoli attributi del cliente dal data warehouse per migliorare i profili di Experience Platform. Con l’aggiunta di dati federati a questi profili, puoi migliorare le esperienze istantanee che vengono attivate dai segnali dei clienti in entrata.
+   * **Esempio:** arricchisci un profilo Experience Platform con le informazioni del pubblico federato. Ora puoi vendere a un visitatore del sito che appartiene al pubblico federato di acquirenti passati di alto valore con un’offerta mirata attivata dal suo comportamento sul sito.
 
 ![diagramma](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
+
+Per ulteriori informazioni sui casi di utilizzo di Federated Audience Composition, leggi il [white paper Federated Audience Composition](https://business.adobe.com/resources/sdk/flexibly-access-enterprise-data-with-federated-audience-composition.html).
 
 ## Passaggi chiave {#gs-steps}
 
@@ -65,7 +68,7 @@ Passaggi chiave:
 
 >[!NOTE]
 >
->Dopo aver eseguito la composizione, il pubblico risultante viene salvato in Adobe Experience Platform come pubblico esterno e reso disponibile in Adobe Real-Time Customer Data Platform e/o Adobe Journey Optimizer. È reso accessibile nel menu **Tipi di pubblico**. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+>Dopo l’esecuzione della composizione, il pubblico risultante viene salvato in Adobe Experience Platform come pubblico esterno e disponibile in Adobe Real-Time Customer Data Platform e/o Adobe Journey Optimizer. È reso accessibile nel menu **Tipi di pubblico**. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 ## Governance, privacy e sicurezza {#governance-privacy-security}
 
@@ -142,6 +145,6 @@ Consulta anche le domande frequenti in [questa pagina](faq.md).
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_dimension"
->title="Selezionare una dimensione di targeting"
+>title="Selezionare una dimensione targeting"
 >abstract="La dimensione targeting consente di definire la popolazione target dell’operazione: destinatari, beneficiari del contratto, operatore, iscritti, ecc. Per impostazione predefinita, per le e-mail e gli SMS, la destinazione è selezionata dalla tabella incorporata Destinatari. Per le notifiche push, la dimensione di destinazione predefinita è Applicazioni in abbonamento."
 
