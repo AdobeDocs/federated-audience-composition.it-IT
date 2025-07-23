@@ -38,7 +38,7 @@ ht-degree: 25%
 >
 >Se il pubblico utilizza un criterio di unione **per la precedenza dei set di dati**, contatta l&#39;Assistenza clienti Adobe per aggiungere il set di dati `Halos UPS` al criterio di unione.
 >
->Per ulteriori informazioni sui criteri di unione, leggere la [panoramica dei criteri di unione](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview).
+>Per ulteriori informazioni sui criteri di unione, leggere la [panoramica dei criteri di unione](https://experienceleague.adobe.com/it/docs/experience-platform/profile/merge-policies/overview).
 
 L&#39;attività **[!UICONTROL Save audience]** ti consente di creare un nuovo pubblico dalla popolazione calcolata a monte in una composizione. I tipi di pubblico creati vengono aggiunti all&#39;elenco dei tipi di pubblico di Adobe Experience Platform e sono disponibili tramite il menu **Tipi di pubblico**. [Scopri come utilizzare i tipi di pubblico](../../start/audiences.md)
 

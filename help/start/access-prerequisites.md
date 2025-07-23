@@ -61,7 +61,7 @@ Aggiungi questi indirizzi IP al tuo elenco consentiti per concedere l’accesso 
 
 Se il pubblico utilizza un criterio di unione **per la precedenza dei set di dati**, contatta l&#39;Assistenza clienti Adobe per aggiungere il set di dati `Halos UPS` al criterio di unione.
 
-Per ulteriori informazioni sui criteri di unione, leggere la [panoramica dei criteri di unione](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview).
+Per ulteriori informazioni sui criteri di unione, leggere la [panoramica dei criteri di unione](https://experienceleague.adobe.com/it/docs/experience-platform/profile/merge-policies/overview).
 
 ## Guardrail e limitazioni {#fac-guardrails}
 
