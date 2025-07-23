@@ -2,10 +2,10 @@
 title: Prerequisiti e guardrail per la composizione di pubblico federato
 description: Scopri i prerequisiti, le autorizzazioni e i guardrail per la composizione di pubblico federato
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: ddbadca06acea06258c7d01807ed0f33ea5f8a60
+source-git-commit: 3399de79baa5f8009b2ea6bfb084a5ce93f7a158
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 86%
+source-wordcount: '360'
+ht-degree: 90%
 
 ---
 
@@ -59,9 +59,9 @@ Aggiungi questi indirizzi IP al tuo elenco consentiti per concedere l’accesso 
 
 ## Criteri di unione {#merge-policies}
 
-Per poter utilizzare la Federated Audience Composition per generare i tipi di pubblico, **devi** utilizzare un **timestamp ordinato** criterio di unione. Se il pubblico utilizza un criterio di unione di **precedenza set di dati**, contatta l&#39;Assistenza clienti Adobe per procedere.
+Se il pubblico utilizza un criterio di unione **per la precedenza dei set di dati**, contatta l&#39;Assistenza clienti Adobe per aggiungere il set di dati `Halos UPS` al criterio di unione.
 
-Per ulteriori informazioni sui criteri di unione, leggere la [panoramica dei criteri di unione](https://experienceleague.adobe.com/it/docs/experience-platform/profile/merge-policies/overview).
+Per ulteriori informazioni sui criteri di unione, leggere la [panoramica dei criteri di unione](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview).
 
 ## Guardrail e limitazioni {#fac-guardrails}
 

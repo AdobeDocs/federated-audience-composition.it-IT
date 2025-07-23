@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Utilizzare l’attività Save audience
+title: Utilizzare l’attività Salva pubblico
 description: Scopri come utilizzare l’attività Save audience
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: ddbadca06acea06258c7d01807ed0f33ea5f8a60
+source-git-commit: 3399de79baa5f8009b2ea6bfb084a5ce93f7a158
 workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 23%
+source-wordcount: '567'
+ht-degree: 25%
 
 ---
 
@@ -36,9 +36,9 @@ ht-degree: 23%
 
 >[!IMPORTANT]
 >
->Per utilizzare l&#39;attività Save audience, il pubblico deve utilizzare un criterio di unione **timestamp ordinato**. Se il pubblico utilizza un criterio di unione di **precedenza set di dati**, contatta l&#39;Assistenza clienti Adobe per procedere.
+>Se il pubblico utilizza un criterio di unione **per la precedenza dei set di dati**, contatta l&#39;Assistenza clienti Adobe per aggiungere il set di dati `Halos UPS` al criterio di unione.
 >
->Per ulteriori informazioni sui criteri di unione, leggere la [panoramica dei criteri di unione](https://experienceleague.adobe.com/it/docs/experience-platform/profile/merge-policies/overview).
+>Per ulteriori informazioni sui criteri di unione, leggere la [panoramica dei criteri di unione](https://experienceleague.adobe.com/en/docs/experience-platform/profile/merge-policies/overview).
 
 L&#39;attività **[!UICONTROL Save audience]** ti consente di creare un nuovo pubblico dalla popolazione calcolata a monte in una composizione. I tipi di pubblico creati vengono aggiunti all&#39;elenco dei tipi di pubblico di Adobe Experience Platform e sono disponibili tramite il menu **Tipi di pubblico**. [Scopri come utilizzare i tipi di pubblico](../../start/audiences.md)
 
@@ -75,7 +75,7 @@ Dopo aver eseguito la composizione, il pubblico risultante viene salvato in Adob
 
 Il pubblico creato include tutti i campi selezionati nella sezione Mappature pubblico. Puoi indirizzare questo pubblico in Journey Optimizer o attivarlo in qualsiasi destinazione supportata da Adobe Experience Platform.
 
-[Ulteriori informazioni nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+[Ulteriori informazioni sono disponibili nella documentazione di Adobe Experience Platform](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 <!--
 
