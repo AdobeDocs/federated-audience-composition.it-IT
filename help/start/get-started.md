@@ -3,9 +3,9 @@ title: Introduzione alla composizione di pubblico federato di Experience Platfor
 description: Scopri che cos’è la composizione di pubblico federato di Adobe e come utilizzarla in Adobe Experience Platform
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: bb3e01b11d34568b61fdd98eedaa59af5267fd87
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1236'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -35,20 +35,20 @@ La composizione di pubblico federato estende il valore di Real-Time CDP e Journe
 
 ## Casi d’uso {#use-cases}
 
-Federated Audience Composition supporta **tre** categorie di casi d&#39;uso: creazione di tipi di pubblico, arricchimento di pubblico e arricchimento di profili cliente.
+La composizione di pubblico federato supporta **tre** categorie di casi d’uso: creazione del pubblico, arricchimento del pubblico e arricchimento dei profili cliente.
 
-* Creazione di tipi di pubblico: puoi creare tipi di pubblico da un data warehouse e federarli in Experience Platform per l’utilizzo in Real-Time CDP o Journey Optimizer tramite un’interfaccia utente di tipo trascina e rilascia intuitiva. Di conseguenza, puoi eseguire query nei data warehouse senza copiare dati sottostanti sensibili o duplicare dati esistenti.
-   * **Esempio:** crea un pubblico di acquirenti passati di alto valore utilizzando dati di transazione storici nel magazzino, senza copiare tali transazioni in Experience Platform.
+* Creazione del pubblico: puoi creare tipi di pubblico da un data warehouse e federarli in Experience Platform per l’utilizzo in Real-Time CDP o Journey Optimizer tramite un’interfaccia utente intuitiva con funzione di trascinamento pensata per i marketer. Di conseguenza, puoi eseguire query nei data warehouse senza copiare dati sottostanti sensibili o duplicare dati esistenti.
+   * **Esempio:** crea un pubblico di acquirenti passati di alto valore utilizzando dati di transazione storici del warehouse, senza copiare tali transazioni in Experience Platform.
 
-* Arricchimento del pubblico: puoi aggiungere ulteriori dettagli ai tipi di pubblico esistenti in Experience Platform utilizzando set di dati aggiuntivi provenienti dai data warehouse e sovrapponendo i tipi di pubblico con queste informazioni, il tutto senza copiare i dati sottostanti in Experience Platform. Con l’arricchimento del pubblico, puoi offrire una personalizzazione migliorata con un pubblico più ricco.
-   * **Esempio:** arricchisci un pubblico Experience Platform di utenti che abbandonano il carrello con il pubblico Federated Audience Composition di acquirenti passati di alto valore per distribuire un&#39;offerta mirata.
+* Arricchimento del pubblico: puoi aggiungere ulteriori dettagli ai tipi di pubblico esistenti in Experience Platform utilizzando set di dati aggiuntivi provenienti dai data warehouse e sovrapponendo i tipi di pubblico con queste informazioni, il tutto senza copiare i dati sottostanti in Experience Platform. Con l’arricchimento del pubblico, puoi offrire una personalizzazione migliorata con un pubblico arricchito.
+   * **Esempio:** arricchisci un pubblico Experience Platform di utenti che hanno abbandonato il carrello con il pubblico di acquirenti passati di alto valore della composizione di pubblico federato per distribuire un’offerta mirata.
 
-* Arricchimento del profilo: puoi selezionare i singoli attributi del cliente dal data warehouse per migliorare i profili di Experience Platform. Con l’aggiunta di dati federati a questi profili, puoi migliorare le esperienze istantanee che vengono attivate dai segnali dei clienti in entrata.
-   * **Esempio:** arricchisci un profilo Experience Platform con le informazioni del pubblico federato. Ora puoi vendere a un visitatore del sito che appartiene al pubblico federato di acquirenti passati di alto valore con un’offerta mirata attivata dal suo comportamento sul sito.
+* Arricchimento del profilo: puoi selezionare i singoli attributi cliente dal data warehouse per migliorare i profili di Experience Platform. Con l’aggiunta di dati federati a questi profili, puoi migliorare le esperienze istantanee che vengono attivate dai segnali della clientela in entrata.
+   * **Esempio:** arricchisci un profilo Experience Platform con le informazioni del pubblico federato. Ora puoi proporre a coloro che visitano il tuo sito e appartengono al pubblico federato di acquirenti passati di alto valore, un’offerta mirata, attivata in base al relativo comportamento sul sito.
 
 ![diagramma](assets/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
-Per ulteriori informazioni sui casi di utilizzo di Federated Audience Composition, leggi il [white paper Federated Audience Composition](https://business.adobe.com/resources/sdk/flexibly-access-enterprise-data-with-federated-audience-composition.html).
+Per ulteriori informazioni sui casi d’uso della composizione di pubblico federato, consulta il [whitepaper sulla composizione di pubblico federato](https://business.adobe.com/resources/sdk/flexibly-access-enterprise-data-with-federated-audience-composition.html).
 
 ## Passaggi chiave {#gs-steps}
 
@@ -68,7 +68,7 @@ Passaggi chiave:
 
 >[!NOTE]
 >
->Dopo l’esecuzione della composizione, il pubblico risultante viene salvato in Adobe Experience Platform come pubblico esterno e disponibile in Adobe Real-Time Customer Data Platform e/o Adobe Journey Optimizer. È reso accessibile nel menu **Tipi di pubblico**. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+>Dopo aver eseguito la composizione, il pubblico risultante viene salvato in Adobe Experience Platform come pubblico esterno e reso disponibile in Adobe Real-Time Customer Data Platform e/o Adobe Journey Optimizer. Tale pubblico viene reso accessibile nel menu **Tipi di pubblico**. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 ## Governance, privacy e sicurezza {#governance-privacy-security}
 
