@@ -17,7 +17,7 @@ ht-degree: 11%
 >Per accedere alle connessioni, è necessario disporre di una delle seguenti autorizzazioni:
 >
 >-**Gestisci database federato**
->>-**Visualizza database federato**
+>&#x200B;>-**Visualizza database federato**
 >
 >Per ulteriori informazioni sulle autorizzazioni richieste, consulta la [Guida al controllo degli accessi](/help/governance-privacy-security/access-control.md).
 
