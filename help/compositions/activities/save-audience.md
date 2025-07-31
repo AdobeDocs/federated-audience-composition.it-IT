@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare l’attività Salva pubblico
 description: Scopri come utilizzare l’attività Save audience
 exl-id: fa67b1ee-8de6-4a71-b597-ade3f5587a38
-source-git-commit: 3399de79baa5f8009b2ea6bfb084a5ce93f7a158
+source-git-commit: c133ddb2b1d2a75e7f9614d7623fad63aa24eb55
 workflow-type: tm+mt
 source-wordcount: '567'
-ht-degree: 25%
+ht-degree: 28%
 
 ---
 
@@ -36,9 +36,9 @@ ht-degree: 25%
 
 >[!IMPORTANT]
 >
->Se il pubblico utilizza un criterio di unione **per la precedenza dei set di dati**, contatta l&#39;Assistenza clienti Adobe per aggiungere il set di dati `Halos UPS` al criterio di unione.
+>Se la sandbox utilizza un criterio di unione **precedenza set di dati**, contatta l&#39;Assistenza clienti Adobe per aggiungere il set di dati `Halos UPS` al criterio di unione.
 >
->Per ulteriori informazioni sui criteri di unione, leggere la [panoramica dei criteri di unione](https://experienceleague.adobe.com/it/docs/experience-platform/profile/merge-policies/overview).
+>Per ulteriori informazioni sui criteri di unione, consulta la [panoramica sui criteri di unione](https://experienceleague.adobe.com/it/docs/experience-platform/profile/merge-policies/overview).
 
 L&#39;attività **[!UICONTROL Save audience]** ti consente di creare un nuovo pubblico dalla popolazione calcolata a monte in una composizione. I tipi di pubblico creati vengono aggiunti all&#39;elenco dei tipi di pubblico di Adobe Experience Platform e sono disponibili tramite il menu **Tipi di pubblico**. [Scopri come utilizzare i tipi di pubblico](../../start/audiences.md)
 

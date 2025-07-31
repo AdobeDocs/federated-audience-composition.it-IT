@@ -2,13 +2,13 @@
 audience: end-user
 title: Cambia attività di Data Source
 description: Scopri come utilizzare l’attività di modifica dell’origine dati per modificare l’origine dati utilizzata dalla composizione, fornendo maggiore flessibilità nella gestione dei dati in una composizione.
-source-git-commit: 2a21dcde345febdaad0934c8835df5f7ae8c30f6
+exl-id: 8f8e627a-fef9-42b8-a42a-bfa1c421b202
+source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '162'
 ht-degree: 3%
 
 ---
-
 
 # Modificare l’origine dati
 
@@ -22,12 +22,12 @@ L&#39;attività **[!UICONTROL Modifica origine dati]** consente di modificare l&
 
 Dopo aver aggiunto un&#39;attività **[!UICONTROL Modifica origine dati]** all&#39;area di lavoro, è possibile definire l&#39;origine dati per il flusso di lavoro.
 
-![L&#39;opzione dell&#39;origine dati è evidenziata nell&#39;area di lavoro Federated Audience Composition.](/help/compositions/assets/change-data-source/configure.png){zoomable="yes"}{width="70%"}{align="center"}
+![L&#39;opzione dell&#39;origine dati è evidenziata nell&#39;area di lavoro Federated Audience Composition.](/help/compositions/assets/change-data-source/configure.png){zoomable="yes"}{width="70%"}
 
 | Origine | Descrizione |
 | ------ | ----------- |
-| Account esterno FDA | Un database cloud esterno connesso ad Adobe Campaign tramite Federated Audience Composition. |
+| Account esterno FDA | Un database cloud esterno connesso a Federated Audience Composition. |
 
 Dopo aver selezionato **[!UICONTROL l&#39;account esterno FDA]**, puoi scegliere con quale account esterno connetterti.
 
-![Viene visualizzato il popover con le opzioni dell&#39;account esterno.](/help/compositions/assets/change-data-source/fda-external-account.png){zoomable="yes"}{width="70%"}{align="center"}
+![Viene visualizzato il popover con le opzioni dell&#39;account esterno.](/help/compositions/assets/change-data-source/fda-external-account.png){zoomable="yes"}{width="70%"}

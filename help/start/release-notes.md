@@ -2,16 +2,63 @@
 title: Novità nella composizione di pubblico federato di Experience Platform
 description: Aggiornamenti e note sulla versione più recenti
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: cfbcccd99f81fc5c771a2ccaad93b35b617a84c4
-workflow-type: ht
-source-wordcount: '1428'
-ht-degree: 100%
+source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
+workflow-type: tm+mt
+source-wordcount: '1542'
+ht-degree: 92%
 
 ---
 
 # Note sulla versione {#rn-new}
 
 [!DNL Federated Audience Composition] offre continuamente nuove funzioni, miglioramenti alle funzioni esistenti e correzioni di bug. In queste note sulla versione, tutte le modifiche sono consolidate. [!DNL Federated Audience Composition] è stato sviluppato in modalità nativa su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Ulteriori informazioni su queste modifiche sono disponibili nelle [Note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it){target="_blank"}.
+
+## Versione del 25 luglio {#fac-25-7}
+
+### Nuove funzionalità {#fac-25-07-feature}
+
+<table>
+<thead>
+<tr>
+<th><strong>Nuovo connettore - Oracle</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Il connettore Oracle è ora disponibile per l’utilizzo con Federated Audience Composition.</p>
+<p>Puoi utilizzare il connettore Oracle per casi di utilizzo relativi alla creazione e all’arricchimento di tipi di pubblico.</p>
+<p>Per ulteriori informazioni sulla connessione Oracle, leggere la <a href="../connections/home.md#create">panoramica delle connessioni</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Avvisi composizione</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi attivare gli avvisi per informazioni sulle esecuzioni riuscite e non riuscite della composizione</p>
+<p>Per ulteriori informazioni sulla sottoscrizione alle notifiche per le esecuzioni della composizione, leggere la <a href="../compositions/start-monitor-composition.md#alerts">guida di avvio e monitoraggio della composizione</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
+
+### Miglioramenti {#fac-25-07-improvements}
+
+Questa versione include i seguenti miglioramenti:
+
+* **Lunghezza caratteri server aumentata**
+
+  Durante la configurazione dei database federati, è ora possibile utilizzare fino a 255 caratteri, anziché gli 80 caratteri precedenti.
 
 ## Versione di giugno 2025 {#fac-25-6}
 
@@ -157,11 +204,11 @@ Questa versione include i miglioramenti indicati di seguito.
 
 * **Connessione protetta ad Amazon Redshift**
 
-  Con questa nuova versione, la composizione di pubblico federato supporta connessioni protette di collegamento privato a database Amazon Redshift. [Ulteriori informazioni](../connections/federated-db.md#amazon-redshift)
+  Con questa nuova versione, la composizione di pubblico federato supporta connessioni protette di collegamento privato a database Amazon Redshift. [Ulteriori informazioni](../connections/home.md#amazon-redshift)
 
 * **Google BigQuery**
 
-  Con questa nuova versione, la composizione di pubblico federato supporta connessioni VPN sicure per i database Google BigQuery. [Ulteriori informazioni](../connections/federated-db.md#google-bigquery)
+  Con questa nuova versione, la composizione di pubblico federato supporta connessioni VPN sicure per i database Google BigQuery. [Ulteriori informazioni](../connections/home.md#google-bigquery)
 
 ## Versione di marzo 2025 {#fac-25-3}
 
@@ -177,23 +224,12 @@ Questa versione include i miglioramenti indicati di seguito.
 
   Per informazioni su come assegnare questa autorizzazione, consulta la [documentazione dettagliata](/help/governance-privacy-security/access-control.md).
 
-<!--
-* **Data model Canvas view**
-
-    The Canvas view for the Data Models section improves the experience by enabling the visualization of data models and their links in a canvas layout, alongside the existing tabular view. [Learn more](../data-management/gs-models.md)
-
-* **AI Assistant**
-
-    AI Assistant is a user interface feature designed to help you navigate and understand Adobe concepts and get operational insights for your specific environment. It is available in several products across Adobe Experience Cloud, including Federated Audience Composition. 
--->
-
-
 ### Compatibilità {#fac-25-3-compat}
 
 * **Connessione Databricks**
 
   Con questa nuova versione, la funzionalità Composizione di pubblico federato ora supporta la connettività con collegamento privato per le connessioni a database Databricks.
-Ciò include connessioni sicure ai database Databricks ospitati su Amazon Web Services (AWS) tramite collegamento privato e a quelli ospitati su Microsoft Azure tramite VPN. [Ulteriori informazioni](../connections/federated-db.md#databricks)
+Ciò include connessioni sicure ai database Databricks ospitati su Amazon Web Services (AWS) tramite collegamento privato e a quelli ospitati su Microsoft Azure tramite VPN. [Ulteriori informazioni](../connections/home.md#databricks)
 
 * **Supporto per clienti di CDP B2B**
 
@@ -201,7 +237,7 @@ Ciò include connessioni sicure ai database Databricks ospitati su Amazon Web Se
 
 * **Connessione protetta Snowflake**
 
-  Con questa nuova versione, la funzionalità Composizione di pubblico federato supporta connessioni sicure con collegamento privato a database Snowflake ospitati in Microsoft Azure. [Ulteriori informazioni](../connections/federated-db.md#snowflake)
+  Con questa nuova versione, la funzionalità Composizione di pubblico federato supporta connessioni sicure con collegamento privato a database Snowflake ospitati in Microsoft Azure. [Ulteriori informazioni](../connections/home.md#snowflake)
 
 ## Versione di febbraio 2025 {#fac-25-2}
 
@@ -209,11 +245,11 @@ Questa versione include i cambiamenti elencati di seguito.
 
 * **Supporto di Microsoft Fabric**
 
-  È ora possibile stabilire connessioni ai database Microsoft Fabric tramite la Composizione di pubblico federato. [Ulteriori informazioni](../connections/federated-db.md)
+  È ora possibile stabilire connessioni ai database Microsoft Fabric tramite la Composizione di pubblico federato. [Ulteriori informazioni](../connections/home.md)
 
 * **Supporto di Amazon Redshift Spectrum**
 
-  Amazon Redshift Spectrum è ora supportato per le connessioni al database Amazon Redshift. [Ulteriori informazioni](../connections/federated-db.md#amazon-redshift)
+  Amazon Redshift Spectrum è ora supportato per le connessioni al database Amazon Redshift. [Ulteriori informazioni](../connections/home.md#amazon-redshift)
 
 * **Esperienza di creazione schema avanzata**
 
@@ -231,7 +267,7 @@ Questa versione include il miglioramento indicato di seguito.
 
 * **Elenco consentiti indirizzo IP**
 
-  Ora durante l’aggiunta di un database federato nell’interfaccia utente di Adobe Experience Platform, è possibile visualizzare direttamente gli indirizzi IP associati alle istanze della composizione di pubblico federato. Questo consente di copiare e autorizzare facilmente tali IP per la connessione al database, al fine di migliorare la sicurezza e la flessibilità. [Ulteriori informazioni](../connections/connections.md)
+  Ora durante l’aggiunta di un database federato nell’interfaccia utente di Adobe Experience Platform, è possibile visualizzare direttamente gli indirizzi IP associati alle istanze della composizione di pubblico federato. Questo consente di copiare e autorizzare facilmente tali IP per la connessione al database, al fine di migliorare la sicurezza e la flessibilità. [Ulteriori informazioni](../connections/home.md)
 
 ## Versione di ottobre 2024 {#fac-24-10}
 
@@ -246,11 +282,11 @@ Con questa nuova versione, la composizione di pubblico federato è ora compatibi
 
 * **Supporto Databricks**
 
-  È ora possibile stabilire connessioni ai database Databricks tramite la composizione di pubblico federato. [Ulteriori informazioni](../connections/federated-db.md#databricks)
+  È ora possibile stabilire connessioni ai database Databricks tramite la composizione di pubblico federato. [Ulteriori informazioni](../connections/home.md#databricks)
 
 * **Supporto per l’accesso sicuro a Snowflake tramite AWS PrivateLink**
 
-  È ora supportato l’accesso sicuro al data warehouse esterno di Snowflake tramite collegamento privato. Il tuo account di Snowflake deve essere ospitato su Amazon Web Services (AWS) e situato nella stessa area geografica dell’ambiente di composizione di pubblico federato. Contatta il tuo rappresentante Adobe per assistenza nella configurazione dell’accesso sicuro all’account Snowflake. [Ulteriori informazioni](../connections/federated-db.md#snowflake)
+  È ora supportato l’accesso sicuro al data warehouse esterno di Snowflake tramite collegamento privato. Il tuo account di Snowflake deve essere ospitato su Amazon Web Services (AWS) e situato nella stessa area geografica dell’ambiente di composizione di pubblico federato. Contatta il tuo rappresentante Adobe per assistenza nella configurazione dell’accesso sicuro all’account Snowflake. [Ulteriori informazioni](../connections/home.md#snowflake)
 
 * **Supporto serverless Amazon Redshift**
 

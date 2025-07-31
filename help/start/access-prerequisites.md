@@ -2,7 +2,7 @@
 title: Prerequisiti e guardrail per la composizione di pubblico federato
 description: Scopri i prerequisiti, le autorizzazioni e i guardrail per la composizione di pubblico federato
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: 3399de79baa5f8009b2ea6bfb084a5ce93f7a158
+source-git-commit: c133ddb2b1d2a75e7f9614d7623fad63aa24eb55
 workflow-type: tm+mt
 source-wordcount: '360'
 ht-degree: 93%
@@ -29,7 +29,7 @@ La composizione di pubblico federato supporta i seguenti data warehouse cloud:
 * Vertica Analytics
 * Microsoft Fabric
 
-Scopri come creare una connessione con questi sistemi in [questa pagina](../connections/connections.md).
+Scopri come creare una connessione con questi sistemi in [questa pagina](../connections/home.md).
 
 ## Sandbox
 
@@ -53,13 +53,13 @@ Per accedere alla Composizione di pubblico federato, gli utenti devono essere ag
 
 ## Elenco IP consentiti {#ip}
 
-Per consentire alla composizione di pubblico federato di accedere ai database in modo sicuro, è necessario autorizzare gli indirizzi IP dei server della composizione di pubblico federato che vi accederanno. Questi indirizzi IP vengono visualizzati quando viene aggiunto un database federato nell’interfaccia utente di Adobe Experience Platform. [Ulteriori informazioni](../connections/connections.md)
+Per consentire alla composizione di pubblico federato di accedere ai database in modo sicuro, è necessario autorizzare gli indirizzi IP dei server della composizione di pubblico federato che vi accederanno. Questi indirizzi IP vengono visualizzati quando viene aggiunto un database federato nell’interfaccia utente di Adobe Experience Platform. [Ulteriori informazioni](../connections/home.md)
 
 Aggiungi questi indirizzi IP al tuo elenco consentiti per concedere l’accesso a una composizione di pubblico federato.
 
 ## Criteri di unione {#merge-policies}
 
-Se il pubblico utilizza un criterio di unione **per la precedenza dei set di dati**, contatta l&#39;Assistenza clienti Adobe per aggiungere il set di dati `Halos UPS` al criterio di unione.
+Se la sandbox utilizza un criterio di unione **precedenza set di dati**, contatta l&#39;Assistenza clienti Adobe per aggiungere il set di dati `Halos UPS` al criterio di unione.
 
 Per ulteriori informazioni sui criteri di unione, consulta la [panoramica sui criteri di unione](https://experienceleague.adobe.com/it/docs/experience-platform/profile/merge-policies/overview).
 

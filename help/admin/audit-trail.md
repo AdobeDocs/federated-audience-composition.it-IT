@@ -3,10 +3,10 @@ audience: end-user
 title: Audit Trail
 description: Scopri come le azioni e gli eventi vengono registrati e accessibili nell’audit trail
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: b39fc9ed99a799d6ef6d5821554ebd2a409a652f
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 11%
+ht-degree: 14%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 11%
 >
 >-**Visualizza prova di verifica**
 >
->Per ulteriori informazioni sulle autorizzazioni richieste, leggere la [guida al controllo degli accessi](/help/governance-privacy-security/access-control.md).
+>Per ulteriori informazioni sulle autorizzazioni richieste, consulta la [Guida al controllo degli accessi](/help/governance-privacy-security/access-control.md).
 
 >[!CONTEXTUALHELP]
 >id="dc_audit_trail"
@@ -42,13 +42,13 @@ La funzione **[!UICONTROL Audit trail]** registra costantemente in tempo reale u
    * Pulizia uguale all’azione Cancella cronologia
    * Simula, che è uguale all’azione Avvia in modalità simulazione
    * Attivazione uguale all&#39;azione Esegui attività in sospeso ora
-   * Arresto totale
+   * Interruzione incondizionata
 
   Per ulteriori informazioni sui flussi di lavoro, consulta questa [pagina](../compositions/gs-compositions.md).
 
 * **Account esterno** consente di controllare le modifiche apportate agli account esterni nell&#39;istanza di Adobe Audience Composition.
 
-  Per ulteriori informazioni sull&#39;account esterno, fare riferimento a questa [pagina](../connections/federated-db.md).
+  Per ulteriori informazioni sull&#39;account esterno, fare riferimento a questa [pagina](../connections/home.md).
 
 +++
 

@@ -3,8 +3,8 @@ audience: end-user
 title: Introduzione alle composizioni
 description: Scopri come iniziare a utilizzare le composizioni
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
-source-git-commit: 5c16e22587cbbbe5bc87cfa4f22210aa8108341c
-workflow-type: ht
+source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
+workflow-type: tm+mt
 source-wordcount: '551'
 ht-degree: 100%
 
@@ -48,23 +48,23 @@ Puoi anche visualizzare informazioni sulle composizioni, tra cui il nome, lo sta
 
 Puoi scoprire come avviare o interrompere una composizione nella [guida per avviare e monitorare la composizione](./start-monitor-composition.md).
 
-![Viene visualizzato un elenco delle composizioni disponibili.](assets/gs-compositions/compositions-list.png){zoomable="yes"}{width="70%"}{align="center"}
+![Viene visualizzato un elenco delle composizioni disponibili.](assets/gs-compositions/compositions-list.png){zoomable="yes"}{width="70%"}
 
 Per perfezionare l’elenco e trovare la composizione che stai cercando, puoi filtrarlo in base agli stati delle composizioni o alle ultime date di elaborazione.
 
 Puoi anche personalizzare l’elenco aggiungendo o rimuovendo colonne. A tale scopo, seleziona il pulsante **[!UICONTROL Configura colonne]** e aggiungi o rimuovi le colonne di output desiderate.
 
-![Viene visualizzato un elenco delle colonne disponibili che puoi aggiungere alla pagina di ricerca delle le composizioni.](assets/gs-compositions/compositions-columns.png){zoomable="yes"}{width="70%"}{align="center"}
+![Viene visualizzato un elenco delle colonne disponibili che puoi aggiungere alla pagina di ricerca delle le composizioni.](assets/gs-compositions/compositions-columns.png){zoomable="yes"}{width="70%"}
 
 ### Applicare le etichette di accesso {#access-labels}
 
 Per applicare le etichette di accesso a una composizione specifica, seleziona la composizione e poi **[!UICONTROL Gestisci accesso]**.
 
-![Il pulsante “Gestisci accesso” è evidenziato nell’area di lavoro della composizione.](assets/gs-compositions/select-manage-access.png){zoomable="yes"}{width="70%"}{align="center"}
+![Il pulsante “Gestisci accesso” è evidenziato nell’area di lavoro della composizione.](assets/gs-compositions/select-manage-access.png){zoomable="yes"}{width="70%"}
 
 Viene visualizzato il popover **[!UICONTROL Gestisci accesso]**. In questa pagina puoi applicare alla composizione le etichette di accesso e governance dei dati applicabili.
 
-![Viene visualizzato il popover Gestisci accesso. Viene visualizzato un elenco di tutte le etichette disponibili che è possibile applicare alla composizione.](assets/gs-compositions/manage-access.png){zoomable="yes"}{width="70%"}{align="center"}
+![Viene visualizzato il popover Gestisci accesso. Viene visualizzato un elenco di tutte le etichette disponibili che è possibile applicare alla composizione.](assets/gs-compositions/manage-access.png){zoomable="yes"}{width="70%"}
 
 | Tipo etichetta | Descrizione |
 | ---------- | ----------- |

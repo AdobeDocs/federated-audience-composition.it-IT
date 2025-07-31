@@ -2,10 +2,10 @@
 user-guide-title: Composizione di pubblico federato di Experience Platform
 title: Documentazione della composizione di pubblico federato di Experience Platform
 breadcrumb-title: Composizione di pubblico federato di Experience Platform
-source-git-commit: d67acd28c05143202ca9a9cd64b15cfaf42c62e4
-workflow-type: ht
-source-wordcount: '166'
-ht-degree: 100%
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
+workflow-type: tm+mt
+source-wordcount: '160'
+ht-degree: 98%
 
 ---
 
@@ -25,8 +25,7 @@ ht-degree: 100%
    + [Panoramica](./governance-privacy-security/home.md)
    + [Controllo degli accessi](governance-privacy-security/access-control.md)
 + Passaggi di configurazione {#config}
-   + [Creare e gestire le connessioni](connections/connections.md)
-   + [Configurare i database federati](connections/federated-db.md)
+   + [Panoramica delle connessioni](connections/home.md)
    + [Matrice dei diritti FDA](connections/fda-rights.md)
    + Modelli di dati e schemi{#datamodel}
       + [Creare e configurare gli schemi](customer/schemas.md)

@@ -3,10 +3,10 @@ audience: end-user
 title: Introduzione agli schemi
 description: Scopri come iniziare con gli schemi
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 5c16e22587cbbbe5bc87cfa4f22210aa8108341c
+source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 18%
+ht-degree: 20%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 18%
 >Per accedere agli schemi, è necessario disporre di una delle seguenti autorizzazioni:
 >
 >-**Gestisci schema federato**
->&#x200B;>-**Visualizza schema federato**
+>>-**Visualizza schema federato**
 >
->Per ulteriori informazioni sulle autorizzazioni richieste, leggere la [guida al controllo degli accessi](/help/governance-privacy-security/access-control.md).
+>Per ulteriori informazioni sulle autorizzazioni richieste, consulta la [Guida al controllo degli accessi](/help/governance-privacy-security/access-control.md).
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_create_select_tables"
@@ -69,7 +69,7 @@ Per creare schemi in Federated Audience Composition, segui i passaggi seguenti:
 
    ![](assets/schema_create.png){zoomable="yes"}
 
-   Questo passaggio consente di accedere a una nuova schermata con un elenco a discesa in cui è possibile trovare i database connessi all’ambiente. Ulteriori informazioni sulla connessione al database in [questa sezione](../connections/connections.md#connections-fdb).
+   Questo passaggio consente di accedere a una nuova schermata con un elenco a discesa in cui è possibile trovare i database connessi all’ambiente. Ulteriori informazioni sulla connessione al database in [questa sezione](../connections/home.md#connections-fdb).
 
 1. Selezionare il database di origine nell&#39;elenco e fare clic su **[!UICONTROL Avanti]**.
 

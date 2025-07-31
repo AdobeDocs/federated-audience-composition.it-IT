@@ -3,10 +3,10 @@ audience: end-user
 title: Creare composizioni
 description: Scopri come creare le composizioni
 exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 27%
+source-wordcount: '738'
+ht-degree: 24%
 
 ---
 
@@ -61,6 +61,22 @@ La cronologia è organizzata in diverse schede, descritte di seguito:
 ![](assets/logs-tasks.png)
 
 In tutte le schede è possibile scegliere le colonne visualizzate e il relativo ordine, applicare filtri e utilizzare il campo di ricerca per trovare rapidamente le informazioni desiderate.
+
+## Iscriversi agli avvisi {#alerts}
+
+Inoltre, puoi abbonarti agli avvisi per ricevere notifiche se le esecuzioni della composizione federata hanno avuto esito positivo o negativo.
+
+Per iscriverti agli avvisi, seleziona l&#39;icona ![notifica](/help/assets/icons/bell.png), seguita dall&#39;icona ![impostazioni](/help/assets/icons/settings.png).
+
+![Sono evidenziate sia le icone di notifica che le icone delle impostazioni.](assets/monitor/select-notifications.png){zoomable="yes"}{width="70%"}
+
+Viene visualizzata la pagina delle impostazioni delle notifiche. In questa pagina, selezionare **[!UICONTROL Experience Platform]** e scegliere i canali di avvisi desiderati. Per visualizzare le notifiche nell&#39;interfaccia utente, selezionare **[!UICONTROL In-app]**.
+
+![La casella di controllo In-app è selezionata nella sezione Experience Platform.](assets/monitor/add-alerts.png){zoomable="yes"}{width="50%"}
+
+Selezionando **[!UICONTROL In-app]**, riceverai una notifica relativa ai successi e agli errori di esecuzione della composizione.
+
+![Vengono visualizzati gli avvisi che mostrano gli errori e i successi della composizione.](assets/monitor/view-alerts.png){zoomable="yes"}{width="70%"}
 
 ## Comandi esecuzione composizione {#execution-commands}
 
