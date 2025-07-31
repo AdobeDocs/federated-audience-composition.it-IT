@@ -2,7 +2,7 @@
 title: Novità nella composizione di pubblico federato di Experience Platform
 description: Aggiornamenti e note sulla versione più recenti
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
+source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
 workflow-type: tm+mt
 source-wordcount: '1542'
 ht-degree: 92%
@@ -274,7 +274,6 @@ Questa versione include il miglioramento indicato di seguito.
 >[!AVAILABILITY]
 >
 >Precedentemente disponibile per un set di organizzazioni (LA), la Composizione di pubblico federato di Adobe Experience Platform è ora disponibile per tutti gli utenti (GA). Questa funzionalità viene attivata in base all’offerta ed è visibile solo con le autorizzazioni associate. [Ulteriori informazioni](access-prerequisites.md)
->
 
 ### Compatibilità {#fac-24-10-compat}
 

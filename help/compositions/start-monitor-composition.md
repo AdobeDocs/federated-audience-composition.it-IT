@@ -3,7 +3,7 @@ audience: end-user
 title: Creare composizioni
 description: Scopri come creare le composizioni
 exl-id: 1f288312-dd6a-4a62-8ee6-fa2417954d5c
-source-git-commit: 59983bb7fd0f8886cc38bfcfc8d7005db4747ac0
+source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
 workflow-type: tm+mt
 source-wordcount: '738'
 ht-degree: 24%
@@ -95,3 +95,4 @@ Le azioni disponibili sono:
 * **[!UICONTROL Interrompi]** una composizione in esecuzione, che assumerà lo stato **[!UICONTROL Completato]**. Se possibile, le operazioni in corso vengono interrotte. Non è possibile riprendere la composizione dalla stessa posizione in cui è stata interrotta.
 
 * **[!UICONTROL Riavvia]**: interrompe e riavvia una composizione. Nella maggior parte dei casi, questo consente di riavviare più rapidamente, poiché l&#39;arresto richiede un certo periodo di tempo e il pulsante **[!UICONTROL Avvia]** è disponibile solo quando l&#39;interruzione è effettiva.
+
