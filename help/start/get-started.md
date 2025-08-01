@@ -3,7 +3,7 @@ title: Introduzione alla composizione di pubblico federato di Experience Platfor
 description: Scopri che cos’è la composizione di pubblico federato di Adobe e come utilizzarla in Adobe Experience Platform
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1236'
 ht-degree: 100%
 
