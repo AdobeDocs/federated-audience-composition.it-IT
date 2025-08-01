@@ -1,12 +1,12 @@
 ---
 audience: end-user
-title: Utilizzare l’attività Reconciliation
+title: Utilizzare l’attività di riconciliazione
 description: Scopri come utilizzare l’attività Reconciliation
 exl-id: 933c3cba-9120-4a93-a668-866fb65ee197
 source-git-commit: e1720d60f542d7f43986dbc7e6e40b83d0a524a1
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 39%
+ht-degree: 41%
 
 ---
 
@@ -52,7 +52,7 @@ Consente di collegare dati non identificati a risorse esistenti. L&#39;operazion
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting_selection"
->title="Selezionare una dimensione di targeting"
+>title="Selezionare una dimensione targeting"
 >abstract="Seleziona lo schema, noto anche come dimensione targeting, per i dati in entrata da riconciliare."
 
 >[!CONTEXTUALHELP]
@@ -65,7 +65,7 @@ Consente di collegare dati non identificati a risorse esistenti. L&#39;operazion
 >title="Attributo di riconciliazione"
 >abstract="Seleziona l’attributo da utilizzare per riconciliare i dati e conferma."
 
-Per configurare l&#39;attività **Reconciliation**, eseguire la procedura seguente:
+Per configurare l’attività **riconciliazione** segui questi passaggi:
 
 1. Aggiungi un&#39;attività **Reconciliation** nella composizione.
 
