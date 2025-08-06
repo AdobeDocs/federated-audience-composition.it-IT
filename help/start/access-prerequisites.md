@@ -3,9 +3,9 @@ title: Prerequisiti e guardrail per la composizione di pubblico federato
 description: Scopri i prerequisiti, le autorizzazioni e i guardrail per la composizione di pubblico federato
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
 source-git-commit: c133ddb2b1d2a75e7f9614d7623fad63aa24eb55
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '360'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Aggiungi questi indirizzi IP al tuo elenco consentiti per concedere l’accesso 
 
 ## Criteri di unione {#merge-policies}
 
-Se la sandbox utilizza un criterio di unione **precedenza set di dati**, contatta l&#39;Assistenza clienti Adobe per aggiungere il set di dati `Halos UPS` al criterio di unione.
+Se la sandbox utilizza un criterio di unione **precedenza set di dati**, contatta l’Assistenza clienti Adobe per aggiungere il set di dati `Halos UPS` al criterio di unione.
 
 Per ulteriori informazioni sui criteri di unione, consulta la [panoramica sui criteri di unione](https://experienceleague.adobe.com/it/docs/experience-platform/profile/merge-policies/overview).
 

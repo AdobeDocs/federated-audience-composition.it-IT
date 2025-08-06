@@ -5,9 +5,9 @@ hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
 source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1142'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,15 +17,15 @@ ht-degree: 95%
 
 ## Versione di luglio 2025 {#fac-25-7}
 
-Questa versione include i seguenti miglioramenti e modifiche:
+Questa versione include le seguenti modifiche e miglioramenti:
 
 * **Disponibilità del connettore Oracle**
 
-  Il connettore Oracle è ora disponibile per l’utilizzo con Federated Audience Composition.
+  Il connettore Oracle è ora disponibile per l’utilizzo con la composizione di pubblico federato.
 
 * **Avvisi sullo stato della composizione**
 
-  È possibile abbonarsi agli avvisi per ricevere avvisi relativi al successo e agli errori delle esecuzioni della composizione.
+  È possibile iscriversi agli avvisi per essere notificati in relazione alle esecuzioni riuscite e non riuscite della composizione.
 
 ## Versione di giugno 2025 {#fac-25-6}
 

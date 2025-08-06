@@ -3,9 +3,9 @@ title: Novità nella composizione di pubblico federato di Experience Platform
 description: Aggiornamenti e note sulla versione più recenti
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1542'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -13,22 +13,22 @@ ht-degree: 92%
 
 [!DNL Federated Audience Composition] offre continuamente nuove funzioni, miglioramenti alle funzioni esistenti e correzioni di bug. In queste note sulla versione, tutte le modifiche sono consolidate. [!DNL Federated Audience Composition] è stato sviluppato in modalità nativa su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Ulteriori informazioni su queste modifiche sono disponibili nelle [Note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it){target="_blank"}.
 
-## Versione del 25 luglio {#fac-25-7}
+## Versione di luglio 2025 {#fac-25-7}
 
 ### Nuove funzionalità {#fac-25-07-feature}
 
 <table>
 <thead>
 <tr>
-<th><strong>Nuovo connettore - Oracle</strong><br/></th>
+<th><strong>Nuovo connettore: Oracle</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Il connettore Oracle è ora disponibile per l’utilizzo con Federated Audience Composition.</p>
-<p>Puoi utilizzare il connettore Oracle per casi di utilizzo relativi alla creazione e all’arricchimento di tipi di pubblico.</p>
-<p>Per ulteriori informazioni sulla connessione Oracle, leggere la <a href="../connections/home.md#create">panoramica delle connessioni</a>.</p>
+<p>Il connettore Oracle è ora disponibile per l’utilizzo con la composizione di pubblico federato.</p>
+<p>Puoi utilizzare il connettore Oracle per casi d’uso relativi alla creazione e all’arricchimento di un pubblico.</p>
+<p>Per ulteriori informazioni sulla connessione Oracle, consulta la <a href="../connections/home.md#create">panoramica delle connessioni</a>.</p>
 </br>
 </td>
 </tr>
@@ -38,14 +38,14 @@ ht-degree: 92%
 <table>
 <thead>
 <tr>
-<th><strong>Avvisi composizione</strong><br/></th>
+<th><strong>Avvisi sulla composizione</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Ora puoi attivare gli avvisi per informazioni sulle esecuzioni riuscite e non riuscite della composizione</p>
-<p>Per ulteriori informazioni sulla sottoscrizione alle notifiche per le esecuzioni della composizione, leggere la <a href="../compositions/start-monitor-composition.md#alerts">guida di avvio e monitoraggio della composizione</a>.</p>
+<p>Ora puoi iscriverti agli avvisi per informazioni sulle esecuzioni riuscite e non riuscite della composizione</p>
+<p>Per ulteriori informazioni sull’iscrizione alle notifiche relative alle esecuzioni della composizione, consulta la <a href="../compositions/start-monitor-composition.md#alerts">guida per avviare e monitorare la composizione</a>.</p>
 </br>
 </td>
 </tr>
@@ -56,7 +56,7 @@ ht-degree: 92%
 
 Questa versione include i seguenti miglioramenti:
 
-* **Lunghezza caratteri server aumentata**
+* **Lunghezza caratteri del server aumentata**
 
   Durante la configurazione dei database federati, è ora possibile utilizzare fino a 255 caratteri, anziché gli 80 caratteri precedenti.
 
