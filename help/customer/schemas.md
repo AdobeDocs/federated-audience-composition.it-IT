@@ -3,10 +3,10 @@ audience: end-user
 title: Introduzione agli schemi
 description: Scopri come iniziare con gli schemi
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
+source-git-commit: 418a6db76a2294df8e4b4fd10744012971b39b54
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 20%
+source-wordcount: '573'
+ht-degree: 19%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 20%
 >Per accedere agli schemi, è necessario disporre di una delle seguenti autorizzazioni:
 >
 >-**Gestisci schema federato**
->&#x200B;>-**Visualizza schema federato**
+>>-**Visualizza schema federato**
 >
 >Per ulteriori informazioni sulle autorizzazioni richieste, consulta la [Guida al controllo degli accessi](/help/governance-privacy-security/access-control.md).
 
@@ -59,80 +59,70 @@ Creando uno schema, puoi definire una rappresentazione della tabella in Experien
 >[!CAUTION]
 >
 >Quando connetti più sandbox con lo stesso database, devi utilizzare schemi di lavoro distinti.
->
 
 ## Crea uno schema {#schema-create}
 
-Per creare schemi in Federated Audience Composition, segui i passaggi seguenti:
+Per creare uno schema in Composizione pubblico federato, seleziona **[!UICONTROL Modelli]** nella sezione **[!UICONTROL Dati federati]**. Nella scheda **[!UICONTROL Schema]**, selezionare **[!UICONTROL Crea schema]**.
 
-1. Nella sezione **[!UICONTROL Federated Data]**, accedi al menu **[!UICONTROL Models]**. Passare alla scheda **[!UICONTROL Schema]** e fare clic su **[!UICONTROL Crea schema]**.
+![](assets/schema_create.png){zoomable="yes"}
 
-   ![](assets/schema_create.png){zoomable="yes"}
+Viene visualizzato il popover **[!UICONTROL Seleziona database federato]**. In questo popover è possibile selezionare il [database di origine](/help/connections/home.md), seguito da **[!UICONTROL Avanti]**.
 
-   Questo passaggio consente di accedere a una nuova schermata con un elenco a discesa in cui è possibile trovare i database connessi all’ambiente. Ulteriori informazioni sulla connessione al database in [questa sezione](../connections/home.md#connections-fdb).
 
-1. Selezionare il database di origine nell&#39;elenco e fare clic su **[!UICONTROL Avanti]**.
+![](assets/schema_tables.png){zoomable="yes"}
 
-   ![](assets/schema_tables.png){zoomable="yes"}
+Viene visualizzato il popover **Seleziona tabella**. In questo popover è possibile selezionare le tabelle da utilizzare per creare lo schema.
 
-   Viene quindi visualizzato l&#39;elenco di tutte le tabelle del database.
+![Viene visualizzato il popover Seleziona tabella.](assets/select-table.png){zoomable="yes"}
 
-1. Selezionare le tabelle per le quali si desidera creare lo schema.
+Ogni tabella selezionata genera uno schema con le colonne selezionate. Per ogni tabella, puoi modificare l’etichetta dello schema, aggiungere una descrizione, rinominare l’etichetta del campo, impostare la visibilità dell’etichetta del campo e selezionare la chiave primaria dello schema.
 
-1. Ogni tabella selezionata genera uno schema con le colonne selezionate. Configura lo schema e le relative colonne in base alle esigenze.
+![](assets/schema_fields.png){zoomable="yes"}
 
-   ![](assets/schema_fields.png){zoomable="yes"}
+>[!NOTE]
+>
+>Se si abilita **[!UICONTROL Usa chiave composita]** ma si seleziona una sola chiave da utilizzare, la chiave verrà trattata come una chiave primaria dello schema standard.
 
-   Per ogni tabella è possibile:
+Inoltre, puoi creare una chiave composta da più colonne di schema. Attiva **[!UICONTROL Usa chiave composita]** e contrassegna le chiavi da utilizzare come chiave composita.
 
-   * modificare l’etichetta dello schema
-   * aggiungi una descrizione
-   * rinominare tutte le etichette dei campi e impostarne la visibilità
-   * seleziona la chiave primaria dello schema
+![](assets/composite-key.png)
 
-   Lo schema può essere definito come segue:
-
-   ![](assets/schema_example.png)
-
-1. Dopo aver completato la configurazione, fai clic su **[!UICONTROL Fine]**.
+Al termine della configurazione, seleziona **[!UICONTROL Fine]** per completare la creazione dello schema.
 
 ## Modificare uno schema {#schema-edit}
 
-Per modificare uno schema, effettua le seguenti operazioni:
+Per modificare uno schema, seleziona lo schema creato in precedenza nella pagina **Schemi**.
 
-1. Accedi allo schema creato in precedenza.
+Viene visualizzata la pagina dei dettagli dello schema. Seleziona l&#39;![icona matita](/help/assets/icons/edit.png) per modificare lo schema.
 
-1. Fai clic sul pulsante **[!UICONTROL Modifica]**.
+![](assets/schema_edit.png){zoomable="yes"}
 
-   ![](assets/schema_edit.png){zoomable="yes"}
+Nella finestra **[!UICONTROL Modifica schema]**, puoi accedere e configurare le stesse opzioni disponibili durante la [creazione di uno schema](#schema-create).
 
-1. Dalla finestra **[!UICONTROL Modifica schema]**, puoi accedere e configurare le stesse opzioni disponibili per [la creazione di uno schema](#schema-create).
-
-   ![](assets/schema_edit_orders.png){zoomable="yes"}
+![](assets/schema_edit_orders.png){zoomable="yes"}
 
 ## Visualizzare l’anteprima dei dati in uno schema {#schema-preview}
 
 Per visualizzare in anteprima i dati nella tabella rappresentata dallo schema, passa alla scheda **[!UICONTROL Dati]** come indicato di seguito.
 
-Fai clic sul collegamento **[!UICONTROL Calcola]** per visualizzare in anteprima il numero totale di registrazioni.
+Selezionare il collegamento **[!UICONTROL Calcola]** per visualizzare in anteprima il numero totale di registrazioni.
 
 ![](assets/schema_data.png){zoomable="yes"}
 
-Fai clic sul pulsante **[!UICONTROL Configura colonne]** per modificare la visualizzazione dei dati.
+Selezionare il pulsante **[!UICONTROL Configura colonne]** per modificare la visualizzazione dei dati.
 
 ![](assets/schema_columns.png){zoomable="yes"}
 
 ## Aggiornare uno schema {#schema-refresh}
 
-È possibile aggiornare, aggiungere o rimuovere tabelle in un database federato. In questi casi, è necessario aggiornare lo schema in Adobe Experience Platform per allinearlo alle modifiche più recenti. Per eseguire questa operazione, fare clic sui tre punti accanto al nome dello schema da aggiornare e selezionare **Aggiorna schema**.
+È possibile aggiornare, aggiungere o rimuovere tabelle in un database federato. In questi casi, è necessario aggiornare lo schema in Adobe Experience Platform per allinearlo alle modifiche più recenti. Per eseguire questa operazione, seleziona l&#39;icona ![tre punti](/help/assets/icons/more.png) accanto al nome dello schema seguito da **[!UICONTROL Aggiorna schema]**.
 
 È inoltre possibile aggiornare la definizione dello schema durante la modifica.
 
 ![](assets/schema_refresh.png){zoomable="yes"}
 
-
 ## Eliminare uno schema {#schema-delete}
 
-Per eliminare uno schema, fai clic sul pulsante **[!UICONTROL Altro]**, quindi scegli **[!UICONTROL Elimina]**.
+Per eliminare uno schema, seleziona l&#39;icona ![tre punti](/help/assets/icons/more.png), seguita da **[!UICONTROL Elimina]**.
 
 ![](assets/schema_delete.png){zoomable="yes"}

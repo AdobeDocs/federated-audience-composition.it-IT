@@ -3,14 +3,14 @@ audience: end-user
 title: Creare la prima query utilizzando il query modeler
 description: Scopri come creare la prima query nel modellatore di query.
 exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: b0218a627d2f19617a806718c27e69ae39f95e10
 workflow-type: tm+mt
-source-wordcount: '2066'
-ht-degree: 79%
+source-wordcount: '2075'
+ht-degree: 88%
 
 ---
 
-# Modifica espressioni {#expression}
+# Modificare le espressioni {#expression}
 
 La modifica di un’espressione comporta l’immissione manuale di condizioni per formare una regola. Questa modalità ti consente di utilizzare funzioni avanzate, che ti consentono di manipolare i valori utilizzati per eseguire query specifiche come la manipolazione di date, stringhe, campi numerici, ordinamenti, ecc.
 
@@ -18,7 +18,7 @@ La modifica di un’espressione comporta l’immissione manuale di condizioni pe
 
 L&#39;editor espressioni è disponibile dal pulsante **[!UICONTROL Modifica espressione]** del modellatore di query, disponibile per i campi **[!UICONTROL Attributo]** e **[!UICONTROL Valore]** durante la configurazione di una condizione personalizzata.
 
-| Accesso dal campo **[!UICONTROL Attributo]** | Accedi dal campo **[!UICONTROL Valore]** |
+| Accedere dal campo **[!UICONTROL Attributo]** | Accedere dal campo **[!UICONTROL Valore]** |
 |  ---  |  ---  |
 | ![](assets/expression-editor-attribute.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/edit-expression.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
@@ -28,7 +28,7 @@ L’editor di espressioni mostra:
 * Elenco dei **campi (2)** disponibili che possono essere utilizzati nell&#39;espressione e corrispondenti allo schema della query, noto anche come dimensione di targeting.
 * **Funzioni helper (3)**, ordinate per categoria.
 
-Modifica l’espressione immettendo un’espressione direttamente nel campo di input. Per aggiungere un campo o una funzione di supporto, posizionare il cursore nell&#39;espressione nel punto in cui si desidera aggiungerla e fare clic sul pulsante +.
+Modifica l’espressione immettendo un’espressione direttamente nel campo di input. Per aggiungere un campo o una funzione helper, posiziona il cursore nell’espressione nel punto in cui desideri aggiungerla e fai clic sul pulsante +.
 
 ![](assets/expression-editor.png){zoomable="yes"}
 
@@ -40,9 +40,9 @@ L&#39;esempio seguente mostra un&#39;espressione configurata per il campo **[!UI
 
 ## Funzioni Helper
 
-Lo strumento di modifica delle query ti consente di utilizzare funzioni avanzate per eseguire filtri complessi in base ai risultati desiderati e ai tipi di dati manipolati. Sono disponibili le seguenti funzioni:
+Lo strumento di modifica delle query consente di utilizzare funzioni avanzate per eseguire filtri complessi a seconda dei risultati desiderati e dei tipi di dati gestiti. Sono disponibili le seguenti funzioni:
 
-### Aggregato
+### Aggregazione
 
 Le funzioni di aggregazione vengono utilizzate per eseguire calcoli su un insieme di valori.
 
@@ -91,7 +91,7 @@ Le funzioni di aggregazione vengono utilizzate per eseguire calcoli su un insiem
   <tr> 
    <td> <strong>AggStringa</strong><br /> </td> 
    <td> Restituisce la concatenazione dei valori di una colonna di tipo stringa, separati dal carattere nel secondo argomento<br /> </td> 
-   <td> StringAgg(&lt;Valore&gt;, &lt;Stringa&gt;)<br /></td> 
+   <td> StringAgg(&lt;valore&gt;, &lt;stringa&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Somma</strong><br /> </td> 
@@ -383,12 +383,12 @@ Le funzioni di geomarketing vengono utilizzate per manipolare i valori geografic
   <tr> 
    <td> <strong>Distance</strong><br /> </td> 
    <td> Restituisce la distanza tra due punti definiti da longitudine e latitudine espressa in gradi.<br /> </td> 
-   <td> Distance(&lt;Longitudine A&gt;, &lt;Latitudine A&gt;, &lt;Longitudine B&gt;, &lt;Latitudine B&gt;)<br /> </td>  
+   <td> Distance(&lt;longitudine A&gt;, &lt;latitudine A&gt;, &lt;longitudine B&gt;, &lt;latitudine B&gt;)<br /> </td>  
   </tr> 
  </tbody> 
 </table>
 
-### Numerico
+### Numeriche
 
 Le funzioni numeriche vengono utilizzate per convertire il testo in numeri.
 
@@ -411,7 +411,7 @@ Le funzioni numeriche vengono utilizzate per convertire il testo in numeri.
   </tr> 
   <tr> 
    <td> <strong>Floor</strong><br /> </td> 
-   <td> Restituisce il numero intero maggiore o uguale a un numero<br /> </td> 
+   <td> Restituisce il numero intero più grande maggiore o uguale a un numero<br /> </td> 
    <td> Floor(&lt;numero&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -426,7 +426,7 @@ Le funzioni numeriche vengono utilizzate per convertire il testo in numeri.
   </tr> 
   <tr> 
    <td> <strong>Mod</strong><br /> </td> 
-   <td> Restituisce il resto della divisione del numero intero da n1 per n2<br /> </td> 
+   <td> Restituisce il resto della divisione del numero intero n1 per n2<br /> </td> 
    <td> Mod(&lt;numero 1&gt;, &lt;numero 2&gt;)<br /> </td>  
   </tr> 
   <tr> 
@@ -472,7 +472,7 @@ Le funzioni numeriche vengono utilizzate per convertire il testo in numeri.
  </tbody> 
 </table>
 
-### Altri
+### Altre
 
 Questa tabella contiene le altre funzioni disponibili.
 
@@ -485,7 +485,7 @@ Questa tabella contiene le altre funzioni disponibili.
   </tr> 
   <tr> 
    <td> <strong>AESEncrypt</strong><br /> </td> 
-   <td> Stringa di crittografia fornita nell'argomento<br /> </td> 
+   <td> Stringa di crittografia fornita nell’argomento<br /> </td> 
    <td> AESEncrypt(&lt;valore&gt;)<br /> </td> 
   </tr>
   <tr> 
@@ -495,8 +495,8 @@ Questa tabella contiene le altre funzioni disponibili.
   </tr> 
   <tr> 
    <td> <strong>ClearBit</strong><br /> </td> 
-   <td> Elimina il contrassegno nel valore<br /> </td> 
-   <td> ClearBit(&lt;identificatore&gt;, &lt;contrassegno&gt;)<br /> </td>  
+   <td> Elimina il flag nel valore<br /> </td> 
+   <td> ClearBit(&lt;identificatore&gt;, &lt;flag&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Coalesce</strong><br /> </td> 
@@ -535,8 +535,8 @@ Questa tabella contiene le altre funzioni disponibili.
   </tr> 
   <tr> 
    <td> <strong>IsBitSet</strong><br /> </td> 
-   <td> Indica se il contrassegno si trova nel valore<br /> </td> 
-   <td> IsBitSet(&lt;identificatore&gt;, &lt;contrassegno&gt;)<br /> </td>  
+   <td> Indica se il flag si trova nel valore<br /> </td> 
+   <td> IsBitSet(&lt;identificatore&gt;, &lt;flag&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>IsEmptyString</strong><br /> </td> 
@@ -544,7 +544,7 @@ Questa tabella contiene le altre funzioni disponibili.
    <td> IsEmptyString(&lt;valore 1&gt;, &lt;valore 2&gt;, &lt;valore 3&gt;)<br /> </td>  
   </tr> 
   <tr> 
-   <td> <strong>NuovoUUID</strong><br /> </td> 
+   <td> <strong>NewUUID</strong><br /> </td> 
    <td> Restituisce un ID univoco<br /> </td> 
    <td> NewUUID()<br /> </td>  
   </tr> 
@@ -560,8 +560,8 @@ Questa tabella contiene le altre funzioni disponibili.
   </tr> 
   <tr> 
    <td> <strong>SetBit</strong><br /> </td> 
-   <td> Forza il contrassegno nel valore<br /> </td> 
-   <td> SetBit(&lt;identificatore&gt;, &lt;contrassegno&gt;)<br /> </td>  
+   <td> Forza il flag nel valore<br /> </td> 
+   <td> SetBit(&lt;identificatore&gt;, &lt;flag&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>ToBoolean</strong><br /> </td> 
@@ -653,9 +653,9 @@ Le funzioni di stringa vengono utilizzate per manipolare un insieme di stringhe.
    <td> Length(&lt;stringa&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>Riga</strong><br /> </td> 
-   <td> Estrai riga n dalla stringa<br /> </td> 
-   <td> Line(&lt;stringa&gt;,&lt;numero&gt;)<br /></td> 
+   <td> <strong>Line</strong><br /> </td> 
+   <td> Estrae la riga n dalla stringa<br /> </td> 
+   <td> Line(&lt;stringa&gt;, &lt;numero&gt;)<br /></td> 
   </tr>
   <tr> 
    <td> <strong>Lower</strong><br /> </td> 
@@ -665,7 +665,7 @@ Le funzioni di stringa vengono utilizzate per manipolare un insieme di stringhe.
   <tr> 
    <td> <strong>LPad</strong><br /> </td> 
    <td> Restituisce la stringa completata a sinistra<br /> </td> 
-   <td> LPad (&lt;Stringa&gt;, &lt;Numero&gt;, &lt;Carattere&gt;)<br /></td> 
+   <td> LPad(&lt;stringa&gt;, &lt;numero&gt;, &lt;carattere&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Ltrim</strong><br /> </td> 
@@ -683,14 +683,14 @@ Le funzioni di stringa vengono utilizzate per manipolare un insieme di stringhe.
    <td> MemoContains(&lt;promemoria&gt;, &lt;stringa&gt;)<br /></td> 
   </tr> 
   <tr> 
-   <td> <strong>ValoreNodo</strong><br /> </td> 
+   <td> <strong>NodeValue</strong><br /> </td> 
    <td> Estrae il valore di un campo XML dal relativo XPath e dai dati del campo<br /> </td> 
-   <td> NodeValue (&lt;Stringa&gt;, &lt;Stringa&gt;)<br /></td> 
+   <td> NodeValue (&lt;stringa&gt;, &lt;stringa&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Replace</strong><br /> </td> 
-   <td> Sostituisce tutte le occorrenze di un valore di stringa specificato con un altro valore di stringa.<br /> </td> 
-   <td> Replace(&lt;Stringa&gt;,&lt;Stringa&gt;,&lt;Stringa&gt;)<br /></td> 
+   <td> Sostituisce tutte le occorrenze di un valore stringa specificato (Stringa 2) con un altro valore stringa (Stringa 3) all'interno di una stringa (Stringa 1).<br /> </td> 
+   <td> Replace(&lt;Stringa1&gt;,&lt;Stringa2&gt;,&lt;Stringa3&gt;)<br /></td> 
   </tr> 
   <tr> 
    <td> <strong>Right</strong><br /> </td> 
@@ -710,12 +710,12 @@ Le funzioni di stringa vengono utilizzate per manipolare un insieme di stringhe.
   <tr> 
    <td> <strong>Sha256Digest</strong><br /> </td> 
    <td> Rappresentazione esadecimale della chiave SHA256 di una stringa.<br /> </td> 
-   <td> Sha256Digest (&lt;Stringa&gt;)<br /> </td> 
+   <td> Sha256Digest(&lt;stringa&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Sha512Digest</strong><br /> </td> 
    <td> Rappresentazione esadecimale della chiave SHA512 di una stringa.<br /> </td> 
-   <td> Sha512Digest (&lt;Stringa&gt;)<br /> </td> 
+   <td> Sha512Digest(&lt;stringa&gt;)<br /> </td> 
   </tr> 
   <tr> 
    <td> <strong>Smart</strong><br /> </td> 
@@ -761,8 +761,8 @@ Le funzioni di stringa vengono utilizzate per manipolare un insieme di stringhe.
   </tr> 
   <tr> 
    <td> <strong>_Over__</strong><br /> </td> 
-   <td> Esegui la chiamata alla funzione SQL immessa come primo parametro, su Partition o Order By nei campi immessi come secondo parametro<br /> </td> 
-   <td> _Over_ (&lt;Valore&gt;, &lt;Valore&gt;)<br /> </td>  
+   <td> Esegue la chiamata alla funzione SQL immessa come primo parametro, su Partizione o Ordina per i campi immessi come secondo parametro<br /> </td> 
+   <td> _Over_ (&lt;valore&gt;, &lt;valore&gt;)<br /> </td>  
   </tr> 
   <tr> 
    <td> <strong>Desc</strong><br /> </td> 

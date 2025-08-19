@@ -3,10 +3,10 @@ audience: end-user
 title: Creare composizioni
 description: Scopri come creare le composizioni
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: d8fd926a445e65b6c7310d2ceac5a83ba9fece3f
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 21%
+source-wordcount: '515'
+ht-degree: 20%
 
 ---
 
@@ -16,20 +16,22 @@ Il primo passaggio per creare una composizione consiste nel definirne l’etiche
 
 ## Creare la composizione {#create-the-composition}
 
-1. Accedi al menu **[!UICONTROL Tipi di pubblico]** e seleziona la scheda **[!UICONTROL Composizioni federate]**.
+Per creare una composizione, seleziona **[!UICONTROL Tipi di pubblico]** nella sezione **[!UICONTROL Cliente]**, seguito dalla scheda **[!UICONTROL Composizioni federate]**.
 
-1. Fare clic sul pulsante **[!UICONTROL Crea composizione]**.
+IMMAGINE
 
-   ![](assets/composition-create.png)
+Viene visualizzata la pagina Sfoglia composizioni federate. Selezionare **[!UICONTROL Crea composizione]** per continuare con il processo di creazione della composizione.
 
-1. Nella sezione **[!UICONTROL Proprietà]**, specifica un&#39;etichetta per la composizione e seleziona un modello dati. Solo gli schemi associati a questo modello dati saranno disponibili nelle attività della composizione.
+![](assets/composition-create.png)
 
-   ![](assets/composition-select-schema.png)
+Nella sezione **[!UICONTROL Proprietà]**, specifica un&#39;etichetta per la composizione e seleziona un modello dati. Solo gli schemi associati a questo modello dati saranno disponibili nelle attività della composizione.
 
-1. Fai clic su **[!UICONTROL Crea]**. Viene visualizzata l’area di lavoro della composizione. Ora puoi configurare la composizione aggiungendo tutte le attività necessarie per soddisfare le tue esigenze prima di eseguirla:
+![](assets/composition-select-schema.png)
 
-   * [Scopri come coordinare le attività](orchestrate-activities.md)
-   * [Scopri come avviare e monitorare una composizione](start-monitor-composition.md)
+Seleziona **[!UICONTROL Crea]**. Viene visualizzata l’area di lavoro della composizione. Ora puoi configurare la composizione aggiungendo tutte le attività necessarie per soddisfare le tue esigenze prima di eseguirla:
+
+* [Scopri come coordinare le attività](orchestrate-activities.md)
+* [Scopri come avviare e monitorare una composizione](start-monitor-composition.md)
 
 ## Configurare le impostazioni della composizione {#settings}
 
@@ -48,7 +50,9 @@ Il primo passaggio per creare una composizione consiste nel definirne l’etiche
 >title="Errore di impostazioni di gestione"
 >abstract="In questa sezione puoi definire la gestione degli errori durante l’esecuzione. Puoi scegliere di sospendere il processo, ignorare un certo numero di errori o interrompere l’esecuzione della composizione."
 
-Quando accedete a una composizione, potete accedere a impostazioni avanzate che consentono, ad esempio, di definire il comportamento della composizione in caso di errore. Per accedere a queste opzioni aggiuntive, fare clic sul pulsante **[!UICONTROL Impostazioni]** nella sezione superiore della schermata di creazione della composizione.
+Quando accedete a una composizione, potete accedere a impostazioni avanzate che consentono, ad esempio, di definire il comportamento della composizione in caso di errore.
+
+Per accedere a queste opzioni aggiuntive, seleziona **[!UICONTROL Impostazioni]** nella sezione superiore della schermata di creazione della composizione.
 
 ![](assets/composition-create-settings.png)
 
