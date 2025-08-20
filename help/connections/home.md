@@ -3,9 +3,9 @@ audience: end-user
 title: Creare e gestire connessioni con i database federati
 description: Scopri come creare e gestire le connessioni con i database federati
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 59d7d112421e0ff207ce76122593a111ad9c6cc7
+source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
 workflow-type: tm+mt
-source-wordcount: '1942'
+source-wordcount: '1970'
 ht-degree: 11%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 11%
 >Per accedere alle connessioni, è necessario disporre di una delle seguenti autorizzazioni:
 >
 >-**Gestisci database federato**
->&#x200B;>-**Visualizza database federato**
+>>-**Visualizza database federato**
 >
 >Per ulteriori informazioni sulle autorizzazioni richieste, consulta la [Guida al controllo degli accessi](/help/governance-privacy-security/access-control.md).
 
@@ -71,6 +71,10 @@ Dopo aver selezionato Amazon Redshift, puoi aggiungere i seguenti dettagli:
 | Schema di lavoro | Nome dello schema del database da utilizzare per le tabelle di lavoro. Ulteriori informazioni su questa funzione sono disponibili nella [documentazione sugli schemi di Amazon](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}.<br/><br/>**Nota:** è possibile utilizzare qualsiasi schema del database, inclusi gli schemi utilizzati per l&#39;elaborazione dati temporanea, purché si disponga delle autorizzazioni necessarie per connettersi a questo schema. Tuttavia, **devi** utilizzare schemi di lavoro distinti per collegare più sandbox allo stesso database. |
 
 >[!TAB Azure Synapse Analytics]
+
+>[!NOTE]
+>
+>Se desideri creare una connessione sicura utilizzando Azure Synapse Analytics, contatta il rappresentante dell’Assistenza clienti di Adobe.
 
 Dopo aver selezionato Azure Synapse Analytics, puoi aggiungere i seguenti dettagli:
 
@@ -153,7 +157,7 @@ Per Microsoft Fabric, è possibile impostare le seguenti opzioni aggiuntive:
 >
 >Al momento il connettore del database Oracle può essere **solo** per i casi di utilizzo relativi alla creazione di tipi di pubblico e all&#39;arricchimento dei tipi di pubblico.
 >
->Inoltre, prima di configurare il database di Oracle, contatta il rappresentante dell’Assistenza clienti di Adobe.
+>Prima di configurare il database di Oracle, inclusa la connessione Oracle per l’utilizzo di una connessione sicura, contatta il rappresentante dell’Assistenza clienti di Adobe.
 
 Dopo aver selezionato Oracle, puoi aggiungere i seguenti dettagli:
 

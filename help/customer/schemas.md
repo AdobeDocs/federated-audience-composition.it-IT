@@ -3,9 +3,9 @@ audience: end-user
 title: Introduzione agli schemi
 description: Scopri come iniziare con gli schemi
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
-source-git-commit: 418a6db76a2294df8e4b4fd10744012971b39b54
+source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '586'
 ht-degree: 19%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 19%
 >Per accedere agli schemi, è necessario disporre di una delle seguenti autorizzazioni:
 >
 >-**Gestisci schema federato**
->&#x200B;>-**Visualizza schema federato**
+>>-**Visualizza schema federato**
 >
 >Per ulteriori informazioni sulle autorizzazioni richieste, consulta la [Guida al controllo degli accessi](/help/governance-privacy-security/access-control.md).
 
@@ -64,7 +64,7 @@ Creando uno schema, puoi definire una rappresentazione della tabella in Experien
 
 Per creare uno schema in Composizione pubblico federato, seleziona **[!UICONTROL Modelli]** nella sezione **[!UICONTROL Dati federati]**. Nella scheda **[!UICONTROL Schema]**, selezionare **[!UICONTROL Crea schema]**.
 
-![](assets/schema_create.png){zoomable="yes"}
+![Il pulsante Crea schema è evidenziato nella sezione dello schema Federate Audience Composition.](assets/schema_create.png){zoomable="yes"}
 
 Viene visualizzato il popover **[!UICONTROL Seleziona database federato]**. In questo popover è possibile selezionare il [database di origine](/help/connections/home.md), seguito da **[!UICONTROL Avanti]**.
 
@@ -77,7 +77,7 @@ Viene visualizzato il popover **Seleziona tabella**. In questo popover è possib
 
 Ogni tabella selezionata genera uno schema con le colonne selezionate. Per ogni tabella, puoi modificare l’etichetta dello schema, aggiungere una descrizione, rinominare l’etichetta del campo, impostare la visibilità dell’etichetta del campo e selezionare la chiave primaria dello schema.
 
-![](assets/schema_fields.png){zoomable="yes"}
+![](assets/schema-fields.png){zoomable="yes"}
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ Ogni tabella selezionata genera uno schema con le colonne selezionate. Per ogni 
 
 Inoltre, puoi creare una chiave composta da più colonne di schema. Attiva **[!UICONTROL Usa chiave composita]** e contrassegna le chiavi da utilizzare come chiave composita.
 
-![](assets/composite-key.png)
+![](assets/composite-key.png){zoomable="yes"}
 
 Al termine della configurazione, seleziona **[!UICONTROL Fine]** per completare la creazione dello schema.
 

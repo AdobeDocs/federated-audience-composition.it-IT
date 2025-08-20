@@ -3,10 +3,10 @@ audience: end-user
 title: Creare composizioni
 description: Scopri come creare le composizioni
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
-source-git-commit: d8fd926a445e65b6c7310d2ceac5a83ba9fece3f
+source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 20%
+source-wordcount: '524'
+ht-degree: 19%
 
 ---
 
@@ -18,7 +18,7 @@ Il primo passaggio per creare una composizione consiste nel definirne l’etiche
 
 Per creare una composizione, seleziona **[!UICONTROL Tipi di pubblico]** nella sezione **[!UICONTROL Cliente]**, seguito dalla scheda **[!UICONTROL Composizioni federate]**.
 
-IMMAGINE
+![Il percorso per accedere alla sezione Composizioni federate è evidenziato.](assets/create/access-compositions.png)
 
 Viene visualizzata la pagina Sfoglia composizioni federate. Selezionare **[!UICONTROL Crea composizione]** per continuare con il processo di creazione della composizione.
 
