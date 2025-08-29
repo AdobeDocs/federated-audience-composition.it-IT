@@ -3,9 +3,9 @@ title: Novità nella composizione di pubblico federato di Experience Platform
 description: Aggiornamenti e note sulla versione più recenti
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: 418a6db76a2294df8e4b4fd10744012971b39b54
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1706'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 91%
 <tr>
 <td>
 <p>Ora puoi combinare le colonne per creare una chiave composita per lo schema.</p>
-<p>Per ulteriori informazioni sugli schemi, leggere la <a href="../customer/schemas.md#create">panoramica sugli schemi</a>.</p>
+<p>Per ulteriori informazioni, consulta la <a href="../customer/schemas.md#create">panoramica sugli schemi</a>.</p>
 </br>
 </td>
 </tr>
@@ -37,14 +37,14 @@ ht-degree: 91%
 <table>
 <thead>
 <tr>
-<th><strong>Aggiunta di più join in un collegamento per i modelli</strong><br/></th>
+<th><strong>Aggiunta di più unioni in un collegamento per i modelli</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>È ora possibile aggiungere più join in un unico collegamento per i modelli.</p>
-<p>Per ulteriori informazioni sui modelli, leggere la <a href="../data-management/gs-models.md#create">panoramica dei modelli</a>.</p>
+<p>Ora puoi aggiungere più unioni in un unico collegamento per i modelli.</p>
+<p>Per ulteriori informazioni sui modelli, consulta la <a href="../data-management/gs-models.md#create">panoramica sui modelli</a>.</p>
 </br>
 </td>
 </tr>
@@ -55,25 +55,25 @@ ht-degree: 91%
 
 Questa versione include i seguenti miglioramenti:
 
-* **Aggiunta funzione `StringAgg`**
+* **È stata aggiunta la funzione `StringAgg`**
 
-  È ora possibile utilizzare la funzione `StringAgg` per i database Amazon Redshift Spectrum quando. utilizzando l’editor di espressioni.
+  Ora puoi sfruttare la funzione `StringAgg` per i database Amazon Redshift Spectrum quando utilizzi l’editor di espressioni.
 
 * Funzione **`Replace`**
 
-  La descrizione e la sintassi della funzione `Replace` sono state chiarite all&#39;interno della documentazione.
+  La descrizione e la sintassi della funzione `Replace` sono state chiarite all’interno della documentazione.
 
 ### Compatibilità {#fac-25-8-compatibility}
 
 * **Database Azure Synapse**
 
-  È ora possibile connettersi in modo sicuro ai database di Azure Synapse con PrivateLink o VPN. Per ulteriori informazioni, contatta l’Assistenza clienti di Adobe.
+  Ora puoi connetterti in modo sicuro ai database Azure Synapse con PrivateLink o VPN. Per ulteriori informazioni, contatta l’Assistenza clienti di Adobe.
 
 * **Database Oracle**
 
-  È ora possibile connettersi in modo sicuro ai database di Oracle. Per ulteriori informazioni, contatta l’Assistenza clienti di Adobe.
+  Ora puoi connetterti in modo sicuro ai database di Oracle. Per ulteriori informazioni, contatta l’Assistenza clienti di Adobe.
 
-Per ulteriori informazioni sui database supportati in Federated Audience Composition, consulta la [panoramica sulle connessioni](../connections/home.md).
+Per ulteriori informazioni sui database supportati nella composizione di pubblico federato, consulta la [panoramica sulle connessioni](../connections/home.md).
 
 ## Versione di luglio 2025 {#fac-25-7}
 
