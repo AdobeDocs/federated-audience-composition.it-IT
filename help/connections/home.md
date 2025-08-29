@@ -3,9 +3,9 @@ audience: end-user
 title: Creare e gestire connessioni con i database federati
 description: Scopri come creare e gestire le connessioni con i database federati
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: cc692662aa30e3263ef2da68ecd571f09c8dc6b8
+source-git-commit: 3f9980840bd9a8e5052d34835c40440c722d13cb
 workflow-type: tm+mt
-source-wordcount: '1970'
+source-wordcount: '1953'
 ht-degree: 11%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 11%
 >Per accedere alle connessioni, è necessario disporre di una delle seguenti autorizzazioni:
 >
 >-**Gestisci database federato**
->&#x200B;>-**Visualizza database federato**
+>>-**Visualizza database federato**
 >
 >Per ulteriori informazioni sulle autorizzazioni richieste, consulta la [Guida al controllo degli accessi](/help/governance-privacy-security/access-control.md).
 
@@ -154,8 +154,6 @@ Per Microsoft Fabric, è possibile impostare le seguenti opzioni aggiuntive:
 >[!TAB Oracle]
 
 >[!IMPORTANT]
->
->Al momento il connettore del database Oracle può essere **solo** per i casi di utilizzo relativi alla creazione di tipi di pubblico e all&#39;arricchimento dei tipi di pubblico.
 >
 >Prima di configurare il database di Oracle, inclusa la connessione Oracle per l’utilizzo di una connessione sicura, contatta il rappresentante dell’Assistenza clienti di Adobe.
 
