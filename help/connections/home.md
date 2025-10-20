@@ -3,9 +3,9 @@ audience: end-user
 title: Creare e gestire connessioni con i database federati
 description: Scopri come creare e gestire le connessioni con i database federati
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: f0a66632e90526c450e45430d4bdf8a73f2bad49
+source-git-commit: eda1c6fc6344b0ad088b0f23b4d8edfb948d4151
 workflow-type: tm+mt
-source-wordcount: '1990'
+source-wordcount: '1991'
 ht-degree: 11%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 11%
 >Per accedere alle connessioni, è necessario disporre di una delle seguenti autorizzazioni:
 >
 >-**Gestisci database federato**
->&#x200B;>-**Visualizza database federato**
+>>-**Visualizza database federato**
 >
 >Per ulteriori informazioni sulle autorizzazioni richieste, consulta la [Guida al controllo degli accessi](/help/governance-privacy-security/access-control.md).
 
@@ -155,7 +155,7 @@ Per Microsoft Fabric, è possibile impostare le seguenti opzioni aggiuntive:
 
 >[!IMPORTANT]
 >
->Federated Audience Composition supporta l’installazione di connessioni federate con il database di Oracle versione 11g o successiva e in hosting su AWS, Azure, Exadata o un cloud privato (purché sia accessibile da una rete esterna). Per ulteriori domande relative alla configurazione del database di Oracle o se devi creare una connessione sicura ad Oracle, contatta il rappresentante dell’Assistenza clienti di Adobe.
+>Federated Audience Composition supporta la configurazione di connessioni federate con i database di Oracle nella versione 11g o successiva e in hosting su AWS, Azure, Exadata o un cloud privato (purché sia accessibile da una rete esterna). Per ulteriori domande relative alla configurazione del database di Oracle o se devi creare una connessione sicura ad Oracle, contatta il rappresentante dell’Assistenza clienti di Adobe.
 
 Dopo aver selezionato Oracle, puoi aggiungere i seguenti dettagli:
 
