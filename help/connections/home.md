@@ -3,10 +3,10 @@ audience: end-user
 title: Creare e gestire connessioni con i database federati
 description: Scopri come creare e gestire le connessioni con i database federati
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: eda1c6fc6344b0ad088b0f23b4d8edfb948d4151
+source-git-commit: 1806603f14a775cb7209e9f36283deabe5c07559
 workflow-type: tm+mt
-source-wordcount: '1991'
-ht-degree: 11%
+source-wordcount: '2224'
+ht-degree: 10%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 11%
 >Per accedere alle connessioni, è necessario disporre di una delle seguenti autorizzazioni:
 >
 >-**Gestisci database federato**
->&#x200B;>-**Visualizza database federato**
+>-**Visualizza database federato**
 >
 >Per ulteriori informazioni sulle autorizzazioni richieste, consulta la [Guida al controllo degli accessi](/help/governance-privacy-security/access-control.md).
 
@@ -59,6 +59,8 @@ Dopo aver selezionato un tipo, viene visualizzata la sezione **[!UICONTROL Detta
 >[!AVAILABILITY]
 >
 >Sono supportati solo Amazon Redshift AWS, Amazon Redshift Spectrum e Amazon Redshift Serverless.
+>
+>È inoltre supportato l&#39;accesso sicuro al data warehouse Amazon Redshift esterno tramite collegamento privato.
 
 Dopo aver selezionato Amazon Redshift, puoi aggiungere i seguenti dettagli:
 
@@ -111,11 +113,32 @@ Per i database, è possibile impostare le seguenti opzioni aggiuntive:
 
 >[!TAB Google BigQuery]
 
-Dopo aver selezionato Google BigQuery, puoi aggiungere i seguenti dettagli:
+>[!NOTE]
+>
+>È supportato l’accesso sicuro al data warehouse esterno Google BigQuery tramite VPN.
+
+Dopo aver selezionato Google BigQuery, puoi scegliere il metodo di autenticazione da utilizzare per la connessione con Federated Audience Composition.
+
+Se si seleziona **[!UICONTROL Autenticazione account/password]**, è possibile aggiungere le seguenti informazioni di accesso:
 
 | Campo | Descrizione |
 | ----- | ----------- |
 | Account del servizio | L’indirizzo e-mail dell’account di servizio. Per ulteriori informazioni, leggere la [documentazione dell&#39;account del servizio cloud Google](https://cloud.google.com/iam/docs/service-accounts-create){target="_blank"}. |
+
+Se si seleziona **[!UICONTROL OAuth 2.0]**, è possibile aggiungere le seguenti informazioni di accesso:
+
+| Campo | Descrizione |
+| ----- | ----------- |
+| ID client | L’ID client del progetto BigQuery Google. Questo campo funziona come un nome utente per il progetto. |
+| Segreto client | Il segreto client del progetto BigQuery Google. Questo campo funziona come una password per il progetto. |
+| URL di reindirizzamento | URL di reindirizzamento dell’applicazione dopo la corretta autorizzazione. |
+
+Seleziona **[!UICONTROL Accedi]** per completare l&#39;autenticazione.
+
+Dopo aver inserito i dettagli di accesso, puoi aggiungere i seguenti dettagli:
+
+| Campo | Descrizione |
+| ----- | ----------- |
 | Progetto | ID del progetto. Per ulteriori informazioni, leggere la [documentazione del progetto Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}. |
 | Set di dati | Nome del set di dati. Per ulteriori informazioni, leggere la [documentazione del set di dati di Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}. |
 | Percorso file chiave | File di chiave del server. Sono supportati solo `json` file. |
@@ -171,13 +194,30 @@ Dopo aver selezionato Oracle, puoi aggiungere i seguenti dettagli:
 >
 >È supportato l’accesso sicuro al data warehouse esterno di Snowflake tramite collegamento privato. Il tuo account di Snowflake deve essere ospitato su Amazon Web Services (AWS) o su Azure e situato nella stessa area geografica dell’ambiente di composizione di pubblico federato. Contatta il tuo rappresentante Adobe per assistenza nella configurazione dell’accesso sicuro all’account Snowflake.
 
-Dopo aver selezionato Snowflake, puoi aggiungere i seguenti dettagli:
+Dopo aver selezionato Snowflake, puoi scegliere il metodo di autenticazione da utilizzare per la connessione con Federated Audience Composition.
+
+Se si seleziona **[!UICONTROL Autenticazione account/password]**, è possibile aggiungere le seguenti informazioni di accesso:
 
 | Campo | Descrizione |
 | ----- | ----------- |
 | Server | Nome del server. |
 | Utente | Il nome utente dell’account. |
 | Password | La password dell’account. |
+
+Se si seleziona **[!UICONTROL OAuth 2.0]**, è possibile aggiungere le seguenti informazioni di accesso:
+
+| Campo | Descrizione |
+| ----- | ----------- |
+| Server | Nome del server. |
+| ID client | L’ID client del progetto Snowflake. Questo campo funziona come un nome utente per il progetto. |
+| Segreto client | Il segreto client del progetto Snowflake. Questo campo funziona come una password per il progetto. |
+
+Seleziona **[!UICONTROL Accedi]** per completare l&#39;autenticazione.
+
+Dopo aver inserito i dettagli di accesso, puoi aggiungere i seguenti dettagli:
+
+| Campo | Descrizione |
+| ----- | ----------- |
 | Database | Nome del database. Se è specificato nel nome del server, questo campo può essere lasciato vuoto. |
 | Schema di lavoro | Nome dello schema di database da utilizzare per le tabelle di lavoro. <br/><br/>**Nota:** puoi utilizzare lo schema **any** dal database, inclusi gli schemi utilizzati per l&#39;elaborazione dati temporanea, purché tu disponga delle autorizzazioni necessarie per connettersi a questo schema. Tuttavia, **devi** utilizzare schemi di lavoro distinti per collegare più sandbox allo stesso database. |
 | Chiave privata | La chiave privata per la connessione al database. È possibile caricare un file `.pem` dal sistema locale. |

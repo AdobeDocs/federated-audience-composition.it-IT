@@ -2,16 +2,54 @@
 title: Novità nella composizione di pubblico federato di Experience Platform
 description: Aggiornamenti e note sulla versione più recenti
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 418a6db76a2294df8e4b4fd10744012971b39b54
-workflow-type: ht
-source-wordcount: '1706'
-ht-degree: 100%
+source-git-commit: 1806603f14a775cb7209e9f36283deabe5c07559
+workflow-type: tm+mt
+source-wordcount: '1740'
+ht-degree: 98%
 
 ---
 
 # Note sulla versione {#rn-new}
 
 [!DNL Federated Audience Composition] offre continuamente nuove funzioni, miglioramenti alle funzioni esistenti e correzioni di bug. In queste note sulla versione, tutte le modifiche sono consolidate. [!DNL Federated Audience Composition] è stato sviluppato in modalità nativa su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Ulteriori informazioni su queste modifiche sono disponibili nelle [Note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it){target="_blank"}.
+
+## Versione di ottobre 2025 {#fac-25-10}
+
+### Nuove funzionalità {#fac-25-10-feature}
+
+<!-- <table>
+<thead>
+<tr>
+<th><strong>Availability for Adobe Experience Platform customers on Amazon Web Services (AWS)</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>You can now use Federated Audience Composition if your Experience Platform instance is on AWS.</p>
+<p>For more information about Experience Platform on AWS, please read the <a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud">multi-cloud overview</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table> -->
+
+<table>
+<thead>
+<tr>
+<th><strong>Autenticazione OAuth per Google BigQuery e Snowflake</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Ora puoi connetterti a Google BigQuery e Snowflake utilizzando OAuth.</p>
+<p>Per ulteriori informazioni sulla creazione di connessioni, leggere la <a href="../connections/home.md#create">panoramica sulle connessioni</a>.</p>
+</br>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Versione di agosto 2025 {#fac-25-8}
 
