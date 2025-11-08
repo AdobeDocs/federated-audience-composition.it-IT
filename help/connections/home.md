@@ -3,7 +3,7 @@ audience: end-user
 title: Creare e gestire connessioni con i database federati
 description: Scopri come creare e gestire le connessioni con i database federati
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: 74679f5cf6dbc7401544232b484febd5ebc00aca
+source-git-commit: 4ad3897bec276cf4c63f9192ce34b17bd598fe84
 workflow-type: tm+mt
 source-wordcount: '2298'
 ht-degree: 10%
@@ -277,3 +277,4 @@ Dopo aver aggiunto i dettagli della connessione, tieni presente le seguenti impo
 | Verifica connessione | Consente di verificare i dettagli di configurazione. |
 
 È ora possibile selezionare **[!UICONTROL Distribuisci funzioni]**, seguito da **[!UICONTROL Aggiungi]** per finalizzare la connessione tra il database federato e Experience Platform.
+
