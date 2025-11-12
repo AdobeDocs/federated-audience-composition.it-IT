@@ -5,7 +5,7 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 source-git-commit: ae33d99e1d8b5c56a563d062c2526d53527878df
 workflow-type: tm+mt
 source-wordcount: '1740'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 98%
 <tr>
 <td>
 <p>You can now use Federated Audience Composition if your Experience Platform instance is on AWS.</p>
-<p>For more information about Experience Platform on AWS, please read the <a href="https://experienceleague.adobe.com/it/docs/experience-platform/landing/multi-cloud">multi-cloud overview</a>.</p>
+<p>For more information about Experience Platform on AWS, please read the <a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud">multi-cloud overview</a>.</p>
 </br>
 </td>
 </tr>
@@ -45,8 +45,8 @@ ht-degree: 98%
 <tbody>
 <tr>
 <td>
-<p>Ora puoi connetterti a Google BigQuery e Snowflake utilizzando OAuth.</p>
-<p>Per ulteriori informazioni sulla creazione di connessioni, leggere la <a href="../connections/home.md#create">panoramica sulle connessioni</a>.</p>
+<p>Ora puoi connetterti a Google BigQuery e Snowflake mediante OAuth.</p>
+<p>Per ulteriori informazioni sulla creazione delle connessioni, consulta la <a href="../connections/home.md#create">panoramica delle connessioni</a>.</p>
 </br>
 </td>
 </tr>
