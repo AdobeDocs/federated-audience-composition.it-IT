@@ -2,7 +2,7 @@
 title: Autorizzazioni per accedere a un database esterno
 description: Informazioni sulle autorizzazioni necessarie per accedere ed eseguire attività su ciascun motore di database
 exl-id: 287fb4a4-5767-4337-96be-dceca55f756d
-source-git-commit: 530a8709a67fabec1a36e1661b922f3e9a9e6996
+source-git-commit: e0bf1f76f7f781fb6fcc3b44898ba805d87a25c9
 workflow-type: tm+mt
 source-wordcount: '418'
 ht-degree: 5%
@@ -13,7 +13,7 @@ ht-degree: 5%
 
 La tabella seguente illustra le autorizzazioni di database richieste per ogni sistema, consentendo di eseguire operazioni su database esterni tramite Federated Data Access (FDA).
 
-|   | Snowflake | Redshift | BigQuery Google | Databricks |
+|   | Snowflake | Redshift | Google BigQuery | Databricks |
 |:-:|:-:|:-:|:-:|:-:|
 | **Connessione al database remoto** | Privilegi di `USAGE ON WAREHOUSE`, `USAGE ON DATABASE` e `USAGE ON SCHEMA` | Creare un utente collegato all’account AWS | Crea un account di servizio e concedi all’entità principale l’accesso al progetto | Autorizzazione `USE CATALOG` per il catalogo e autorizzazione `CAN_USE` per SQL Warehouse |
 | **Creazione di tabelle** | privilegio `CREATE TABLE ON SCHEMA` | Autorizzazione `CREATE` | Il ruolo assegnato all&#39;account del servizio deve contenere: `bigquery.jobs.create` e `bigquery.tables.create` autorizzazioni | `USE SCHEMA` e `CREATE TABLE` autorizzazioni |
