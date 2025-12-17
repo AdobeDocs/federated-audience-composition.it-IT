@@ -3,10 +3,10 @@ audience: end-user
 title: Utilizzare le attività
 description: Scopri come utilizzare le attività
 exl-id: 1e4e5f53-636f-4f1c-bf2f-cc3b5d6d6dda
-source-git-commit: 2a21dcde345febdaad0934c8835df5f7ae8c30f6
+source-git-commit: 95f262e44c392c1e3c861a2b77b7736657cb9371
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 17%
+source-wordcount: '301'
+ht-degree: 35%
 
 ---
 
@@ -19,11 +19,15 @@ In Federated Audience Composition puoi creare composizioni utilizzando due tipi 
 
 ## Attività di targeting
 
-* [Genera attività pubblico](build-audience.md): definisci la popolazione target. Puoi selezionare un pubblico esistente o utilizzare il modellatore di query per definire una query personalizzata.
+>[!NOTE]
+>
+>Quando si utilizzano attività di composizione, i nomi di attributo **non possono** contenere spazi.
+
+* [Genera attività pubblico](build-audience.md): definisci la popolazione target. Puoi selezionare un pubblico esistente o utilizzare il query modeler per definire una query personalizzata.
 * [Modifica origine dati](./change-data-source.md): modifica l&#39;origine dati utilizzata dalla composizione.
 * [Modifica dimensione](change-dimension.md): modifica lo schema, noto anche come dimensione di targeting, durante la creazione della composizione.
-* [Combina](combine.md): esegui la segmentazione del gruppo in entrata. Puoi utilizzare un’unione, un’intersezione o un’esclusione.
-* [Deduplicazione](deduplication.md): elimina i duplicati nei risultati delle attività in entrata.
+* [Combina](combine.md): esegui la segmentazione della popolazione in entrata. Puoi utilizzare un’unione, un’intersezione o un’esclusione.
+* [Deduplica](deduplication.md): elimina i duplicati nei risultati delle attività in entrata.
 * [Arricchimento](enrichment.md): definisci i dati aggiuntivi da elaborare nella composizione. Questa attività consente di sfruttare la transizione in entrata e può essere configurata in modo da completare la transizione in uscita con dati aggiuntivi.
 * [Riconciliazione](reconciliation.md): definire il collegamento tra i dati nel database e i dati in una tabella di lavoro, ad esempio i dati caricati da un file esterno.
 * [Salva pubblico](save-audience.md): aggiorna un pubblico esistente o crea un nuovo pubblico dalla popolazione calcolata a monte in una composizione.
