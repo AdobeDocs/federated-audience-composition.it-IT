@@ -1,16 +1,16 @@
 ---
 audience: end-user
-title: Creare la prima query utilizzando il query modeler
-description: Scopri come creare la prima query nel modellatore di query.
+title: Panoramica dell’editor espressioni
+description: Scopri come utilizzare le funzioni all’interno dell’editor espressioni per creare una query all’interno di Query Modeler.
 exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
-source-git-commit: fdf93fb3554d05057052aa7059e141817a883dcc
+source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
 workflow-type: tm+mt
-source-wordcount: '4107'
-ht-degree: 10%
+source-wordcount: '4108'
+ht-degree: 9%
 
 ---
 
-# Modificare le espressioni {#expression}
+# Panoramica dell’editor espressioni {#expression}
 
 La modifica di un’espressione comporta l’immissione manuale di condizioni per formare una regola. Questa modalità ti consente di utilizzare funzioni avanzate, che ti consentono di manipolare i valori utilizzati per eseguire query specifiche come la manipolazione di date, stringhe, campi numerici, ordinamenti, ecc.
 
@@ -28,11 +28,11 @@ L’editor di espressioni mostra:
 * Elenco dei **campi (2)** disponibili che possono essere utilizzati nell&#39;espressione e corrispondenti allo schema della query, noto anche come dimensione di targeting.
 * **Funzioni helper (3)**, ordinate per categoria.
 
-Modifica l’espressione immettendo un’espressione direttamente nel campo di input. Per aggiungere un campo o una funzione helper, posiziona il cursore nell’espressione nel punto in cui desideri aggiungerla e fai clic sul pulsante +.
+Modifica l’espressione immettendo un’espressione direttamente nel campo di input. Per aggiungere un campo o una funzione di supporto, posiziona il cursore nell’espressione nel punto in cui desideri aggiungerlo e seleziona il pulsante +.
 
 ![](assets/expression-editor.png){zoomable="yes"}
 
-Quando l&#39;espressione è pronta, fare clic sul pulsante **[!UICONTROL Conferma]**. L’espressione viene visualizzata nel campo selezionato. Per modificarlo, apri l’editor di espressioni e apporta le modifiche desiderate.
+Quando l&#39;espressione è pronta, selezionare **[!UICONTROL Conferma]**. L’espressione viene visualizzata nel campo selezionato. Per modificarlo, apri l’editor di espressioni e apporta le modifiche desiderate.
 
 L&#39;esempio seguente mostra un&#39;espressione configurata per il campo **[!UICONTROL Value]**. Per modificarlo, è necessario aprire l&#39;editor espressioni utilizzando il pulsante **[!UICONTROL Modifica espressione]**.
 

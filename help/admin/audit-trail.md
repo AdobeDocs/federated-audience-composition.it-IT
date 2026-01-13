@@ -3,7 +3,7 @@ audience: end-user
 title: Audit Trail
 description: Scopri come le azioni e gli eventi vengono registrati e accessibili nell’audit trail
 exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
-source-git-commit: 16d307172ec6ad2d64f50b686d2d251267ce29ae
+source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 14%
@@ -31,7 +31,7 @@ La funzione **[!UICONTROL Audit trail]** registra costantemente in tempo reale u
 
 * **Audit trail dello schema di Source** consente di monitorare le attività e le modifiche recenti apportate agli schemi all&#39;interno dell&#39;istanza di Adobe Federated Audience Composition.
 
-  Per informazioni dettagliate sugli schemi, consulta questa [pagina](../customer/schemas.md).
+  Per informazioni dettagliate sugli schemi, consulta questa [pagina](../data-modelling/schemas.md).
 
 * **Audit trail del flusso di lavoro** consente di tenere traccia delle attività e delle modifiche recenti apportate ai flussi di lavoro, inclusi i relativi stati correnti, ad esempio:
 
@@ -44,7 +44,7 @@ La funzione **[!UICONTROL Audit trail]** registra costantemente in tempo reale u
    * Attivazione uguale all&#39;azione Esegui attività in sospeso ora
    * Interruzione incondizionata
 
-  Per ulteriori informazioni sui flussi di lavoro, consulta questa [pagina](../compositions/gs-compositions.md).
+  Per ulteriori informazioni sui flussi di lavoro, consulta questa [pagina](../compositions/home.md).
 
 * **Account esterno** consente di controllare le modifiche apportate agli account esterni nell&#39;istanza di Adobe Audience Composition.
 

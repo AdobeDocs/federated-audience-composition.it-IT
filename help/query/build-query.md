@@ -3,16 +3,16 @@ audience: end-user
 title: Creare la prima query utilizzando il query modeler
 description: Scopri come creare la prima query nel modello di query
 exl-id: bfaf1057-8770-4c3d-945d-4a9d37e5675f
-source-git-commit: 65052ffcd8c70817aa428bea7f8b6baa0a49a1b0
+source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
 workflow-type: tm+mt
-source-wordcount: '2066'
-ht-degree: 57%
+source-wordcount: '2063'
+ht-degree: 68%
 
 ---
 
 # Creare la prima query {#build-query}
 
-Per iniziare a creare una query, accedi al query modeler dalla posizione desiderata, a seconda dell’azione da eseguire. Verrà visualizzato il query modeler con un’area di lavoro vuota. Fai clic sul pulsante **+** per configurare il primo nodo della query.
+Per iniziare a creare una query, accedi al query modeler dalla posizione desiderata, a seconda dell’azione da eseguire. Verrà visualizzato il query modeler con un’area di lavoro vuota. Selezionare il pulsante **+** per configurare il primo nodo della query.
 
 Puoi aggiungere due tipi di elementi:
 
@@ -24,7 +24,7 @@ Puoi aggiungere due tipi di elementi:
 
 * **Gli operatori di gruppo** (AND, OR, EXCEPT) consentono di raggruppare i componenti di filtro nel diagramma. Vengono aggiunte alle transizioni esistenti prima di un componente di filtro. [Scopri come utilizzare gli operatori](#filtering)
 
-  Esempio: *Destinatari abbonati alla newsletter &quot;Sport&quot;**AND**&#x200B;che vivono a New York **OR**&#x200B;San Francisco*.
+  Esempio: *Destinatari abbonati alla newsletter &quot;Sport&quot;**AND**che vivono a New York **OR**San Francisco*.
 
   ![](assets/query-add-operator.png){zoomable="yes"}
 
@@ -44,9 +44,9 @@ I componenti per il filtro consentono di perfezionare la query utilizzando:
 
 Per filtrare la query utilizzando una condizione personalizzata, effettua le seguenti operazioni:
 
-1. Fai clic sul pulsante **+** sul nodo desiderato e seleziona **[!UICONTROL Condizione personalizzata]**. Il pannello delle proprietà della condizione personalizzata viene visualizzato sul lato destro.
+1. Selezionare il pulsante **+** sul nodo desiderato, seguito da **[!UICONTROL Condizione personalizzata]**. Il pannello delle proprietà della condizione personalizzata viene visualizzato sul lato destro.
 
-1. Nel campo **[!UICONTROL Attributo]**, seleziona l’attributo dal database che desideri sfruttare per creare la condizione. L&#39;elenco degli attributi include tutti gli attributi del database, inclusi quelli delle tabelle collegate.
+2. Nel campo **[!UICONTROL Attributo]**, seleziona l’attributo dal database che desideri sfruttare per creare la condizione. L&#39;elenco degli attributi include tutti gli attributi del database, inclusi quelli delle tabelle collegate.
 
    ![](assets/query-custom-condition-fields.png){zoomable="yes"}
 
@@ -54,7 +54,7 @@ Per filtrare la query utilizzando una condizione personalizzata, effettua le seg
    >
    >Il pulsante **[!UICONTROL Modifica espressione]** consente di sfruttare l&#39;editor espressioni per definire manualmente un&#39;espressione utilizzando i campi delle funzioni di supporto e del database. [Scopri come modificare le espressioni](expression-editor.md)
 
-1. Seleziona l’operatore da applicare dall’elenco a discesa. Sono disponibili diversi operatori da utilizzare. Gli operatori disponibili nell’elenco a discesa dipendono dal tipo di dati dell’attributo.
+3. Seleziona l’operatore da applicare dall’elenco a discesa. Sono disponibili diversi operatori da utilizzare. Gli operatori disponibili nell’elenco a discesa dipendono dal tipo di dati dell’attributo.
 
    +++Elenco degli operatori disponibili
 
@@ -72,32 +72,32 @@ Per filtrare la query utilizzando una condizione personalizzata, effettua le seg
    | Non è vuoto | Funziona in modo inverso rispetto all’operatore È vuoto. Non è necessario immettere dati nella seconda colonna Valore. | Il campo E-mail (@email) non è vuoto. |
    | Inizia con | Restituisce i risultati a partire dal valore immesso. | Account # (@account) inizia con “32010”. |
    | Non inizia con | Restituisce i risultati che non iniziano con il valore immesso | Account # (@account) non inizia con “20” |
-   | Contains | Restituisce i risultati che contengono almeno il valore immesso. | Il dominio e-mail (@domain) contiene “mail”</strong>, restituirà tutti i nomi di dominio che contengono “mail”. Quindi verrà restituito anche il dominio “gmail.com”. |
+   | Contiene | Restituisce i risultati che contengono almeno il valore immesso. | Il dominio e-mail (@domain) contiene “mail”</strong>, restituirà tutti i nomi di dominio che contengono “mail”. Quindi verrà restituito anche il dominio “gmail.com”. |
    | Non contiene | Restituisce risultati che non contengono il valore immesso. | Il dominio e-mail (@domain) non contiene “vo”</strong>. In questo caso, i nomi di dominio che contengono “vo” non verranno restituiti. Il nome di dominio “voilà.fr” non verrà visualizzato nei risultati. |
    | Simile a | Simile a è identico all’operatore Contiene. Ti consente di inserire un carattere jolly % nel valore. | Cognome (@lastName) simile a “Jon%s”. Qui, il carattere jolly viene usato come un “jolly” per trovare il nome “Jones”, nel caso in cui l’operatore avesse dimenticato la lettera mancante tra la “n” e la “s”. |
    | Diverso da | Simile a è identico all’operatore Contiene. Ti consente di inserire un carattere jolly % nel valore. | Cognome (@lastName) diverso da “Smi%h”. In questo caso, i destinatari con il cognome è “Smi%h” non verranno restituiti. |
 
    +++
 
-1. Nel campo **[!UICONTROL Valore]**, definisci il valore previsto. Puoi anche sfruttare l’editor espressioni per definire manualmente un’espressione utilizzando i campi delle funzioni di database e helper. A tale scopo, fare clic sul pulsante **[!UICONTROL Modifica espressione]**. [Scopri come modificare le espressioni](expression-editor.md)
+4. Nel campo **[!UICONTROL Valore]**, definisci il valore previsto. Puoi anche sfruttare l’editor espressioni per definire manualmente un’espressione utilizzando i campi delle funzioni di database e helper. A tale scopo, selezionare il pulsante **[!UICONTROL Modifica espressione]**. [Scopri come modificare le espressioni](expression-editor.md)
 
    *Esempio di query che restituisce tutti i profili di età pari o superiore a 21 anni:*
 
    ![](assets/query-custom-condition.png){zoomable="yes"}
 
-#### Condizioni personalizzate sulle tabelle collegate (collegamenti 1-1 e 1-N){#links}
+#### Condizioni personalizzate per tabelle collegate (collegamenti 1-1 e 1-N){#links}
 
 Le condizioni personalizzate consentono di eseguire query sulle tabelle collegate alla tabella attualmente utilizzata dalla regola. Questo include tabelle con un collegamento di cardinalità 1-1 o tabelle di raccolta (collegamento 1-N).
 
-Per un collegamento **1-1**, passare alla tabella collegata, selezionare l&#39;attributo desiderato e definire il valore previsto.
+Per un collegamento **1-1**, passa alla tabella collegata, seleziona l’attributo desiderato e definisci il valore previsto.
 
 Puoi anche selezionare direttamente un collegamento alla tabella nel selettore **[!UICONTROL Valore]** e confermare. In tal caso, i valori disponibili per la tabella selezionata devono essere selezionati utilizzando un selettore dedicato, come illustrato nell’esempio seguente.
 
 +++Esempio di query
 
-In questo caso, la query esegue il targeting dei brand la cui etichetta è &quot;in esecuzione&quot;.
+Qui, la query esegue il targeting dei brand la cui etichetta è “in esecuzione”.
 
-1. Naviga nella tabella **[!UICONTROL Brand]** e seleziona l&#39;attributo **[!UICONTROL Label]**.
+1. Naviga nella tabella **[!UICONTROL Brand]** e seleziona l’attributo **[!UICONTROL Etichetta]**.
 
    ![](assets/1-1-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
@@ -109,13 +109,13 @@ Di seguito è riportato un esempio di query in cui è stato selezionato direttam
 
 ![](assets/1-1-table-direct.png){zoomable="yes"}{width="85%" align="center"}
 
-+++
++++ 
 
-Per un collegamento **1-N**, puoi definire le condizioni secondarie per perfezionare la query, come illustrato nell&#39;esempio seguente.
+Per un **collegamento 1-N**, puoi definire le condizioni secondarie per perfezionare la query, come illustrato nell’esempio seguente.
 
 +++Esempio di query
 
-In questo caso, la query è rivolta a destinatari che hanno effettuato acquisti relativi al prodotto BrewMaster, per un importo totale di almeno 100$.
+In questo caso, la query ha come targeting destinatari che hanno effettuato acquisti relativi al prodotto BrewMaster, per un importo totale di almeno 100 $.
 
 1. Seleziona la tabella **[!UICONTROL Acquisti]** e conferma.
 
@@ -133,17 +133,17 @@ In questo caso, la query è rivolta a destinatari che hanno effettuato acquisti 
 
    ![](assets/custom-condition-1-N.png){zoomable="yes"}{width="85%" align="center"}
 
-+++
++++ 
 
 #### Utilizzare i dati aggregati {#aggregate}
 
-Le condizioni personalizzate consentono di eseguire operazioni di aggregazione. A questo scopo, devi selezionare direttamente un attributo da una tabella di raccolta:
+Le condizioni personalizzate consentono di eseguire operazioni di aggregazione. A questo scopo, è necessario selezionare direttamente un attributo da una tabella di raccolta:
 
-1. Spostarsi all&#39;interno della tabella di raccolta desiderata e selezionare l&#39;attributo sul quale si desidera eseguire un&#39;operazione di aggregazione.
+1. Spostati all’interno della tabella di raccolta desiderata e seleziona l’attributo sul quale desideri eseguire un’operazione di aggregazione.
 
    ![](assets/aggregate-attribute.png){zoomable="yes"}{width="85%" align="center"}
 
-1. Nel riquadro delle proprietà, attivare l&#39;opzione **[!UICONTROL Aggregate data]** e selezionare la funzione di aggregazione desiderata.
+1. Nel riquadro delle proprietà, attiva l’opzione **[!UICONTROL Aggrega dati]** e seleziona la funzione di aggregazione desiderata.
 
    ![](assets/aggregate.png){zoomable="yes"}{width="85%" align="center"}
 
@@ -156,7 +156,7 @@ Le condizioni personalizzate consentono di eseguire operazioni di aggregazione. 
 
 Per filtrare la query utilizzando un pubblico esistente, effettua le seguenti operazioni:
 
-1. Fai clic sul pulsante **+** sul nodo desiderato e scegli **[!UICONTROL Seleziona pubblico]**.
+1. Seleziona il pulsante **+** sul nodo desiderato e scegli **[!UICONTROL Seleziona pubblico]**.
 
 1. Il pannello delle proprietà **[!UICONTROL Seleziona pubblico]** si apre sul lato destro. Scegli il pubblico che desideri utilizzare per filtrare la query.
 
@@ -173,7 +173,7 @@ Per filtrare la query utilizzando un pubblico esistente, effettua le seguenti op
 
 Per filtrare la query utilizzando un filtro preimpostato, effettua le seguenti operazioni:
 
-1. Fai clic sul pulsante **+** sul nodo desiderato e seleziona **[!UICONTROL Filtro preimpostato]**.
+1. Selezionare il pulsante **+** sul nodo desiderato, seguito da **[!UICONTROL Filtro predefinito]**.
 
 1. Il pannello delle proprietà **[!UICONTROL Filtro preimpostato]** si apre sul lato destro. Seleziona un filtro preimpostato dall’elenco dei filtri personalizzati o dai preferiti.
 
@@ -191,15 +191,15 @@ Query Modeler consente di copiare uno o più componenti di filtro e incollarli a
 
 Per copiare e incollare i componenti di filtro, effettua le seguenti operazioni:
 
-1. Seleziona il componente filtro da copiare facendo clic su di esso nell’area di lavoro della query. Per selezionare più componenti, utilizza lo strumento per la selezione multipla disponibile nella barra degli strumenti situata nell’angolo superiore destro dell’area di lavoro.
+1. Seleziona il componente filtro da copiare selezionandolo nell’area di lavoro della query. Per selezionare più componenti, utilizza lo strumento per la selezione multipla disponibile nella barra degli strumenti situata nell’angolo superiore destro dell’area di lavoro.
 
-1. Se hai selezionato più componenti, fai clic sul pulsante **[!UICONTROL Copia]** nel riquadro delle proprietà del componente o sulla barra multifunzione blu nella parte inferiore dello schermo.
+1. Se hai selezionato più componenti, fai clic sul pulsante **[!UICONTROL Copia]** nel riquadro delle proprietà del componente oppure, se hai selezionato più componenti, sulla barra multifunzione blu nella parte inferiore dello schermo.
 
    | Copiare un singolo componente | Copiare più componenti |
    |  ---  |  ---  |
    | ![](assets/copy-single-component.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} | ![](assets/copy-multiple-components.png){zoomable="yes"}{width="200" align="center" zoomable="yes"} |
 
-1. Per incollare i componenti, fai clic sul pulsante + alla fine della transizione desiderata e seleziona **[!UICONTROL Incolla n elementi]**.
+1. Per incollare i componenti, seleziona il pulsante + alla fine della transizione desiderata, seguito da **[!UICONTROL Incolla n elementi]**.
 
    ![](assets/copy-paste.png){zoomable="yes"}
 
@@ -216,7 +216,7 @@ In questo esempio, è stato aggiunto un nuovo componente di filtraggio per il ti
 
 ![](assets/query-operator.png){zoomable="yes"}
 
-Per modificare l&#39;operatore utilizzato per collegare insieme le condizioni di filtro, fare clic su di esso e selezionare l&#39;operatore desiderato nel riquadro **[!UICONTROL Gruppo]** visualizzato sul lato destro.
+Per modificare l&#39;operatore utilizzato per collegare insieme le condizioni di filtro, selezionarlo e selezionare l&#39;operatore desiderato nel riquadro **[!UICONTROL Gruppo]** visualizzato sul lato destro.
 
 Gli operatori disponibili sono:
 
@@ -226,9 +226,9 @@ Gli operatori disponibili sono:
 
 ![](assets/query-operator-change.png){zoomable="yes"}
 
-È inoltre possibile creare gruppi intermedi di componenti facendo clic sul pulsante **+** su una transizione. Questo consente di aggiungere un operatore in questa posizione specifica per raggruppare più componenti e perfezionare la query.
+È inoltre possibile creare gruppi intermedi di componenti selezionando il pulsante **+** in una transizione. Questo consente di aggiungere un operatore in questa posizione specifica per raggruppare più componenti e perfezionare la query.
 
-Nell’esempio seguente, abbiamo creato un gruppo intermedio per includere i risultati del pubblico &quot;VIP da ricompensare&quot; o &quot;Super VIP&quot;.
+Nell’esempio seguente, abbiamo creato un gruppo intermedio per includere i risultati del pubblico &quot;VIP to reward&quot; (Da a ricompensare) o &quot;Super VIP&quot; (Super).
 
 ![](assets/query-intermediate-group.png){zoomable="yes"}
 
@@ -239,18 +239,18 @@ Nell’esempio seguente, abbiamo creato un gruppo intermedio per includere i ris
 >title="Proprietà regola"
 >abstract="Dopo aver creato la query nell’area di lavoro, puoi verificarla utilizzando il riquadro **[!UICONTROL Proprietà delle regole]** sul lato destro.<br/>Questo riquadro consente di visualizzare i dati risultanti, recuperare una versione del codice SQL della query e verificare il numero di record target.<br/>Utilizza il pulsante **[!UICONTROL Seleziona o salva il filtro]** per salvare la query come filtro preimpostato o sostituisci il contenuto dell’area di lavoro con un filtro esistente."
 
-Dopo aver creato la query nell’area di lavoro, puoi controllarla utilizzando il pannello **[!UICONTROL Proprietà delle regole]** sul lato destro. Questo riquadro viene visualizzato quando si crea una query per creare un pubblico. Le operazioni disponibili sono:
+Dopo aver creato la query nell’area di lavoro, puoi controllarla utilizzando il pannello **[!UICONTROL Proprietà delle regole]** sul lato destro. Questo riquadro viene visualizzato quando si genera una query per creare un pubblico. Le operazioni disponibili sono:
 
 * **[!UICONTROL Visualizza risultati]:** Visualizza i dati risultanti dalla query.
 * **[!UICONTROL Vista codice]**: visualizza una versione della query basata su codice in SQL.
 * **[!UICONTROL Calcola]**: aggiorna e visualizza il numero di record interessati dalla query.
-* **[!UICONTROL Seleziona o salva il filtro]**: scegli un filtro predefinito esistente da utilizzare nell&#39;area di lavoro oppure salva la query come filtro predefinito da riutilizzare in futuro.
+* **[!UICONTROL Seleziona o salva il filtro]**: scegli un filtro preimpostato esistente da utilizzare nell’area di lavoro oppure salva la query come filtro preimpostato per riutilizzarla in futuro.
 
   >[!IMPORTANT]
   >
   >La selezione di un filtro preimpostato dal pannello Proprietà regole sostituisce la query creata nell’area di lavoro con il filtro selezionato.
 
-Quando la query è pronta, fai clic sul pulsante **[!UICONTROL Conferma]** nell&#39;angolo superiore destro per salvarla.
+Quando la query è pronta, seleziona il pulsante **[!UICONTROL Conferma]** nell&#39;angolo superiore destro per salvarla.
 
 Puoi modificare la query in qualsiasi momento aprendola. Tenere presente che all&#39;apertura di una query esistente, questa viene visualizzata in una visualizzazione semplificata senza la visibilità di **+** pulsanti. Per aggiungere nuovi elementi alla query, selezionare un componente o un operatore nell&#39;area di lavoro per visualizzare i pulsanti **+**.
 

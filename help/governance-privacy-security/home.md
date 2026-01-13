@@ -2,7 +2,7 @@
 title: Privacy e sicurezza nella composizione di pubblico federato
 description: Scopri in che modo la composizione di pubblico federato affronta la privacy e la sicurezza dei dati utente, incluse funzioni quali governance dei dati, applicazione del consenso, controllo degli accessi, crittografia dei dati e rispetto delle normative sulla privacy.
 exl-id: 677e26e7-1294-4f62-a5ce-17b65e84c65e
-source-git-commit: 7429577d99d2f163e7084db056005fe641d1bcf3
+source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
 workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 77%
@@ -31,7 +31,7 @@ Puoi utilizzare la governance dei dati per gestire e identificare i dati del cli
 
 Puoi utilizzare le etichette di utilizzo dei dati per categorizzare set di dati e campi in base ai criteri di governance applicabili a tali dati. Dopo aver creato un pubblico utilizzando le composizioni, puoi applicare le etichette dei dati appropriate allo schema risultante per garantire che rispetti le restrizioni di utilizzo richieste.
 
-Per ulteriori informazioni sull&#39;utilizzo delle etichette dati in Federated Audience Composition, consulta la [sezione applicare etichette di accesso](../compositions/gs-compositions.md#access-labels){target="_blank"}.
+Per ulteriori informazioni sull&#39;utilizzo delle etichette dati in Federated Audience Composition, consulta la [sezione applicare etichette di accesso](../compositions/home.md#access-labels){target="_blank"}.
 
 ## Privacy
 

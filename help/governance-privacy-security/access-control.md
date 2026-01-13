@@ -2,7 +2,7 @@
 title: Controllo degli accessi in Federated Audience Composition
 description: Scopri come gestire l’accesso ai dati per gli utenti in Federated Audience Composition.
 exl-id: 84138456-218b-4beb-ae7b-146213b03cc2
-source-git-commit: a26e5a2b106426113764d3f2f668ddfbbff85b01
+source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
 workflow-type: tm+mt
 source-wordcount: '606'
 ht-degree: 80%
@@ -80,4 +80,4 @@ L’utente riceverà quindi un’e-mail con istruzioni per accedere all’istanz
 
 Puoi gestire l’accesso a una composizione specifica applicando le etichette di accesso.
 
-Per ulteriori informazioni sull&#39;applicazione delle etichette di accesso a una composizione, leggere la sezione [Applica etichette di accesso](/help/compositions/gs-compositions.md#access-labels) della guida alle composizioni.
+Per ulteriori informazioni sull&#39;applicazione delle etichette di accesso a una composizione, leggere la sezione [Applica etichette di accesso](/help/compositions/home.md#access-labels) della guida alle composizioni.

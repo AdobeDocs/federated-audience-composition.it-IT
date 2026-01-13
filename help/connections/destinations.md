@@ -3,7 +3,7 @@ audience: end-user
 title: Arricchire i tipi di pubblico di Adobe Experience Platform con dati esterni
 description: Scopri come perfezionare e arricchire i tipi di pubblico di Adobe Experience Platform con i dati dei database federati utilizzando la destinazione Federated Audiences Composition.
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
-source-git-commit: d99bd98b5d63af55db223cf2e8dd3996d8012d24
+source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 8%
@@ -30,7 +30,7 @@ I passaggi principali per inviare i tipi di pubblico di Adobe Experience Platfor
 
 1. Accedi al catalogo Destinazioni Adobe Experience Platform e seleziona la destinazione Federated Audience Composition.
 
-   Nel riquadro destro selezionare **[!UICONTROL Configura nuova destinazione]**.
+   Nel riquadro di destra, selezionare **[!UICONTROL Configura nuova destinazione]**.
 
    ![](assets/destination-new.png)
 
@@ -38,25 +38,25 @@ I passaggi principali per inviare i tipi di pubblico di Adobe Experience Platfor
 
    * Amazon Redshift
    * Azure Synapse Analytics
-   * BigQuery Google
+   * Google BigQuery
    * Snowflake
    * Vertica Analytics
    * Databricks
    * Microsoft Fabric
 
-1. Selezionare il **[!UICONTROL database federato]** a cui connettersi e fare clic su **[!UICONTROL Avanti]**.
+1. Selezionare il **[!UICONTROL database federato]** a cui connettersi, seguito da **[!UICONTROL Next]**.
 
    ![](assets/destination-configure.png)
 
 1. Nella sezione **[!UICONTROL Avvisi]**, puoi abilitare gli avvisi per ricevere notifiche sullo stato del flusso di dati verso la tua destinazione.
 
-   Per ulteriori informazioni sugli avvisi, consulta la documentazione di Adobe Experience Platform relativa all&#39;abbonamento di [avvisi alle destinazioni tramite l&#39;interfaccia utente](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/alerts){target="_blank"}
+   Per ulteriori informazioni sugli avvisi, consulta la documentazione di Adobe Experience Platform relativa all&#39;abbonamento di [avvisi alle destinazioni tramite l&#39;interfaccia utente](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}
 
 1. Nel passaggio **[!UICONTROL Criteri di governance e azioni di applicazione]**, puoi definire i criteri di governance dei dati e garantire che i dati utilizzati siano conformi quando i tipi di pubblico vengono inviati e sono attivi.
 
-   Dopo aver selezionato le azioni di marketing desiderate per la destinazione, fare clic su **[!UICONTROL Crea]**.
+   Dopo aver selezionato le azioni di marketing desiderate per la destinazione, selezionare **[!UICONTROL Crea]**.
 
-1. Viene creata la nuova connessione alla destinazione. Ora puoi attivare i tipi di pubblico da inviare alla destinazione. A tale scopo, selezionarlo dall&#39;elenco e fare clic su **[!UICONTROL Avanti]**
+1. Viene creata la nuova connessione alla destinazione. Ora puoi attivare i tipi di pubblico da inviare alla destinazione. Per farlo, selezionalo dall&#39;elenco, seguito da **[!UICONTROL Successivo]**
 
    ![](assets/destination-activate.png)
 
@@ -74,14 +74,14 @@ I passaggi principali per inviare i tipi di pubblico di Adobe Experience Platfor
    >
    >Informazioni dettagliate su come configurare pianificazione e nomi di file sono disponibili nelle seguenti sezioni della documentazione di Adobe Experience Platform:
    >
-   >* [Pianifica esportazione pubblico](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
-   >* [Configura nomi file](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
+   >* [Pianifica esportazione pubblico](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
+   >* [Configura nomi file](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
 
-1. Nel passaggio **[!UICONTROL Mappatura]**, seleziona l&#39;attributo e i campi di identità da esportare per il pubblico. Per ulteriori informazioni, vedi il [passaggio di mappatura](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} nella documentazione di Adobe Experience Platform.
+1. Nel passaggio **[!UICONTROL Mappatura]**, seleziona l&#39;attributo e i campi di identità da esportare per il pubblico. Per ulteriori informazioni, vedi il [passaggio di mappatura](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} nella documentazione di Adobe Experience Platform.
 
    ![](assets/destination-attributes.png)
 
-1. Rivedi la configurazione di destinazione e le impostazioni del pubblico, quindi fai clic su **[!UICONTROL Fine]**.
+1. Rivedi la configurazione di destinazione e le impostazioni del pubblico, quindi seleziona **[!UICONTROL Fine]**.
 
    ![](assets/destination-review.png)
 

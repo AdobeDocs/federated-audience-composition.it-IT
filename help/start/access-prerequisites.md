@@ -2,10 +2,10 @@
 title: Prerequisiti e guardrail per la composizione di pubblico federato
 description: Scopri i prerequisiti, le autorizzazioni e i guardrail per la composizione di pubblico federato
 exl-id: 661a838f-146e-4d68-bb2d-319827caee3a
-source-git-commit: c133ddb2b1d2a75e7f9614d7623fad63aa24eb55
-workflow-type: ht
-source-wordcount: '360'
-ht-degree: 100%
+source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
+workflow-type: tm+mt
+source-wordcount: '363'
+ht-degree: 92%
 
 ---
 
@@ -29,7 +29,7 @@ La composizione di pubblico federato supporta i seguenti data warehouse cloud:
 * Vertica Analytics
 * Microsoft Fabric
 
-Scopri come creare una connessione con questi sistemi in [questa pagina](../connections/home.md).
+Scopri come creare una connessione con questi sistemi nella [panoramica delle connessioni](../connections/home.md).
 
 ## Sandbox
 
@@ -39,7 +39,7 @@ Per visualizzare l’elenco delle sandbox attive della composizione di pubblico 
 
 1. Da Composizione di pubblico federato, accedi al menu **[!UICONTROL Utilizzo licenze]** in **[!UICONTROL Amministrazione]**.
 
-1. Fai clic sull’icona ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) da **[!UICONTROL Volume totale di dati in uscita]** per accedere alle proprietà della sandbox.
+1. Seleziona l&#39;icona ![](assets/do-not-localize/Smock_InfoOutline_18_N.svg) da **[!UICONTROL Volume totale di dati in uscita]** per accedere alle proprietà della sandbox.
 
    ![](assets/sandbox_1.png)
 

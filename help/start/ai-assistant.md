@@ -2,10 +2,10 @@
 title: Utilizzare l’Assistente IA
 description: Scopri come sfruttare l’Assistente IA
 exl-id: f7493a57-e42d-43f9-b20a-1b9b90477a74
-source-git-commit: fae57356b8e9f5358a39d31cad4883171a310fb6
-workflow-type: ht
+source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
+workflow-type: tm+mt
 source-wordcount: '266'
-ht-degree: 100%
+ht-degree: 90%
 
 ---
 
@@ -27,9 +27,9 @@ Esempi di tali domande includono:
 
 Per porre una domanda:
 
-1. Accedi all’Assistente IA facendo clic sull’icona nella barra superiore.
+1. Accedi a AI Assistant selezionando l’icona sulla barra superiore.
 
-   L’Assistente IA compare nella sezione a destra dello schermo. Puoi fare clic su ![testo alternativo di approfondimento immagine](assets/do-not-localize/Smock_FullScreen_18_N.svg "Espandi") per espandere la finestra dell’Assistente IA.
+   L’Assistente IA viene visualizzato nella sezione a destra dello schermo. Puoi selezionare ![Testo alternativo immagine immersione](assets/do-not-localize/Smock_FullScreen_18_N.svg "Espandi") per espandere la finestra dell&#39;assistente di intelligenza artificiale.
 
    ![](assets/do-not-localize/ai-assistant-open.png)
 
