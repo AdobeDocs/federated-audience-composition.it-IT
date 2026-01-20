@@ -4,9 +4,9 @@ title: Utilizzare i tipi di pubblico
 description: Scopri come utilizzare i tipi di pubblico
 exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
 source-git-commit: ad6ba3e9e806065c05bb4b67ef94dffc7e6b45cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '309'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
