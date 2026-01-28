@@ -1,15 +1,15 @@
 ---
 audience: end-user
-title: Panoramica sulle attività
+title: Panoramica delle attività
 description: Scopri le diverse attività e transizioni disponibili per l’utilizzo in Federated Audience Composition.
-source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
+source-git-commit: 04f4edafd1c687b94bf5617458edf0866bba16fa
 workflow-type: tm+mt
-source-wordcount: '4619'
+source-wordcount: '4662'
 ht-degree: 33%
 
 ---
 
-# Panoramica sulle attività
+# Panoramica delle attività
 
 In Federated Audience Composition, puoi aggiungere attività e transizioni che aiutano a definire il pubblico.
 
@@ -420,6 +420,8 @@ Dopo aver aggiunto l&#39;attività **Salva pubblico** alla composizione, puoi sp
 Ora puoi specificare le mappature per selezionare i campi da trasferire al pubblico appena creato. Seleziona **Aggiungi mappatura pubblico** e scegli i campi del pubblico di origine e di destinazione, ripetendo il numero di volte necessario.
 
 Dopo aver aggiunto le mappature, puoi selezionare l’identità principale e lo spazio dei nomi per identificare i profili target nel database. Il campo di identità principale viene utilizzato per identificare i profili, mentre lo spazio dei nomi dell’identità funge da chiave per identificare l’identità.
+
+Inoltre, puoi impostare la scadenza dei dati per il pubblico. La scadenza dei dati determina il numero di giorni dopo i quali scadrà l’iscrizione al pubblico. La scadenza dei dati può essere compresa tra 1 e 90 giorni. Per impostazione predefinita, questo valore è impostato su 30.
 
 +++
 
