@@ -2,7 +2,7 @@
 title: Pagina home della documentazione della composizione di pubblico federato di Adobe Experience Platform
 description: Documentazione di Composizione di pubblico federato
 exl-id: 5cb18794-ae38-4ed7-9ce2-112bc6ae8dce
-source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
+source-git-commit: c10ccb309b974694da24302782e263a2b77fd373
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 100%
@@ -53,7 +53,7 @@ Aggiungi e configura attività (Suddivisione, Arricchimento, Query, ecc.) per ge
     </td>
     <td>
     <a href="compositions/home.md"><img src="assets/do-not-localize/start-journey.jpeg"></a>
-    <div><strong>Componi un pubblico</strong><br/> Aggiungi e configura attività (Suddivisione, Arricchimento, Query, ecc.) per creare composizioni e il primo pubblico federato.
+    <div><strong>Componi un pubblico</strong><br/>Aggiungi e configura attività (Suddivisione, Arricchimento, Query, ecc.) per creare composizioni e il primo pubblico federato.
     </div>
     </td>
     <td>
@@ -78,4 +78,3 @@ Aggiungi e configura attività (Suddivisione, Arricchimento, Query, ecc.) per ge
 ## Risorse aggiuntive  {#additional-resources}
 
 [Documentazione di Real-time Customer Data Platform](https://experienceleague.adobe.com/it/docs/experience-platform/rtcdp/home){target="_blank"} - [Documentazione di Adobe Audience Portal](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/audience-dashboard){target="_blank"} - [Tutorial](https://experienceleague.adobe.com/it/docs/platform-learn/tutorials/audiences/introduction-to-audience-portal-and-composition){target="_blank"}
-
