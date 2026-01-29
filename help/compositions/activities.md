@@ -2,7 +2,7 @@
 audience: end-user
 title: Panoramica delle attività
 description: Scopri le diverse attività e transizioni disponibili per l’utilizzo in Federated Audience Composition.
-source-git-commit: 04f4edafd1c687b94bf5617458edf0866bba16fa
+source-git-commit: 8e6bd50191afa2bdeb420186d9eb65347f063bb9
 workflow-type: tm+mt
 source-wordcount: '4662'
 ht-degree: 33%
@@ -23,7 +23,7 @@ Esistono **due** tipi diversi di attività da utilizzare in Federated Audience C
 
 Le attività di targeting ti consentono di definire cosa costituisce il pubblico per la composizione.
 
-#### Crea pubblico
+#### Crea pubblico {#build-audience}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_audienceselector"
@@ -60,7 +60,7 @@ Dopo aver selezionato le opzioni, puoi scegliere di **generare una transizione i
 
 +++
 
-#### Modificare l’origine dati
+#### Modificare l’origine dati {#change-data-source}
 
 L&#39;attività **Modifica origine dati** consente di modificare l&#39;origine dati utilizzata dalla composizione.
 
@@ -80,7 +80,7 @@ Dopo aver selezionato **[!UICONTROL l&#39;account esterno FDA]**, puoi scegliere
 
 +++
 
-#### Cambia dimensione
+#### Cambia dimensione {#change-dimension}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_dimension_complement"
@@ -104,7 +104,7 @@ Dopo aver eseguito la composizione, i risultati verranno aggiornati.
 
 +++
 
-#### Combina
+#### Combina {#combine}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine"
@@ -206,7 +206,7 @@ Dopo aver configurato le regole di esclusione, puoi anche selezionare l&#39;opzi
 
 +++
 
-#### Deduplica
+#### Deduplica {#deduplication}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_fields"
@@ -251,7 +251,7 @@ Dopo aver identificato i campi, puoi configurare le impostazioni di deduplicazio
 
 +++
 
-#### Arricchimento
+#### Arricchimento {#enrichment}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment"
@@ -294,7 +294,7 @@ Dopo aver aggiunto l&#39;attività **Enrichment** alla composizione, è possibil
 
 +++
 
-#### Riconciliazione
+#### Riconciliazione {#reconciliation}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation"
@@ -375,7 +375,7 @@ Puoi anche filtrare i dati riconciliati. Selezionare **Crea filtro** per creare 
 
 +++
 
-#### Salva pubblico
+#### Salva pubblico {#save-audience}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_save_audience"
@@ -415,7 +415,7 @@ L&#39;attività **Save audience** consente di creare un pubblico in base alla co
 
 Dopo aver aggiunto l&#39;attività **Salva pubblico** alla composizione, puoi specificare il nome del pubblico appena creato.
 
-![](./assets/activities/save-audience.png)
+![](./assets/activities/save-audience.png){zoomable="yes" width="30%"}
 
 Ora puoi specificare le mappature per selezionare i campi da trasferire al pubblico appena creato. Seleziona **Aggiungi mappatura pubblico** e scegli i campi del pubblico di origine e di destinazione, ripetendo il numero di volte necessario.
 
@@ -425,7 +425,7 @@ Inoltre, puoi impostare la scadenza dei dati per il pubblico. La scadenza dei da
 
 +++
 
-#### Dividi
+#### Dividi {#split}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split"
@@ -506,7 +506,7 @@ Ora che i sottoinsiemi sono stati configurati, puoi impostare alcune opzioni agg
 
 Le attività di controllo del flusso consentono di definire l&#39;organizzazione e il coordinamento della composizione.
 
-#### E unisci
+#### E unisci {#and-join}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_and-join"
@@ -525,11 +525,11 @@ Nella sezione **Opzioni di unione** puoi selezionare tutte le attività che desi
 
 +++
 
-#### Fine
+#### Fine {#end}
 
 L&#39;attività **End** contrassegna graficamente la fine della composizione e non ha alcun impatto funzionale.
 
-#### Fork
+#### Fork {#fork}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_fork"
@@ -551,7 +551,7 @@ Dopo aver aggiunto l&#39;attività **Fork** alla composizione, vengono generate 
 
 +++
 
-#### Modulo di pianificazione
+#### Modulo di pianificazione {#scheduler}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_scheduler"
@@ -651,7 +651,7 @@ Dopo aver selezionato la frequenza di esecuzione, puoi scegliere il **Periodo di
 
 +++
 
-#### Attendi
+#### Attendi {#wait}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_wait"
