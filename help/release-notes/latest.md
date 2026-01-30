@@ -2,7 +2,7 @@
 title: Note sulla versione di Federated Audience Composition
 description: Ultimi aggiornamenti e note sulla versione per Federated Audience Composition.
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: c10ccb309b974694da24302782e263a2b77fd373
+source-git-commit: 595e98d09eff993bdac60ff3474415863739ff7d
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 24%
@@ -26,7 +26,7 @@ La versione di gennaio di Federated Audience Composition supporta le nuove funzi
 
 | Disponibilità per i clienti Adobe Experience Platform su Amazon Web Services (AWS) |
 | --- |
-| Ora puoi utilizzare Federated Audience Composition se la tua istanza di Experience Platform è su AWS. Per ulteriori informazioni su Experience Platform su AWS, consulta la [panoramica su più cloud](https://experienceleague.adobe.com/it/docs/experience-platform/landing/multi-cloud). |
+| Ora puoi utilizzare Federated Audience Composition se la tua istanza di Experience Platform è su AWS. Per ulteriori informazioni su Experience Platform su AWS, consulta la [panoramica su più cloud](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud). |
 
 ### Miglioramenti {#fac-26-01-improvements}
 
@@ -37,4 +37,3 @@ Questa versione include i seguenti miglioramenti.
   È ora possibile impostare una scadenza dei dati quando si utilizza l&#39;attività **Save audience** in una composizione.
 
   Per ulteriori informazioni sulle scadenze dei dati in Federated Audience Composition, consulta la [guida delle attività](../compositions/activities.md#save-audience).
-
