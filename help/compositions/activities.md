@@ -2,10 +2,11 @@
 audience: end-user
 title: Panoramica delle attività
 description: Scopri le diverse attività e transizioni disponibili per l’utilizzo in Federated Audience Composition.
-source-git-commit: 8e6bd50191afa2bdeb420186d9eb65347f063bb9
+exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
+source-git-commit: 177efcf5f04d152a4e27ed553dac3f97f4613e11
 workflow-type: tm+mt
-source-wordcount: '4662'
-ht-degree: 33%
+source-wordcount: '5001'
+ht-degree: 32%
 
 ---
 
@@ -20,6 +21,81 @@ Le attività ti consentono di definire i componenti all’interno del pubblico.
 Esistono **due** tipi diversi di attività da utilizzare in Federated Audience Composition: attività di targeting e attività di controllo del flusso.
 
 ### Attività di targeting {#targeting}
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset"
+>title="Arricchisci i campi"
+>abstract="L’attività Arricchisci campi ti consente di arricchire gli schemi di Experience Platform unendo i dati dei magazzini esterni, consentendo di migliorare gli schemi di Experience Platform con attributi aggiuntivi. "
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentitynamespace"
+>title="Campo spazio dei nomi dell’identificazione primaria"
+>abstract="Spazio dei nomi per l’identità primaria. Lo spazio dei nomi aiuta a fornire il contesto per descrivere la classificazione dell’identità primaria."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepschema"
+>title="Seleziona schema Experience Platform"
+>abstract="Scegli lo schema Experience Platform da arricchire."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode"
+>title="Modalità di aggiornamento arricchisci campi"
+>abstract="Le modalità di aggiornamento disponibili per l’attività arricchisci campi includono aggiornamento completo e aggiornamento incrementale."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode_full"
+>title="Aggiornamento completo"
+>abstract="La modalità di aggiornamento completo aggiorna il set completo di attributi negli schemi selezionati."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode_incremental"
+>title="Aggiornamento incrementale"
+>abstract="La modalità di aggiornamento incrementale aggiorna i campi che sono stati modificati dall’ultima esecuzione dell’arricchimento."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentityfield"
+>title="Campo dell’identità primaria"
+>abstract="Il campo dell’identità primaria indica l’attendibilità al momento dell’unione dei profili per l’arricchimento."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_requiredfieldscheck"
+>title="Criteri dei campi obbligatori"
+>abstract="Un campo obbligatorio è un attributo che deve essere compilato per ogni profilo o record durante l’esportazione dei dati. Se un campo obbligatorio manca, l’esportazione non sarà completa o valida."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentitycheck"
+>title="Criteri del campo dell’identità primaria"
+>abstract="L’identificatore univoco di ciascun profilo o record. Questo assicura che ogni record possa essere riconosciuto e abbinato in modo distinto, evitando la duplicazione dei dati."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_aepschemalist"
+>title="Elenco schemi"
+>abstract="Elenco degli schemi disponibili nella sandbox. Puoi selezionare schemi standard o relazionali."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepattribute"
+>title="Seleziona attributo"
+>abstract="Puoi creare una mappatura di origine/destinazione per i campi."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepdataset"
+>title="Seleziona set di dati"
+>abstract="Elenco dei set di dati che appartengono allo schema. Puoi selezionare il set di dati in cui salvare i dati arricchiti."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primarykeycheck"
+>title="Chiave primaria"
+>abstract="Chiave primaria per lo schema relazionale. Questo valore assicura l’univocità all’interno dei set di dati impedendo l’acquisizione di record duplicati."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_versiondescriptor"
+>title="Descrittore versione"
+>abstract="Il descrittore di versione per lo schema relazionale. Questo valore consente di determinare quale proprietà ha la precedenza se più valori condividono la stessa chiave primaria, assicurandosi che venga applicato l’ultimo aggiornamento."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_timestampdescriptor"
+>title="Descrittore marca temporale"
+>abstract="Il descrittore del timestamp per lo schema relazionale. Questo valore consente di impostare l’ora dell’evento per l’ordinamento ed esiste solo se si utilizzano dati di serie temporali."
 
 Le attività di targeting ti consentono di definire cosa costituisce il pubblico per la composizione.
 
