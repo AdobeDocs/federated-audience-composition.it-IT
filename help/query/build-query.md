@@ -24,7 +24,7 @@ Puoi aggiungere due tipi di elementi:
 
 * **Gli operatori di gruppo** (AND, OR, EXCEPT) consentono di raggruppare i componenti di filtro nel diagramma. Vengono aggiunte alle transizioni esistenti prima di un componente di filtro. [Scopri come utilizzare gli operatori](#filtering)
 
-  Esempio: *Destinatari abbonati alla newsletter &quot;Sport&quot;**AND**&#x200B;che vivono a New York **OR**&#x200B;San Francisco*.
+  Esempio: *Destinatari abbonati alla newsletter &quot;Sport&quot;**AND**che vivono a New York **OR**San Francisco*.
 
   ![](assets/query-add-operator.png){zoomable="yes"}
 

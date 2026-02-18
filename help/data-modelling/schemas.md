@@ -10,7 +10,7 @@ ht-degree: 16%
 
 ---
 
-# Panoramica sugli schemi {#schemas}
+# Panoramica degli schemi {#schemas}
 
 >[!AVAILABILITY]
 >
@@ -58,7 +58,7 @@ Creando uno schema, puoi definire una rappresentazione della tabella in Experien
 >
 >Quando connetti più sandbox con lo stesso database, devi utilizzare schemi di lavoro distinti.
 
-## Crea uno schema {#schema-create}
+## Creare uno schema {#schema-create}
 
 Per creare uno schema in Composizione pubblico federato, seleziona **[!UICONTROL Modelli]** nella sezione **[!UICONTROL Dati federati]**. Nella scheda **[!UICONTROL Schema]**, selezionare **[!UICONTROL Crea schema]**.
 

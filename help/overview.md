@@ -1,15 +1,15 @@
 ---
-title: Panoramica sulla composizione del pubblico federato
+title: Panoramica sulla composizione di pubblico federato
 description: Scopri la Federated Audience Composition di Adobe e come utilizzarla nei servizi a valle come Adobe Experience Platform e Adobe Journey Optimizer
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
 workflow-type: tm+mt
 source-wordcount: '1203'
-ht-degree: 51%
+ht-degree: 52%
 
 ---
 
-# Panoramica sulla composizione del pubblico federato
+# Panoramica sulla composizione di pubblico federato
 
 La Federated Audience Composition ti consente di creare e arricchire i tipi di pubblico dai data warehouse di terze parti e di importarli in Adobe Experience Platform. Si tratta di una soluzione semplice e potente per collegare il data warehouse aziendale direttamente all’interno di servizi downstream come Adobe Real-Time Customer Data Platform o Adobe Journey Optimizer ed eseguire query sulle tabelle del data warehouse. Di conseguenza, puoi accedere ai dati dei clienti memorizzati nei data warehouse e nelle piattaforme di archiviazione cloud, come Amazon Redshift e Azure Synapse Analytics.
 

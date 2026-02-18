@@ -6,7 +6,7 @@ exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
 source-git-commit: 177efcf5f04d152a4e27ed553dac3f97f4613e11
 workflow-type: tm+mt
 source-wordcount: '5001'
-ht-degree: 32%
+ht-degree: 33%
 
 ---
 
@@ -195,7 +195,7 @@ Dopo aver eseguito la composizione, i risultati verranno aggiornati.
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_merging_options"
 >title="Opzioni di unione per Esclusione"
->abstract="La **esclusione** ti consente di escludere elementi da una popolazione in base a determinati criteri. Nella sezione **Set da unire**, seleziona tutte le attività precedenti che desideri unire."
+>abstract="L’attività **Esclusione** consente di escludere elementi da una popolazione in base a determinati criteri. Nella sezione **Set da unire**, seleziona tutte le attività precedenti che desideri unire."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_options"
