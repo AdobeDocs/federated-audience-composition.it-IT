@@ -3,10 +3,10 @@ audience: end-user
 title: Panoramica delle attività
 description: Scopri le diverse attività e transizioni disponibili per l’utilizzo in Federated Audience Composition.
 exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
-source-git-commit: 177efcf5f04d152a4e27ed553dac3f97f4613e11
+source-git-commit: 7166600b766f092cf9e366aa0adf9c59759b923a
 workflow-type: tm+mt
-source-wordcount: '5001'
-ht-degree: 33%
+source-wordcount: '5477'
+ht-degree: 31%
 
 ---
 
@@ -21,81 +21,6 @@ Le attività ti consentono di definire i componenti all’interno del pubblico.
 Esistono **due** tipi diversi di attività da utilizzare in Federated Audience Composition: attività di targeting e attività di controllo del flusso.
 
 ### Attività di targeting {#targeting}
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset"
->title="Arricchisci i campi"
->abstract="L’attività Arricchisci campi ti consente di arricchire gli schemi di Experience Platform unendo i dati dei magazzini esterni, consentendo di migliorare gli schemi di Experience Platform con attributi aggiuntivi. "
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_primaryidentitynamespace"
->title="Campo spazio dei nomi dell’identificazione primaria"
->abstract="Spazio dei nomi per l’identità primaria. Lo spazio dei nomi aiuta a fornire il contesto per descrivere la classificazione dell’identità primaria."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_selectaepschema"
->title="Seleziona schema Experience Platform"
->abstract="Scegli lo schema Experience Platform da arricchire."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_updatemode"
->title="Modalità di aggiornamento arricchisci campi"
->abstract="Le modalità di aggiornamento disponibili per l’attività arricchisci campi includono aggiornamento completo e aggiornamento incrementale."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_updatemode_full"
->title="Aggiornamento completo"
->abstract="La modalità di aggiornamento completo aggiorna il set completo di attributi negli schemi selezionati."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_updatemode_incremental"
->title="Aggiornamento incrementale"
->abstract="La modalità di aggiornamento incrementale aggiorna i campi che sono stati modificati dall’ultima esecuzione dell’arricchimento."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_primaryidentityfield"
->title="Campo dell’identità primaria"
->abstract="Il campo dell’identità primaria indica l’attendibilità al momento dell’unione dei profili per l’arricchimento."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_requiredfieldscheck"
->title="Criteri dei campi obbligatori"
->abstract="Un campo obbligatorio è un attributo che deve essere compilato per ogni profilo o record durante l’esportazione dei dati. Se un campo obbligatorio manca, l’esportazione non sarà completa o valida."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_primaryidentitycheck"
->title="Criteri del campo dell’identità primaria"
->abstract="L’identificatore univoco di ciascun profilo o record. Questo assicura che ogni record possa essere riconosciuto e abbinato in modo distinto, evitando la duplicazione dei dati."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_aepschemalist"
->title="Elenco schemi"
->abstract="Elenco degli schemi disponibili nella sandbox. Puoi selezionare schemi standard o relazionali."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_selectaepattribute"
->title="Seleziona attributo"
->abstract="Puoi creare una mappatura di origine/destinazione per i campi."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_selectaepdataset"
->title="Seleziona set di dati"
->abstract="Elenco dei set di dati che appartengono allo schema. Puoi selezionare il set di dati in cui salvare i dati arricchiti."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_primarykeycheck"
->title="Chiave primaria"
->abstract="Chiave primaria per lo schema relazionale. Questo valore assicura l’univocità all’interno dei set di dati impedendo l’acquisizione di record duplicati."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_versiondescriptor"
->title="Descrittore versione"
->abstract="Il descrittore di versione per lo schema relazionale. Questo valore consente di determinare quale proprietà ha la precedenza se più valori condividono la stessa chiave primaria, assicurandosi che venga applicato l’ultimo aggiornamento."
-
->[!CONTEXTUALHELP]
->id="dc_orchestration_savedataset_timestampdescriptor"
->title="Descrittore marca temporale"
->abstract="Il descrittore del timestamp per lo schema relazionale. Questo valore consente di impostare l’ora dell’evento per l’ordinamento ed esiste solo se si utilizzano dati di serie temporali."
 
 Le attività di targeting ti consentono di definire cosa costituisce il pubblico per la composizione.
 
@@ -200,7 +125,7 @@ Dopo aver eseguito la composizione, i risultati verranno aggiornati.
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_options"
 >title="Selezionare il tipo di segmentazione"
->abstract="Seleziona la modalità di combinazione dei tipi di pubblico: unione, intersezione o esclusione."
+>abstract="Seleziona la modalità di combinazione del pubblico: unione, intersezione o esclusione."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_intersection_reconciliation_options"
@@ -215,7 +140,7 @@ Dopo aver eseguito la composizione, i risultati verranno aggiornati.
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_exclusion_options"
 >title="Regole di esclusione"
->abstract="Se necessario, è possibile elaborare le tabelle in entrata. In effetti per escludere un target da un altro schema, noto anche come dimensione targeting, tale target deve essere restituito nello stesso schema del target principale. A tale scopo, selezionare **Aggiungi una regola** nella sezione E **regole di esclusione** e specificare le condizioni per la modifica dello schema. La riconciliazione dei dati viene eseguita tramite un attributo o un’unione."
+>abstract="Se necessario, è possibile elaborare le tabelle in entrata. In effetti per escludere un target da un altro schema, noto anche come dimensione targeting, tale target deve essere restituito nello stesso schema del target principale. A questo scopo, nella sezione **Regole di esclusione**, seleziona **Aggiungi una regola** e specifica le condizioni per la modifica dello schema. La riconciliazione dei dati viene eseguita tramite un attributo o un’unione."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_sets"
@@ -225,7 +150,7 @@ Dopo aver eseguito la composizione, i risultati verranno aggiornati.
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_exclusion"
 >title="Regole di esclusione"
->abstract="Se necessario, è possibile elaborare le tabelle in entrata. In effetti per escludere un target da un altro schema, noto anche come dimensione targeting, tale target deve essere restituito nello stesso schema del target principale. A tale scopo, selezionare **Aggiungi una regola** nella sezione **Regole di esclusione** e specificare le condizioni per la modifica dello schema. La riconciliazione dei dati viene eseguita tramite un attributo o un’unione."
+>abstract="Se necessario, è possibile elaborare le tabelle in entrata. In effetti per escludere un target da un altro schema, noto anche come dimensione targeting, tale target deve essere restituito nello stesso schema del target principale. A questo scopo, nella sezione **Regole di esclusione**, seleziona **Aggiungi una regola** e specifica le condizioni per la modifica dello schema. La riconciliazione dei dati viene eseguita tramite un attributo o un’unione."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_combine_complement"
@@ -287,7 +212,7 @@ Dopo aver configurato le regole di esclusione, puoi anche selezionare l&#39;opzi
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication_fields"
 >title="Campi per identificare i duplicati"
->abstract="Nella sezione **[!UICONTROL Campi per identificare i duplicati]**, selezionare il pulsante **[!UICONTROL Aggiungi attributo]** per specificare i campi per i quali i valori identici consentono l&#39;identificazione dei duplicati, ad esempio: indirizzo e-mail, nome, cognome e così via. L’ordine dei campi consente di specificare quali elaborare per primi."
+>abstract="Nella sezione **[!UICONTROL Campi per identificare i duplicati]**, seleziona il pulsante **[!UICONTROL Aggiungi attributo]** per specificare i campi per i quali i valori identici consentono di identificare i duplicati, ad esempio: indirizzo e-mail, nome, cognome e così via. L’ordine dei campi consente di specificare quelli da elaborare per primi."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_deduplication"
@@ -395,7 +320,7 @@ Dopo aver aggiunto l&#39;attività **Enrichment** alla composizione, è possibil
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_targeting"
 >title="Schema"
->abstract="Seleziona il nuovo schema da applicare ai dati. Uno schema, noto anche come dimensione targeting, consente di definire la popolazione di destinazione: destinatari, abbonati all’app, operatori, iscritti, ecc. Per impostazione predefinita, è selezionato lo schema corrente della composizione."
+>abstract="Seleziona il nuovo schema da applicare ai dati. Uno schema, noto anche come dimensione targeting, consente di definire la popolazione target: destinatari, abbonati all’app, operatori, iscritti, ecc. Per impostazione predefinita, è selezionato lo schema corrente della composizione."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_reconciliation_rules"
@@ -501,6 +426,138 @@ Inoltre, puoi impostare la scadenza dei dati per il pubblico. La scadenza dei da
 
 +++
 
+#### Salva campi {#save-fields}
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset"
+>title="Salva campi"
+>abstract="L’attività Save fields ti consente di arricchire gli schemi di Experience Platform unendo i dati provenienti da magazzini esterni, e di migliorare gli schemi di Experience Platform con attributi aggiuntivi. "
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentitynamespace"
+>title="Campo spazio dei nomi dell’identificazione primaria"
+>abstract="Spazio dei nomi per l’identità primaria. Lo spazio dei nomi aiuta a fornire il contesto per descrivere la classificazione dell’identità primaria."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepschema"
+>title="Seleziona schema Experience Platform"
+>abstract="Scegli lo schema Experience Platform da arricchire."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode"
+>title="Modalità di aggiornamento dei campi di salvataggio"
+>abstract="Le modalità di aggiornamento disponibili per l’attività di salvataggio dei campi includono aggiornamento completo e aggiornamento incrementale."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode_full"
+>title="Aggiornamento completo"
+>abstract="La modalità di aggiornamento completo aggiorna il set completo di attributi negli schemi selezionati."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_updatemode_incremental"
+>title="Aggiornamento incrementale"
+>abstract="La modalità di aggiornamento incrementale aggiorna i campi che sono stati modificati dall’ultima esecuzione dell’arricchimento."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentityfield"
+>title="Campo dell’identità primaria"
+>abstract="Il campo dell’identità primaria indica la fonte di verità quando si uniscono i profili per l’arricchimento."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_requiredfieldscheck"
+>title="Criteri dei campi obbligatori"
+>abstract="Un campo obbligatorio è un attributo che deve essere compilato per ogni profilo o record durante l’esportazione dei dati. Se manca un campo obbligatorio, l’esportazione non sarà completa o valida."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primaryidentitycheck"
+>title="Criteri del campo di identità primaria"
+>abstract="L’identificatore univoco di ciascun profilo o record. In questo modo, ogni record può essere riconosciuto e abbinato in modo distinto, evitando la duplicazione dei dati."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_aepschemalist"
+>title="Elenco schemi"
+>abstract="Elenco degli schemi disponibili nella sandbox. Puoi selezionare schemi standard o relazionali."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepattribute"
+>title="Seleziona attributo"
+>abstract="Puoi creare una mappatura di origine/destinazione per i campi."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_selectaepdataset"
+>title="Seleziona set di dati"
+>abstract="Elenco dei set di dati che appartengono allo schema. Puoi selezionare il set di dati in cui salvare i dati arricchiti."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_primarykeycheck"
+>title="Chiave primaria"
+>abstract="Chiave primaria per lo schema relazionale. Questo valore assicura l’univocità all’interno dei set di dati impedendo l’acquisizione di record duplicati."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_versiondescriptor"
+>title="Descrittore versione"
+>abstract="Il descrittore di versione per lo schema relazionale. Questo valore consente di determinare quale proprietà ha la precedenza se più valori condividono la stessa chiave primaria, assicurandosi che venga applicato l’ultimo aggiornamento."
+
+>[!CONTEXTUALHELP]
+>id="dc_orchestration_savedataset_timestampdescriptor"
+>title="Descrittore marca temporale"
+>abstract="Il descrittore del timestamp per lo schema relazionale. Questo valore consente di impostare l’ora dell’evento per l’ordinamento ed esiste solo se si utilizzano dati di serie temporali."
+
+L&#39;attività **[!UICONTROL Salva campi]** ti consente di arricchire gli schemi di Experience Platform unendo i dati dei warehouse esterni, consentendo di arricchire gli schemi di Experience Platform con attributi aggiuntivi.
+
+Questa attività viene utilizzata per arricchire gli schemi inserendo attributi e informazioni aggiuntive senza spostare o duplicare fisicamente i dati nella piattaforma.
+
++++ Dettagli configurazione
+
+>[!IMPORTANT]
+>
+>Se il set di dati selezionato **non** dispone di upsert abilitato, i dati verranno **sostituiti**. Per informazioni su come abilitare l&#39;upsert per i set di dati, leggere la [guida all&#39;upsert](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
+
+Dopo aver aggiunto l&#39;attività **[!UICONTROL Salva campi]** alla composizione, puoi assegnare un&#39;etichetta all&#39;attività e selezionare lo schema Adobe Experience Platform che desideri utilizzare. Lo schema può essere uno schema standard o relazionale.
+
+![Vengono visualizzati gli schemi disponibili.](/help/compositions//assets/activities/enrich-fields/select-schema.png){width="1500" zoomable="yes"}
+
+>[!BEGINTABS]
+
+>[!TAB Schema standard]
+
+Se selezioni uno schema standard, dovrai scegliere il set di dati in cui viene salvato l’arricchimento.
+
+![La sezione del set di dati selezionato è evidenziata.](/help/compositions/assets/activities/enrich-fields/select-dataset-standard.png){width="300" zoomable="yes"}
+
+Dopo aver selezionato il set di dati, puoi visualizzare il campo dell’identità primaria che verrà utilizzato per identificare i profili nel database. Tuttavia, dovrai mappare i campi primario e obbligatorio. Seleziona **[!UICONTROL Aggiungi campi]** e specifica il campo **[!UICONTROL Source]** (dati esterni) e il campo **[!UICONTROL Destination]** (campo schema) per ogni attributo che desideri mappare.
+
+![Il pulsante Aggiungi campi e la sezione di mappatura campi sono evidenziati.](/help/compositions/assets/activities/enrich-fields/specify-mapping-standard.png){width="300" zoomable="yes"}
+
+Puoi anche specificare la modalità di aggiornamento per l’arricchimento.
+
+![Vengono visualizzati i tipi di modalità di aggiornamento.](/help/compositions/assets/activities/enrich-fields/select-update-mode.png){width="300" zoomable="yes"}
+
+| Modalità di aggiornamento | Descrizione |
+| ----------- | ----------- |
+| Aggiornamenti completi | L’intero set di attributi negli schemi selezionati viene aggiornato per l’arricchimento. |
+| Aggiornamenti incrementali | Per l’arricchimento vengono aggiornati solo i campi che sono stati modificati dopo l’ultimo arricchimento eseguito. |
+
+Se selezioni [!UICONTROL Aggiornamenti incrementali], devi anche scegliere la data dell&#39;ultima modifica per determinare quali dati vengono inviati.
+
+>[!TAB Schema relazionale]
+
+Se selezioni uno schema relazionale, dovrai scegliere il set di dati in cui viene salvato l’arricchimento.
+
+![La sezione del set di dati selezionato è evidenziata.](/help/compositions/assets/activities/enrich-fields/select-dataset-relational.png){width="300" zoomable="yes"}
+
+Dopo aver selezionato il set di dati, puoi visualizzare la chiave primaria e il descrittore di versione per il database.  Tuttavia, è necessario mappare la chiave primaria e i campi obbligatori. Seleziona **[!UICONTROL Aggiungi campo]s** e specifica il campo **[!UICONTROL Source]** (dati esterni) e il campo **[!UICONTROL Destination]** (campo schema) per ogni attributo che desideri mappare.
+
+![Il pulsante Aggiungi campi e la sezione di mappatura campi sono evidenziati.](/help/compositions/assets/activities/enrich-fields/specify-mapping-relational.png){width="300" zoomable="yes"}
+
+Poiché gli schemi relazionali supportano solo aggiornamenti incrementali, dovrai scegliere la data dell’ultima modifica per determinare quali dati vengono inviati. Gli aggiornamenti incrementali aggiornano solo i campi che sono stati modificati dall’ultima esecuzione dell’arricchimento.
+
+![Viene visualizzata la modalità di aggiornamento, aggiornamenti incrementali.](/help/compositions/assets/activities/enrich-fields/update-mode-relational.png){width="300" zoomable="yes"}
+
+>[!ENDTABS]
+
++++
+
 #### Dividi {#split}
 
 >[!CONTEXTUALHELP]
@@ -511,12 +568,12 @@ Inoltre, puoi impostare la scadenza dei dati per il pubblico. La scadenza dei da
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_segments"
 >title="Segmenti per attività Dividi"
->abstract="Aggiungi tutti i sottoinsiemi desiderati per segmentare la popolazione in ingresso.<br/></br>Quando viene eseguita l’attività **Dividi**, la popolazione viene segmentata tra i diversi sottoinsiemi nell’ordine in cui vengono aggiunti all’attività. Prima di avviare la composizione, assicurati di aver ordinato i sottoinsiemi nell’ordine più adatto alle tue esigenze utilizzando i pulsanti freccia."
+>abstract="Aggiungi tutti i sottoinsiemi desiderati per segmentare la popolazione in ingresso.<br/></br>Quando viene eseguita l’attività **Dividi**, la popolazione viene segmentata in diversi sottoinsiemi nell’ordine in cui vengono aggiunti all’attività. Prima di avviare la composizione, assicurati di aver ordinato i sottoinsiemi nell’ordine più adatto alle tue esigenze utilizzando i pulsanti freccia."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_filter"
 >title="Filtro attività Dividi"
->abstract="Per applicare una condizione di filtro al sottoinsieme, selezionare **[!UICONTROL Crea filtro]** e configurare la regola di filtro desiderata utilizzando il modellatore di query. Ad esempio, includi i profili della popolazione in ingresso il cui indirizzo e-mail esiste nel database."
+>abstract="Per applicare una condizione di filtro al sottoinsieme, fai clic su **[!UICONTROL Crea filtro]** e configura la regola di filtro desiderata utilizzando il query modeler. Ad esempio, includi i profili della popolazione in ingresso il cui indirizzo e-mail esiste nel database."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_limit"
@@ -582,7 +639,7 @@ Ora che i sottoinsiemi sono stati configurati, puoi impostare alcune opzioni agg
 
 Le attività di controllo del flusso consentono di definire l&#39;organizzazione e il coordinamento della composizione.
 
-#### E unisci {#and-join}
+#### Unione E {#and-join}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_and-join"
@@ -615,7 +672,7 @@ L&#39;attività **End** contrassegna graficamente la fine della composizione e n
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_fork_transitions"
 >title="Transizioni delle attività Fork"
->abstract="Per impostazione predefinita, vengono create due transizioni con attività **Fork**. Seleziona il pulsante **Aggiungi transizione** per definire una transizione in uscita aggiuntiva e immetti la relativa etichetta."
+>abstract="Per impostazione predefinita, vengono create due transizioni con attività **Fork**. Seleziona il pulsante **Aggiungi transizione** per definire una transizione in uscita aggiuntiva e inserirne l’etichetta."
 
 L&#39;attività **Fork** consente di creare più transizioni in uscita che avviano contemporaneamente più attività.
 

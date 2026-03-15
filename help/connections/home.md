@@ -3,9 +3,9 @@ audience: end-user
 title: Creare e gestire connessioni con i database federati
 description: Scopri come creare e gestire le connessioni con i database federati
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
-source-git-commit: a81840d5cdc53a781045242f9c0dac50f56df2b8
+source-git-commit: 7166600b766f092cf9e366aa0adf9c59759b923a
 workflow-type: tm+mt
-source-wordcount: '2616'
+source-wordcount: '2970'
 ht-degree: 9%
 
 ---
@@ -70,7 +70,7 @@ Dopo aver selezionato Amazon Redshift, puoi aggiungere i seguenti dettagli:
 | Account | Il nome utente dell’account. |
 | Password | La password dell&#39;account. |
 | Database | Nome del database. Se è specificato nel nome del server, questo campo può essere lasciato vuoto. |
-| Schema di lavoro | Nome dello schema del database da utilizzare per le tabelle di lavoro. Ulteriori informazioni su questa funzione sono disponibili nella [documentazione sugli schemi di Amazon](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}.<br/><br/>**Nota:** è possibile utilizzare qualsiasi schema del database, inclusi gli schemi utilizzati per l&#39;elaborazione dati temporanea, purché si disponga delle autorizzazioni necessarie per connettersi a questo schema. Tuttavia, **devi** utilizzare schemi di lavoro distinti per collegare più sandbox allo stesso database. |
+| Schema di lavoro | Nome dello schema del database da utilizzare per le tabelle di lavoro. Ulteriori informazioni su questa funzione sono disponibili nella [documentazione sugli schemi di Amazon](https://docs.aws.amazon.com/redshift/latest/dg/r_Schemas_and_tables.html){target="_blank"}.<br/><br/>**Nota:** È possibile utilizzare qualsiasi schema del database, inclusi gli schemi utilizzati per l&#39;elaborazione dati temporanea, purché si disponga delle autorizzazioni necessarie per connettersi a questo schema. Tuttavia, **devi** utilizzare schemi di lavoro distinti per collegare più sandbox allo stesso database. |
 
 >[!TAB Azure Synapse Analytics]
 
@@ -94,7 +94,7 @@ In alternativa, puoi configurare in modo sicuro la connessione Azure Synapse Ana
 
 Prima di configurare l’autenticazione dell’entità servizio, tieni presente i seguenti prerequisiti:
 
-- Una sottoscrizione di Azure con accesso a Microsoft Entra ID
+- Un abbonamento Azure con accesso a Microsoft Entra ID
 - Un’area di lavoro e un database di Azure Synapse
 - Autorizzazione per creare la registrazione dell’app
 - Autorizzazione per la gestione dei ruoli del database di Azure Synapse
@@ -102,7 +102,7 @@ Prima di configurare l’autenticazione dell’entità servizio, tieni presente 
 
 +++
 
-All’interno del portale di Azure, devi innanzitutto creare una nuova registrazione dell’app. Seleziona **Registra** dopo aver assegnato all&#39;applicazione un nome univoco. Viene visualizzata la pagina **Panoramica**. Accertati di prendere nota dell&#39;**ID applicazione (client)** e dei valori **ID directory (tenant)**.
+All’interno del portale Azure, devi innanzitutto creare una nuova registrazione dell’app. Seleziona **Registra** dopo aver assegnato all&#39;applicazione un nome univoco. Viene visualizzata la pagina **Panoramica**. Accertati di prendere nota dell&#39;**ID applicazione (client)** e dei valori **ID directory (tenant)**.
 
 ![L&#39;ID dell&#39;applicazione (client) nella pagina della panoramica è evidenziato.](/help/connections/assets/home/azure-client-id.png)
 
@@ -116,7 +116,7 @@ Dopo aver generato il segreto client, è necessario assicurarsi di aver concesso
 
 Per ulteriori informazioni sull&#39;assegnazione di identità alle risorse, leggere la [Guida alle identità gestite per Azure Synapse Analytics](https://learn.microsoft.com/en-us/azure/synapse-analytics/synapse-service-identity).
 
-Poiché hai completato tutte le configurazioni lato Azure, ora puoi configurare le configurazioni lato Federated-Audience-Composition.
+Poiché hai completato tutte le configurazioni lato Azure, ora puoi impostare le configurazioni lato Federated-Audience-Composition.
 
 All’interno della connessione Azure Synapse, imposta i seguenti dettagli di configurazione:
 
@@ -134,15 +134,39 @@ All’interno della connessione Azure Synapse, imposta i seguenti dettagli di co
 >
 >È supportato l’accesso sicuro al data warehouse esterno Databricks tramite collegamento privato. Ciò include connessioni sicure ai database Databricks ospitati su Amazon Web Services (AWS) tramite collegamento privato e a quelli ospitati su Microsoft Azure tramite VPN. Contatta il rappresentante Adobe per assistenza nella configurazione dell’accesso sicuro.
 
-Dopo aver selezionato Database, è possibile aggiungere i seguenti dettagli:
+Dopo aver selezionato Database, puoi scegliere con il metodo di autenticazione da utilizzare per la connessione a Federated Audience Composition.
+
+Se si seleziona **Autenticazione account/password**, è possibile aggiungere i seguenti dettagli di accesso:
 
 | Campo | Descrizione |
 | ----- | ----------- |
 | Server | Il nome del server di database. |
-| Percorso HTTP | Percorso del cluster o della warehouse. Per ulteriori informazioni sul percorso, leggere la [documentazione dei database sui dettagli della connessione](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}. |
 | Password | Token di accesso per il server DatabaseKit. Per ulteriori informazioni su questo valore, leggere la [documentazione sui token di accesso personali](https://docs.databricks.com/aws/en/dev-tools/auth/pat){target="_blank"}. |
+
+Se si seleziona **Autenticazione entità servizio**, è possibile aggiungere i dettagli seguenti:
+
+| Campo | Descrizione |
+| ----- | ----------- |
+| Server | Il nome del server di database. |
+| ID client | L’ID client dal server Databricks. Questo campo funziona come un nome utente per il progetto. |
+| Segreto client | Il segreto client dal server Database. Questo campo funziona come una password per il progetto. |
+
+Se si seleziona **OAuth 2.0**, è possibile aggiungere i seguenti dettagli:
+
+| Campo | Descrizione |
+| ----- | ----------- |
+| Server | Il nome del server di database. |
+| ID client | L’ID client dal server Databricks. Questo campo viene utilizzato per identificare l’applicazione durante l’autenticazione OAuth 2.0 e si comporta come un nome utente per il progetto. |
+| Segreto client | Il segreto client dal server Database. Queste credenziali riservate vengono rilasciate con l&#39;ID cliente e fungono da password per il progetto. |
+| Ambito di accesso | Informazioni precompilate che elencano gli ambiti per i quali il token OAuth è autorizzato nel server Databricks. |
+
+Dopo aver inserito i dettagli di accesso, puoi aggiungere le seguenti informazioni:
+
+| Campo | Descrizione |
+| ----- | ----------- |
+| Percorso HTTP | Percorso del cluster o della warehouse. Per ulteriori informazioni sul percorso, leggere la [documentazione dei database sui dettagli della connessione](https://docs.databricks.com/aws/en/integrations/compute-details){target="_blank"}. |
 | Catalogo | Nome del catalogo dei database. Per ulteriori informazioni sui cataloghi in Databricks, leggere la [documentazione Databricks sui cataloghi](https://docs.databricks.com/aws/en/catalogs/){target="_blank"} |
-| Schema di lavoro | Nome dello schema di database da utilizzare per le tabelle di lavoro. <br/><br/>**Nota:** puoi utilizzare lo schema **any** dal database, inclusi gli schemi utilizzati per l&#39;elaborazione dati temporanea, purché tu disponga delle autorizzazioni necessarie per connettersi a questo schema. Tuttavia, **devi** utilizzare schemi di lavoro distinti per collegare più sandbox allo stesso database. |
+| Schema di lavoro | Nome dello schema di database da utilizzare per le tabelle di lavoro. <br/><br/>**Nota:** È possibile utilizzare lo schema **any** dal database, inclusi gli schemi utilizzati per l&#39;elaborazione dati temporanea, purché si disponga delle autorizzazioni necessarie per connettersi a questo schema. Tuttavia, **devi** utilizzare schemi di lavoro distinti per collegare più sandbox allo stesso database. |
 | Opzioni | Opzioni aggiuntive per la connessione. Le opzioni disponibili sono elencate nella tabella seguente. |
 
 Per i database, è possibile impostare le seguenti opzioni aggiuntive:
@@ -197,9 +221,9 @@ Per Google BigQuery, puoi impostare le seguenti opzioni aggiuntive:
 | ProxyUid | Numero di porta su cui è in esecuzione il proxy. |
 | ProxyPwd | Password per il proxy. |
 | bgpath | **Nota:** applicabile solo per lo strumento **bulk-load** (Cloud SDK). <br/><br/> Percorso della directory bin di Cloud SDK sul server. È necessario impostare questa opzione solo se la directory `google-cloud-sdk` è stata spostata in un&#39;altra posizione o se si desidera evitare di utilizzare la variabile PATH. |
-| GCloudConfigName | **Nota:** applicabile solo per lo strumento **bulk-load** (Cloud SDK) sopra la versione 7.3.4. <br/><br/> Il nome della configurazione che memorizza i parametri per il caricamento dei dati. Per impostazione predefinita, questo valore è `accfda`. |
-| GCloudDefaultConfigName | **Nota:** applicabile solo per lo strumento **bulk-load** (Cloud SDK) sopra la versione 7.3.4. <br/><br/> Il nome della configurazione temporanea per ricreare la configurazione principale per il caricamento dei dati. Per impostazione predefinita, questo valore è `default`. |
-| GCloudRecreateConfig | **Nota:** applicabile solo per lo strumento **bulk-load** (Cloud SDK) precedente alla versione 7.3.4. <br/><br/> Valore booleano che consente di decidere se il meccanismo di bulk-load deve ricreare, eliminare o modificare automaticamente le configurazioni di Google Cloud SDK. Se questo valore è impostato su `false`, il meccanismo di caricamento collettivo carica i dati utilizzando una configurazione esistente nel computer. Se questo valore è impostato su `true`, assicurati che la configurazione sia configurata correttamente. In caso contrario, verrà visualizzato l&#39;errore `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option` e il meccanismo di caricamento tornerà al meccanismo di caricamento predefinito. |
+| GCloudConfigName | **Nota:** applicabile solo per lo strumento **bulk-load** (Cloud SDK) precedente alla versione 7.3.4. <br/><br/> Il nome della configurazione che memorizza i parametri per il caricamento dei dati. Per impostazione predefinita, questo valore è `accfda`. |
+| GCloudDefaultConfigName | **Nota:** applicabile solo per lo strumento **bulk-load** (Cloud SDK) precedente alla versione 7.3.4. <br/><br/> Nome della configurazione temporanea per ricreare la configurazione principale per il caricamento dei dati. Per impostazione predefinita, questo valore è `default`. |
+| GCloudRecreateConfig | **Nota:** applicabile solo per lo strumento **bulk-load** (Cloud SDK) precedente alla versione 7.3.4. <br/><br/> Valore booleano che consente di decidere se il meccanismo di caricamento in blocco deve ricreare, eliminare o modificare automaticamente le configurazioni di Google Cloud SDK. Se questo valore è impostato su `false`, il meccanismo di caricamento collettivo carica i dati utilizzando una configurazione esistente nel computer. Se questo valore è impostato su `true`, assicurati che la configurazione sia configurata correttamente. In caso contrario, verrà visualizzato l&#39;errore `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option` e il meccanismo di caricamento tornerà al meccanismo di caricamento predefinito. |
 
 >[!TAB Microsoft Fabric]
 
@@ -267,7 +291,7 @@ Dopo aver inserito i dettagli di accesso, puoi aggiungere i seguenti dettagli:
 | Campo | Descrizione |
 | ----- | ----------- |
 | Database | Nome del database. Se è specificato nel nome del server, questo campo può essere lasciato vuoto. |
-| Schema di lavoro | Nome dello schema di database da utilizzare per le tabelle di lavoro. <br/><br/>**Nota:** puoi utilizzare lo schema **any** dal database, inclusi gli schemi utilizzati per l&#39;elaborazione dati temporanea, purché tu disponga delle autorizzazioni necessarie per connettersi a questo schema. Tuttavia, **devi** utilizzare schemi di lavoro distinti per collegare più sandbox allo stesso database. |
+| Schema di lavoro | Nome dello schema di database da utilizzare per le tabelle di lavoro. <br/><br/>**Nota:** È possibile utilizzare lo schema **any** dal database, inclusi gli schemi utilizzati per l&#39;elaborazione dati temporanea, purché si disponga delle autorizzazioni necessarie per connettersi a questo schema. Tuttavia, **devi** utilizzare schemi di lavoro distinti per collegare più sandbox allo stesso database. |
 | Chiave privata | La chiave privata per la connessione al database. È possibile caricare un file `.pem` dal sistema locale. |
 | Opzioni | Opzioni aggiuntive per la connessione. Le opzioni disponibili sono elencate nella tabella seguente. |
 
@@ -293,7 +317,7 @@ Dopo aver selezionato Vertica Analytics, puoi aggiungere i seguenti dettagli:
 | Account | Il nome utente dell’account. |
 | Password | La password dell’account. |
 | Database | Nome del database. Se è specificato nel nome del server, questo campo può essere lasciato vuoto. |
-| Schema di lavoro | Nome dello schema di database da utilizzare per le tabelle di lavoro. <br/><br/>**Nota:** puoi utilizzare lo schema **any** dal database, inclusi gli schemi utilizzati per l&#39;elaborazione dati temporanea, purché tu disponga delle autorizzazioni necessarie per connettersi a questo schema. Tuttavia, **devi** utilizzare schemi di lavoro distinti per collegare più sandbox allo stesso database. |
+| Schema di lavoro | Nome dello schema di database da utilizzare per le tabelle di lavoro. <br/><br/>**Nota:** È possibile utilizzare lo schema **any** dal database, inclusi gli schemi utilizzati per l&#39;elaborazione dati temporanea, purché si disponga delle autorizzazioni necessarie per connettersi a questo schema. Tuttavia, **devi** utilizzare schemi di lavoro distinti per collegare più sandbox allo stesso database. |
 | Opzioni | Opzioni aggiuntive per la connessione. Le opzioni disponibili sono elencate nella tabella seguente. |
 
 Per Vertica Analytics, puoi impostare le seguenti opzioni aggiuntive:
