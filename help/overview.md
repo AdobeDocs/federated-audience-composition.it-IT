@@ -4,8 +4,8 @@ description: Scopri la Federated Audience Composition di Adobe e come utilizzarl
 exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 source-git-commit: 65a69bf857ec1a0701534693600a8c6340179838
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 52%
+source-wordcount: '1280'
+ht-degree: 54%
 
 ---
 
@@ -60,7 +60,7 @@ La composizione di pubblico federato di Adobe consente di creare e aggiornare i 
 
 >[!NOTE]
 >
->Dopo aver eseguito la composizione, il pubblico risultante viene salvato in Adobe Experience Platform come pubblico esterno e reso disponibile in Adobe Real-Time Customer Data Platform e/o Adobe Journey Optimizer. Tale pubblico viene reso accessibile nel menu **Tipi di pubblico**. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
+>Dopo aver eseguito la composizione, il pubblico risultante viene salvato in Adobe Experience Platform come pubblico esterno e reso disponibile in Adobe Real-Time Customer Data Platform e/o Adobe Journey Optimizer. È reso accessibile nel menu **Tipi di pubblico**. [Ulteriori informazioni](https://experienceleague.adobe.com/it/docs/experience-platform/segmentation/ui/audience-portal){target="_blank"}
 
 ## Governance, privacy e sicurezza {#governance-privacy-security}
 
@@ -91,7 +91,7 @@ Per le risposte alle domande frequenti, leggi le [Domande frequenti sulla compos
 >[!CONTEXTUALHELP]
 >id="dc_workflow_settings_execution"
 >title="Impostazioni di esecuzione"
->abstract="In questa sezione puoi configurare le impostazioni relative all’esecuzione del flusso di lavoro, ad esempio il numero di giorni in cui viene mantenuta la cronologia della composizione."
+>abstract="In questa sezione, puoi configurare le impostazioni relative all’esecuzione del flusso di lavoro, ad esempio il numero di giorni in cui viene mantenuta la cronologia della composizione."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_query_enrichment_noneditable"
@@ -136,5 +136,5 @@ Per le risposte alle domande frequenti, leggi le [Domande frequenti sulla compos
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_build_audience_dimension"
 >title="Selezionare una dimensione targeting"
->abstract="La dimensione targeting consente di definire la popolazione target dell’operazione: destinatari, beneficiari del contratto, operatore, abbonati, ecc. Per impostazione predefinita, per le e-mail e gli SMS, la destinazione è selezionata dalla tabella incorporata Destinatari. Per le notifiche push, la dimensione di destinazione predefinita è Applicazioni in abbonamento."
+>abstract="La dimensione targeting consente di definire la popolazione target dell’operazione: destinatari, beneficiari del contratto, operatore, iscritti, ecc. Per impostazione predefinita, per le e-mail e gli SMS, il target viene selezionato dalla tabella incorporata Destinatari. Per le notifiche push, la dimensione di destinazione predefinita è Applicazioni in abbonamento."
 

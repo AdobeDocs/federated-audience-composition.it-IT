@@ -6,7 +6,7 @@ exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
 workflow-type: tm+mt
 source-wordcount: '580'
-ht-degree: 16%
+ht-degree: 18%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 16%
 >[!CONTEXTUALHELP]
 >id="dc_schema_edit_description"
 >title="Descrizione dello schema"
->abstract="Nella descrizione dello schema sono elencate le colonne, i tipi e le etichette. Puoi anche verificare la chiave di riconciliazione per lo schema. Per aggiornare la definizione dello schema, seleziona l’icona della matita."
+>abstract="Nella descrizione dello schema sono elencate le colonne, i tipi e le etichette. Puoi anche verificare la chiave di riconciliazione per lo schema. Per aggiornare la definizione dello schema, seleziona l’icona a forma di matita."
 
 >[!CONTEXTUALHELP]
 >id="dc_schema_filter_sources"

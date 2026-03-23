@@ -5,8 +5,8 @@ description: Scopri come creare la prima query nel modello di query
 exl-id: bfaf1057-8770-4c3d-945d-4a9d37e5675f
 source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
 workflow-type: tm+mt
-source-wordcount: '2063'
-ht-degree: 68%
+source-wordcount: '2082'
+ht-degree: 67%
 
 ---
 
@@ -16,15 +16,15 @@ Per iniziare a creare una query, accedi al query modeler dalla posizione desider
 
 Puoi aggiungere due tipi di elementi:
 
-* **I componenti di filtro** (condizione personalizzata, Seleziona pubblico) ti consentono di creare regole personalizzate o di selezionare un pubblico per perfezionare la query. Vengono aggiunte all’inizio della query e nelle transizioni punteggiate. [Scopri come utilizzare i componenti per il filtro](#filtering)
+* **I componenti di filtro** (condizione personalizzata, Seleziona pubblico) ti consentono di creare regole personalizzate o di selezionare un pubblico per perfezionare la query. Vengono aggiunte all’inizio della query e nelle transizioni punteggiate. [Scopri come utilizzare il filtro dei componenti](#filtering)
 
-  Esempio: *Destinatari abbonati alla newsletter &quot;Sport&quot;*. *Destinatari che vivono a New York*, *Destinatari che vivono a San Francisco*
+  Esempio: *Destinatari abbonati alla newsletter &#39;Sport&#39;*. *Destinatari residenti a New York*, *Destinatari residenti a San Francisco*
 
   ![](assets/query-add-component.png){zoomable="yes"}
 
 * **Gli operatori di gruppo** (AND, OR, EXCEPT) consentono di raggruppare i componenti di filtro nel diagramma. Vengono aggiunte alle transizioni esistenti prima di un componente di filtro. [Scopri come utilizzare gli operatori](#filtering)
 
-  Esempio: *Destinatari abbonati alla newsletter &quot;Sport&quot;**AND**&#x200B;che vivono a New York **OR**&#x200B;San Francisco*.
+  Esempio: *Destinatari abbonati alla newsletter &quot;Sport&quot;**AND**che vivono a New York **OR**San Francisco*.
 
   ![](assets/query-add-operator.png){zoomable="yes"}
 
@@ -237,7 +237,7 @@ Nell’esempio seguente, abbiamo creato un gruppo intermedio per includere i ris
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_querymodeler_ruleproperties"
 >title="Proprietà regola"
->abstract="Dopo aver creato la query nell’area di lavoro, puoi verificarla utilizzando il riquadro **[!UICONTROL Proprietà delle regole]** sul lato destro.<br/>Questo riquadro consente di visualizzare i dati risultanti, recuperare una versione del codice SQL della query e verificare il numero di record target.<br/>Utilizza il pulsante **[!UICONTROL Seleziona o salva il filtro]** per salvare la query come filtro preimpostato o sostituisci il contenuto dell’area di lavoro con un filtro esistente."
+>abstract="Dopo aver creato la query nell’area di lavoro, puoi controllarla nel riquadro **[!UICONTROL Proprietà regola]**, a destra.<br/>Questo riquadro consente di visualizzare i dati risultanti, di recuperare una versione del codice SQL della query e di controllare il numero di record di destinazione.<br/>Utilizza il pulsante **[!UICONTROL Seleziona o salva il filtro]** per salvare la query come filtro preimpostato o sostituire il contenuto dell’area di lavoro con un filtro esistente."
 
 Dopo aver creato la query nell’area di lavoro, puoi controllarla utilizzando il pannello **[!UICONTROL Proprietà delle regole]** sul lato destro. Questo riquadro viene visualizzato quando si genera una query per creare un pubblico. Le operazioni disponibili sono:
 
