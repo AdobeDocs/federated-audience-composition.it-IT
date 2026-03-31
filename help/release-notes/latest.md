@@ -2,10 +2,10 @@
 title: Note sulla versione di Federated Audience Composition
 description: Ultimi aggiornamenti e note sulla versione per Federated Audience Composition.
 exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
-source-git-commit: 7d12773b36cb963f3d4251a9b88486864056a0fb
+source-git-commit: d3a97b5887778f910ca8f09f7cb8fa99360a612c
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 11%
+source-wordcount: '442'
+ht-degree: 8%
 
 ---
 
@@ -13,6 +13,20 @@ ht-degree: 11%
 # Note sulla versione
 
 [!DNL Federated Audience Composition] offre continuamente nuove funzioni, miglioramenti alle funzioni esistenti e correzioni di bug. Tutte le modifiche sono consolidate in queste note sulla versione. [!DNL Federated Audience Composition] è stato creato in modalità nativa su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Ulteriori informazioni su queste modifiche sono disponibili nelle [Note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it){target="_blank"}.
+
+## Versione di marzo 2026 {#fac-26-03}
+
+La versione di marzo di Federated Audience Composition supporta le seguenti funzionalità:
+
+### Nuove funzionalità {#fac-26-03-feature}
+
+| Segmentazione basata sull’intelligenza artificiale |
+| --- |
+| Ora puoi creare autonomamente composizioni di pubblico federato all’interno dell’Assistente IA. Quando si utilizza l’Assistente AI per creare il pubblico, l’Assistente AI genera un piano che, dopo l’approvazione, verrà eseguito nel browser. Per ulteriori informazioni sull&#39;utilizzo dell&#39;Assistente IA per la creazione di tipi di pubblico, leggere la [Panoramica dell&#39;Assistente IA](/help/start/ai-assistant.md). |
+
+| Assistente AI per informazioni operative |
+| --- |
+| Ora puoi porre domande all’Assistente AI sulle informazioni operative all’interno di Federated Audience Composition. Le aree supportate includono connessioni, schemi e modelli di dati. Le composizioni federate sono **non** supportate con questa versione. Per ulteriori informazioni sull&#39;Assistente IA in Federated Audience Composition, leggere la [panoramica dell&#39;Assistente IA](/help/start/ai-assistant.md). |
 
 ## Versione di febbraio 2026 {#fac-26-02}
 
@@ -40,7 +54,7 @@ La versione di gennaio di Federated Audience Composition supporta le nuove funzi
 
 | Disponibilità per i clienti Adobe Experience Platform su Amazon Web Services (AWS) |
 | --- |
-| Ora puoi utilizzare Federated Audience Composition se la tua istanza di Experience Platform è su AWS. Per ulteriori informazioni su Experience Platform su AWS, consulta la [panoramica su più cloud](https://experienceleague.adobe.com/it/docs/experience-platform/landing/multi-cloud). |
+| Ora puoi utilizzare Federated Audience Composition se la tua istanza di Experience Platform è su AWS. Per ulteriori informazioni su Experience Platform su AWS, consulta la [panoramica su più cloud](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud). |
 
 ### Miglioramenti {#fac-26-01-improvements}
 
