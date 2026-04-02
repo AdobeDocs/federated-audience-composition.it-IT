@@ -2,7 +2,7 @@
 title: Panoramica dell’Assistente AI
 description: Scopri come utilizzare AI Assistant, tra cui conoscenze di prodotto, informazioni operative e creazione di composizioni di pubblico federato.
 exl-id: f7493a57-e42d-43f9-b20a-1b9b90477a74
-source-git-commit: d3a97b5887778f910ca8f09f7cb8fa99360a612c
+source-git-commit: 226679a38d0ad17726fd743f5df3b74879a2dd32
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 15%
@@ -67,4 +67,4 @@ Attualmente, l’abilità di creazione del pubblico supporta le seguenti funzion
 
 Per ulteriori informazioni sull&#39;Assistente di intelligenza artificiale, inclusi gli obiettivi che è possibile raggiungere con l&#39;Assistente di intelligenza artificiale e le modalità di funzionamento dell&#39;Assistente di intelligenza artificiale, leggere la [panoramica dell&#39;Assistente di intelligenza artificiale](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
-Per un elenco completo delle domande su Operational Insight da porre per Federated Audience Composition, leggi la [sezione approfondimenti operativi](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/home#operational-insights){target="_blank"}.
+Per un elenco completo delle domande su Operational Insight da porre per Federated Audience Composition, leggi la [sezione approfondimenti operativi](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#operational-insights){target="_blank"}.

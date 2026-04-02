@@ -3,9 +3,9 @@ audience: end-user
 title: Panoramica dell’editor espressioni
 description: Scopri come utilizzare le funzioni all’interno dell’editor espressioni per creare una query all’interno di Query Modeler.
 exl-id: abff07ef-2bc0-4e00-8957-4d59fc3bc938
-source-git-commit: 93f4a16d00c71059672c4c6a51ff36debb6c9cee
+source-git-commit: 226679a38d0ad17726fd743f5df3b74879a2dd32
 workflow-type: tm+mt
-source-wordcount: '4108'
+source-wordcount: '4215'
 ht-degree: 9%
 
 ---
@@ -42,7 +42,8 @@ L&#39;esempio seguente mostra un&#39;espressione configurata per il campo **[!UI
 
 Lo strumento di modifica delle query consente di utilizzare funzioni avanzate per eseguire filtri complessi a seconda dei risultati desiderati e dei tipi di dati gestiti. Sono disponibili le seguenti funzioni:
 
-<!-- ### Aggregate
+<!-- 
+### Aggregate
 
 The aggregate functions are used to perform calculations on a set of values.
 
@@ -52,7 +53,8 @@ The aggregate functions are used to perform calculations on a set of values.
 
 | Name | Description | Syntax | Example |
 | ---- | ----------- | ------ | ------- |
-| **StdDev** | Returns the standard deviation of the values given. | StdDev(&lt;VALUE&gt;) | StdDev([0,3,5]) | -->
+| **StdDev** | Returns the standard deviation of the values given. | StdDev(&lt;VALUE&gt;) | StdDev([0,3,5]) | 
+-->
 
 <!-- 
 
@@ -68,7 +70,8 @@ Aggregate functions are not available.
 
 >[!TAB Redshift]
 
-Aggregate functions are not available. -->
+Aggregate functions are not available. 
+-->
 
 <!-- 
 
@@ -76,12 +79,14 @@ Aggregate functions are not available. -->
 
 | Name | Description | Syntax | Example |
 | ---- | ----------- | ------ | ------- |
-| **StringAgg** | Returns the concatenation of the values of a string type column, separated by the character in the second argument | StringAgg(&lt;Value&gt;, &lt;String&gt;) | StringAgg(column, ",") | -->
+| **StringAgg** | Returns the concatenation of the values of a string type column, separated by the character in the second argument | StringAgg(&lt;Value&gt;, &lt;String&gt;) | StringAgg(column, ",") | 
+-->
 
 <!-- 
 >[!TAB Vertica]
 
-Aggregate functions are not available. -->
+Aggregate functions are not available. 
+-->
 
 <!-- 
 >[!ENDTABS] 
@@ -134,19 +139,21 @@ Le funzioni di data vengono utilizzate per manipolare i valori di data o ora.
 | **Oldest** | Restituisce la data meno recente tra i due specificati. | Oldest(&lt;DATAORA>, &lt;DATAORA>) | Oldest(&quot;2015-02-13 11:59:59&quot;, &quot;2016-04-13 19:28:14&quot;) |
 | **TruncDate** | Tronca il datetime all&#39;unità più vicina, in base al valore numerico specificato. Se il valore numerico è uguale a 60, viene troncato al minuto più vicino. Se il valore numerico è uguale a 3600, viene troncato all&#39;ora più vicina. Se il valore numerico è uguale a 86400, viene troncato al giorno più vicino. In caso contrario, viene troncato al secondo più vicino. | TruncDate(&lt;DATETIME>, &lt;NUMERO>) | TruncDate(&quot;2016-04-13 19:28:14&quot;, 3600) |
 | **TruncDateTZ** | Tronca il datetime all&#39;unità più vicina, in base al valore numerico specificato, e imposta il datetime sul fuso orario specificato. Se il valore numerico è uguale a 60, viene troncato al minuto più vicino. Se il valore numerico è uguale a 3600, viene troncato all&#39;ora più vicina. Se il valore numerico è uguale a 86400, viene troncato al giorno più vicino. | TruncDateTZ(&lt;DATETIME>, &lt;NUMERO>, &lt;FUSO ORARIO>) | TruncDateTZ(&quot;2016-04-13 19:28:14&quot;, 3600, &quot;America/Los_Angeles&quot;) |
-| **TruncTime** | Imposta il valore datetime su 1 gennaio 2000 e arrotonda il resto del valore datetime all&#39;unità più vicina, in base al valore numerico specificato. Se il valore numerico è uguale a 60, viene troncato al minuto più vicino. Se il valore numerico è uguale a 3600, viene troncato all&#39;ora più vicina. | TruncTime(&lt;DATETIME>, &lt;NUMERO>) | TruncTime(&quot;2016-04-13 19:28:14&quot;, 3600) |
+| **TruncTime** | Imposta il valore datetime su 1 gennaio 2000 e arrotonda il resto del valore datetime all&#39;unità più vicina, in base al valore numerico specificato.Se il valore numerico è uguale a 60, viene troncato al minuto più vicino. Se il valore numerico è uguale a 3600, viene troncato all&#39;ora più vicina. | TruncTime(&lt;DATETIME>, &lt;NUMERO>) | TruncTime(&quot;2016-04-13 19:28:14&quot;, 3600) |
 | **TruncQuarter** | Tronca il datetime alla prima data nel trimestre più vicino. | TruncQuarter(&lt;DATETIME>) | TruncQuarter(&quot;2016-04-13 19:28:14&quot;) |
 | **TruncYear** | Tronca il datetime alla prima data dell&#39;anno più vicino. | TruncYear(&lt;DATETIME>) | TruncYear(&quot;2016-04-13 19:28:14&quot;) |
 | **TruncWeek** | Tronca il datetime alla domenica della settimana più vicina. | TruncWeek(&lt;DATETIME>) | TruncWeek(&quot;2016-04-13 19:28:14&quot;) |
 
 <!-- 
-| **YearAndMonth** | Truncates the datetime to just the year and month. | YearAndMonth(&lt;DATETIME&gt;) | YearAndMonth("2019-12-25 15:30:00") | 
+| **YearAndMonth** | Truncates the datetime to just the year and month. | YearAndMonth(&lt;DATETIME&gt;) | YearAndMonth("2019-12-25 15:30:00") |
 -->
 
-<!-- | **DaysAgo** | Calculates the number of days between the current date and the provided timestamp, and returns the value as a datetime. | DaysAgo(&lt;DATETIME&gt;) | DaysAgo("2024-06-24 14:43:49") |
+<!-- 
+| **DaysAgo** | Calculates the number of days between the current date and the provided timestamp, and returns the value as a datetime. | DaysAgo(&lt;DATETIME&gt;) | DaysAgo("2024-06-24 14:43:49") |
 | **DaysAgoInt** | Calculates the number of days between the current date and the provided timestamp, and returns the value as an integer. | DaysAgoInt(&lt;DATETIME&gt;) | DaysAgoInt("2024-06-24 14:43:49") |
 | **MonthsAgo** | Calculates the number of months between the current date and the provided timestamp, and returns the value as a datetime. | MonthsAgo(&lt;DATETIME&gt;) | MonthsAgo("2024-06-24 14:43:49") |
-| **YearsAgo** | Calculates the number of years between the current date and the provided timestamp, and returns the value as a datetime. | YearsAgo(&lt;DATETIME&gt;) | YearsAgo("2024-06-24 14:43:49") | -->
+| **YearsAgo** | Calculates the number of years between the current date and the provided timestamp, and returns the value as a datetime. | YearsAgo(&lt;DATETIME&gt;) | YearsAgo("2024-06-24 14:43:49") | 
+-->
 
 
 <!-- 
@@ -245,7 +252,7 @@ Le funzioni di data vengono utilizzate per manipolare i valori di data o ora.
 | ---- | ----------- | ------ | ------- |
 | **ConvertTimezone** | Converts the datetime from its timezone to the timezone of the external account. | ConvertTimezone(&lt;DATETIME&gt;) | ConvertTimezone("2019-12-25 15:30:00") |
 
- -->
+-->
 
 >[!TAB Snowflake]
 
@@ -287,21 +294,21 @@ Le funzioni di data vengono utilizzate per manipolare i valori di data o ora.
 | **Oldest** | Restituisce la data meno recente tra i due specificati. | Oldest(&lt;DATAORA>, &lt;DATAORA>) | Oldest(&quot;2015-02-13 11:59:59&quot;, &quot;2016-04-13 19:28:14&quot;) |
 | **TruncDate** | Tronca il datetime all&#39;unità più vicina, in base al valore numerico specificato. Se il valore numerico è uguale a 60, viene troncato al minuto più vicino. Se il valore numerico è uguale a 3600, viene troncato all&#39;ora più vicina. Se il valore numerico è uguale a 86400, viene troncato al giorno più vicino. In caso contrario, viene troncato al secondo più vicino. | TruncDate(&lt;DATETIME>, &lt;NUMERO>) | TruncDate(&quot;2016-04-13 19:28:14&quot;, 3600) |
 | **TruncDateTZ** | Tronca il datetime all&#39;unità più vicina, in base al valore numerico specificato, e imposta il datetime sul fuso orario specificato. Se il valore numerico è uguale a 60, viene troncato al minuto più vicino. Se il valore numerico è uguale a 3600, viene troncato all&#39;ora più vicina. Se il valore numerico è uguale a 86400, viene troncato al giorno più vicino. | TruncDateTZ(&lt;DATETIME>, &lt;NUMERO>, &lt;FUSO ORARIO>) | TruncDateTZ(&quot;2016-04-13 19:28:14&quot;, 3600, &quot;America/Los_Angeles&quot;) |
-| **TruncTime** | Imposta il valore datetime su 1 gennaio 2000 e arrotonda il resto del valore datetime all&#39;unità più vicina, in base al valore numerico specificato. Se il valore numerico è uguale a 60, viene troncato al minuto più vicino. Se il valore numerico è uguale a 3600, viene troncato all&#39;ora più vicina. | TruncTime(&lt;DATETIME>, &lt;NUMERO>) | TruncTime(&quot;2016-04-13 19:28:14&quot;, 3600) |
+| **TruncTime** | Imposta il valore datetime su 1 gennaio 2000 e arrotonda il resto del valore datetime all&#39;unità più vicina, in base al valore numerico specificato.Se il valore numerico è uguale a 60, viene troncato al minuto più vicino. Se il valore numerico è uguale a 3600, viene troncato all&#39;ora più vicina. | TruncTime(&lt;DATETIME>, &lt;NUMERO>) | TruncTime(&quot;2016-04-13 19:28:14&quot;, 3600) |
 | **TruncQuarter** | Tronca il datetime alla prima data nel trimestre più vicino. | TruncQuarter(&lt;DATETIME>) | TruncQuarter(&quot;2016-04-13 19:28:14&quot;) |
 | **TruncYear** | Tronca il datetime alla prima data dell&#39;anno più vicino. | TruncYear(&lt;DATETIME>) | TruncYear(&quot;2016-04-13 19:28:14&quot;) |
 | **TruncWeek** | Tronca il datetime alla domenica della settimana più vicina. | TruncWeek(&lt;DATETIME>) | TruncWeek(&quot;2016-04-13 19:28:14&quot;) |
 | **ConvertNTZ** | Converte una marca temporale senza fuso orario in una marca temporale con fuso orario. Il fuso orario associato sarà quello dell’account esterno. | ConvertNTZ(&lt;DATETIME>) | ConvertNTZ(&quot;2024-06-24 14:43:49&quot;) |
 
 <!-- 
-| **YearAndMonth** | Truncates the datetime to just the year and month. | YearAndMonth(&lt;DATETIME&gt;) | YearAndMonth("2019-12-25 15:30:00") | 
+| **YearAndMonth** | Truncates the datetime to just the year and month. | YearAndMonth(&lt;DATETIME&gt;) | YearAndMonth("2019-12-25 15:30:00") |
 -->
 
 <!-- 
 | **DaysAgo** | Calculates the number of days between the current date and the provided timestamp, and returns the value as a datetime. | DaysAgo(&lt;DATETIME&gt;) | DaysAgo("2024-06-24 14:43:49") |
 | **DaysAgoInt** | Calculates the number of days between the current date and the provided timestamp, and returns the value as an integer. | DaysAgoInt(&lt;DATETIME&gt;) | DaysAgoInt("2024-06-24 14:43:49") |
 | **MonthsAgo** | Calculates the number of months between the current date and the provided timestamp, and returns the value as a datetime. | MonthsAgo(&lt;DATETIME&gt;) | MonthsAgo("2024-06-24 14:43:49") |
-| **YearsAgo** | Calculates the number of years between the current date and the provided timestamp, and returns the value as a datetime. | YearsAgo(&lt;DATETIME&gt;) | YearsAgo("2024-06-24 14:43:49") | 
+| **YearsAgo** | Calculates the number of years between the current date and the provided timestamp, and returns the value as a datetime. | YearsAgo(&lt;DATETIME&gt;) | YearsAgo("2024-06-24 14:43:49") |
 -->
 
 <!-- 
@@ -436,7 +443,7 @@ Le funzioni numeriche vengono utilizzate per convertire il testo in numeri.
 | **Floor** | Rounds down the provided number to the nearest integer. For example, if the provided number is 3.8, it will return 3. | Floor(&lt;NUMBER&gt;) | Floor(3.8) |
 | **Greatest** | Returns the larger number between the two provided numbers. | Greatest(&lt;NUMBER&gt;, &lt;NUMBER&gt;) | Greatest(1, 2) |
 | **Least** | Returns the smaller number between the two provided numbers. | Least(&lt;NUMBER&gt;, &lt;NUMBER&gt;) | Least (1,2) |
- -->
+-->
 
 <!-- 
 
@@ -468,7 +475,7 @@ Le funzioni numeriche vengono utilizzate per convertire il testo in numeri.
 
 Numeric functions are not available.
 
---->
+-->
 
 >[!TAB Snowflake]
 
@@ -496,7 +503,7 @@ Numeric functions are not available.
 | **ToInt64** | Converts the provided number to a 64-bit integer. | ToInt64(&lt;NUMBER&gt;) | ToInt64(493) |
 | **Trunc** | Truncates the provided number to the requested number of decimal places. | Trunc(&lt;NUMBER&gt;, &lt;NUMBER&gt;) | Trunc(36.9348934, 3) |
 
---->
+-->
 
 >[!ENDTABS]
 
@@ -515,7 +522,7 @@ Questa tabella contiene le altre funzioni disponibili.
 | **Else** | Utilizzato come parte della funzione Case. Utilizzato per scegliere l’altra opzione, se l’espressione When è false. | Else(&lt;VALORE>) | Else (&quot;no&quot;) |
 | **Coalesce** | Restituisce il primo valore non nullo. | Coalesce(&lt;VALORE>, &lt;VALORE>) | Coalesce (&quot;&quot;, &quot;string&quot;) |
 | **Decode** | Restituisce la prima opzione se i valori sono uguali. Restituisce la seconda opzione se i valori non sono uguali. | Decode(&lt;VALORE>, &lt;VALORE>, &lt;VALORE>, &lt;VALORE>) | Decode(1, 2, &quot;true&quot;, &quot;false&quot;) |
-| **GetEmailDomain** | Estrae il dominio dall’indirizzo e-mail fornito. | GetEmailDomain(&lt;STRINGA>) | GetEmailDomain(&quot;sample@example.com&quot;) |
+| **GetEmailDomain** | Estrae il dominio dall’indirizzo e-mail fornito. | GetEmailDomain(&lt;STRINGA>) | GetEmailDomain(&quot;`sample@example.com`&quot;) |
 | **Iif** | Restituisce la prima opzione se la condizione è true e restituisce la seconda opzione se la condizione è false. | Iif(&lt;CONDIZIONE>, &lt;VALORE>, &lt;VALORE>) | Iif(10 &lt; 20, &quot;true&quot;, &quot;false&quot;) |
 | **IsEmptyString** | Restituisce la prima opzione se la stringa è vuota. In caso contrario, restituisce la seconda opzione. | IsEmptyString( &lt;STRINGA> ,&lt;VALORE>, &lt;VALORE>) | IsEmptyString(&quot;stringa&quot;, &quot;sì&quot;, &quot;no&quot;) |
 | **NewUUID** | Genera un nuovo UUID univoco. | NewUUID() | NewUUID() |
@@ -565,7 +572,7 @@ Questa tabella contiene le altre funzioni disponibili.
 
 Other functions are not available.
 
---->
+-->
 
 >[!TAB Snowflake]
 
@@ -574,7 +581,7 @@ Other functions are not available.
 | **Case** | Restituisce il primo valore se l’espressione è true. In caso contrario, restituisce il secondo valore. | Case(When(&lt;ESPRESSIONE> &lt;VALORE>), Else(&lt;VALORE>)) | Case(When(a > b, &quot;yes&quot;), Else(&quot;no&quot;)) |
 | **When** | Utilizzato come parte della funzione Case. Utilizzato per controllare l’espressione all’interno di Case. | When(&lt;ESPRESSIONE> &lt;VALORE>) | Quando(a > b, &quot;yes&quot;) |
 | **Else** | Utilizzato come parte della funzione Case. Utilizzato per scegliere l’altra opzione, se l’espressione When è false. | Else(&lt;VALORE>) | Else (&quot;no&quot;) |
-| **GetEmailDomain** | Estrae il dominio dall’indirizzo e-mail fornito. | GetEmailDomain(&lt;STRINGA>) | GetEmailDomain(&quot;sample@example.com&quot;) |
+| **GetEmailDomain** | Estrae il dominio dall’indirizzo e-mail fornito. | GetEmailDomain(&lt;STRINGA>) | GetEmailDomain(&quot;`sample@example.com`&quot;) |
 | **Iif** | Restituisce la prima opzione se la condizione è true e restituisce la seconda opzione se la condizione è false. | Iif(&lt;CONDIZIONE>, &lt;VALORE>, &lt;VALORE>) | Iif(10 &lt; 20, &quot;true&quot;, &quot;false&quot;) |
 | **IsEmptyString** | Restituisce la prima opzione se la stringa è vuota. In caso contrario, restituisce la seconda opzione. | IsEmptyString( &lt;STRINGA> ,&lt;VALORE>, &lt;VALORE>) | IsEmptyString(&quot;stringa&quot;, &quot;sì&quot;, &quot;no&quot;) |
 | **ToBoolean** | Restituisce 1 se il valore è true. Restituisce 0 se il valore è false. | ToBoolean(&lt;VALORE>) | ToBoolean(a=b) |
@@ -651,7 +658,7 @@ Le funzioni di stringa vengono utilizzate per manipolare un insieme di stringhe.
 
 | Name | Description | Syntax | Example |
 | ---- | ----------- | ------ | ------- |
-| **AllNonNull2** | Takes two strings and checks if all of them are not null and not empty. |  AllNonNull2(&lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull2("", "string2") | 
+| **AllNonNull2** | Takes two strings and checks if all of them are not null and not empty. |  AllNonNull2(&lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull2("", "string2") |
 | **AllNonNull3** | Takes three strings and checks if all of them are not null and not empty | AllNonNull3(&lt;STRING&gt;, &lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull3("", "one", "three") |
 | **Char** | Takes an array of Unicode codepoints and returns the resulting string. | Char(&lt;ARRAY&gt;) | Char([65, 68, 79, 66, 69]) |
 | **Charindex** | Finds the first occurrence of the specified substring within the main string. | Charindex(&lt;STRING&gt;, &lt;SUBSTRING&gt;) | Charindex ("bar@example.com", "@") |
@@ -671,7 +678,7 @@ Le funzioni di stringa vengono utilizzate per manipolare un insieme di stringhe.
 
 | Name | Description | Syntax | Example |
 | ---- | ----------- | ------ | ------- |
-| **AllNonNull2** | Takes two strings and checks if all of them are not null and not empty. |  AllNonNull2(&lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull2("", "string2") | 
+| **AllNonNull2** | Takes two strings and checks if all of them are not null and not empty. |  AllNonNull2(&lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull2("", "string2") |
 | **AllNonNull3** | Takes three strings and checks if all of them are not null and not empty | AllNonNull3(&lt;STRING&gt;, &lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull3("", "one", "three") |
 | **Char** | Takes an array of Unicode codepoints and returns the resulting string. | Char(&lt;ARRAY&gt;) | Char([65, 68, 79, 66, 69]) |
 | **Charindex** | Finds the first occurrence of the specified substring within the main string. | Charindex(&lt;STRING&gt;, &lt;SUBSTRING&gt;) | Charindex ("bar@example.com", "@") |
@@ -729,7 +736,7 @@ String functions are not available.
 
 | Name | Description | Syntax | Example |
 | ---- | ----------- | ------ | ------- |
-| **AllNonNull2** | Takes two strings and checks if all of them are not null and not empty. |  AllNonNull2(&lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull2("", "string2") | 
+| **AllNonNull2** | Takes two strings and checks if all of them are not null and not empty. |  AllNonNull2(&lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull2("", "string2") |
 | **AllNonNull3** | Takes three strings and checks if all of them are not null and not empty | AllNonNull3(&lt;STRING&gt;, &lt;STRING&gt;, &lt;STRING&gt;) | AllNonNull3("", "one", "three") |
 | **Char** | Takes an array of Unicode codepoints and returns the resulting string. | Char(&lt;ARRAY&gt;) | Char([65, 68, 79, 66, 69]) |
 | **Charindex** | Finds the first occurrence of the specified substring within the main string. | Charindex(&lt;STRING&gt;, &lt;SUBSTRING&gt;) | Charindex ("bar@example.com", "@") |
@@ -790,7 +797,7 @@ String functions are not available.
 
 Window functions are not available.
 
---->
+-->
 
 >[!TAB Snowflake]
 
