@@ -1,8 +1,8 @@
 ---
 source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
-workflow-type: ht
-source-wordcount: '483'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '521'
+ht-degree: 99%
 
 ---
 # Contribuire agli articoli
@@ -54,7 +54,7 @@ Se sei un autore tecnico, un responsabile del programma o uno sviluppatore del t
 Tutti gli articoli in questo archivio utilizzano GitHub Flavoured Markdown. Se non conosci Markdown, consulta:
 
 * [Nozioni di base su Markdown](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [Cheat sheet Markdown stampabile](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Foglio di riferimento per markdown stampabile](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## Etichette
 
