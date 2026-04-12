@@ -511,7 +511,7 @@ Questa attività viene utilizzata per arricchire gli schemi inserendo attributi 
 
 >[!IMPORTANT]
 >
->Se il set di dati selezionato **non** dispone di upsert abilitato, i dati verranno **sostituiti**. Per informazioni su come abilitare l&#39;upsert per i set di dati, leggere la [guida all&#39;upsert](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/enable-upsert).
+>Se il set di dati selezionato **non** dispone di upsert abilitato, i dati verranno **sostituiti**. Per informazioni su come abilitare l&#39;upsert per i set di dati, leggere la [guida all&#39;upsert](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
 
 Dopo aver aggiunto l&#39;attività **[!UICONTROL Salva campi]** alla composizione, puoi assegnare un&#39;etichetta all&#39;attività e selezionare lo schema Adobe Experience Platform che desideri utilizzare. Lo schema può essere uno schema standard o relazionale.
 

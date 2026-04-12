@@ -5,8 +5,8 @@ description: Scopri come creare le composizioni
 exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
 source-git-commit: 036dcb96d2d831e3a1d6ab50afef5b87e25b564b
 workflow-type: tm+mt
-source-wordcount: '1596'
-ht-degree: 21%
+source-wordcount: '1603'
+ht-degree: 22%
 
 ---
 
@@ -125,7 +125,7 @@ Viene visualizzata la schermata **[!UICONTROL Registri di composizione e attivit
 La cronologia è organizzata in diverse schede, descritte di seguito:
 
 * La scheda **[!UICONTROL Registro]** contiene la cronologia di esecuzione di tutte le attività di composizione. Questi registri indicizzano in ordine cronologico le operazioni effettuate e gli errori di esecuzione.
-* La scheda **[!UICONTROL Attività]** descrive la sequenza di esecuzione delle attività. Il pulsante che si trova alla fine di ogni attività ti consente di elencare le variabili evento passate attraverso l’attività.
+* Nella scheda **[!UICONTROL Attività]** viene illustrata la sequenza di esecuzione delle attività. Il pulsante che si trova alla fine di ogni attività ti consente di elencare le variabili evento passate attraverso l’attività.
 * Nella scheda **[!UICONTROL Variabili]** sono elencate tutte le variabili passate nella composizione. È disponibile quando si accede ai registri e alle attività solo dall’area di lavoro della composizione. È ora disponibile quando accedi ai registri dal riquadro delle proprietà di un’attività.
 
 ![](assets/logs-tasks.png)

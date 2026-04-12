@@ -5,8 +5,8 @@ description: Scopri come iniziare a utilizzare le composizioni
 exl-id: 92142d16-3483-4f6e-afde-9f88d5d7d1c4
 source-git-commit: e82f1c237927af983a32c848cb9d45d84f9cf3fe
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 82%
+source-wordcount: '655'
+ht-degree: 84%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 82%
 >
 >Per accedere alle composizioni, è necessario disporre di una delle seguenti autorizzazioni:
 >
->-**Gestione composizioni federate**
+>-**Gestisci composizioni federate**
 >-**Visualizzazione composizioni federate**
 >
 >Per ulteriori informazioni sulle autorizzazioni richieste, consulta la [Guida al controllo degli accessi](/help/governance-privacy-security/access-control.md).
@@ -30,7 +30,7 @@ La funzione Composizione di pubblico federato consente di creare composizioni, s
 Una composizione all’interno di Federated Audience Composition è composta dalle seguenti parti:
 
 - **[!UICONTROL Attività]**: un&#39;attività è un&#39;attività da eseguire ed è rappresentata all&#39;interno della composizione da icone.
-- **[!UICONTROL Transizioni]**: le transizioni collegano un&#39;attività di origine a un&#39;attività di destinazione e ne definiscono la sequenza. Le informazioni contenute nelle transizioni vengono memorizzate in una tabella di lavoro. Ogni composizione utilizza diverse tabelle di lavoro. I dati trasmessi in queste tabelle possono essere utilizzati in tutto il ciclo di vita della composizione.
+- **[!UICONTROL Transizioni]**: le transizioni collegano un’attività di origine a un’attività di destinazione e ne definiscono la sequenza. Le informazioni contenute nelle transizioni vengono memorizzate in una tabella di lavoro. Ogni composizione utilizza diverse tabelle di lavoro. I dati trasmessi in queste tabelle possono essere utilizzati in tutto il ciclo di vita della composizione.
 
 ## Accesso e gestione delle composizioni {#access}
 
@@ -88,4 +88,4 @@ Puoi creare una composizione per Adobe Experience Platform utilizzando Composizi
 
 ## Passaggi successivi
 
-Dopo aver letto questa guida, hai imparato come accedere, gestire e creare etichette di accesso per le composizioni. Per ulteriori informazioni sull’utilizzo dei tipi di pubblico in generale, consulta la [guida ai tipi di pubblico](../start/audiences.md).
+Con questa guida, hai imparato come accedere, gestire e creare etichette di accesso per le composizioni. Per ulteriori informazioni sull’utilizzo dei tipi di pubblico in generale, consulta la [guida ai tipi di pubblico](../start/audiences.md).
