@@ -4,9 +4,9 @@ description: Aggiornamenti e note sulla versione più recenti
 hide: true
 hidefromtoc: true
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
-source-git-commit: 9b951f74443ac149e837c3f52ca265acabd407b9
+source-git-commit: 049b33e4c237f3de232341caf11076018ab0d103
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1174'
 ht-degree: 97%
 
 ---
@@ -63,7 +63,7 @@ Questa versione include i miglioramenti indicati di seguito.
 
 * **Nome del modello dati**
 
-  Dal menu Tipi di pubblico, la scheda **Composizioni federate** mostra ora il nome del modello dati invece dell’ID, migliorando la chiarezza e l’usabilità complessiva.
+  Dal menu Tipi di pubblico, la scheda **Composizioni federate** mostra ora il nome del modello dati invece dell’ID, per maggiore chiarezza e usabilità.
 
 * **Pubblico**
 
