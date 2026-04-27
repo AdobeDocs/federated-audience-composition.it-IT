@@ -75,4 +75,4 @@ Attualmente, l’abilità di creazione del pubblico supporta le seguenti funzion
 
 Per ulteriori informazioni sull&#39;Assistente di intelligenza artificiale, inclusi gli obiettivi che è possibile raggiungere con l&#39;Assistente di intelligenza artificiale e le modalità di funzionamento dell&#39;Assistente di intelligenza artificiale, leggere la [panoramica dell&#39;Assistente di intelligenza artificiale](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/home){target="_blank"}.
 
-Per un elenco completo delle domande su Operational Insight da porre per Federated Audience Composition, leggi la [sezione approfondimenti operativi](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home#operational-insights){target="_blank"}.
+Per un elenco completo delle domande su Operational Insight da porre per Federated Audience Composition, leggi la [sezione approfondimenti operativi](https://experienceleague.adobe.com/it/docs/experience-platform/ai-assistant/home#operational-insights){target="_blank"}.
