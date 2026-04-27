@@ -2,10 +2,16 @@
 title: Domande frequenti
 description: Domande frequenti sulla composizione di pubblico federato di Adobe Experience Platform
 exl-id: 68cc0ae5-5c41-425f-8b10-ab3515294006
-source-git-commit: 007192281ac7c853972a3405ea1d4069af847de1
+TQID: https://experienceleague.adobe.com/Wd6WnteenqEV9ZEBs4-tgD8aRSSO1SwtEB4EetSUac4
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 83%
+source-wordcount: 975
+ht-degree: 75%
 
 ---
 
@@ -46,7 +52,7 @@ Per ulteriori informazioni sulla connessione a un data warehouse, leggere la [pa
 
 +++ Risposta
 
-Sì, è possibile eseguire query su più data warehouse nella stessa composizione e combinare dati provenienti da più origini.  In genere, ogni [attività di composizione](./compositions/activities.md) (Query, Arricchimento, Suddivisione, ecc.) esegue una o più istruzioni SQL in base alla configurazione dell’attività, ai database di destinazione (possono esistere più casi di Federated Data Access) e agli output di una o più tabelle di lavoro con il risultato dell’esecuzione. Tali tabelle di lavoro vengono utilizzate come input per attività consecutive.
+Sì, è possibile eseguire query su più data warehouse nella stessa composizione e combinare dati provenienti da più origini.  In genere, ogni [attività di composizione](./compositions/activities.md) (Query, Enrichment, Split, ecc.) esegue una o più istruzioni SQL in base alla configurazione dell&#39;attività, ai database di destinazione (possono esistere più casi di accesso ai dati federati) e agli output di una o più tabelle di lavoro con il risultato dell&#39;esecuzione. Tali tabelle di lavoro vengono utilizzate come input per attività consecutive.
 
 +++
 
@@ -114,7 +120,7 @@ Sì, puoi eliminare i tipi di pubblico con Composizione del pubblico federato al
 
 +++ Risposta
 
-No, Identity service non viene utilizzato durante una composizione. I dati tra le varie origini utilizzate nella composizione vengono uniti tramite logica definita dall’utente (come espressa nel modello sottostante), ad esempio ID CRM, numero account utente, ecc. È necessario selezionare l’identità utilizzata come identificatore nel pubblico per la selezione nel data warehouse. In un pubblico risultante dalla composizione di pubblico federato, è necessario identificare lo spazio dei nomi identità per l’identità nel set di dati risultante.
+No, Identity service non viene utilizzato durante una composizione. I dati tra le varie sorgenti utilizzate nella composizione vengono uniti tramite logica definita dall’utente (come espressa nel modello sottostante), ad esempio ID CRM, numero account utente, ecc. È necessario selezionare l’identità utilizzata come identificatore nel pubblico per la selezione nel data warehouse. In un pubblico risultante dalla composizione di pubblico federato, è necessario identificare lo spazio dei nomi identità per l’identità nel set di dati risultante.
 
 +++
 

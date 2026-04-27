@@ -3,9 +3,12 @@ audience: end-user
 title: Panoramica delle attività
 description: Scopri le diverse attività e transizioni disponibili per l’utilizzo in Federated Audience Composition.
 exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
-source-git-commit: 226679a38d0ad17726fd743f5df3b74879a2dd32
+TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5t7FE
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
 workflow-type: tm+mt
-source-wordcount: '5478'
+source-wordcount: 5478
 ht-degree: 31%
 
 ---
@@ -771,16 +774,16 @@ Dopo aver scelto la frequenza mensile, puoi scegliere il **giorno del mese** in 
 | Durante un periodo selezionato | La composizione viene eseguita ogni giorno per tutto il periodo selezionato. È possibile impostare la durata del periodo di ricorrenza e la data di inizio del periodo. |
 | Giorni della settimana selezionati | La composizione viene eseguita ogni giorno della settimana selezionata. |
 
-Una volta impostato il **giorno del mese**, puoi scegliere l&#39;ora di inizio. Tutte le ore sono in UTC.
+Once you set the **Day of the month**, you can choose the start time. Tutte le ore sono in UTC.
 
 >[!ENDTABS]
 
-Dopo aver selezionato la frequenza di esecuzione, puoi scegliere il **Periodo di validità** della pianificazione.
+After selecting the execution frequency, you can choose the **Validity period** of the schedule.
 
 | Periodo di validità | Descrizione |
 | --------------- | ----------- |
-| **Permanente (senza scadenza)** | La composizione non scadrà mai. |
-| **Periodo di validità** | La composizione verrà eseguita tra le date specificate. |
+| **Permanent (never expires)** | The composition will never expire. |
+| **Validity period** | The composition will run between the given dates. |
 
 +++
 
@@ -791,26 +794,26 @@ Dopo aver selezionato la frequenza di esecuzione, puoi scegliere il **Periodo di
 >title="Attività Attendi"
 >abstract="L’attività **Attendi** viene utilizzata per ritardare la transizione da un’attività a un’altra."
 
-L&#39;attività **Wait** sospende l&#39;esecuzione della composizione per il periodo di tempo specificato.
+The **Wait** activity pauses the composition&#39;s execution for the specified amount of time.
 
 +++ Dettagli configurazione
 
-Dopo aver aggiunto l&#39;attività **Attendi** alla composizione, puoi impostarla come **Durata** o **Ora fissa**.
+After you add the **Wait** activity to your composition, you can make it either a **Duration** or a **Fixed time** wait.
 
 ![](./assets/activities/wait.png)
 
-Se selezioni durata, puoi impostare il periodo di tempo da attendere. Questo periodo di tempo può essere espresso in secondi, minuti, ore o giorni.
+If you select duration, you can set the period of time to wait. This period of time can be in seconds, minutes, hours, or days.
 
-Se selezionate l&#39;ora fissa, potete impostare la composizione in modo che attenda la data e l&#39;ora specificate. L&#39;ora è impostata sul **fuso orario locale**.
+If you select fixed time, you can set the composition to wait until the given date and time. The time is set to your **local time zone**.
 
 +++
 
 ## Transizioni {#transitions}
 
-Nelle composizioni, le transizioni mostrano come i dati vengono trasportati da un’attività all’altra. Le transizioni memorizzano i dati in una tabella di lavoro temporanea. Se selezioni la transizione, puoi visualizzare le seguenti informazioni:
+In compositions, transitions show how data is transported from one activity to another. The transitions store the data in a temporary work table. If you select the transition, you can view the following information:
 
-- **Anteprima schema**: è possibile selezionare questa opzione per visualizzare lo schema per la tabella di lavoro.
-- **Risultati anteprima**: è possibile selezionare questa opzione per visualizzare i dati trasportati nella transizione selezionata. Questa opzione è disponibile solo se è abilitato **Mantieni il risultato delle popolazioni provvisorie tra due esecuzioni**.
+- **Preview schema**: You can select this to view the schema for the work table.
+- **Preview results**: You can select this to visualize the data that&#39;s transported in the selected transition. This option is only available if **Keep the result of interim populations between two executions** is enabled.
 
 ![](assets/transition-preview.png)
 
