@@ -4,12 +4,11 @@ title: Panoramica delle attività
 description: Scopri le diverse attività e transizioni disponibili per l’utilizzo in Federated Audience Composition.
 exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
 TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5t7FE
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: 57a981aa915e19caa7564c8a33a1a267df5bd52e
 workflow-type: tm+mt
 source-wordcount: 5478
-ht-degree: 31%
+ht-degree: 36%
 
 ---
 
@@ -207,6 +206,8 @@ Se selezioni **Esclusione**, dovrai selezionare il **Set principale** dalle tran
 Dopo aver scelto il set principale, puoi impostare le **regole di esclusione**. È possibile selezionare **Corrispondenza per attributo** o **Partecipa**.
 
 Dopo aver configurato le regole di esclusione, puoi anche selezionare l&#39;opzione **Genera complemento**. La generazione di un complemento elabora la popolazione rimanente e contiene i dati **non** inclusi nell&#39;esclusione. All’attività verrà aggiunta un’ulteriore transizione in uscita.
+
+>[!ENDTABS]
 
 +++
 
@@ -438,8 +439,8 @@ Inoltre, puoi impostare la scadenza dei dati per il pubblico. La scadenza dei da
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primaryidentitynamespace"
->title="Campo spazio dei nomi dell’identificazione primaria"
->abstract="Spazio dei nomi per l’identità primaria. Lo spazio dei nomi aiuta a fornire il contesto per descrivere la classificazione dell’identità primaria."
+>title="Campo spazio dei nomi dell’identità primaria"
+>abstract="Spazio dei nomi dell’identità primaria. Lo spazio dei nomi consente di fornire il contesto per descrivere la classificazione dell’identità primaria."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_selectaepschema"
@@ -454,7 +455,7 @@ Inoltre, puoi impostare la scadenza dei dati per il pubblico. La scadenza dei da
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode_full"
 >title="Aggiornamento completo"
->abstract="La modalità di aggiornamento completo aggiorna il set completo di attributi negli schemi selezionati."
+>abstract="La modalità di aggiornamento completo aggiorna l’intero set di attributi negli schemi selezionati."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode_incremental"
@@ -464,17 +465,17 @@ Inoltre, puoi impostare la scadenza dei dati per il pubblico. La scadenza dei da
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primaryidentityfield"
 >title="Campo dell’identità primaria"
->abstract="Il campo dell’identità primaria indica la fonte di verità quando si uniscono i profili per l’arricchimento."
+>abstract="Il campo dell’identità primaria indica la fonte di verità durante l’unione dei profili per l’arricchimento."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_requiredfieldscheck"
 >title="Criteri dei campi obbligatori"
->abstract="Un campo obbligatorio è un attributo che deve essere compilato per ogni profilo o record durante l’esportazione dei dati. Se manca un campo obbligatorio, l’esportazione non sarà completa o valida."
+>abstract="Un campo obbligatorio è un attributo che deve essere compilato per ogni profilo o record durante l’esportazione dei dati. Se un campo obbligatorio manca, l’esportazione non sarà completa o valida."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primaryidentitycheck"
->title="Criteri del campo di identità primaria"
->abstract="L’identificatore univoco di ciascun profilo o record. In questo modo, ogni record può essere riconosciuto e abbinato in modo distinto, evitando la duplicazione dei dati."
+>title="Criteri del campo dell’identità primaria"
+>abstract="Identificatore univoco di ciascun profilo o record. Assicura che ogni record possa essere riconosciuto e abbinato in modo distinto, evitando la duplicazione dei dati."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_aepschemalist"
@@ -484,27 +485,27 @@ Inoltre, puoi impostare la scadenza dei dati per il pubblico. La scadenza dei da
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_selectaepattribute"
 >title="Seleziona attributo"
->abstract="Puoi creare una mappatura di origine/destinazione per i campi."
+>abstract="Puoi creare una mappatura di origine/destinazione dei campi."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_selectaepdataset"
 >title="Seleziona set di dati"
->abstract="Elenco dei set di dati che appartengono allo schema. Puoi selezionare il set di dati in cui salvare i dati arricchiti."
+>abstract="Elenco dei set di dati che appartengono allo schema. Puoi selezionare il set di dati in cui desideri salvare i dati arricchiti."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primarykeycheck"
 >title="Chiave primaria"
->abstract="Chiave primaria per lo schema relazionale. Questo valore assicura l’univocità all’interno dei set di dati impedendo l’acquisizione di record duplicati."
+>abstract="Chiave primaria dello schema relazionale. Questo valore assicura l’univocità all’interno dei set di dati e impedisce che vengano acquisiti record duplicati."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_versiondescriptor"
 >title="Descrittore versione"
->abstract="Il descrittore di versione per lo schema relazionale. Questo valore consente di determinare quale proprietà ha la precedenza se più valori condividono la stessa chiave primaria, assicurandosi che venga applicato l’ultimo aggiornamento."
+>abstract="Descrittore di versione per lo schema relazionale. Se più valori condividono la stessa chiave primaria, questo valore consente di determinare quale proprietà ha la precedenza affinché venga applicato l’ultimo aggiornamento."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_timestampdescriptor"
 >title="Descrittore marca temporale"
->abstract="Il descrittore del timestamp per lo schema relazionale. Questo valore consente di impostare l’ora dell’evento per l’ordinamento ed esiste solo se si utilizzano dati di serie temporali."
+>abstract="Il descrittore della marca temporale per lo schema relazionale. Questo valore consente di impostare l’ora dell’evento a scopo di ordinamento ed esiste solo se si utilizzano dati di serie temporali."
 
 L&#39;attività **[!UICONTROL Salva campi]** ti consente di arricchire gli schemi di Experience Platform unendo i dati dei warehouse esterni, consentendo di arricchire gli schemi di Experience Platform con attributi aggiuntivi.
 
@@ -514,7 +515,7 @@ Questa attività viene utilizzata per arricchire gli schemi inserendo attributi 
 
 >[!IMPORTANT]
 >
->Se il set di dati selezionato **non** dispone di upsert abilitato, i dati verranno **sostituiti**. Per informazioni su come abilitare l&#39;upsert per i set di dati, leggere la [guida all&#39;upsert](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/enable-upsert).
+>Se il set di dati selezionato **non** dispone di upsert abilitato, i dati verranno **sostituiti**. Per informazioni su come abilitare l&#39;upsert per i set di dati, leggere la [guida all&#39;upsert](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
 
 Dopo aver aggiunto l&#39;attività **[!UICONTROL Salva campi]** alla composizione, puoi assegnare un&#39;etichetta all&#39;attività e selezionare lo schema Adobe Experience Platform che desideri utilizzare. Lo schema può essere uno schema standard o relazionale.
 
@@ -774,16 +775,16 @@ Dopo aver scelto la frequenza mensile, puoi scegliere il **giorno del mese** in 
 | Durante un periodo selezionato | La composizione viene eseguita ogni giorno per tutto il periodo selezionato. È possibile impostare la durata del periodo di ricorrenza e la data di inizio del periodo. |
 | Giorni della settimana selezionati | La composizione viene eseguita ogni giorno della settimana selezionata. |
 
-Once you set the **Day of the month**, you can choose the start time. Tutte le ore sono in UTC.
+Una volta impostato il **giorno del mese**, puoi scegliere l&#39;ora di inizio. Tutte le ore sono in UTC.
 
 >[!ENDTABS]
 
-After selecting the execution frequency, you can choose the **Validity period** of the schedule.
+Dopo aver selezionato la frequenza di esecuzione, puoi scegliere il **Periodo di validità** della pianificazione.
 
 | Periodo di validità | Descrizione |
 | --------------- | ----------- |
-| **Permanent (never expires)** | The composition will never expire. |
-| **Validity period** | The composition will run between the given dates. |
+| **Permanente (senza scadenza)** | La composizione non scadrà mai. |
+| **Periodo di validità** | La composizione verrà eseguita tra le date specificate. |
 
 +++
 
@@ -794,26 +795,26 @@ After selecting the execution frequency, you can choose the **Validity period** 
 >title="Attività Attendi"
 >abstract="L’attività **Attendi** viene utilizzata per ritardare la transizione da un’attività a un’altra."
 
-The **Wait** activity pauses the composition&#39;s execution for the specified amount of time.
+L&#39;attività **Wait** sospende l&#39;esecuzione della composizione per il periodo di tempo specificato.
 
 +++ Dettagli configurazione
 
-After you add the **Wait** activity to your composition, you can make it either a **Duration** or a **Fixed time** wait.
+Dopo aver aggiunto l&#39;attività **Attendi** alla composizione, puoi impostarla come **Durata** o **Ora fissa**.
 
 ![](./assets/activities/wait.png)
 
-If you select duration, you can set the period of time to wait. This period of time can be in seconds, minutes, hours, or days.
+Se selezioni durata, puoi impostare il periodo di tempo da attendere. Questo periodo di tempo può essere espresso in secondi, minuti, ore o giorni.
 
-If you select fixed time, you can set the composition to wait until the given date and time. The time is set to your **local time zone**.
+Se selezionate l&#39;ora fissa, potete impostare la composizione in modo che attenda la data e l&#39;ora specificate. L&#39;ora è impostata sul **fuso orario locale**.
 
 +++
 
 ## Transizioni {#transitions}
 
-In compositions, transitions show how data is transported from one activity to another. The transitions store the data in a temporary work table. If you select the transition, you can view the following information:
+Nelle composizioni, le transizioni mostrano come i dati vengono trasportati da un’attività all’altra. Le transizioni memorizzano i dati in una tabella di lavoro temporanea. Se selezioni la transizione, puoi visualizzare le seguenti informazioni:
 
-- **Preview schema**: You can select this to view the schema for the work table.
-- **Preview results**: You can select this to visualize the data that&#39;s transported in the selected transition. This option is only available if **Keep the result of interim populations between two executions** is enabled.
+- **Anteprima schema**: è possibile selezionare questa opzione per visualizzare lo schema per la tabella di lavoro.
+- **Risultati anteprima**: è possibile selezionare questa opzione per visualizzare i dati trasportati nella transizione selezionata. Questa opzione è disponibile solo se è abilitato **Mantieni il risultato delle popolazioni provvisorie tra due esecuzioni**.
 
 ![](assets/transition-preview.png)
 
