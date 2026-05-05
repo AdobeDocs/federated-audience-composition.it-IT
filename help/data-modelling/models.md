@@ -10,10 +10,10 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+source-git-commit: f1a9d21c9026c569d525e0a4289010be83538914
 workflow-type: tm+mt
-source-wordcount: 748
-ht-degree: 34%
+source-wordcount: 778
+ht-degree: 33%
 
 ---
 
@@ -32,11 +32,11 @@ Un modello dati è un set di schemi, tipi di pubblico e i collegamenti tra di es
 
 In Federated Audience Composition, puoi creare e gestire modelli di dati direttamente nella vista Area di lavoro. Ciò include l’aggiunta di schemi e tipi di pubblico, nonché la definizione dei collegamenti tra di essi in base al caso d’uso.
 
-Ulteriori informazioni su [schemi](../data-modelling/schemas.md#schema-start) e [tipi di pubblico](../start/audiences.md).
+Per ulteriori informazioni sugli schemi, leggere la [panoramica sugli schemi](../data-modelling/schemas.md). Per ulteriori informazioni sui tipi di pubblico, leggere la [guida Utilizzare i tipi di pubblico](../start/audiences.md).
 
 Di seguito è riportata una rappresentazione di un modello dati, ad esempio le tabelle con il nome e i collegamenti tra di esse.
 
-![](assets/models/datamodel.png){zoomable="yes"}
+![Rappresentazione di esempio di un modello dati, con le tabelle e i collegamenti tra le tabelle visualizzati.](assets/models/datamodel.png){zoomable="yes"}
 
 ## Creare un modello dati {#data-model-create}
 

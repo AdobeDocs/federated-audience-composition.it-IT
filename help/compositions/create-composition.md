@@ -6,7 +6,7 @@ exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
 TQID: https://experienceleague.adobe.com/J1BfErdvMzZZ-23BAU4cbQcx3V3n7ymzv5nZdUOTw6M
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+source-git-commit: f1a9d21c9026c569d525e0a4289010be83538914
 workflow-type: tm+mt
 source-wordcount: 1603
 ht-degree: 22%
@@ -73,6 +73,7 @@ Le opzioni includono:
 * **[!UICONTROL Pausa]/[!UICONTROL Riprendi]**: sospendi o riprendi l&#39;attività. Quando la composizione viene eseguita, viene messa in pausa in corrispondenza dell’attività in pausa. L’attività corrispondente e tutte quelle che la seguono nello stesso percorso non vengono eseguite.
 * **[!UICONTROL Copia]**: copia l&#39;attività per incollarla in un&#39;altra posizione nella composizione. A tale scopo, selezionare il pulsante **+** in una transizione e selezionare **[!UICONTROL Incolla attività X]**. <!-- cannot copy multiple activities ? cannot paste in another composition?-->
 * Configura **[!UICONTROL Opzioni di esecuzione]** per l&#39;attività selezionata. Le opzioni di esecuzione disponibili includono:
+
   +++Opzioni di esecuzione disponibili
 
   La sezione **[!UICONTROL Proprietà]** consente di configurare le impostazioni generiche relative all&#39;esecuzione dell&#39;attività:
@@ -88,6 +89,7 @@ Le opzioni includono:
   La sezione **[!UICONTROL Script di inizializzazione]** consente di inizializzare le variabili o modificare le proprietà dell&#39;attività. Selezionare il pulsante **[!UICONTROL Modifica codice]** e digitare il frammento di codice da eseguire. Lo script viene chiamato durante l’esecuzione dell’attività.
 
   +++
+
 * **Registri e attività**: visualizza i registri e le attività per l&#39;attività selezionata.
 
 ## Avviare e monitorare la composizione {#start-and-monitor}

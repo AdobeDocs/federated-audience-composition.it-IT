@@ -5,16 +5,36 @@ exl-id: d4dcaf31-93cd-4a4e-888a-cf1bbdc4ca03
 TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4iTSc
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+source-git-commit: 5cbe8da3f51b33b14f5c86648b3523ce6464b944
 workflow-type: tm+mt
-source-wordcount: 442
-ht-degree: 13%
+source-wordcount: 545
+ht-degree: 11%
 
 ---
 
 # Note sulla versione
 
 [!DNL Federated Audience Composition] offre continuamente nuove funzioni, miglioramenti alle funzioni esistenti e correzioni di bug. In queste note sulla versione, tutte le modifiche sono consolidate. [!DNL Federated Audience Composition] è stato sviluppato in modalità nativa su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Ulteriori informazioni su queste modifiche sono disponibili nelle [Note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it){target="_blank"}.
+
+## Versione di aprile 2026 {#fac-26-04}
+
+La versione di aprile di Federated Audience Composition supporta le seguenti funzionalità e miglioramenti:
+
+### Nuove funzionalità {#fac=26-04-feature}
+
+| Nuovo connettore - Teradata |
+| --- |
+| Il connettore Teradata è ora disponibile per l’utilizzo con Federated Audience Composition. Puoi utilizzare il connettore Teradata per i casi d’uso per la creazione e l’arricchimento del pubblico. Per ulteriori informazioni sul connettore Teradata, leggere la [panoramica delle connessioni](/help/connections/home.md). |
+
+### Miglioramenti {#fac-26-04-improvements}
+
+Questa versione include i seguenti miglioramenti.
+
+- **Supporto chiavi non crittografate per Snowflake**
+
+  È ora possibile utilizzare chiavi non crittografate quando si utilizza l’autenticazione con coppia di chiavi per connettersi ai data warehouse di Snowflake.
+
+  Per ulteriori informazioni sull&#39;utilizzo di chiavi non crittografate con Snowflake, leggere la [panoramica delle connessioni](/help/connections/home.md).
 
 ## Versione di marzo 2026 {#fac-26-03}
 
