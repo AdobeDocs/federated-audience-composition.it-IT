@@ -4,13 +4,9 @@ title: Introduzione agli schemi
 description: Scopri come iniziare con gli schemi
 exl-id: 2c939185-f1c1-4f2b-ae1b-e2539e121eff
 TQID: https://experienceleague.adobe.com/cpkFeiskYDpixNo01llqC3UKK8XfewN7XC2yAf1wOYQ
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: f1a9d21c9026c569d525e0a4289010be83538914
 workflow-type: tm+mt
 source-wordcount: 580
 ht-degree: 18%
@@ -72,7 +68,6 @@ Per creare uno schema in Composizione pubblico federato, seleziona **[!UICONTROL
 ![Il pulsante Crea schema è evidenziato nella sezione dello schema Federate Audience Composition.](assets/schemas/schema_create.png){zoomable="yes"}
 
 Viene visualizzato il popover **[!UICONTROL Seleziona database federato]**. In questo popover è possibile selezionare il [database di origine](/help/connections/home.md), seguito da **[!UICONTROL Avanti]**.
-
 
 ![](assets/schemas/schema_tables.png){zoomable="yes"}
 

@@ -4,15 +4,12 @@ title: Arricchire i tipi di pubblico di Adobe Experience Platform con dati ester
 description: Scopri come perfezionare e arricchire i tipi di pubblico di Adobe Experience Platform con i dati dei database federati utilizzando la destinazione Federated Audiences Composition.
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
 TQID: https://experienceleague.adobe.com/g32ycFuhXFq68NmBJjunWZT3m4JpmL108bhMSs-4EYc
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 6e722691fb7d8487e452bfe5301f8c38243222d2
 workflow-type: tm+mt
-source-wordcount: 658
-ht-degree: 7%
+source-wordcount: 773
+ht-degree: 5%
 
 ---
 
@@ -29,66 +26,62 @@ A tal fine, devi impostare una nuova connessione in Adobe Experience Platform al
 
 Ad esempio, supponiamo che tu stia memorizzando le informazioni di acquisto nel tuo data warehouse e che un pubblico Adobe Experience Platform sia indirizzato ai clienti interessati a un prodotto specifico negli ultimi due mesi. Utilizzando la destinazione Federated Audience Composition puoi:
 
-* Perfeziona il pubblico in base alle informazioni di acquisto. Ad esempio, puoi filtrare il pubblico in modo da eseguire il targeting dei clienti che hanno effettuato un acquisto superiore ai 150$.
+* Perfeziona il pubblico in base alle informazioni di acquisto. Ad esempio, puoi filtrare il pubblico in modo da eseguire il targeting solo dei clienti che hanno effettuato un acquisto superiore a 150 $.
 * Arricchisci il pubblico con campi relativi agli acquisti, come il nome del prodotto e la quantità acquistata.
 
-I passaggi principali per inviare i tipi di pubblico di Adobe Experience Platform ad Adobe Federated Audience Composition sono i seguenti:
+## Attiva pubblico nella destinazione {#activate}
 
-1. Accedi al catalogo Destinazioni Adobe Experience Platform e seleziona la destinazione Federated Audience Composition.
+Nel catalogo Destinazioni di Adobe Experience Platform, seleziona la destinazione Federated Audience Composition. Nel riquadro di destra, selezionare **[!UICONTROL Configura nuova destinazione]**.
 
-   Nel riquadro di destra, selezionare **[!UICONTROL Configura nuova destinazione]**.
+![Il pulsante Configura nuova destinazione è evidenziato nel catalogo delle destinazioni.](assets/destinations/new.png)
 
-   ![](assets/destination-new.png)
+Viene visualizzata la pagina **[!UICONTROL Configura nuova destinazione]**. In questa pagina è possibile configurare i dettagli della destinazione, inclusi il nome, la descrizione, il tipo di connessione e il database federato.
 
-1. Immettere un nome per la nuova connessione e selezionare **[!UICONTROL Tipo di connessione]** tra le connessioni disponibili seguenti:
+![Viene visualizzata la pagina Configura nuova destinazione, che mostra i dettagli da aggiungere per creare la destinazione.](assets/destinations/configure.png)
 
-   * Amazon Redshift
-   * Azure Synapse Analytics
-   * Google BigQuery
-   * Snowflake
-   * Vertica Analytics
-   * Databricks
-   * Microsoft Fabric
+Nella sezione **[!UICONTROL Avvisi]**, puoi abilitare gli avvisi per ricevere notifiche sullo stato del flusso di dati verso la tua destinazione. Questi includono avvisi per ritardi nell’esecuzione dei flussi di dati, errori di esecuzione, successi dell’esecuzione, avvii dell’esecuzione e salti di attivazione.
 
-1. Selezionare il **[!UICONTROL database federato]** a cui connettersi, seguito da **[!UICONTROL Next]**.
+Per ulteriori informazioni sugli avvisi, consulta la documentazione di Adobe Experience Platform relativa all&#39;abbonamento di [avvisi alle destinazioni tramite l&#39;interfaccia utente](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}.
 
-   ![](assets/destination-configure.png)
+![Vengono visualizzati gli avvisi disponibili per la destinazione.](assets/destinations/alerts.png)
 
-1. Nella sezione **[!UICONTROL Avvisi]**, puoi abilitare gli avvisi per ricevere notifiche sullo stato del flusso di dati verso la tua destinazione.
+Al termine della configurazione dei dettagli della destinazione, seleziona **[!UICONTROL Successivo]**. Viene visualizzato il passaggio **[!UICONTROL Criteri di governance e azioni di applicazione]**. In questa pagina puoi definire i criteri di governance dei dati e assicurarti che i dati utilizzati siano conformi quando i tipi di pubblico vengono inviati e sono attivi.
 
-   Per ulteriori informazioni sugli avvisi, consulta la documentazione di Adobe Experience Platform relativa all&#39;abbonamento di [avvisi alle destinazioni tramite l&#39;interfaccia utente](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/alerts){target="_blank"}
+Al termine della selezione delle azioni di marketing desiderate per la destinazione, selezionare **[!UICONTROL Crea]**.
 
-1. Nel passaggio **[!UICONTROL Criteri di governance e azioni di applicazione]**, puoi definire i criteri di governance dei dati e garantire che i dati utilizzati siano conformi quando i tipi di pubblico vengono inviati e sono attivi.
+Viene creata la nuova connessione alla destinazione. Ora puoi attivare i tipi di pubblico da inviare alla destinazione. Scegli la destinazione alla quale desideri attivare i tipi di pubblico, seguita da **[!UICONTROL Successivo]**.
 
-   Dopo aver selezionato le azioni di marketing desiderate per la destinazione, selezionare **[!UICONTROL Crea]**.
+![Il pulsante di attivazione è evidenziato.](assets/destinations/activate.png)
 
-1. Viene creata la nuova connessione alla destinazione. Ora puoi attivare i tipi di pubblico da inviare alla destinazione. Per farlo, selezionalo dall&#39;elenco, seguito da **[!UICONTROL Successivo]**
+Viene visualizzato il passaggio **[!UICONTROL Pianificazione]**. Puoi selezionare i tipi di pubblico desiderati che desideri attivare nella destinazione. Per impostare una pianificazione, seleziona ![icona matita](assets/do-not-localize/Smock_Edit_18_N.svg) per modificare la pianificazione dell&#39;esportazione.
 
-   ![](assets/destination-activate.png)
+![Viene visualizzata la pagina Attiva destinazione.](assets/destinations/schedule.png)
 
-1. Seleziona i tipi di pubblico desiderati da inviare.
+Viene visualizzato il popover **[!UICONTROL Pianificazione]**. In questo popover puoi definire le opzioni di esportazione dei file, la frequenza e impostare la pianificazione.
 
-1. Seleziona l&#39;icona ![](assets/do-not-localize/Smock_Edit_18_N.svg) per modificare la pianificazione dell&#39;esportazione.
+![Viene visualizzato il popover della pianificazione.](assets/destinations/schedule-2.png)
 
-   ![](assets/destination-schedule.png)
+>[!NOTE]
+>
+>Per attivare i tipi di pubblico più rapidamente, seleziona l&#39;opzione **[!UICONTROL Dopo la valutazione del segmento]** per attivare il processo di attivazione subito dopo il completamento del processo di segmentazione batch giornaliero di Platform.
+>
+>Per informazioni dettagliate su come configurare la pianificazione e i nomi di file, consulta le sezioni seguenti della documentazione di Adobe Experience Platform:
+>
+>* [Pianifica esportazione pubblico](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
+>* [Configura nomi file](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
 
-1. Definisci le opzioni del file di esportazione. Per attivare i tipi di pubblico più rapidamente, seleziona l&#39;opzione **[!UICONTROL Dopo la valutazione del segmento]** per attivare il processo di attivazione subito dopo il completamento del processo di segmentazione batch giornaliero di Platform.
+Nel passaggio **[!UICONTROL Mappatura]**, seleziona l&#39;attributo e i campi di identità da esportare per il pubblico.
 
-   ![](assets/destination-schedule-2.png)
+>[!IMPORTANT]
+>
+>**impossibile** utilizzare le colonne generate dal sistema durante l&#39;attivazione della destinazione. Se si seleziona una colonna generata dal sistema, l&#39;attivazione non riesce.
 
-   >[!NOTE]
-   >
-   >Informazioni dettagliate su come configurare pianificazione e nomi di file sono disponibili nelle seguenti sezioni della documentazione di Adobe Experience Platform:
-   >
-   >* [Pianifica esportazione pubblico](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
-   >* [Configura nomi file](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
+Per ulteriori informazioni, consulta la [sezione di mappatura](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} nella documentazione di Adobe Experience Platform.
 
-1. Nel passaggio **[!UICONTROL Mappatura]**, seleziona l&#39;attributo e i campi di identità da esportare per il pubblico. Per ulteriori informazioni, vedi il [passaggio di mappatura](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} nella documentazione di Adobe Experience Platform.
+![Viene visualizzata la pagina degli attributi di mappatura.](assets/destinations/attributes.png)
 
-   ![](assets/destination-attributes.png)
+Rivedi la configurazione di destinazione e le impostazioni del pubblico, quindi seleziona **[!UICONTROL Fine]**.
 
-1. Rivedi la configurazione di destinazione e le impostazioni del pubblico, quindi seleziona **[!UICONTROL Fine]**.
-
-   ![](assets/destination-review.png)
+![Viene visualizzata la pagina della destinazione di revisione.](assets/destinations/review.png)
 
 I tipi di pubblico selezionati vengono ora attivati per la nuova connessione. Puoi aggiungere altri tipi di pubblico da inviare con questa connessione tornando alla pagina **[!UICONTROL Attiva tipi di pubblico]**. Una volta attivati, i tipi di pubblico non possono essere rimossi.
