@@ -44,7 +44,7 @@ Viene visualizzata la pagina **[!UICONTROL Configura nuova destinazione]**. In q
 
 Nella sezione **[!UICONTROL Avvisi]**, puoi abilitare gli avvisi per ricevere notifiche sullo stato del flusso di dati verso la tua destinazione. Questi includono avvisi per ritardi nell’esecuzione dei flussi di dati, errori di esecuzione, successi dell’esecuzione, avvii dell’esecuzione e salti di attivazione.
 
-Per ulteriori informazioni sugli avvisi, consulta la documentazione di Adobe Experience Platform relativa all&#39;abbonamento di [avvisi alle destinazioni tramite l&#39;interfaccia utente](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}.
+Per ulteriori informazioni sugli avvisi, consulta la documentazione di Adobe Experience Platform relativa all&#39;abbonamento di [avvisi alle destinazioni tramite l&#39;interfaccia utente](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/alerts){target="_blank"}.
 
 ![Vengono visualizzati gli avvisi disponibili per la destinazione.](assets/destinations/alerts.png)
 
@@ -70,8 +70,8 @@ Viene visualizzato il popover **[!UICONTROL Pianificazione]**. In questo popover
 >
 >Per informazioni dettagliate su come configurare la pianificazione e i nomi di file, consulta le sezioni seguenti della documentazione di Adobe Experience Platform:
 >
->* [Pianifica esportazione pubblico](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
->* [Configura nomi file](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
+>* [Pianifica esportazione pubblico](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
+>* [Configura nomi file](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
 
 Nel passaggio **[!UICONTROL Mappatura]**, seleziona l&#39;attributo e i campi di identità da esportare per il pubblico.
 
@@ -79,7 +79,7 @@ Nel passaggio **[!UICONTROL Mappatura]**, seleziona l&#39;attributo e i campi di
 >
 >**impossibile** utilizzare le colonne generate dal sistema durante l&#39;attivazione della destinazione. Se si seleziona una colonna generata dal sistema, l&#39;attivazione non riesce.
 
-Per ulteriori informazioni, consulta la [sezione di mappatura](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} nella documentazione di Adobe Experience Platform.
+Per ulteriori informazioni, consulta la [sezione di mappatura](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} nella documentazione di Adobe Experience Platform.
 
 ![Viene visualizzata la pagina degli attributi di mappatura.](assets/destinations/attributes.png)
 
