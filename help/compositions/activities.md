@@ -4,12 +4,11 @@ title: Panoramica delle attività
 description: Scopri le diverse attività e transizioni disponibili per l’utilizzo in Federated Audience Composition.
 exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
 TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5t7FE
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 source-git-commit: 57a981aa915e19caa7564c8a33a1a267df5bd52e
 workflow-type: tm+mt
 source-wordcount: 5478
-ht-degree: 36%
+ht-degree: 37%
 
 ---
 
@@ -431,12 +430,12 @@ Inoltre, puoi impostare la scadenza dei dati per il pubblico. La scadenza dei da
 
 +++
 
-#### Salva campi {#save-fields}
+#### Salvare i campi {#save-fields}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset"
->title="Salva campi"
->abstract="L’attività Save fields ti consente di arricchire gli schemi di Experience Platform unendo i dati provenienti da magazzini esterni, e di migliorare gli schemi di Experience Platform con attributi aggiuntivi. "
+>title="Salvare i campi"
+>abstract="L’attività Salva campi consente di arricchire gli schemi di Experience Platform unendo i dati provenienti da warehouse esterni, per migliorare gli schemi di Experience Platform con attributi aggiuntivi. "
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primaryidentitynamespace"
@@ -450,8 +449,8 @@ Inoltre, puoi impostare la scadenza dei dati per il pubblico. La scadenza dei da
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode"
->title="Modalità di aggiornamento dei campi di salvataggio"
->abstract="Le modalità di aggiornamento disponibili per l’attività di salvataggio dei campi includono aggiornamento completo e aggiornamento incrementale."
+>title="Modalità di aggiornamento Salva campi"
+>abstract="Le modalità di aggiornamento disponibili per l’attività Salva campi includono l’aggiornamento completo e quello incrementale."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode_full"
@@ -516,7 +515,7 @@ Questa attività viene utilizzata per arricchire gli schemi inserendo attributi 
 
 >[!IMPORTANT]
 >
->Se il set di dati selezionato **non** dispone di upsert abilitato, i dati verranno **sostituiti**. Per informazioni su come abilitare l&#39;upsert per i set di dati, leggere la [guida all&#39;upsert](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/enable-upsert).
+>Se il set di dati selezionato **non** dispone di upsert abilitato, i dati verranno **sostituiti**. Per informazioni su come abilitare l&#39;upsert per i set di dati, leggere la [guida all&#39;upsert](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
 
 Dopo aver aggiunto l&#39;attività **[!UICONTROL Salva campi]** alla composizione, puoi assegnare un&#39;etichetta all&#39;attività e selezionare lo schema Adobe Experience Platform che desideri utilizzare. Lo schema può essere uno schema standard o relazionale.
 
