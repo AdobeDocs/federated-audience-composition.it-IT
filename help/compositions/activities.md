@@ -9,7 +9,7 @@ product_v2:
 source-git-commit: 57a981aa915e19caa7564c8a33a1a267df5bd52e
 workflow-type: tm+mt
 source-wordcount: 5478
-ht-degree: 36%
+ht-degree: 37%
 
 ---
 
@@ -431,12 +431,12 @@ Inoltre, puoi impostare la scadenza dei dati per il pubblico. La scadenza dei da
 
 +++
 
-#### Salva campi {#save-fields}
+#### Salvare i campi {#save-fields}
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset"
->title="Salva campi"
->abstract="L’attività Save fields ti consente di arricchire gli schemi di Experience Platform unendo i dati provenienti da magazzini esterni, e di migliorare gli schemi di Experience Platform con attributi aggiuntivi. "
+>title="Salvare i campi"
+>abstract="L’attività Salva campi consente di arricchire gli schemi di Experience Platform unendo i dati provenienti da warehouse esterni, per migliorare gli schemi di Experience Platform con attributi aggiuntivi. "
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_primaryidentitynamespace"
@@ -450,8 +450,8 @@ Inoltre, puoi impostare la scadenza dei dati per il pubblico. La scadenza dei da
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode"
->title="Modalità di aggiornamento dei campi di salvataggio"
->abstract="Le modalità di aggiornamento disponibili per l’attività di salvataggio dei campi includono aggiornamento completo e aggiornamento incrementale."
+>title="Modalità di aggiornamento Salva campi"
+>abstract="Le modalità di aggiornamento disponibili per l’attività Salva campi includono l’aggiornamento completo e quello incrementale."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_savedataset_updatemode_full"
