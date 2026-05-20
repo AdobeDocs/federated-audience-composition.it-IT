@@ -4,18 +4,13 @@ title: Creare e gestire connessioni con i database federati
 description: Scopri come creare e gestire le connessioni con i database federati
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 498afaa156e21b8ef8baa93f27eb1410809855af
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 212090ab6e5537c4d23d73564affb64b146dada0
 workflow-type: tm+mt
-source-wordcount: 3189
-ht-degree: 9%
+source-wordcount: 3543
+ht-degree: 8%
 
 ---
 
@@ -217,6 +212,8 @@ Se si seleziona **[!UICONTROL OAuth 2.0]**, è possibile aggiungere le seguenti 
 
 Seleziona **[!UICONTROL Accedi]** per completare l&#39;autenticazione.
 
+Se selezioni **[!UICONTROL WIF]**, **non** devi fornire informazioni di accesso. Tuttavia, **devi** aggiungere la configurazione della libreria client come **[!UICONTROL percorso file chiave]**. Per ulteriori informazioni sulla configurazione della libreria client, leggere la sezione di configurazione [Google BigQuery (Workload Identity Federation)](#wif-configuration).
+
 Dopo aver inserito i dettagli di accesso, puoi aggiungere i seguenti dettagli:
 
 | Campo | Descrizione |
@@ -387,3 +384,46 @@ Dopo aver aggiunto i dettagli della connessione, tieni presente le seguenti impo
 | Verifica connessione | Consente di verificare i dettagli di configurazione. |
 
 È ora possibile selezionare **[!UICONTROL Distribuisci funzioni]**, seguito da **[!UICONTROL Aggiungi]** per finalizzare la connessione tra il database federato e Experience Platform.
+
+## Appendice {#appendix}
+
+L’appendice seguente descrive come impostare le connessioni sul lato dell’account esterno.
+
+### Configurazione di Google BigQuery (Workload Identity Federation) {#wif-configuration}
+
+Prima di configurare la configurazione di Google Cloud Platform, è necessario disporre dei seguenti valori:
+
+- ID account AWS
+   - Per ottenere questo valore, contatta il rappresentante Adobe.
+- Nome ruolo AWS IAM
+   - Il nome del ruolo IAM di AWS segue il formato seguente: `arn:aws:iam::<ADOBE_AWS_ACCOUNT_ID>:role/fac-<CUSTOMER_IMS_ORG_ID>`
+
+Nella console di Google Cloud, crea un **pool di identità del carico di lavoro** nella **sezione IAM &amp; Admin**. Questo consente di organizzare e gestire le identità esterne.
+
+Selezionare **Aggiungi provider** per creare un provider di identità. Questo configura un trust unidirezionale tra il provider di identità in Google Cloud e il pool di identità di lavoro fornendo i metadati rilevanti sul provider.
+
+![Il pulsante Aggiungi provider è evidenziato in Google Cloud.](/help/connections/assets/home/select-add-provider.png)
+
+Quando crei un provider, devi fornire le seguenti informazioni:
+
+| Campo | Descrizione |
+| ----- | ----------- |
+| Nome | Nome del provider del pool di identità del carico di lavoro. |
+| ID | L’ID del provider viene generato automaticamente. |
+| ID account AWS | L’ID account AWS fornito in precedenza. |
+| Provider abilitato | Valore booleano che determina il provider abilitato o disabilitato. |
+| Mappatura attributi | Mappature da associare ai ruoli. Queste informazioni sono già presenti. |
+
+Dopo aver creato il provider, è necessario creare un criterio IAM per consentire alle identità del pool di identità del carico di lavoro di rappresentare l&#39;account del servizio. Seleziona **Concedi l&#39;accesso** per aprire la finestra di dialogo Concedi l&#39;accesso all&#39;account del servizio.
+
+Nella finestra di dialogo, seleziona **Concedi l&#39;accesso utilizzando la rappresentazione dell&#39;account del servizio**. Nella sezione **Seleziona entità** è necessario creare le mappature degli attributi.
+
+Seleziona **aws_role** e aggiungi `arn:aws:sts::AWSAccountID:assumed-role/AWSRoleName` come valore, sostituendo `AWSAccountID` e `AWSRoleName` con i valori precedentemente forniti.
+
+![Viene visualizzata la finestra di dialogo Concedi l&#39;accesso.](/help/connections/assets/home/aws_role.png)
+
+Dopo aver concesso l’accesso all’account del servizio, scarica la configurazione della libreria client.
+
+![Viene visualizzato il percorso in cui scaricare la configurazione della libreria.](/help/connections/assets/home/download-config.png)
+
+Dopo aver scaricato la configurazione della libreria client, ora puoi impostare una connessione WIF con Federated Audience Configuration.

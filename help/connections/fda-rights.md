@@ -3,14 +3,11 @@ title: Autorizzazioni per accedere a un database esterno
 description: Informazioni sulle autorizzazioni necessarie per accedere ed eseguire attività su ciascun motore di database
 exl-id: 287fb4a4-5767-4337-96be-dceca55f756d
 TQID: https://experienceleague.adobe.com/LI7H7b6iM3TAsPy00wDwNj3-D0Z7mIrH9MKW8g9QDsk
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 5cbe8da3f51b33b14f5c86648b3523ce6464b944
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 2f08e668fafcde9df941313f912c5cb2037ef691
 workflow-type: tm+mt
-source-wordcount: 447
+source-wordcount: 445
 ht-degree: 6%
 
 ---
@@ -30,7 +27,7 @@ La tabella seguente illustra le autorizzazioni di database richieste per ogni si
 | **Esecuzioni di monitoraggio** | Privilegio `MONITOR` sull&#39;oggetto richiesto | Nessuna autorizzazione richiesta per utilizzare il comando `EXPLAIN` | Ruolo `monitoring.viewer` | Autorizzazione `CAN_VIEW` |
 | **Scrittura dei dati** | `INSERT` e/o `UPDATE` privilegi (a seconda dell&#39;operazione di scrittura) | `INSERT` e `UPDATE` autorizzazioni | Il ruolo assegnato all&#39;account del servizio deve contenere: `bigquery.jobs.create` e `bigquery.tables.updateData` | Autorizzazione `MODIFY` |
 | **Caricamento dei dati nelle tabelle** | `CREATE STAGE ON SCHEMA`, `Create file FORMATGRANT CREATE FILE FORMAT ON SCHEMA <SCHEMA> to ROLE <ROLE>` `SELECT` e `INSERT` sui privilegi della tabella di destinazione | `SELECT` e `INSERT` autorizzazioni | Il ruolo assegnato all&#39;account del servizio deve contenere: `bigquery.jobs.create`, `bigquery.tables.getData` e `bigquery.tables.updateData` | `SELECT` e `MODIFY` autorizzazioni |
-| **Accesso ai dati client** | `SELECT on (FUTURE) TABLE(S)` o `VIEW(S)` privilegi | Autorizzazione `SELECT` | Il ruolo assegnato all&#39;account del servizio deve contenere: `bigquery.jobs.create` e `bigquery.tables.getData` per le tabelle o il ruolo `bigquery.dataViewer` | Autorizzazione `SELECT` |
+| **Accesso ai dati client** | `SELECT on (FUTURE) TABLE(S)` o `VIEW(S)` privilegi | Autorizzazione `SELECT` | Il ruolo assegnato all&#39;account del servizio deve contenere: `bigquery.jobs.create`, `bigquery.readsessions.create` e `bigquery.tables.getData` per le tabelle o il ruolo `bigquery.dataViewer` | Autorizzazione `SELECT` |
 | **Accesso ai metadati** | privilegio `SELECT on INFORMATION_SCHEMA SCHEMA` | Autorizzazione `SELECT` | Ruolo `bigquery.metadataViewer` |  Autorizzazione `SELECT on INFORMATION_SCHEMA SCHEMA` |
 
 
