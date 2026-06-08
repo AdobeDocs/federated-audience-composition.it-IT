@@ -4,14 +4,11 @@ title: Arricchire i tipi di pubblico di Adobe Experience Platform con dati ester
 description: Scopri come perfezionare e arricchire i tipi di pubblico di Adobe Experience Platform con i dati dei database federati utilizzando la destinazione Federated Audiences Composition.
 exl-id: 03c2f813-21c9-4570-a3ff-3011f164a55e
 TQID: https://experienceleague.adobe.com/g32ycFuhXFq68NmBJjunWZT3m4JpmL108bhMSs-4EYc
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 6e722691fb7d8487e452bfe5301f8c38243222d2
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: ce79e1b9216ca69020155978ac84f29577c5ff8d
 workflow-type: tm+mt
-source-wordcount: 773
+source-wordcount: 774
 ht-degree: 5%
 
 ---
@@ -44,7 +41,7 @@ Viene visualizzata la pagina **[!UICONTROL Configura nuova destinazione]**. In q
 
 Nella sezione **[!UICONTROL Avvisi]**, puoi abilitare gli avvisi per ricevere notifiche sullo stato del flusso di dati verso la tua destinazione. Questi includono avvisi per ritardi nell’esecuzione dei flussi di dati, errori di esecuzione, successi dell’esecuzione, avvii dell’esecuzione e salti di attivazione.
 
-Per ulteriori informazioni sugli avvisi, consulta la documentazione di Adobe Experience Platform relativa all&#39;abbonamento di [avvisi alle destinazioni tramite l&#39;interfaccia utente](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/alerts){target="_blank"}.
+Per ulteriori informazioni sugli avvisi, consulta la documentazione di Adobe Experience Platform relativa all&#39;abbonamento di [avvisi alle destinazioni tramite l&#39;interfaccia utente](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/alerts){target="_blank"}.
 
 ![Vengono visualizzati gli avvisi disponibili per la destinazione.](assets/destinations/alerts.png)
 
@@ -70,16 +67,16 @@ Viene visualizzato il popover **[!UICONTROL Pianificazione]**. In questo popover
 >
 >Per informazioni dettagliate su come configurare la pianificazione e i nomi di file, consulta le sezioni seguenti della documentazione di Adobe Experience Platform:
 >
->* [Pianifica esportazione pubblico](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
->* [Configura nomi file](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
+>* [Pianifica esportazione pubblico](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#scheduling){target="_blank"}
+>* [Configura nomi file](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#configure-file-names){target="_blank"}
 
 Nel passaggio **[!UICONTROL Mappatura]**, seleziona l&#39;attributo e i campi di identità da esportare per il pubblico.
 
 >[!IMPORTANT]
 >
->**impossibile** utilizzare le colonne generate dal sistema durante l&#39;attivazione della destinazione. Se si seleziona una colonna generata dal sistema, l&#39;attivazione non riesce.
+>**impossibile** utilizzare le colonne generate dal sistema durante l&#39;attivazione nelle destinazioni. Se si seleziona una colonna generata dal sistema, si verifica un errore.
 
-Per ulteriori informazioni, consulta la [sezione di mappatura](https://experienceleague.adobe.com/it/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} nella documentazione di Adobe Experience Platform.
+Per ulteriori informazioni, consulta la [sezione di mappatura](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/activate/activate-batch-profile-destinations#mapping){target="_blank"} nella documentazione di Adobe Experience Platform.
 
 ![Viene visualizzata la pagina degli attributi di mappatura.](assets/destinations/attributes.png)
 
