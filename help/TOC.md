@@ -2,10 +2,10 @@
 user-guide-title: Composizione di pubblico federato di Experience Platform
 title: Documentazione della composizione di pubblico federato di Experience Platform
 breadcrumb-title: Composizione di pubblico federato di Experience Platform
-source-git-commit: 5784d7d29ac1e58b2c186c9c6fb714a33b11f764
-workflow-type: ht
-source-wordcount: '111'
-ht-degree: 100%
+source-git-commit: 8f33ab9a8461e36282d115ea49d93f403ee65c5c
+workflow-type: tm+mt
+source-wordcount: '115'
+ht-degree: 97%
 
 ---
 
@@ -25,6 +25,7 @@ ht-degree: 100%
    - [Panoramica delle connessioni](connections/home.md)
    - [Matrice dei diritti di accesso ai dati](connections/fda-rights.md)
    - [Arricchire i tipi di pubblico di Adobe Experience Platform con dati esterni](connections/destinations.md)
+   - [Targeting di più entità](connections/multi-entity-targeting.md)
 - Modelli di dati e schemi {#models}
    - [Panoramica degli schemi](data-modelling/schemas.md)
    - [Panoramica sui modelli di dati](data-modelling/models.md)
