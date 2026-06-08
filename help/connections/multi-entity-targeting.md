@@ -2,7 +2,7 @@
 audience: end-user
 title: Targeting Con Più Entità Con Pubblico Federato Di Composizione Del Pubblico In Adobe Journey Optimizer
 description: Scopri come eseguire il targeting dei profili dai tipi di pubblico di Federated Audience Composition nei percorsi Adobe Journey Optimizer.
-source-git-commit: 297a1d5019737c35ee07967a6d7330d3ad0bac1d
+source-git-commit: 79f05c5a1b025b522a1b88615973d9fe383e3720
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 3%
@@ -57,3 +57,4 @@ Il percorso eseguirà il targeting dei profili di pubblico in base all&#39;**ide
 ## Passaggi successivi {#next-steps}
 
 Dopo aver letto questa guida, ora sai come utilizzare identificatori supplementari dal pubblico Federated Audience Composition nei percorsi Journey Optimizer. Per ulteriori informazioni sull&#39;utilizzo di percorsi supplementari, leggere la [guida all&#39;uso di identificatori supplementari nei percorsi](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/manage-journey/supplemental-identifier).
+
