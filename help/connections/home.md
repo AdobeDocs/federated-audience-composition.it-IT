@@ -12,9 +12,9 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 212090ab6e5537c4d23d73564affb64b146dada0
+source-git-commit: null
 workflow-type: tm+mt
-source-wordcount: 3543
+source-wordcount: 3947
 ht-degree: 8%
 
 ---
@@ -225,6 +225,7 @@ Dopo aver inserito i dettagli di accesso, puoi aggiungere i seguenti dettagli:
 | ----- | ----------- |
 | Progetto | ID del progetto. Per ulteriori informazioni, leggere la [documentazione del progetto Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}. |
 | Set di dati | Nome del set di dati. Per ulteriori informazioni, leggere la [documentazione del set di dati di Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}. |
+| Percorso bucket Google | Posizione del bucket di Google. È necessario aggiungere questo campo solo se si utilizza l&#39;attività **Modifica dimensione** nella composizione. Per ulteriori informazioni, consulta la [documentazione sulle posizioni dei bucket di Google Cloud](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}. |
 | Percorso file chiave | File di chiave del server. Sono supportati solo `json` file. |
 | Opzioni | Opzioni aggiuntive per la connessione. Le opzioni disponibili sono elencate nella tabella seguente. |
 
@@ -240,6 +241,7 @@ Per Google BigQuery, puoi impostare le seguenti opzioni aggiuntive:
 | GCloudConfigName | **Nota:** applicabile solo per lo strumento **bulk-load** (Cloud SDK) precedente alla versione 7.3.4. <br/><br/> Il nome della configurazione che memorizza i parametri per il caricamento dei dati. Per impostazione predefinita, questo valore è `accfda`. |
 | GCloudDefaultConfigName | **Nota:** applicabile solo per lo strumento **bulk-load** (Cloud SDK) precedente alla versione 7.3.4. <br/><br/> Nome della configurazione temporanea per ricreare la configurazione principale per il caricamento dei dati. Per impostazione predefinita, questo valore è `default`. |
 | GCloudRecreateConfig | **Nota:** applicabile solo per lo strumento **bulk-load** (Cloud SDK) precedente alla versione 7.3.4. <br/><br/> Valore booleano che consente di decidere se il meccanismo di caricamento in blocco deve ricreare, eliminare o modificare automaticamente le configurazioni di Google Cloud SDK. Se questo valore è impostato su `false`, il meccanismo di caricamento collettivo carica i dati utilizzando una configurazione esistente nel computer. Se questo valore è impostato su `true`, assicurati che la configurazione sia configurata correttamente. In caso contrario, verrà visualizzato l&#39;errore `No active configuration found. Please either create it manually or remove the GCloudRecreateConfig option` e il meccanismo di caricamento tornerà al meccanismo di caricamento predefinito. |
+| **restEndpoint** | Endpoint per il proxy dell&#39;utente Apigee. Devi utilizzarlo solo se utilizzi il connettore REST-API con il proxy Apigee. Se utilizzi il proxy Apigee, abilita l&#39;impostazione **Usa connettore API REST**. Per ulteriori informazioni sull&#39;installazione, leggere la sezione [Supporto del gateway dell&#39;utente BigQuery Google](#apigee). |
 
 >[!TAB Microsoft Fabric]
 
@@ -425,10 +427,39 @@ Nella finestra di dialogo, seleziona **Concedi l&#39;accesso utilizzando la rapp
 
 Seleziona **aws_role** e aggiungi `arn:aws:sts::AWSAccountID:assumed-role/AWSRoleName` come valore, sostituendo `AWSAccountID` e `AWSRoleName` con i valori precedentemente forniti.
 
-![Viene visualizzata la finestra di dialogo Concedi l&#39;accesso.](/help/connections/assets/home/aws_role.png)
+![Viene visualizzata la finestra di dialogo Concedi l&#39;accesso.](/help/connections/assets/home/aws-role.png)
 
 Dopo aver concesso l’accesso all’account del servizio, scarica la configurazione della libreria client.
 
 ![Viene visualizzato il percorso in cui scaricare la configurazione della libreria.](/help/connections/assets/home/download-config.png)
 
 Dopo aver scaricato la configurazione della libreria client, ora puoi impostare una connessione WIF con Federated Audience Configuration.
+
+### Supporto del gateway [!DNL Apigee] BigQuery Google {#apigee}
+
+Puoi utilizzare [!DNL Apigee], la piattaforma di gestione API nativa di Google Cloud, per inoltrare le chiamate API a Google BigQuery.
+
+È innanzitutto necessario creare un proxy nell&#39;interfaccia utente di [!DNL Apigee]. In Google Cloud, vai a **Apigee** seguito da **Sviluppo proxy**, **Proxy API** e **Crea** per visualizzare il pannello **Crea un proxy**. Nel pannello, puoi inserire i seguenti dettagli:
+
+![Viene visualizzata la schermata di creazione del proxy dell&#39;utente Apigee.](/help/connections/assets/home/create-proxy-apigee.png)
+
+| Dettagli | Descrizione |
+| ------- | ----------- |
+| Modello proxy | Tipo di proxy da creare. Per questo caso d&#39;uso, selezionare **Proxy inverso (più comune)**. |
+| Nome proxy | Nome del proxy. Questo valore può **solo** includere caratteri alfanumerici, trattini (`-`) o trattini bassi (`_`). |
+| Percorso base | Frammento URI che mostra l’indirizzo host per il proxy API. Questo percorso di base è basato sul nome proxy e **deve** essere univoco. |
+| Descrizione | Descrizione facoltativa per il proxy API. |
+| Target | L’URL (che include HTTP o HTTPS) del servizio back-end richiamato dal proxy API. |
+
+Per Federated Audience Composition, crea una regola di endpoint proxy per **ogni** endpoint utilizzato dal connettore BigQuery di Google, come elencato di seguito:
+
+| Percorso base | Endpoint di destinazione | Descrizione |
+| --------- | --------------- | ----------- |
+| `/bigquery` | `https://bigquery.googleapis.com/bigquery` | Endpoint principale per Google BigQuery. Questo endpoint viene utilizzato per ottenere dati quali query e tabelle elenco. |
+| `/token` | `https://oauth2.googleapis.com/token` | Questo endpoint viene utilizzato per l&#39;autenticazione dell&#39;account del servizio. |
+| `/storage` | `https://storage.googleapis.com/storage` | Questo endpoint di archiviazione viene utilizzato per eliminare i file di caricamento bulk temporanei. |
+| `/upload` | `https://storage.googleapis.com/upload` | Questo endpoint di archiviazione viene utilizzato per il caricamento in blocco dei file. |
+| `/v1/token` | `https://sts.googleapis.com/v1/token` | Questo endpoint viene utilizzato per il flusso WIF (Workload Identity Federation) per ottenere il token. |
+| `/v1/projects` | `https://iamcredentials.googleapis.com/v1/projects` | Questo endpoint viene utilizzato per rappresentare un account del servizio nel flusso WIF (Workload Identity Federation). |
+
+Dopo aver creato il proxy, puoi utilizzarlo per connettersi con Federated Audience Composition. Dopo aver distribuito il proxy, puoi trovare l&#39;URL completo per il proxy elencato in **Nomi host** quando selezioni **Ambienti** seguito da **Gruppi** nella sezione **Amministratore**.
