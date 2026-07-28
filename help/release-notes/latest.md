@@ -30,7 +30,7 @@ Questa versione include i seguenti miglioramenti.
 
 - **Supporto per i tipi di pubblico di Federated Audience Composition nella simulazione di Percorso**
 
-  La simulazione di percorso ora consente di testare i percorsi creati con il pubblico Federated Audience Composition prima di pubblicarli con utenti simulati. Per ulteriori informazioni, leggere la [guida introduttiva alla simulazione di Percorso](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs).
+  La simulazione di percorso ora consente di testare i percorsi creati con il pubblico Federated Audience Composition prima di pubblicarli con utenti simulati. Per ulteriori informazioni, leggere la [guida introduttiva alla simulazione di Percorso](https://experienceleague.adobe.com/it/docs/journey-optimizer/using/orchestrate-journeys/create-journey/simulate-journey/simulate-journey-gs).
 
 ## Versione di giugno 2026 {#fac-26-06}
 
@@ -118,7 +118,7 @@ La versione di gennaio di Federated Audience Composition supporta le nuove funzi
 
 | Disponibilità per i clienti Adobe Experience Platform su Amazon Web Services (AWS) |
 | --- |
-| Ora puoi utilizzare Federated Audience Composition se la tua istanza di Experience Platform è su AWS. Per ulteriori informazioni su Experience Platform su AWS, consulta la [panoramica su più cloud](https://experienceleague.adobe.com/en/docs/experience-platform/landing/multi-cloud). |
+| Ora puoi utilizzare Federated Audience Composition se la tua istanza di Experience Platform è su AWS. Per ulteriori informazioni su Experience Platform su AWS, consulta la [panoramica su più cloud](https://experienceleague.adobe.com/it/docs/experience-platform/landing/multi-cloud). |
 
 ### Miglioramenti {#fac-26-01-improvements}
 
