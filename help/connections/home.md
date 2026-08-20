@@ -12,9 +12,9 @@ topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 906ea4119d9a1f2ddf5829cc8d53598ba620bbcc
+source-git-commit: 66d3263d4ed369cf0af022da5c4f1eca993b3c9a
 workflow-type: tm+mt
-source-wordcount: 3976
+source-wordcount: 3992
 ht-degree: 8%
 
 ---
@@ -25,13 +25,30 @@ ht-degree: 8%
 >
 >Per accedere alle connessioni, è necessario disporre di una delle seguenti autorizzazioni:
 >
->-**Gestisci database federato-** Visualizza database federato **
+>-**Gestisci database federato**
+>-**Visualizza database federato**
 >
 >Per ulteriori informazioni sulle autorizzazioni richieste, consulta la [Guida al controllo degli accessi](/help/governance-privacy-security/access-control.md).
 
 La Federated Audience Composition di Experience Platform consente di creare e arricchire i tipi di pubblico dai data warehouse di terze parti e di importarli in Adobe Experience Platform.
 
 ## Database supportati {#supported-databases}
+
+>[!CONTEXTUALHELP]
+>id="platform_sources_snowflake_privatekey"
+>title="Chiave privata"
+>abstract="Contenuto vuoto temporaneo."
+
+>[!CONTEXTUALHELP]
+>id="platform_sources_snowflake_keyfilepath"
+>title="Percorso file chiave"
+>abstract="Contenuto vuoto temporaneo."
+
+>[!CONTEXTUALHELP]
+>id="platform_sources_snowflake_serverip"
+>title="IP server"
+>abstract="Contenuto vuoto temporaneo."
+
 
 Per utilizzare il database federato e Adobe Experience Platform, è innanzitutto necessario stabilire una connessione tra le due origini. Federated Audience Composition consente di connettersi ai seguenti database.
 
@@ -200,7 +217,7 @@ Se si seleziona **[!UICONTROL Autenticazione account/password]**, è possibile a
 
 | Campo | Descrizione |
 | ----- | ----------- |
-| Account del servizio | L’indirizzo e-mail dell’account di servizio. Per ulteriori informazioni, leggere la [documentazione dell&#39;account del servizio cloud Google](https://cloud.google.com/iam/docs/service-accounts-create){target="_blank"}. |
+| Account servizio | L’indirizzo e-mail dell’account di servizio. Per ulteriori informazioni, leggere la [documentazione dell&#39;account del servizio cloud Google](https://cloud.google.com/iam/docs/service-accounts-create){target="_blank"}. |
 
 Se si seleziona **[!UICONTROL OAuth 2.0]**, è possibile aggiungere le seguenti informazioni di accesso:
 
@@ -225,7 +242,7 @@ Dopo aver inserito i dettagli di accesso, puoi aggiungere i seguenti dettagli:
 | Progetto | ID del progetto. Per ulteriori informazioni, leggere la [documentazione del progetto Google Cloud](https://cloud.google.com/resource-manager/docs/creating-managing-projects){target="_blank"}. |
 | Set di dati | Nome del set di dati. Per ulteriori informazioni, leggere la [documentazione del set di dati di Google Cloud](https://cloud.google.com/bigquery/docs/datasets-intro){target="_blank"}. |
 | Percorso file chiave | File di chiave del server. Sono supportati solo `json` file. |
-| Percorso bucket Google | Posizione del bucket di Google. È necessario aggiungere questo campo solo se si utilizza l&#39;attività **Modifica dimensione** nella composizione. Per ulteriori informazioni, consulta la [documentazione sulle posizioni dei bucket di Google Cloud](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}. |
+| Posizione del bucket Google | Posizione del bucket di Google. È necessario aggiungere questo campo solo se si utilizza l&#39;attività **Modifica dimensione** nella composizione. Per ulteriori informazioni, consulta la [documentazione sulle posizioni dei bucket di Google Cloud](https://docs.cloud.google.com/storage/docs/locations){target="_blank"}. |
 | Usa connettore API REST | Un interruttore che consente di utilizzare il connettore API REST. Questa opzione è disponibile **solo** se si utilizza l&#39;autenticazione account/password. |
 | Opzioni | Opzioni aggiuntive per la connessione. Le opzioni disponibili sono elencate nella tabella seguente. |
 
@@ -401,9 +418,9 @@ L’appendice seguente descrive come impostare le connessioni sul lato dell’ac
 Prima di configurare la configurazione di Google Cloud Platform, è necessario disporre dei seguenti valori:
 
 - ID account AWS
-   - Per ottenere questo valore, contatta il rappresentante Adobe.
+  - Per ottenere questo valore, contatta il rappresentante Adobe.
 - Nome ruolo AWS IAM
-   - Il nome del ruolo IAM di AWS segue il formato seguente: `arn:aws:iam::<ADOBE_AWS_ACCOUNT_ID>:role/fac-<CUSTOMER_IMS_ORG_ID>`
+  - Il nome del ruolo IAM di AWS segue il formato seguente: `arn:aws:iam::<ADOBE_AWS_ACCOUNT_ID>:role/fac-<CUSTOMER_IMS_ORG_ID>`
 
 Nella console di Google Cloud, crea un **pool di identità del carico di lavoro** nella **sezione IAM &amp; Admin**. Questo consente di organizzare e gestire le identità esterne.
 
