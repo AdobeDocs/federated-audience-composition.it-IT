@@ -4,8 +4,7 @@ title: Panoramica delle attività
 description: Scopri le diverse attività e transizioni disponibili per l’utilizzo in Federated Audience Composition.
 exl-id: 6ef5c165-c4fa-437b-be16-d42cb2f7991b
 TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5t7FE
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
 source-git-commit: 57a981aa915e19caa7564c8a33a1a267df5bd52e
 workflow-type: tm+mt
 source-wordcount: 5478
@@ -262,7 +261,7 @@ Dopo aver identificato i campi, puoi configurare le impostazioni di deduplicazio
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment"
 >title="Attività Arricchimento"
->abstract="L’attività di **Arricchimento** consente di migliorare i dati mirati con informazioni aggiuntive provenienti dal database. Viene comunemente utilizzata in una composizione dopo le attività di segmentazione."
+>abstract="L’attività **Arricchimento** consente di migliorare i dati target con informazioni aggiuntive provenienti dal database. Viene comunemente utilizzata in una composizione dopo le attività di segmentazione."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_enrichment_data"
@@ -516,7 +515,7 @@ Questa attività viene utilizzata per arricchire gli schemi inserendo attributi 
 
 >[!IMPORTANT]
 >
->Se il set di dati selezionato **non** dispone di upsert abilitato, i dati verranno **sostituiti**. Per informazioni su come abilitare l&#39;upsert per i set di dati, leggere la [guida all&#39;upsert](https://experienceleague.adobe.com/it/docs/experience-platform/catalog/datasets/enable-upsert).
+>Se il set di dati selezionato **non** dispone di upsert abilitato, i dati verranno **sostituiti**. Per informazioni su come abilitare l&#39;upsert per i set di dati, leggere la [guida all&#39;upsert](https://experienceleague.adobe.com/en/docs/experience-platform/catalog/datasets/enable-upsert).
 
 Dopo aver aggiunto l&#39;attività **[!UICONTROL Salva campi]** alla composizione, puoi assegnare un&#39;etichetta all&#39;attività e selezionare lo schema Adobe Experience Platform che desideri utilizzare. Lo schema può essere uno schema standard o relazionale.
 
@@ -588,7 +587,7 @@ Poiché gli schemi relazionali supportano solo aggiornamenti incrementali, dovra
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_sorting"
 >title="Ordinamento attività Dividi"
->abstract="Quando imposti un limite di popolazione per un sottoinsieme, puoi classificare i profili selezionati in base a un attributo di profilo specifico, in ordine crescente o decrescente. A tale scopo, attiva l’opzione **Abilita ordinamento**. Ad esempio, puoi limitare un sottoinsieme in modo da includere solo i primi 50 profili con l’importo di acquisto più alto."
+>abstract="Quando imposti un limite di popolazione per un sottoinsieme, puoi determinare il ranking dei profili selezionati in base a un attributo di profilo specifico, in ordine crescente o decrescente. A tale scopo, attiva l’opzione **Abilita ordinamento**. Ad esempio, puoi limitare un sottoinsieme in modo da includere solo i primi 50 profili con l’importo di acquisto più alto."
 
 >[!CONTEXTUALHELP]
 >id="dc_orchestration_split_complement"
@@ -627,7 +626,7 @@ Ora puoi fornire dettagli per ciascuno di questi percorsi secondari. Puoi assegn
 Dopo aver creato la condizione di filtro, puoi applicare le seguenti regole aggiuntive:
 
 - **Abilita limite**: limita il numero di profili che possono essere suddivisi nel sottoinsieme. Puoi impostarlo come numero o come percentuale della popolazione.
-   - Se abiliti un limite, puoi anche classificare i profili selezionati in base a un attributo di profilo specifico. Attiva **Abilita ordinamento** e puoi ordinare gli attributi in ordine crescente o decrescente.
+  - Se abiliti un limite, puoi anche classificare i profili selezionati in base a un attributo di profilo specifico. Attiva **Abilita ordinamento** e puoi ordinare gli attributi in ordine crescente o decrescente.
 - **Salta transizione vuota**: disabilita la transizione se il gruppo in ingresso è vuoto.
 
 Ora che i sottoinsiemi sono stati configurati, puoi impostare alcune opzioni aggiuntive.
