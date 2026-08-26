@@ -4,18 +4,13 @@ title: Creare e gestire connessioni con i database federati
 description: Scopri come creare e gestire le connessioni con i database federati
 exl-id: ab65cd8a-dfa0-4f09-8e9b-5730564050a1
 TQID: https://experienceleague.adobe.com/6-pzawt2ndn2MKLyYLXPMy-ec1SIOsQI5frTt9IqOX0
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: 66d3263d4ed369cf0af022da5c4f1eca993b3c9a
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+feature_v2: id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: dc34a02611fc856fc25715fa6599e88db8a1d3e8
 workflow-type: tm+mt
-source-wordcount: 3992
-ht-degree: 8%
+source-wordcount: 3987
+ht-degree: 7%
 
 ---
 
@@ -74,7 +69,7 @@ Viene visualizzata la sezione Database federati. Selezionare **[!UICONTROL Aggiu
 
 >[!NOTE]
 >
->Per richiedere la connettività protetta tramite collegamento privato o VPN, **è necessario** disporre della licenza Privacy and Security Shield o Healthcare Shield.
+>Per richiedere la connettività sicura tramite PrivateLink o VPN, **è necessario** disporre della licenza Privacy and Security Shield o Healthcare Shield.
 
 Viene visualizzato il popover delle proprietà di connessione. È possibile assegnare un nome alla connessione e selezionare il tipo di database da creare.
 
@@ -90,7 +85,7 @@ Dopo aver selezionato un tipo, viene visualizzata la sezione **[!UICONTROL Detta
 >
 >Sono supportati solo Amazon Redshift AWS, Amazon Redshift Spectrum e Amazon Redshift Serverless.
 >
->È inoltre supportato l&#39;accesso sicuro al data warehouse Amazon Redshift esterno tramite collegamento privato.
+>È inoltre supportato l&#39;accesso sicuro al data warehouse Amazon Redshift esterno tramite PrivateLink.
 
 Dopo aver selezionato Amazon Redshift, puoi aggiungere i seguenti dettagli:
 
@@ -162,7 +157,7 @@ All’interno della connessione Azure Synapse, imposta i seguenti dettagli di co
 
 >[!NOTE]
 >
->È supportato l’accesso sicuro al data warehouse esterno Databricks tramite collegamento privato. Ciò include connessioni sicure ai database Databricks ospitati su Amazon Web Services (AWS) tramite collegamento privato e a quelli ospitati su Microsoft Azure tramite VPN. Contatta il rappresentante Adobe per assistenza nella configurazione dell’accesso sicuro.
+>È supportato l’accesso sicuro al data warehouse esterno dei databrick tramite PrivateLink. Ciò include connessioni sicure ai database Databricks ospitati su Amazon Web Services (AWS) tramite PrivateLink e ai database Databricks ospitati su Microsoft Azure tramite VPN. Contatta il rappresentante Adobe per assistenza nella configurazione dell’accesso sicuro.
 
 Dopo aver selezionato Database, puoi scegliere con il metodo di autenticazione da utilizzare per la connessione a Federated Audience Composition.
 
@@ -295,7 +290,7 @@ Dopo aver selezionato Oracle, puoi aggiungere i seguenti dettagli:
 
 >[!NOTE]
 >
->È supportato l’accesso sicuro al data warehouse esterno di Snowflake tramite collegamento privato. Il tuo account di Snowflake deve essere ospitato su Amazon Web Services (AWS) o su Azure e situato nella stessa area geografica dell’ambiente di composizione di pubblico federato. Contatta il tuo rappresentante Adobe per assistenza nella configurazione dell’accesso sicuro all’account Snowflake.
+>È supportato l’accesso sicuro al data warehouse esterno di Snowflake tramite PrivateLink. Il tuo account di Snowflake deve essere ospitato su Amazon Web Services (AWS) o su Azure e situato nella stessa area geografica dell’ambiente di composizione di pubblico federato. Contatta il tuo rappresentante Adobe per assistenza nella configurazione dell’accesso sicuro all’account Snowflake.
 
 Dopo aver selezionato Snowflake, puoi scegliere il metodo di autenticazione da utilizzare per la connessione con Federated Audience Composition.
 

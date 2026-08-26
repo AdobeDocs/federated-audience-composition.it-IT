@@ -5,18 +5,12 @@ hide: true
 hidefromtoc: yes
 exl-id: 23ea1a5d-a0e4-4f47-b0f8-56009bbc0a4a
 TQID: https://experienceleague.adobe.com/0EDM9gSVZCkdKfhZihxhJJL2TZyGxv1Hvm1azjaPUAA
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2:
-  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-  - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: d095671a-1355-40aa-8b5f-06c33c68080bid: e1e0219c-f879-479f-8427-888ed2a6e9c2id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+source-git-commit: 87b5c0ce27eef85fe7eb6a06df903a5701ecd83f
 workflow-type: tm+mt
-source-wordcount: 1174
-ht-degree: 97%
+source-wordcount: 1191
+ht-degree: 90%
 
 ---
 
@@ -82,7 +76,7 @@ Questa versione include i miglioramenti indicati di seguito.
 
 * **Connessione protetta Snowflake**
 
-  Con questa nuova versione, la composizione di pubblico federato supporta connessioni protette di collegamento privato a database Amazon Redshift ospitati su Microsoft Azure. [Ulteriori informazioni](../connections/home.md#amazon-redshift)
+  Con questa nuova versione, Federated Audience Composition supporta connessioni privateLink sicure ai database Amazon Redshift ospitati su Microsoft Azure. [Ulteriori informazioni](../connections/home.md#amazon-redshift)
 
 ## Versione di marzo 2025 {#fac-25-3}
 
@@ -113,8 +107,8 @@ Questa versione include i miglioramenti indicati di seguito.
 
 * **Connessione Databricks**
 
-  Con questa nuova versione, la funzionalità Composizione di pubblico federato ora supporta la connettività con collegamento privato per le connessioni a database Databricks.
-Ciò include connessioni sicure ai database Databricks ospitati su Amazon Web Services (AWS) tramite collegamento privato e a quelli ospitati su Microsoft Azure tramite VPN. [Ulteriori informazioni](../connections/home.md#databricks)
+  Con questa nuova versione, Federated Audience Composition ora supporta la connettività PrivateLink per le connessioni al database Databrick.
+  Ciò include connessioni sicure ai database Databricks ospitati su Amazon Web Services (AWS) tramite PrivateLink e ai database Databricks ospitati su Microsoft Azure tramite VPN. [Ulteriori informazioni](../connections/home.md#databricks)
 
 * **Supporto per clienti di CDP B2B**
 
@@ -122,7 +116,7 @@ Ciò include connessioni sicure ai database Databricks ospitati su Amazon Web Se
 
 * **Connessione protetta Snowflake**
 
-  Con questa nuova versione, la funzionalità Composizione di pubblico federato supporta connessioni sicure con collegamento privato a database Snowflake ospitati in Microsoft Azure. [Ulteriori informazioni](../connections/home.md#snowflake)
+  Con questa nuova versione, Federated Audience Composition supporta connessioni privateLink sicure ai database di Snowflake ospitati su Microsoft Azure. [Ulteriori informazioni](../connections/home.md#snowflake)
 
 ## Versione di febbraio 2025 {#fac-25-2}
 
@@ -171,7 +165,7 @@ Con questa nuova versione, la composizione di pubblico federato è ora compatibi
 
 * **Supporto per l’accesso sicuro a Snowflake tramite AWS PrivateLink**
 
-  È ora supportato l’accesso sicuro al data warehouse esterno di Snowflake tramite collegamento privato. Il tuo account di Snowflake deve essere ospitato su Amazon Web Services (AWS) e situato nella stessa area geografica dell’ambiente di composizione di pubblico federato. Contatta il tuo rappresentante Adobe per assistenza nella configurazione dell’accesso sicuro all’account Snowflake. [Ulteriori informazioni](../connections/home.md#snowflake)
+  È ora supportato l’accesso sicuro al data warehouse esterno di Snowflake tramite PrivateLink. Il tuo account di Snowflake deve essere ospitato su Amazon Web Services (AWS) e situato nella stessa area geografica dell’ambiente di composizione di pubblico federato. Contatta il tuo rappresentante Adobe per assistenza nella configurazione dell’accesso sicuro all’account Snowflake. [Ulteriori informazioni](../connections/home.md#snowflake)
 
 * **Supporto serverless Amazon Redshift**
 
