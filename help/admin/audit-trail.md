@@ -6,17 +6,19 @@ exl-id: 97142f54-53ce-4c2a-9d89-fdcb2a47b159
 TQID: https://experienceleague.adobe.com/5NHFZk5acjL5Ix-MlqSYzjKzgvpEcVsK3YoX73dq040
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+    internal-label: Privacy
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 371
+source-wordcount: '371'
 ht-degree: 15%
-
 ---
-
 # Audit Trail {#audit-trail}
 
 >[!AVAILABILITY]
@@ -42,14 +44,14 @@ La funzione **[!UICONTROL Audit trail]** registra costantemente in tempo reale u
 
 * **Audit trail del flusso di lavoro** consente di tenere traccia delle attività e delle modifiche recenti apportate ai flussi di lavoro, inclusi i relativi stati correnti, ad esempio:
 
-   * Inizio
-   * Pausa
-   * Interruzione
-   * Riavvio
-   * Pulizia uguale all’azione Cancella cronologia
-   * Simula, che è uguale all’azione Avvia in modalità simulazione
-   * Attivazione uguale all&#39;azione Esegui attività in sospeso ora
-   * Interruzione incondizionata
+  * Inizio
+  * Pausa
+  * Interruzione
+  * Riavvio
+  * Pulizia uguale all’azione Cancella cronologia
+  * Simula, che è uguale all’azione Avvia in modalità simulazione
+  * Attivazione uguale all&#39;azione Esegui attività in sospeso ora
+  * Interruzione incondizionata
 
   Per ulteriori informazioni sui flussi di lavoro, consulta questa [pagina](../compositions/home.md).
 

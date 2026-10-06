@@ -6,13 +6,12 @@ exl-id: 4f510805-b700-444d-89bb-832eaa1e3242
 TQID: https://experienceleague.adobe.com/J1BfErdvMzZZ-23BAU4cbQcx3V3n7ymzv5nZdUOTw6M
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: f1a9d21c9026c569d525e0a4289010be83538914
+    internal-label: CX Enterprise
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 1603
+source-wordcount: '1603'
 ht-degree: 22%
-
 ---
-
 # Creare una composizione
 
 La funzione Composizione di pubblico federato consente di creare composizioni, sfruttando varie attività in un’area di lavoro visiva per creare tipi di pubblico. Dopo aver creato la composizione, i tipi di pubblico risultanti vengono salvati in Adobe Experience Platform e possono essere sfruttati nelle destinazioni di Experience Platform e Adobe Journey Optimizer per il targeting della clientela.
@@ -78,11 +77,11 @@ Le opzioni includono:
 
   La sezione **[!UICONTROL Proprietà]** consente di configurare le impostazioni generiche relative all&#39;esecuzione dell&#39;attività:
 
-   * **[!UICONTROL Esecuzione]**: definisci l&#39;azione da eseguire all&#39;avvio dell&#39;esecuzione.
-   * **[!UICONTROL Durata massima esecuzione]**: specificare una durata, ad esempio &quot;30s&quot; o &quot;1h&quot;. Se l’attività non viene completata dopo la scadenza della durata specificata, viene attivato un avviso. Questo non ha alcun impatto sul funzionamento della composizione.
-   * **[!UICONTROL Fuso orario]**: selezionare il fuso orario dell&#39;attività. La Federated Audience Composition consente di gestire le differenze di tempo tra più paesi nella stessa istanza. L’impostazione applicata viene configurata al momento della creazione dell’istanza.
-   * **[!UICONTROL Affinità]**: forza l&#39;esecuzione dell&#39;attività di composizione su un computer specifico. A questo scopo, devi specificare una o più affinità per l’attività in questione.
-   * **[!UICONTROL Comportamento]**: definire la procedura da seguire se vengono utilizzate attività asincrone.
+  * **[!UICONTROL Esecuzione]**: definisci l&#39;azione da eseguire all&#39;avvio dell&#39;esecuzione.
+  * **[!UICONTROL Durata massima esecuzione]**: specificare una durata, ad esempio &quot;30s&quot; o &quot;1h&quot;. Se l’attività non viene completata dopo la scadenza della durata specificata, viene attivato un avviso. Questo non ha alcun impatto sul funzionamento della composizione.
+  * **[!UICONTROL Fuso orario]**: selezionare il fuso orario dell&#39;attività. La Federated Audience Composition consente di gestire le differenze di tempo tra più paesi nella stessa istanza. L’impostazione applicata viene configurata al momento della creazione dell’istanza.
+  * **[!UICONTROL Affinità]**: forza l&#39;esecuzione dell&#39;attività di composizione su un computer specifico. A questo scopo, devi specificare una o più affinità per l’attività in questione.
+  * **[!UICONTROL Comportamento]**: definire la procedura da seguire se vengono utilizzate attività asincrone.
 
   La sezione **[!UICONTROL Gestione degli errori]** consente di specificare l&#39;azione da eseguire in caso di errore dell&#39;attività.
 

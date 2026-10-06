@@ -5,19 +5,23 @@ exl-id: 43464aea-9c1d-4f1f-859f-82f209f350b7
 TQID: https://experienceleague.adobe.com/eYN6lkQ52Ic2r-G3k3JXq89leFOBdx6VPvZKQNLcE7Y
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
+    internal-label: Privacy
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
-source-wordcount: 1280
+source-wordcount: '1280'
 ht-degree: 55%
-
 ---
-
 # Panoramica sulla composizione di pubblico federato
 
 La Federated Audience Composition ti consente di creare e arricchire i tipi di pubblico dai data warehouse di terze parti e di importarli in Adobe Experience Platform. Si tratta di una soluzione semplice e potente per collegare il data warehouse aziendale direttamente all’interno di servizi downstream come Adobe Real-Time Customer Data Platform o Adobe Journey Optimizer ed eseguire query sulle tabelle del data warehouse. Di conseguenza, puoi accedere ai dati dei clienti memorizzati nei data warehouse e nelle piattaforme di archiviazione cloud, come Amazon Redshift e Azure Synapse Analytics.
@@ -41,13 +45,13 @@ La composizione di pubblico federato estende il valore di Real-Time CDP e Journe
 La composizione di pubblico federato supporta **tre** categorie di casi d’uso: creazione del pubblico, arricchimento del pubblico e arricchimento dei profili cliente.
 
 * **Creazione di tipi di pubblico**: è possibile creare tipi di pubblico da un data warehouse e unirli in Experience Platform per l&#39;utilizzo in Real-Time CDP o Journey Optimizer tramite un&#39;interfaccia utente intuitiva e intuitiva. Di conseguenza, puoi eseguire query nei data warehouse senza copiare dati sottostanti sensibili o duplicare dati esistenti.
-   * **Esempio:** crea un pubblico di acquirenti passati di alto valore utilizzando dati di transazione storici del warehouse, senza copiare tali transazioni in Experience Platform.
+  * **Esempio:** crea un pubblico di acquirenti passati di alto valore utilizzando dati di transazione storici del warehouse, senza copiare tali transazioni in Experience Platform.
 
 * **Arricchimento del pubblico**: puoi aggiungere ulteriori dettagli ai tipi di pubblico esistenti in Experience Platform utilizzando set di dati aggiuntivi provenienti dai data warehouse e sovrapponendo i tipi di pubblico con queste informazioni, il tutto senza copiare i dati sottostanti in Experience Platform. Con l’arricchimento del pubblico, puoi offrire una personalizzazione migliorata con un pubblico arricchito.
-   * **Esempio:** arricchisci un pubblico Experience Platform di utenti che hanno abbandonato il carrello con il pubblico di acquirenti passati di alto valore della composizione di pubblico federato per distribuire un’offerta mirata.
+  * **Esempio:** arricchisci un pubblico Experience Platform di utenti che hanno abbandonato il carrello con il pubblico di acquirenti passati di alto valore della composizione di pubblico federato per distribuire un’offerta mirata.
 
 * **Arricchimento profilo**: puoi selezionare attributi cliente individuali dal data warehouse per migliorare i profili di Experience Platform. Con l’aggiunta di dati federati a questi profili, puoi migliorare le esperienze istantanee che vengono attivate dai segnali della clientela in entrata.
-   * **Esempio:** arricchisci un profilo Experience Platform con le informazioni del pubblico federato. Ora puoi proporre a coloro che visitano il tuo sito e appartengono al pubblico federato di acquirenti passati di alto valore, un’offerta mirata, attivata in base al relativo comportamento sul sito.
+  * **Esempio:** arricchisci un profilo Experience Platform con le informazioni del pubblico federato. Ora puoi proporre a coloro che visitano il tuo sito e appartengono al pubblico federato di acquirenti passati di alto valore, un’offerta mirata, attivata in base al relativo comportamento sul sito.
 
 ![diagramma](assets/overview/fac-use-cases.png){zoomable="yes"}{width="75%" align="center"}
 
