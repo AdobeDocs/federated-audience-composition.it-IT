@@ -99,7 +99,7 @@ Per modificare uno schema, seleziona l&#39;icona ![puntini di sospensione](/help
 
 ![Il pulsante Modifica schema è evidenziato.](/help/data-modelling/assets/integrated/edit-schema.png)
 
-Nella finestra **[!UICONTROL Modifica schema]** è possibile visualizzare l&#39;Editor di schema. Per ulteriori informazioni sull&#39;utilizzo dell&#39;Editor di schema, leggere la [guida dell&#39;interfaccia utente dello schema](https://experienceleague.adobe.com/en/docs/experience-platform/xdm/ui/resources/schemas#customize-schema).
+Nella finestra **[!UICONTROL Modifica schema]** è possibile visualizzare l&#39;Editor di schema. Per ulteriori informazioni sull&#39;utilizzo dell&#39;Editor di schema, leggere la [guida dell&#39;interfaccia utente dello schema](https://experienceleague.adobe.com/it/docs/experience-platform/xdm/ui/resources/schemas#customize-schema).
 
 ![Viene visualizzato l&#39;Editor di schema.](/help/data-modelling/assets/integrated/schema-editor.png)
 
