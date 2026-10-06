@@ -16,7 +16,7 @@ topic_v2:
 source-git-commit: 3b159f95e28414b75b44e41e822e9e3d0e35b537
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 3%
+ht-degree: 6%
 ---
 # Panoramica degli schemi {#schemas}
 
@@ -64,12 +64,12 @@ Viene visualizzato il popover **[!UICONTROL Seleziona database federato]**. In q
 
 ![Viene visualizzato il popover Seleziona database federato.](/help/data-modelling/assets/integrated/select-federated-database.png)
 
-## Definisci schema {#define}
+## Definire lo schema {#define}
 
 >[!CONTEXTUALHELP]
 >id="platform_schemas_primarycompositekey"
 >title="Chiave composita"
->abstract="Chiave dello schema composta da più colonne di schema. Contrassegna le colonne da utilizzare come chiave composita."
+>abstract="Chiave dello schema composta da più colonne di schema. Contrassegna le colonne che desideri utilizzare come chiave composita."
 
 Dopo aver scelto il database federato, è ora possibile definire lo schema. Viene visualizzata la schermata **[!UICONTROL Aggiungi dati]**. In questa pagina è possibile selezionare **[!UICONTROL Aggiungi tabella]** per scegliere le tabelle da aggiungere allo schema.
 

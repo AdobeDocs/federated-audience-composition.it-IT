@@ -67,7 +67,7 @@ Per utilizzare il database federato e Adobe Experience Platform, è innanzitutto
 >[!CONTEXTUALHELP]
 >id="platform_sources_serverip"
 >title="IP server"
->abstract="Gli indirizzi IP che devono essere inseriti nell&#39;elenco Consentiti per connettersi al database."
+>abstract="Gli indirizzi IP che devono essere inseriti nell’elenco Consentiti per connettersi al database."
 
 Per creare una connessione, selezionare **[!UICONTROL Origini]** nella sezione **[!UICONTROL Connessioni]**.
 
