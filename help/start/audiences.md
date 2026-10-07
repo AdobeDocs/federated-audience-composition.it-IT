@@ -6,13 +6,12 @@ exl-id: c6507624-1dc9-43f9-a3ad-c3dc9689f8c7
 TQID: https://experienceleague.adobe.com/SWOFxsQrWwsWdyiaxZP2H3XuX-E0PfRu2C5zZtXnOiE
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
-workflow-type: ht
-source-wordcount: 326
+    internal-label: CX Enterprise
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
+workflow-type: tm+mt
+source-wordcount: '326'
 ht-degree: 100%
-
 ---
-
 # Utilizzare i tipi di pubblico {#gs-audiences}
 
 La funzione Composizione di pubblico federato di Experience Platform consente di [creare composizioni](../compositions/home.md) sfruttando varie attività in un’area di lavoro visiva e quindi creare e memorizzare i tipi di pubblico in Adobe Experience Platform Audience Portal.

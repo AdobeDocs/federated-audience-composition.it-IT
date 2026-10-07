@@ -5,18 +5,21 @@ exl-id: f7493a57-e42d-43f9-b20a-1b9b90477a74
 TQID: https://experienceleague.adobe.com/j-KXucjaZa4dNSjg5POqxh7KOSUHG5CnBkBLFA6rPVs
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
-source-git-commit: fda4d9d7b45833d7e080ae80f42b7ca5ce36b3ad
-workflow-type: ht
-source-wordcount: 646
+    internal-label: Privacy
+source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
+workflow-type: tm+mt
+source-wordcount: '651'
 ht-degree: 100%
-
 ---
-
 # Panoramica dell’Assistente IA {#ai-assistant}
 
 L’Assistente IA è una funzione dell’interfaccia utente progettata per aiutarti ad accedere e comprendere i concetti di Adobe. Puoi utilizzarlo per una migliore comprensione dei casi d’uso di conoscenza del prodotto in diversi prodotti di Adobe Experience Cloud, tra cui la Composizione di pubblico federato.
@@ -29,13 +32,13 @@ Nella composizione di pubblico federato, puoi accedere alla conoscenza del prodo
 
 ## Accesso {#access}
 
-Per accedere all’Assistente IA, seleziona ![icona Assistente IA](/help/start/assets/ai-assistant/icon.png) nella barra superiore.L’Assistente IA viene visualizzato nella sezione a destra dello schermo. Puoi selezionare ![Approfondisci testo alternativo immagine](assets/do-not-localize/Smock_FullScreen_18_N.svg "icona Espandi") per espandere la finestra dell’Assistente IA.
+Per accedere all’Assistente IA, seleziona ![icona Assistente IA](/help/start/assets/ai-assistant/icon.png) nella barra superiore. L’Assistente IA viene visualizzato nella sezione a destra dello schermo. Puoi selezionare ![Approfondisci testo alternativo immagine](assets/do-not-localize/Smock_FullScreen_18_N.svg "icona Espandi") per espandere la finestra dell’Assistente IA.
 
 ![L’icona Assistente IA viene evidenziata e mostra come accedere all’Assistente AI.](/help/start/assets/ai-assistant/access.png)
 
 ## Uso dell’Assistente IA {#using}
 
-Una volta aperto l’Assistente IA, inserisci la domanda nel campo nella parte inferiore dello schermo e premi Invio.Viene visualizzata la risposta alla domanda. Puoi utilizzare il pollice su o il pollice giù per valutare la risposta.
+Una volta aperto l’Assistente IA, inserisci la domanda nel campo nella parte inferiore dello schermo e premi Invio. Viene visualizzata la risposta alla domanda. Puoi utilizzare il pollice su o il pollice giù per valutare la risposta.
 
 ![Nell’Assistente IA viene visualizzata una domanda e una risposta di esempio.](/help/start/assets/ai-assistant/sample-question-answer.png)
 
@@ -54,7 +57,7 @@ Inoltre, puoi utilizzare l’Assistente IA per creare autonomamente una composiz
 
 ## Creazione di un pubblico {#create-audience}
 
-Puoi utilizzare l’Assistente IA per creare una composizione di pubblico federato utilizzando prompt in linguaggio naturale.Quando utilizzi l’Assistente IA per creare un pubblico, l’Assistente AI elabora un piano basato sul prompt e lo esegue nel browser utilizzando l’automazione basata su IA.
+Puoi utilizzare l’Assistente IA per creare una composizione di pubblico federato utilizzando prompt in linguaggio naturale. Quando utilizzi l’Assistente IA per creare un pubblico, l’Assistente AI elabora un piano basato sul prompt e lo esegue nel browser utilizzando l’automazione basata su IA.
 
 Ad esempio, se chiedi all’Assistente IA &quot;Crea un pubblico federato di clienti che vivono nel Regno Unito utilizzando lo schema CUSTOMERS_Table&quot;, l’Assistente IA definisce il piano che sarà adottato per creare il pubblico, inclusi i passaggi per passare alla pagina Composizioni federate, il modo in cui l’agente crea la composizione e il salvataggio del pubblico una volta completata.
 
@@ -67,9 +70,9 @@ Se il piano è accurato, puoi selezionare **[!UICONTROL Esegui]** per consentire
 Attualmente, la funzionalità di creazione del pubblico supporta le seguenti funzioni aggiuntive:
 
 - Modulo di pianificazione
-   - Puoi creare composizioni federate che vengono eseguite in base a una pianificazione ricorrente. I valori supportati includono **Una volta** e **Giornaliera**.
+  - Puoi creare composizioni federate che vengono eseguite in base a una pianificazione ricorrente. I valori supportati includono **Una volta** e **Giornaliera**.
 - Deduplica
-   - Puoi deduplicare i record di dati federati durante la riconciliazione dei dati
+  - Puoi deduplicare i record di dati federati durante la riconciliazione dei dati
 
 ## Passaggi successivi
 
