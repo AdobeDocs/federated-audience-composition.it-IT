@@ -24,7 +24,7 @@ topic_v2:
 source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 95%
+ht-degree: 100%
 ---
 # Prerequisiti e guardrail {#fac-access}
 
@@ -64,7 +64,7 @@ Per visualizzare l’elenco delle sandbox attive della composizione di pubblico 
 
    ![](assets/sandbox_2.png)
 
-Se desideri utilizzare Federated Audience Composition su un’altra sandbox, contatta l’Assistenza clienti di Adobe per richiedere un interruttore sandbox.
+Se desideri utilizzare la composizione di pubblico federato in un’altra sandbox, contatta l’Assistenza clienti Adobe per richiedere il cambio della sandbox.
 
 ## Autorizzazioni {#permissions}
 
