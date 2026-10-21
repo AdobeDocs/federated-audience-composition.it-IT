@@ -69,7 +69,7 @@ Puoi anche eseguire azioni rapide per le composizioni selezionando il pulsante !
 | ------ | ----------- |
 | **[!UICONTROL Duplicato]** | Duplica la composizione selezionata. |
 | **[!UICONTROL Elimina]** | Elimina la composizione selezionata. |
-| **[!UICONTROL Aggiungi al pacchetto]** | Sposta la composizione tra sandbox. Per ulteriori informazioni su questa funzione, leggere la [guida agli strumenti della sandbox](https://experienceleague.adobe.com/en/docs/experience-platform/sandbox/ui/sandbox-tooling). |
+| **[!UICONTROL Aggiungi al pacchetto]** | Sposta la composizione tra sandbox. Per ulteriori informazioni su questa funzione, leggere la [guida agli strumenti della sandbox](https://experienceleague.adobe.com/it/docs/experience-platform/sandbox/ui/sandbox-tooling). |
 
 Per perfezionare l’elenco e trovare la composizione che stai cercando, puoi filtrarlo in base agli stati delle composizioni o alle ultime date di elaborazione.
 
