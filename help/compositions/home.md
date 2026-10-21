@@ -14,10 +14,10 @@ topic_v2:
     internal-label: Security
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
+source-git-commit: 062f7f55aafbbe5999c1a0d31ddea542f9b4b75d
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 84%
+source-wordcount: '765'
+ht-degree: 59%
 ---
 # Panoramica sulle composizioni
 
@@ -32,7 +32,7 @@ ht-degree: 84%
 
 La funzione Composizione di pubblico federato consente di creare composizioni, sfruttando varie attività in un’area di lavoro visiva per creare tipi di pubblico. Dopo aver creato la composizione, i tipi di pubblico risultanti vengono salvati in Adobe Experience Platform e possono essere sfruttati nelle destinazioni di Experience Platform e Adobe Journey Optimizer per il targeting della clientela.
 
-![Un flusso di lavoro di composizione di esempio visualizzato in Composizione di pubblico federato.](assets/compositions/composition-example.png){zoomable="yes"}{width="70%"}
+![Un flusso di lavoro di composizione di esempio visualizzato in Composizione di pubblico federato.](/help/compositions/assets/home/composition-example.png){zoomable="yes"}{width="70%"}
 
 ## Componenti composizione {#components}
 
@@ -50,37 +50,42 @@ Una composizione all’interno di Federated Audience Composition è composta dal
 
 Le composizioni sono accessibili dal menu **[!UICONTROL Tipi di pubblico]** nella scheda **[!UICONTROL Composizioni federate]**, nella sezione **[!UICONTROL Cliente]**.
 
-Da questa schermata, puoi creare nuove composizioni e accedere a quelle esistenti. Puoi anche duplicare o eliminare una composizione esistente selezionando il pulsante con i ![puntini di sospensione](/help/assets/icons/more.png) accanto al nome.
+![I pulsanti Composizioni federate e Tipi di pubblico sono evidenziati e mostrano come accedere alla sezione Composizioni federate.](/help/compositions/assets/home/access-fac-compositions.png){zoomable="yes"}{width="70%"}
 
-Puoi anche visualizzare informazioni sulle composizioni, tra cui il nome, lo stato, l’autore e la data dell’ultima modifica.
+Da questa schermata è possibile visualizzare informazioni sulle composizioni e crearne di nuove.
 
-| Stato | Descrizione |
+![Viene visualizzato l&#39;elenco delle composizioni federate.](/help/compositions/assets/home/composition-list.png){zoomable="yes"}{width="70%"}
+
+| Campo | Descrizione |
+| ----- | ----------- |
+| **[!UICONTROL Nome]** | Nome della composizione. Se selezionate la composizione, potete modificarla. Per ulteriori informazioni sulla creazione e la modifica di composizioni, leggere la [guida alla creazione di una composizione](/help/compositions/create-composition.md). |
+| **[!UICONTROL Stato]** | Stato della composizione. I valori possibili includono [!UICONTROL Bozza], [!UICONTROL In corso], [!UICONTROL Interrotto], [!UICONTROL In pausa] e [!UICONTROL Errato]. <ul><li>**[!UICONTROL Bozza]**: composizione creata e salvata.</li><li>**[!UICONTROL In corso]**: la composizione è stata eseguita ed è attualmente in esecuzione.</li><li>**[!UICONTROL Arrestato]**: l&#39;esecuzione della composizione è stata completata ed è stata interrotta.</li><li>**[!UICONTROL Sospeso]**: l&#39;esecuzione della composizione è stata sospesa.</li><li>**[!UICONTROL Errore]**: l&#39;esecuzione della composizione ha rilevato un errore. Per visualizzare ulteriori informazioni sull’errore, apri la composizione e accedi ai registri.</li></ul> Per informazioni su come avviare o interrompere una composizione, leggere la [guida alla creazione della composizione](./create-composition.md#monitor-logs). |
+| **[!UICONTROL Creato da]** | Nome e indirizzo di posta elettronica della persona che ha creato la composizione. |
+| **[!UICONTROL Modificato]** | Data e ora dell’ultimo aggiornamento della composizione. |
+
+Puoi anche eseguire azioni rapide per le composizioni selezionando il pulsante ![puntini di sospensione](/help/assets/icons/more.png) accanto al nome.
+
+| Azione | Descrizione |
 | ------ | ----------- |
-| **[!UICONTROL Bozza]** | La composizione è stata creata e salvata. |
-| **[!UICONTROL In corso]** | La composizione è stata eseguita ed è attualmente in esecuzione. |
-| **[!UICONTROL Arrestata]** | L’esecuzione della composizione è completa ed è stata interrotta. |
-| **[!UICONTROL In pausa]** | L’esecuzione della composizione è stata messa in pausa. |
-| **[!UICONTROL Errata]** | L’esecuzione della composizione ha riscontrato un errore. Per visualizzare ulteriori informazioni sull’errore, apri la composizione e accedi ai registri. |
-
-È possibile imparare ad avviare o interrompere una composizione nella [guida per la creazione della composizione](./create-composition.md#monitor-logs).
-
-![Viene visualizzato un elenco delle composizioni disponibili.](assets/compositions/compositions-list.png){zoomable="yes"}{width="70%"}
+| **[!UICONTROL Duplicato]** | Duplica la composizione selezionata. |
+| **[!UICONTROL Elimina]** | Elimina la composizione selezionata. |
+| **[!UICONTROL Aggiungi al pacchetto]** | Sposta la composizione tra sandbox. Per ulteriori informazioni su questa funzione, leggere la [guida agli strumenti della sandbox](https://experienceleague.adobe.com/it/docs/experience-platform/sandbox/ui/sandbox-tooling). |
 
 Per perfezionare l’elenco e trovare la composizione che stai cercando, puoi filtrarlo in base agli stati delle composizioni o alle ultime date di elaborazione.
 
 Puoi anche personalizzare l’elenco aggiungendo o rimuovendo colonne. A tale scopo, seleziona il pulsante **[!UICONTROL Configura colonne]** e aggiungi o rimuovi le colonne di output desiderate.
 
-![Viene visualizzato un elenco delle colonne disponibili che puoi aggiungere alla pagina di ricerca delle le composizioni.](assets/compositions/compositions-columns.png){zoomable="yes"}{width="70%"}
+![Viene visualizzato un elenco delle colonne disponibili che puoi aggiungere alla pagina di ricerca delle le composizioni.](/help/compositions/assets/home/compositions-columns.png){zoomable="yes"}{width="70%"}
 
 ### Applicare le etichette di accesso {#access-labels}
 
 Per applicare le etichette di accesso a una composizione specifica, seleziona la composizione e poi **[!UICONTROL Gestisci accesso]**.
 
-![Il pulsante “Gestisci accesso” è evidenziato nell’area di lavoro della composizione.](assets/compositions/select-manage-access.png){zoomable="yes"}{width="70%"}
+![Il pulsante “Gestisci accesso” è evidenziato nell’area di lavoro della composizione.](/help/compositions/assets/home/select-manage-access.png){zoomable="yes"}{width="70%"}
 
 Viene visualizzato il popover **[!UICONTROL Gestisci accesso]**. In questa pagina puoi applicare alla composizione le etichette di accesso e governance dei dati applicabili.
 
-![Viene visualizzato il popover Gestisci accesso. Viene visualizzato un elenco di tutte le etichette disponibili che è possibile applicare alla composizione.](assets/compositions/manage-access.png){zoomable="yes"}{width="70%"}
+![Viene visualizzato il popover Gestisci accesso. Viene visualizzato un elenco di tutte le etichette disponibili che è possibile applicare alla composizione.](/help/compositions/assets/home/manage-access.png){zoomable="yes"}{width="70%"}
 
 | Tipo etichetta | Descrizione |
 | ---------- | ----------- |

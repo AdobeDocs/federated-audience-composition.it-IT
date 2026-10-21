@@ -6,14 +6,34 @@ TQID: https://experienceleague.adobe.com/AqtqibUr1TNXwQ9lrtVoQ3CBNwyjSMS64e4s8y4
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
-source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
+source-git-commit: 062f7f55aafbbe5999c1a0d31ddea542f9b4b75d
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 11%
+source-wordcount: '973'
+ht-degree: 9%
 ---
 # Note sulla versione
 
 [!DNL Federated Audience Composition] offre continuamente nuove funzioni, miglioramenti alle funzioni esistenti e correzioni di bug. In queste note sulla versione, tutte le modifiche sono consolidate. [!DNL Federated Audience Composition] è stato sviluppato in modalità nativa su [!DNL Adobe Experience Platform] e ne eredita le innovazioni e i miglioramenti più recenti. Ulteriori informazioni su queste modifiche sono disponibili nelle [Note sulla versione di Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=it){target="_blank"}.
+
+## Versione di settembre 2026 {#fac-26-09}
+
+La versione di settembre di Federated Audience Composition supporta le seguenti funzionalità:
+
+| Nuova esperienza unificata per connessioni e schemi federati |
+| --- |
+| Ora puoi accedere a connessioni federate e schemi direttamente nell’interfaccia utente di Adobe Experience Platform. Per informazioni su come creare connessioni federate, leggere la sezione [Creare connessioni nella guida dell&#39;interfaccia utente di Experience Platform](/help/connections/integrated.md). Per informazioni su come creare gli schemi, leggere la [Panoramica sugli schemi](/help/data-modelling/schemas-integrated.md). |
+
+| Supporto degli strumenti sandbox per i tipi di pubblico con Federated Audience Composition |
+| --- |
+| Ora puoi utilizzare la funzione strumenti sandbox di Experience Platform per spostare i tipi di pubblico con Federated Audience Composition da una sandbox all’altra. Per ulteriori informazioni sull&#39;utilizzo degli strumenti sandbox, leggere la [guida agli strumenti sandbox](https://experienceleague.adobe.com/it/docs/experience-platform/sandbox/ui/sandbox-tooling). |
+
+### Miglioramenti {#fac-26-09-improvements}
+
+Questa versione include i seguenti miglioramenti.
+
+- **Aumento della scadenza dei dati per i tipi di pubblico con Federated Audience Composition**
+
+  La scadenza dei dati per i tipi di pubblico di Federated Audience Composition è stata ora aumentata a 3650 giorni (10 anni).
 
 ## Versione di luglio 2026 {#fac-26-07}
 

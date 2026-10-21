@@ -7,9 +7,9 @@ TQID: https://experienceleague.adobe.com/hyCx0law7owYRhatvfX4o9OJQkd0pYEaj47iLi5
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
     internal-label: CX Enterprise
-source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
+source-git-commit: 062f7f55aafbbe5999c1a0d31ddea542f9b4b75d
 workflow-type: tm+mt
-source-wordcount: '5478'
+source-wordcount: '5480'
 ht-degree: 37%
 ---
 # Panoramica delle attività
@@ -426,7 +426,7 @@ Ora puoi specificare le mappature per selezionare i campi da trasferire al pubbl
 
 Dopo aver aggiunto le mappature, puoi selezionare l’identità principale e lo spazio dei nomi per identificare i profili target nel database. Il campo di identità principale viene utilizzato per identificare i profili, mentre lo spazio dei nomi dell’identità funge da chiave per identificare l’identità.
 
-Inoltre, puoi impostare la scadenza dei dati per il pubblico. La scadenza dei dati determina il numero di giorni dopo i quali scadrà l’iscrizione al pubblico. La scadenza dei dati può essere compresa tra 1 e 90 giorni. Per impostazione predefinita, questo valore è impostato su 30.
+Inoltre, puoi impostare la scadenza dei dati per il pubblico. La scadenza dei dati determina il numero di giorni dopo i quali scadrà l’iscrizione al pubblico. La scadenza dei dati può essere compresa tra 1 e 3650 giorni (10 anni). Per impostazione predefinita, questo valore è impostato su 30.
 
 +++
 
