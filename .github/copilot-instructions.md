@@ -110,7 +110,7 @@ elementi di navigazione, nomi di pagina, opzioni, campi e schede come mostrato n
 
 - Grassetto nei passaggi e nella navigazione: `Select **[!UICONTROL Destinations]** from the left navigation.`
 - Il corsivo è accettabile nel testo concettuale (senza passaggi) per maggiore chiarezza.
-- Nelle tabelle di HTML: utilizzare `<span class="uicontrol">term</span>` anziché ``.
+- Nelle tabelle di HTML: utilizzare `<span class="uicontrol">term</span>` anziché &grave;&grave;.
 - Nel testo del collegamento: rimuovi le parentesi quadre.
 - Le maiuscole devono corrispondere esattamente all’interfaccia.
 - NON si applica ai termini generici utilizzati concettualmente (&quot;segmento&quot;, &quot;metrica&quot;, &quot;campagna&quot;) a meno che
@@ -131,7 +131,7 @@ Non è necessario all’interno di blocchi di codice; per impostazione predefini
 
 - Può essere utilizzato in: paragrafi, elenchi, intestazioni, tabelle, badge, testo alternativo e metadati.
 - Non può essere utilizzato in: blocchi di codice, acronimi.
-- Se un campo di metadati inizia con un tag `[!DNL]` o ``, racchiudere l&#39;intero campo
+- Se un campo di metadati inizia con un tag `[!DNL]` o &grave;&grave;, racchiudere l&#39;intero campo
 valore tra virgolette o convalida non riuscita.
 
 ## &#x200B;3. Terminologia e branding
@@ -438,10 +438,10 @@ da motori di ricerca con `hide: true` in frontmatter.
 - Inglese americano: colore, riconoscere, licenza, mentre, scadenza, metro, tra
 (non colore, riconoscimento, licenza, mentre, scadenza, contatore, tra).
 - Riserva le virgolette per le persone tra virgolette; non citare le stringhe dell’interfaccia utente (utilizza il grassetto +
-  ``).
+  &grave;&grave;).
 - Usa il corsivo per i termini utilizzati come termini (*profilo*, non &quot;profilo&quot;). Utilizzare gli apici retroversi per il codice,
 parametri, nomi di file e testo digitato.
-- Grassetto solo per gli elementi dell&#39;interfaccia utente nelle procedure (con ``) e i termini chiave all&#39;inizio
+- Grassetto solo per gli elementi dell&#39;interfaccia utente nelle procedure (con &grave;&grave;) e i termini chiave all&#39;inizio
 introduzione.
 - Non ci sono punti e virgola, non ci sono trattini/trattini in prosa, né regole orizzontali (vedere paragrafo 1).
 
@@ -453,7 +453,7 @@ Prima di terminare qualsiasi modifica, verifica quanto segue:
 - Frasi ≤20 parole, paragrafi ≤125 parole
 - Titoli: maiuscole/minuscole, ≤5 parole/69 caratteri, seguiti da corpo del testo, nessun livello saltato
 - Correggere i nomi e i moduli dei prodotti; nessun termine obsoleto, solo interno o non inclusivo
-- `` su ogni elemento dell&#39;interfaccia utente nei passaggi; `[!DNL]` su ogni nome di prodotto/terze parti
+- &grave;&grave; su ogni elemento dell&#39;interfaccia utente nei passaggi; `[!DNL]` su ogni nome di prodotto/terze parti
 - Nessun tag all’interno di blocchi di codice; campi di metadati con tag racchiusi tra virgolette
 - Correzione della sintassi di ammonizione; marcatori di elenco coerenti; nessun elenco di attività; nessuna regola orizzontale
 - Il testo alternativo è descrittivo e completo; nessun &quot;click here&quot;; nessun linguaggio spaziale/direzionale
