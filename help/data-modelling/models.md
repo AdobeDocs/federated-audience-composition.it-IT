@@ -143,4 +143,4 @@ Per creare collegamenti tra tabelle del modello dati dalla scheda Visualizzazion
 
 Scopri come creare un modello dati in questo video:
 
->[!VIDEO](https://video.tv.adobe.com/v/3432020)
+>[!VIDEO](https://video.tv.adobe.com/v/3507568?captions=ita)
