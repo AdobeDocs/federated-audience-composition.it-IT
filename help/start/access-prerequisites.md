@@ -21,10 +21,10 @@ topic_v2:
     internal-label: Administration
   - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
     internal-label: Privacy
-source-git-commit: d0741e5bb922248bab2ef137570b34c1a2d8b16d
+source-git-commit: cff08ca99aa0f02eb593ae2891bc43a42c8fdc0e
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 100%
+source-wordcount: '401'
+ht-degree: 97%
 ---
 # Prerequisiti e guardrail {#fac-access}
 
@@ -50,7 +50,7 @@ Scopri come creare una connessione con questi sistemi nella [panoramica sulle co
 
 ## Sandbox
 
-Quando acquisti Composizione di pubblico federato, hai diritto a due sandbox. Per ulteriori richieste di provisioning per la sandbox, contatta il tuo rappresentante Adobe.
+Quando acquisti Federated Audience Composition, hai diritto a cinque sandbox. Per ulteriori richieste di provisioning per la sandbox, contatta il tuo rappresentante Adobe.
 
 Per visualizzare l’elenco delle sandbox attive della composizione di pubblico federato, segui i passaggi seguenti:
 
